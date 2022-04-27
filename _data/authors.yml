@@ -254,3 +254,16 @@ John Doe:
   new_role: _No response_
   note: _No response_
   role: Postdoc
+
+John Doe 2:
+  advisor: John Doe Sr.
+  alumni: false
+  bio: I'm just a cool guy. **VERY COOL** ~lol~
+  date: Jan 2022
+  links:
+  - label: Website
+    url: https://github.com/McGill-NLP/group-website
+  - label: GitHub
+    url: https://github.com/McGill-NLP/group-website
+  name: John Doe
+  role: Postdoc
