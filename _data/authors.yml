@@ -234,3 +234,17 @@ Victor Prokhorov:
   avatar: "/assets/images/bio/default.jpg"
   date: "Fall 2021"
   alumni: true
+
+John Doe:
+  advisor: John Doe Sr.
+  alumni: false
+  avatar: /assets/images/bio/John Doe.jpeg
+  bio: I'm just a cool guy. **VERY COOL** ~lol~
+  date: Jan 2022
+  links:
+  - label: Website
+    url: https://github.com/McGill-NLP/group-website
+  - label: GitHub
+    url: https://github.com/McGill-NLP/group-website
+  name: John Doe
+  role: Postdoc
