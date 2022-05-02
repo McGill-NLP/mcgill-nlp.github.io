@@ -29,20 +29,20 @@ Siva Reddy:
   date: "Jan 2020"
   role: "Faculty"
   links:
-    - label: "Page"
-      url: "/people/siva"
-      icon: "fas fa-fw fa-user"
-    - label: "Website"
-      url: "https://sivareddy.in"
-    - label: "Twitter"
-      url: "https://twitter.com/sivareddyg"
-      icon: "fab fa-fw fa-twitter"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sivareddyg"
-    - label: "Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&oi=ao"
+  - label: "Page"
+    url: "/people/siva"
+    icon: "fas fa-fw fa-user"
+  - label: "Website"
+    url: "https://sivareddy.in"
+  - label: "Twitter"
+    url: "https://twitter.com/sivareddyg"
+    icon: "fab fa-fw fa-twitter"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/sivareddyg"
+  - label: "Scholar"
+    icon: "fas fa-fw fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&oi=ao"
 
 Edoardo Ponti:
   name: "Edoardo Ponti"
@@ -50,8 +50,8 @@ Edoardo Ponti:
   avatar: "/assets/images/bio/default.jpg"
   date: "Oct 2020"
   links:
-    - label: "Website"
-      url: "https://ducdauge.github.io/"
+  - label: "Website"
+    url: "https://ducdauge.github.io/"
 
 Andreas Madsen:
   name: "Andreas Madsen"
@@ -60,8 +60,8 @@ Andreas Madsen:
   note: "PhD at Polytechnique Montréal"
   avatar: "/assets/images/bio/default.jpg"
   links:
-    - label: "Website"
-      url: "https://andreasmadsen.github.io/"
+  - label: "Website"
+    url: "https://andreasmadsen.github.io/"
 
 Nicholas Meade:
   name: "Nicholas Meade"
@@ -71,8 +71,8 @@ Nicholas Meade:
   date: "Sep 2020"
   alumni: false
   links:
-    - label: "Website"
-      url: "https://ncmeade.github.io/"
+  - label: "Website"
+    url: "https://ncmeade.github.io/"
 
 Vaibhav Adlakha:
   name: "Vaibhav Adlakha"
@@ -81,9 +81,9 @@ Vaibhav Adlakha:
   date: "Sep 2020"
   alumni: false
   links:
-    - label: "Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=0qmIfUoAAAAJ&hl=en"
+  - label: "Scholar"
+    icon: "fas fa-fw fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=0qmIfUoAAAAJ&hl=en"
 
 Zichao Li:
   name: "Zichao Li"
@@ -93,8 +93,8 @@ Zichao Li:
   date: "Sep 2020"
   alumni: false
   links:
-    - name: "Website"
-      url: "https://aclanthology.org/people/z/zichao-li/"
+  - name: "Website"
+    url: "https://aclanthology.org/people/z/zichao-li/"
 
 Benno Krojer:
   name: "Benno Krojer"
@@ -103,8 +103,8 @@ Benno Krojer:
   alumni: false
   date: "Sep 2021"
   links:
-    - label: "Website"
-      url: "https://www.bennokrojer.com/"
+  - label: "Website"
+    url: "https://www.bennokrojer.com/"
 
 Neshma Metri:
   name: "Neshma Metri"
@@ -126,16 +126,16 @@ Nouha Dziri:
   avatar: "/assets/images/bio/default.jpg"
   alumni: false
   links:
-    - label: "Website"
-      url: "https://webdocs.cs.ualberta.ca/~dziri/"
+  - label: "Website"
+    url: "https://webdocs.cs.ualberta.ca/~dziri/"
 
 Emanuele Bugliarello:
   name: "Emanuele Bugliarello"
   role: "Intern"
   avatar: "/assets/images/bio/default.jpg"
   links:
-    - name: "Website"
-      url: "https://e-bug.github.io/"
+  - name: "Website"
+    url: "https://e-bug.github.io/"
 
 Michelle Yang:
   name: "Michelle Yang"
@@ -163,8 +163,8 @@ Emily Goodwin:
   note: "Co-advised by Dzmitry Bahdanau"
   alumni: true
   links:
-    - label: "Website"
-      url: "https://emilygoodwin.github.io/"
+  - label: "Website"
+    url: "https://emilygoodwin.github.io/"
 
 Lucas Torroba Hennigen:
   name: "Lucas Torroba Hennigen"
