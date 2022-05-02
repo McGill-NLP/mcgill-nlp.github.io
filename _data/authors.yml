@@ -1,184 +1,145 @@
-# # To get started: Copy this template profile below and start editing.
-# John Doe:
-#   name: "John Doe"
-#   role: "PhD"
-#   avatar: "/assets/images/bio/default.jpg"
-#   date: "Sep 2030"
-#   advisor: "John Doe Sr."
-#   bio: "Just some cool student"
-#   note: "Co-advised by Amasa L."
-#   alumni: true
-#   new_role: "Professing at Leland Junior S. University"
-#   links:
-#     - label: "Website"
-#       url: "https://john-doe.github.io/"
-#     - label: "GitHub"
-#       url: "https://github.com/john-doe"
-#     - label: "Twitter"
-#       url: "https://twitter.com/john-doe"
-#     - label: "Scholar"
-#       icon: "fas fa-fw fa-graduation-cap"
-#       url: "https://scholar.google.com/citations?user=<user_id>"
-
-
-Siva Reddy:
-  name: "Siva Reddy"
-  bio: "Assistant Professor"
-  note: "Facebook CIFAR AI Chair"
-  avatar: "/assets/images/bio/siva.jpg"
-  date: "Jan 2020"
-  role: "Faculty"
-  links:
-    - label: "Page"
-      url: "/people/siva"
-      icon: "fas fa-fw fa-user"
-    - label: "Website"
-      url: "https://sivareddy.in"
-    - label: "Twitter"
-      url: "https://twitter.com/sivareddyg"
-      icon: "fab fa-fw fa-twitter"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sivareddyg"
-    - label: "Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&oi=ao"
-
-Edoardo Ponti:
-  name: "Edoardo Ponti"
-  role: "Postdoc"
-  avatar: "/assets/images/bio/default.jpg"
-  date: "Oct 2020"
-  links:
-    - label: "Website"
-      url: "https://ducdauge.github.io/"
-
 Andreas Madsen:
-  name: "Andreas Madsen"
-  role: "PhD"
-  advisor: "Siva Reddy, co-advised with Sarath Chandar"
-  note: "PhD at Polytechnique Montréal"
-  avatar: "/assets/images/bio/default.jpg"
+  advisor: Siva Reddy, co-advised with Sarath Chandar
+  avatar: /assets/images/bio/default.jpg
   links:
-    - label: "Website"
-      url: "https://andreasmadsen.github.io/"
-
-Nicholas Meade:
-  name: "Nicholas Meade"
-  role: "PhD"
-  avatar: "/assets/images/bio/default.jpg"
-  advisor: "Siva Reddy"
-  date: "Sep 2020"
-  alumni: false
-  links:
-    - label: "Website"
-      url: "https://ncmeade.github.io/"
-
-Vaibhav Adlakha:
-  name: "Vaibhav Adlakha"
-  role: "PhD"
-  avatar: "/assets/images/bio/default.jpg"
-  date: "Sep 2020"
-  alumni: false
-  links:
-    - label: "Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=0qmIfUoAAAAJ&hl=en"
-
-Zichao Li:
-  name: "Zichao Li"
-  role: "PhD"
-  avatar: "/assets/images/bio/default.jpg"
-  advisor: "Jackie Cheung, Siva Reddy"
-  date: "Sep 2020"
-  alumni: false
-  links:
-    - name: "Website"
-      url: "https://aclanthology.org/people/z/zichao-li/"
-
+  - label: Website
+    url: https://andreasmadsen.github.io/
+  name: Andreas Madsen
+  note: "PhD at Polytechnique Montr\xE9al"
+  role: PhD
 Benno Krojer:
-  name: "Benno Krojer"
-  role: "PhD"
-  avatar: "/assets/images/bio/default.jpg"
   alumni: false
-  date: "Sep 2021"
+  avatar: /assets/images/bio/default.jpg
+  date: Sep 2021
   links:
-    - label: "Website"
-      url: "https://www.bennokrojer.com/"
-
-Neshma Metri:
-  name: "Neshma Metri"
-  role: "Undergraduate"
-  avatar: "/assets/images/bio/default.jpg"
-  alumni: false
-  date: "Fall 2021"
-
-Sivan Milton:
-  name: "Sivan Milton"
-  role: "Undergraduate"
-  avatar: "/assets/images/bio/default.jpg"
-  alumni: false
-  date: "Fall 2021"
-
-Nouha Dziri:
-  name: "Nouha Dziri"
-  role: "Intern"
-  avatar: "/assets/images/bio/default.jpg"
-  alumni: false
+  - label: Website
+    url: https://www.bennokrojer.com/
+  name: Benno Krojer
+  role: PhD
+Edoardo Ponti:
+  avatar: /assets/images/bio/default.jpg
+  date: Oct 2020
   links:
-    - label: "Website"
-      url: "https://webdocs.cs.ualberta.ca/~dziri/"
-
-Emanuele Bugliarello:
-  name: "Emanuele Bugliarello"
-  role: "Intern"
-  avatar: "/assets/images/bio/default.jpg"
-  links:
-    - name: "Website"
-      url: "https://e-bug.github.io/"
-
-Michelle Yang:
-  name: "Michelle Yang"
-  role: "Undergraduate"
-  date: "Fall 2021"
-  advisor: "Siva Reddy"
-  avatar: "/assets/images/bio/default.jpg"
-  alumni: true
-
+  - label: Website
+    url: https://ducdauge.github.io/
+  name: Edoardo Ponti
+  role: Postdoc
 Elinor Poole-Dayan:
-  name: "Elinor Poole-Dayan"
-  role: "Undergraduate"
-  date: "Winter 2021"
-  advisor: "Siva Reddy"
-  avatar: "/assets/images/bio/default.jpg"
+  advisor: Siva Reddy
   alumni: true
-
-Emily Goodwin:
-  name: "Emily Goodwin"
-  role: "Master"
-  new_role: "PhD at Stanford Linguistics"
-  avatar: "/assets/images/bio/default.jpg"
-  date: "Jan 2020"
-  advisor: "Siva Reddy, Tim O'Donnell"
-  note: "Co-advised by Dzmitry Bahdanau"
-  alumni: true
+  avatar: /assets/images/bio/default.jpg
+  date: Winter 2021
+  name: Elinor Poole-Dayan
+  role: Undergraduate
+Emanuele Bugliarello:
+  avatar: /assets/images/bio/default.jpg
   links:
-    - label: "Website"
-      url: "https://emilygoodwin.github.io/"
-
+  - name: Website
+    url: https://e-bug.github.io/
+  name: Emanuele Bugliarello
+  role: Intern
+Emily Goodwin:
+  advisor: Siva Reddy, Tim O'Donnell
+  alumni: true
+  avatar: /assets/images/bio/default.jpg
+  date: Jan 2020
+  links:
+  - label: Website
+    url: https://emilygoodwin.github.io/
+  name: Emily Goodwin
+  new_role: PhD at Stanford Linguistics
+  note: Co-advised by Dzmitry Bahdanau
+  role: Master
 Lucas Torroba Hennigen:
-  name: "Lucas Torroba Hennigen"
-  role: "Intern"
-  advisor: "Siva Reddy"
-  new_role: "PhD at MIT Computer Science"
-  avatar: "/assets/images/bio/default.jpg"
-  date: "Fall 2021"
+  advisor: Siva Reddy
   alumni: true
-
+  avatar: /assets/images/bio/default.jpg
+  date: Fall 2021
+  name: Lucas Torroba Hennigen
+  new_role: PhD at MIT Computer Science
+  role: Intern
+Michelle Yang:
+  advisor: Siva Reddy
+  alumni: true
+  avatar: /assets/images/bio/default.jpg
+  date: Fall 2021
+  name: Michelle Yang
+  role: Undergraduate
+Neshma Metri:
+  alumni: false
+  avatar: /assets/images/bio/default.jpg
+  date: Fall 2021
+  name: Neshma Metri
+  role: Undergraduate
+Nicholas Meade:
+  advisor: Siva Reddy
+  alumni: false
+  avatar: /assets/images/bio/Nicholas Meade.png
+  categories: Publications
+  date: Sep 2020
+  links: []
+  name: Nicholas Meade
+  role: PhD
+Nouha Dziri:
+  alumni: false
+  avatar: /assets/images/bio/default.jpg
+  links:
+  - label: Website
+    url: https://webdocs.cs.ualberta.ca/~dziri/
+  name: Nouha Dziri
+  role: Intern
+Siva Reddy:
+  avatar: /assets/images/bio/siva.jpg
+  bio: Assistant Professor
+  date: Jan 2020
+  links:
+  - icon: fas fa-fw fa-user
+    label: Page
+    url: /people/siva
+  - label: Website
+    url: https://sivareddy.in
+  - icon: fab fa-fw fa-twitter
+    label: Twitter
+    url: https://twitter.com/sivareddyg
+  - icon: fab fa-fw fa-github
+    label: GitHub
+    url: https://github.com/sivareddyg
+  - icon: fas fa-fw fa-graduation-cap
+    label: Scholar
+    url: https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&oi=ao
+  name: Siva Reddy
+  note: Facebook CIFAR AI Chair
+  role: Faculty
+Sivan Milton:
+  alumni: false
+  avatar: /assets/images/bio/default.jpg
+  date: Fall 2021
+  name: Sivan Milton
+  role: Undergraduate
+Vaibhav Adlakha:
+  alumni: false
+  avatar: /assets/images/bio/default.jpg
+  date: Sep 2020
+  links:
+  - icon: fas fa-fw fa-graduation-cap
+    label: Scholar
+    url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ&hl=en
+  name: Vaibhav Adlakha
+  role: PhD
 Victor Prokhorov:
-  name: "Victor Prokhorov"
-  role: "Intern"
-  advisor: "Siva Reddy"
-  avatar: "/assets/images/bio/default.jpg"
-  date: "Fall 2021"
+  advisor: Siva Reddy
   alumni: true
+  avatar: /assets/images/bio/default.jpg
+  date: Fall 2021
+  name: Victor Prokhorov
+  role: Intern
+Zichao Li:
+  advisor: Jackie Cheung, Siva Reddy
+  alumni: false
+  avatar: /assets/images/bio/default.jpg
+  date: Sep 2020
+  links:
+  - name: Website
+    url: https://aclanthology.org/people/z/zichao-li/
+  name: Zichao Li
+  role: PhD
