@@ -101,11 +101,23 @@ Benno Krojer:
   role: "PhD"
   avatar: "/assets/images/bio/default.jpg"
   alumni: false
-  date: "Sep 2021"
+  date: "Summer 2021"
   links:
-  - label: "Website"
-    url: "https://www.bennokrojer.com/"
-
+  - label: Website
+    url: https://www.bennokrojer.com/
+  - label: Twitter
+    url: https://twitter.com/benno_krojer
+  - label: GitHub
+    url: https://github.com/BennoKrojer/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=D5eyaLwAAAAJ&hl=en
+  advisor: Siva Reddy
+  bio: I started my PhD in Siva's group in fall 2021 after a BSc in Computational
+    Linguistics at LMU Munich. My research interest is in **language grounding**,
+    i.e. providing models with access to what language refers to in the real world
+    which would hopefully lead to better language understanding and semantics.Apart
+    from that I am also interested in AI alignment, cog-sci/psych and personally Ultimate
+    Frisbee, "spiritual stuff", etc.
 Neshma Metri:
   name: "Neshma Metri"
   role: "Undergraduate"
