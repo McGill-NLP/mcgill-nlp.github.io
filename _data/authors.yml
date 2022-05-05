@@ -101,11 +101,18 @@ Benno Krojer:
   role: "PhD"
   avatar: "/assets/images/bio/default.jpg"
   alumni: false
-  date: "Sep 2021"
+  date: "Summer 2021"
   links:
-  - label: "Website"
-    url: "https://www.bennokrojer.com/"
-
+  - label: Website
+    url: https://www.bennokrojer.com/
+  - label: Twitter
+    url: https://twitter.com/benno_krojer
+  - label: GitHub
+    url: https://github.com/BennoKrojer/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=D5eyaLwAAAAJ&hl=en
+  advisor: Siva Reddy
+  bio: I work on language grounding and like Ultimate Frisbee
 Neshma Metri:
   name: "Neshma Metri"
   role: "Undergraduate"
