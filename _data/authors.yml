@@ -107,3 +107,15 @@ Victor Prokhorov:
   avatar: "/assets/images/bio/default.jpg"
   date: "Fall 2021"
   alumni: true
+Xing Han Lu:
+  name: Xing Han Lu
+  role: Master
+  avatar: /assets/images/bio/Xing Han Lu.jpg
+  advisor: Siva Reddy
+  date: Fall 2021
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/xhlulu
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=ekoOv3YAAAAJ&hl=en
