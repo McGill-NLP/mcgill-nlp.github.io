@@ -134,3 +134,25 @@ Edoardo M. Ponti:
     url: https://github.com/ducdauge
   - label: Scholar
     url: https://scholar.google.com/citations?user=tklL2q0AAAAJ
+
+Andreas Madsen:
+  name: "Andreas Madsen"
+  role: "PhD"
+  avatar: "/assets/images/bio/andreasmadsen.jpg"
+  date: "Fall 2020"
+  advisor: Siva Reddy
+  bio: "Works on NLP Interpretability"
+  note: "Co-advised by Sarath Chandar"
+  alumni: false
+  links:
+    - label: "Website"
+      url: "https://andreasmadsen.github.io/"
+    - label: "GitHub"
+      url: "https://github.com/AndreasMadsen/"
+    - label: "Twitter"
+      url: "https://twitter.com/andreas_madsen"
+    - label: "LinkedIn"
+      url: https://www.linkedin.com/in/andreasmad/
+    - label: "Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=<X0zwAXYAAAAJ"
