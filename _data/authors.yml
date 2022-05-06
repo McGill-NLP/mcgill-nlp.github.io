@@ -188,3 +188,21 @@ Vaibhav Adlakha:
     url: https://github.com/vaibhavad
   - label: Scholar
     url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
+Nicholas Meade:
+  name: Nicholas Meade
+  role: PhD
+  semantic_scholar_id: '150247363'
+  avatar: /assets/images/bio/Nicholas Meade.jpg
+  advisor: Siva Reddy
+  date: Fall 2020
+  bio: Works on bias/safety in NLP
+  alumni: false
+  links:
+  - label: Website
+    url: https://ncmeade.github.io/
+  - label: Twitter
+    url: https://twitter.com/ncmeade
+  - label: GitHub
+    url: https://github.com/ncmeade
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=-aLqCbgAAAAJ
