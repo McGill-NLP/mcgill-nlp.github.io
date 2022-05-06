@@ -172,3 +172,19 @@ Parishad BehnamGhader:
     url: https://github.com/parishadbehnam
   - label: Scholar
     url: https://scholar.google.com/citations?user=pw9mblYAAAAJ
+Vaibhav Adlakha:
+  name: Vaibhav Adlakha
+  role: PhD
+  semantic_scholar_id: '1666183192'
+  avatar: /assets/images/bio/Vaibhav Adlakha.jpg
+  advisor: Siva Reddy
+  date: Fall 2020
+  bio: Interested in knowledge-grounded conversations
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://twitter.com/vaibhav_adlakha
+  - label: GitHub
+    url: https://github.com/vaibhavad
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
