@@ -196,7 +196,7 @@ body:
     id: twitter
     attributes:
       label: Twitter
-      description: Link to the twitter account.
+      description: Link to the Twitter thread or account.
       placeholder: "https://twitter.com/McGillNLP"
     validations:
       required: false
