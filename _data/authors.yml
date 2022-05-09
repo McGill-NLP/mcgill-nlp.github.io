@@ -115,10 +115,16 @@ Xing Han Lu:
   date: Fall 2021
   alumni: false
   links:
+  - label: Website
+    url: https://xinghanlu.com/
+  - label: Twitter
+    url: https://twitter.com/xhluu
   - label: GitHub
-    url: https://github.com/xhlulu
+    url: https://github.com/xhlulu/
   - label: Scholar
     url: https://scholar.google.com/citations?user=ekoOv3YAAAAJ&hl=en
+  semantic_scholar_id: '50085049'
+  bio: Working on retrieval and conversational QA
 Edoardo M. Ponti:
   name: Edoardo M. Ponti
   role: Postdoc
