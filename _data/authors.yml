@@ -47,7 +47,7 @@ Siva Reddy:
 Benno Krojer:
   name: "Benno Krojer"
   role: "PhD"
-  avatar: "/assets/images/bio/default.jpg"
+  avatar: "/assets/images/bio/Benno Krojer.jpg"
   alumni: false
   date: "Summer 2021"
   links:
@@ -62,6 +62,7 @@ Benno Krojer:
   advisor: Siva Reddy
   bio: I work on language grounding and like Ultimate Frisbee
 
+  semantic_scholar_id: '1994697809'
 Michelle Yang:
   name: "Michelle Yang"
   role: "Undergraduate"
