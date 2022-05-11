@@ -213,3 +213,18 @@ Nicholas Meade:
     url: https://github.com/ncmeade
   - label: Scholar
     url: https://scholar.google.com/citations?hl=en&user=-aLqCbgAAAAJ
+Devang Kulshreshtha:
+  name: Devang Kulshreshtha
+  role: Master
+  semantic_scholar_id: '38321735'
+  avatar: /assets/images/bio/Devang Kulshreshtha.jpg
+  advisor: Siva Reddy
+  date: Fall 2020
+  alumni: false
+  links:
+  - label: Website
+    url: https://geekydevu.netlify.app/
+  - label: GitHub
+    url: https://github.com/geekydevu
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en
