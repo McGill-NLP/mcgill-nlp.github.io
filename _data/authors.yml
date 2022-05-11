@@ -228,3 +228,14 @@ Devang Kulshreshtha:
     url: https://github.com/geekydevu
   - label: Scholar
     url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en
+Timothy J. O'Donnell:
+  name: Timothy J. O'Donnell
+  role: Faculty
+  semantic_scholar_id: '1400877758'
+  date: Fall 2017
+  alumni: false
+  links:
+  - label: Website
+    url: https://mcqll.org/people/odonnell.timothy/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=iYjXhYwAAAAJ&hl=en
