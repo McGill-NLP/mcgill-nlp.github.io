@@ -54,7 +54,7 @@
         <div class="author-links">
             {% for link in author.links %}
 
-            {% include infer_icon.html link=link %}
+            {% include infer-icon.html link=link %}
 
             {% if icon %}
             <a href="{{ link.url }}" class="{{ icon }}"></a>

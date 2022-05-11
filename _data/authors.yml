@@ -47,7 +47,7 @@ Siva Reddy:
 Benno Krojer:
   name: "Benno Krojer"
   role: "PhD"
-  avatar: "/assets/images/bio/default.jpg"
+  avatar: "/assets/images/bio/Benno Krojer.jpg"
   alumni: false
   date: "Summer 2021"
   links:
@@ -62,6 +62,7 @@ Benno Krojer:
   advisor: Siva Reddy
   bio: I work on language grounding and like Ultimate Frisbee
 
+  semantic_scholar_id: '1994697809'
 Michelle Yang:
   name: "Michelle Yang"
   role: "Undergraduate"
@@ -115,10 +116,16 @@ Xing Han Lu:
   date: Fall 2021
   alumni: false
   links:
+  - label: Website
+    url: https://xinghanlu.com/
+  - label: Twitter
+    url: https://twitter.com/xhluu
   - label: GitHub
-    url: https://github.com/xhlulu
+    url: https://github.com/xhlulu/
   - label: Scholar
     url: https://scholar.google.com/citations?user=ekoOv3YAAAAJ&hl=en
+  semantic_scholar_id: '50085049'
+  bio: Working on retrieval and conversational QA
 Edoardo M. Ponti:
   name: Edoardo M. Ponti
   role: Postdoc
@@ -146,14 +153,78 @@ Andreas Madsen:
   note: "Co-advised by Sarath Chandar"
   alumni: false
   links:
-    - label: "Website"
-      url: "https://andreasmadsen.github.io/"
-    - label: "GitHub"
-      url: "https://github.com/AndreasMadsen/"
-    - label: "Twitter"
-      url: "https://twitter.com/andreas_madsen"
-    - label: "LinkedIn"
-      url: https://www.linkedin.com/in/andreasmad/
-    - label: "Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
+  - label: "Website"
+    url: "https://andreasmadsen.github.io/"
+  - label: "GitHub"
+    url: "https://github.com/AndreasMadsen/"
+  - label: "Twitter"
+    url: "https://twitter.com/andreas_madsen"
+  - label: "LinkedIn"
+    url: https://www.linkedin.com/in/andreasmad/
+  - label: "Scholar"
+    icon: "fas fa-fw fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
+Parishad BehnamGhader:
+  name: Parishad BehnamGhader
+  role: Master
+  semantic_scholar_id: '2101317786'
+  avatar: /assets/images/bio/Parishad BehnamGhader.jpg
+  advisor: Siva Reddy
+  date: Jan 2022
+  alumni: false
+  links:
+  - label: Website
+    url: https://parishadbehnam.github.io
+  - label: GitHub
+    url: https://github.com/parishadbehnam
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=pw9mblYAAAAJ
+Vaibhav Adlakha:
+  name: Vaibhav Adlakha
+  role: PhD
+  semantic_scholar_id: '1666183192'
+  avatar: /assets/images/bio/Vaibhav Adlakha.jpg
+  advisor: Siva Reddy
+  date: Fall 2020
+  bio: Interested in knowledge-grounded conversations
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://twitter.com/vaibhav_adlakha
+  - label: GitHub
+    url: https://github.com/vaibhavad
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
+Nicholas Meade:
+  name: Nicholas Meade
+  role: PhD
+  semantic_scholar_id: '150247363'
+  avatar: /assets/images/bio/Nicholas Meade.jpg
+  advisor: Siva Reddy
+  date: Fall 2020
+  bio: Works on bias/safety in NLP
+  alumni: false
+  links:
+  - label: Website
+    url: https://ncmeade.github.io/
+  - label: Twitter
+    url: https://twitter.com/ncmeade
+  - label: GitHub
+    url: https://github.com/ncmeade
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=-aLqCbgAAAAJ
+Devang Kulshreshtha:
+  name: Devang Kulshreshtha
+  role: Master
+  semantic_scholar_id: '38321735'
+  avatar: /assets/images/bio/Devang Kulshreshtha.jpg
+  advisor: Siva Reddy
+  date: Fall 2020
+  alumni: false
+  links:
+  - label: Website
+    url: https://geekydevu.netlify.app/
+  - label: GitHub
+    url: https://github.com/geekydevu
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en

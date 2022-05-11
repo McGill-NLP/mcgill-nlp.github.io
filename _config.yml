@@ -22,6 +22,7 @@ github_username: McGill-NLP
 logo: "/assets/images/logo/logo.png"
 dark_theme_css: "/assets/css/main-dark.css"
 search: true
+future: true
 
 # Build settings
 markdown: kramdown

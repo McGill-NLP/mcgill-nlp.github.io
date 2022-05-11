@@ -81,7 +81,7 @@ body:
       description: |
         Path or URL or image of the avatar of the lab member. If it's a URL, it will be automatically resized and converted to JPG and saved to `/assets/images/bio`.
 
-        Tip: If you want to upload an image, you can use imgur, or upload with GitHub. For the latter, see tip in the FAQ.
+        Tip: A simple way to upload a picture is through GitHub; an example is in the FAQ. Otherwise, you can use imgur and give the **direct** link (e.g. https://i.imgur.com/{id}.png).
       placeholder: "https://example.com/avatar.jpg"
     validations:
       required: false
@@ -90,8 +90,8 @@ body:
     id: advisor
     attributes:
       label: "Advisor"
-      description: "For students only, who is/are the advisor(s) of the lab member?"
-      placeholder: "John Doe Jr."
+      description: "For students, who is/are the advisor(s) from the faculty members of McGill NLP? Separate multiple names with a comma."
+      placeholder: "John Doe Sr., Jane Doe"
     validations:
       required: false
 
@@ -99,7 +99,7 @@ body:
     id: date
     attributes:
       label: "Date"
-      description: "When did the lab member join the lab? MMM-YYYY or {Fall, Winter} YYYY"
+      description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
       placeholder: "Jan 2021"
     validations:
       required: false
@@ -109,14 +109,14 @@ body:
     attributes:
       label: "Bio"
       description: "A description of the lab member in one sentence (or less than 10 words)."
-      placeholder: "Just a cool student!"
+      placeholder: "Works on Artificial Generic Intelligence"
 
   - type: "input"
     id: note
     attributes:
       label: "Note"
-      description: "Any special note you want to include"
-      placeholder: "CIFAR Chair"
+      description: "Any special note you want to include in one sentence. For example, fellowship, co-advisor, etc."
+      placeholder: "Co-advised by Alan Turing"
 
   - type: "input"
     id: github

@@ -70,8 +70,8 @@ body:
     id: venue
     attributes:
       label: Venue
-      description: A venue where the paper was published, or the name of the website (if it's a preprint).
-      placeholder: "ACL 2022"
+      description: A venue where the paper was published, or the name of the website (if it's a preprint). Do not include the year as it will be automatically added.
+      placeholder: "ACL"
     validations:
       required: true
 
@@ -196,7 +196,7 @@ body:
     id: twitter
     attributes:
       label: Twitter
-      description: Link to the twitter account.
+      description: Link to the Twitter thread or account.
       placeholder: "https://twitter.com/McGillNLP"
     validations:
       required: false
