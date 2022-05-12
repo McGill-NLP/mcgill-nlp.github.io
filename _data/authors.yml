@@ -239,3 +239,21 @@ Timothy J. O'Donnell:
     url: https://mcqll.org/people/odonnell.timothy/
   - label: Scholar
     url: https://scholar.google.com/citations?user=iYjXhYwAAAAJ&hl=en
+Aristides Milios:
+  name: Aristides Milios
+  role: Master
+  semantic_scholar_id: '1516303035'
+  avatar: /assets/images/bio/Aristides Milios.jpg
+  advisor: Dr. Siva Reddy
+  date: Fall 2021
+  bio: Interested in imbuing large language models with world knowledge
+  alumni: false
+  links:
+  - label: Website
+    url: https://atmilios.com/
+  - label: Twitter
+    url: https://twitter.com/amilios
+  - label: GitHub
+    url: https://github.com/amilios
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=5sCPodgAAAAJ
