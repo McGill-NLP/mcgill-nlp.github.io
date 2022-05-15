@@ -257,3 +257,19 @@ Aristides Milios:
     url: https://github.com/amilios
   - label: Scholar
     url: https://scholar.google.com/citations?user=5sCPodgAAAAJ
+Jacob Louis Hoover:
+  name: Jacob Louis Hoover
+  role: PhD
+  semantic_scholar_id: '1729201519'
+  avatar: /assets/images/bio/Jacob Louis Hoover.jpg
+  advisor: Timothy J. O'Donnell
+  date: Fall 2018
+  bio: Works on computational modelling and sentence processing.
+  alumni: false
+  links:
+  - label: Website
+    url: https://jahoo.github.io/
+  - label: GitHub
+    url: https://github.com/postylem
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=koLi2TwAAAAJ
