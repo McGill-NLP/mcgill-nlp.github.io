@@ -273,3 +273,15 @@ Jacob Louis Hoover:
     url: https://github.com/postylem
   - label: Scholar
     url: https://scholar.google.com/citations?user=koLi2TwAAAAJ
+Amirhossein Kazemnejad:
+  name: Amirhossein Kazemnejad
+  role: Master
+  semantic_scholar_id: '1754452702'
+  avatar: /assets/images/bio/Amirhossein Kazemnejad.jpg
+  advisor: Siva Reddy
+  date: Jan 2021
+  bio: Working on systematic generalization of language models
+  alumni: false
+  links:
+  - label: Website
+    url: https://kazemnejad.com
