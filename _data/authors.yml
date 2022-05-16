@@ -285,3 +285,16 @@ Amirhossein Kazemnejad:
   links:
   - label: Website
     url: https://kazemnejad.com
+Jackie Cheung:
+  name: Jackie Cheung
+  role: Faculty
+  semantic_scholar_id: '3159752'
+  avatar: /assets/images/bio/Jackie Cheung.jpg
+  date: '2015'
+  bio: Associate Professor
+  alumni: false
+  links:
+  - label: Website
+    url: https://www.cs.mcgill.ca/~jcheung/
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=Um-wmYQAAAAJ
