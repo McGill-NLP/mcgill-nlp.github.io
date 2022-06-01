@@ -311,3 +311,10 @@ Aristides Milios:
     url: https://github.com/amilios
   - label: Scholar
     url: https://scholar.google.com/citations?user=5sCPodgAAAAJ
+Zichao Li:
+  name: Zichao Li
+  role: PhD
+  semantic_scholar_id: '2118274302'
+  advisor: Jackie Cheung, Siva Reddy
+  alumni: false
+  links: []
