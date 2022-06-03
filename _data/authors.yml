@@ -78,7 +78,11 @@ Nouha Dziri:
   role: Intern
   semantic_scholar_id: '46217681'
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: https://webdocs.cs.ualberta.ca/~dziri/
+  advisor: Siva Reddy
+  date: May 2021
 Emily Goodwin:
   name: "Emily Goodwin"
   role: "Master"
