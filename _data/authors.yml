@@ -58,7 +58,11 @@ Emanuele Bugliarello:
   role: Intern
   semantic_scholar_id: '83574123'
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: https://e-bug.github.io/
+  advisor: Siva Reddy
+  date: Jan 2022
 Jackie Cheung:
   name: Jackie Cheung
   role: Faculty
