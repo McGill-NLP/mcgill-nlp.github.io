@@ -126,6 +126,17 @@ Jacob Louis Hoover:
   - label: Scholar
     url: https://scholar.google.com/citations?user=koLi2TwAAAAJ
 
+Jasper Jian:
+  name: Jasper Jian
+  role: Undergraduate
+  avatar: /assets/images/bio/Jasper Jian.jpg
+  advisor: Siva Reddy
+  date: Summer 2022
+  bio: I work on interpreting large language models.
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/jasperjjian
 Amirhossein Kazemnejad:
   name: Amirhossein Kazemnejad
   role: Master
