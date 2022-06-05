@@ -261,6 +261,17 @@ Aristides Milios:
   - label: Scholar
     url: https://scholar.google.com/citations?user=5sCPodgAAAAJ
 
+Sivan Milton:
+  name: Sivan Milton
+  role: Undergraduate
+  semantic_scholar_id: '2162779012'
+  advisor: Siva Reddy
+  date: Summer 2021
+  bio: Works on Semantic Role Labelling
+  alumni: false
+  links:
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=psPfrkMAAAAJ&hl=en&authuser=1
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
