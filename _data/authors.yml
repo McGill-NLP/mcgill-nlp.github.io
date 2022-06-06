@@ -137,6 +137,15 @@ Jasper Jian:
   links:
   - label: GitHub
     url: https://github.com/jasperjjian
+Gaurav Kamath:
+  name: Gaurav Kamath
+  role: Master
+  avatar: /assets/images/bio/Gaurav Kamath.jpg
+  advisor: Siva Reddy
+  date: Summer 2022
+  bio: Interested in the abstract semantic structures language models capture.
+  alumni: false
+  links: []
 Amirhossein Kazemnejad:
   name: Amirhossein Kazemnejad
   role: Master
