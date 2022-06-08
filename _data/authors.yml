@@ -53,6 +53,18 @@ Parishad BehnamGhader:
   - label: Scholar
     url: https://scholar.google.com/citations?user=pw9mblYAAAAJ
 
+Laurestine Bradford:
+  name: Laurestine Bradford
+  role: PhD
+  advisor: Siva Reddy, Tim O'Donnell
+  date: Jan-2022
+  bio: Language in math and connecting syntax to semantics
+  alumni: false
+  links:
+  - label: Website
+    url: https://laurestine.github.io/
+  - label: GitHub
+    url: https://github.com/laurestine/
 Emanuele Bugliarello:
   name: Emanuele Bugliarello
   role: Intern
