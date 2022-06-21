@@ -274,6 +274,15 @@ Nicholas Meade:
   - label: Scholar
     url: https://scholar.google.com/citations?hl=en&user=-aLqCbgAAAAJ
 
+Neshma Metri:
+  name: Neshma Metri
+  role: Undergraduate
+  advisor: Dr. Siva Reddy
+  date: Sep 2021
+  bio: Worked on introducing quantifiers in UDepLambda framework which converts dependency
+    trees into lambda calculus forms
+  alumni: true
+  links: []
 Aristides Milios:
   name: Aristides Milios
   role: Master
