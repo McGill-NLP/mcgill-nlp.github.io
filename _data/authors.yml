@@ -37,6 +37,25 @@ Vaibhav Adlakha:
   - label: Scholar
     url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
 
+Malik H. Altakrori:
+  name: Malik H. Altakrori
+  role: PhD
+  semantic_scholar_id: '51935928'
+  advisor: Jackie Cheung
+  date: Sept. 2017
+  bio: Interested in writing style analysis, authorship identification and authorship
+    obfuscation using DL/NLP
+  note: Co-Advised by Benjamin C.M. Fung
+  alumni: false
+  links:
+  - label: Website
+    url: https://mila.quebec/en/person/malik-altakrori/
+  - label: Twitter
+    url: https://twitter.com/AltakroriM
+  - label: GitHub
+    url: https://github.com/malikaltakrori
+  - label: Scholar
+    url: https://www.semanticscholar.org/author/Malik-H.-Altakrori/51935928
 Parishad BehnamGhader:
   name: Parishad BehnamGhader
   role: Master
