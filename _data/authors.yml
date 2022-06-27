@@ -75,6 +75,20 @@ Emanuele Bugliarello:
     url: https://e-bug.github.io/
   advisor: Siva Reddy
   date: Jan 2022
+Meng Cao:
+  name: Meng Cao
+  role: PhD
+  advisor: Jackie Cheung
+  date: Sep 2019
+  bio: Works on factuality/bias in NLG
+  alumni: false
+  links:
+  - label: Website
+    url: https://mcao516.github.io/
+  - label: GitHub
+    url: https://github.com/mcao516
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
 Jackie Cheung:
   name: Jackie Cheung
   role: Faculty
