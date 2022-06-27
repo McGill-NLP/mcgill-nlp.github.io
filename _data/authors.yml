@@ -99,6 +99,16 @@ Nouha Dziri:
     url: https://webdocs.cs.ualberta.ca/~dziri/
   advisor: Siva Reddy
   date: May 2021
+Sabina Elkins:
+  name: Sabina Elkins
+  role: Master
+  avatar: /assets/images/bio/Sabina Elkins.jpg
+  advisor: Jackie Cheung
+  date: Sep 2021
+  alumni: false
+  links:
+  - label: Website
+    url: https://sabina-elkins.github.io/
 Emily Goodwin:
   name: "Emily Goodwin"
   role: "Master"
