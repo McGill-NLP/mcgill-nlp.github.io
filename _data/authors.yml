@@ -360,6 +360,19 @@ Victor Prokhorov:
   date: "Fall 2021"
   alumni: true
 
+Martin Pömsl:
+  name: Martin Pömsl
+  role: Master
+  semantic_scholar_id: '1712260962'
+  avatar: /assets/images/bio/Martin Pömsl.jpg
+  advisor: Jackie Cheung
+  date: Fall 2021
+  alumni: false
+  links:
+  - label: Website
+    url: https://mpoemsl.github.io/
+  - label: GitHub
+    url: https://github.com/mpoemsl
 Siva Reddy:
   name: "Siva Reddy"
   bio: "Assistant Professor"
