@@ -382,6 +382,24 @@ Timothy J. O'Donnell:
   avatar: /assets/images/bio/Timothy J. O'Donnell.jpg
   bio: Assistant Professor, Department of Linguistics
 
+Cesare Spinoso-Di Piano:
+  name: Cesare Spinoso-Di Piano
+  role: Master
+  avatar: /assets/images/bio/Cesare Spinoso-Di Piano.jpg
+  advisor: Jackie Cheung
+  date: Fall 2021
+  bio: NLP + Health
+  note: Co-advised by Samira Rahimi
+  alumni: false
+  links:
+  - label: Website
+    url: https://cesare-spinoso.github.io/
+  - label: Twitter
+    url: https://twitter.com/cesare_spinoso
+  - label: GitHub
+    url: https://github.com/cesare-spinoso
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=3XOcXPgAAAAJ&hl=en
 Edoardo M. Ponti:
   name: Edoardo M. Ponti
   role: Postdoc
