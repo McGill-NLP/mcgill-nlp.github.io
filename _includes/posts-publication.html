@@ -1,6 +1,6 @@
 {% assign posts = site.categories[include.taxonomy] | where_exp: "item", "item.hidden != true" %}
 {% if include.author %}
-  {% assign posts = posts | where_exp: "post", "post.names contains include.author or post.author contains include.author" %}
+  {% assign posts = posts | where_exp: "post", "post.names contains include.author" %}
 {% endif %}
 {% assign postsByYear = posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 

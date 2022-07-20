@@ -7,3 +7,4 @@ vendor/*
 .vscode
 *.pyc
 tests/scratch/*
+.jekyll-cache
