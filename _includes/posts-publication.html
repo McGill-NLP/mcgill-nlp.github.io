@@ -1,6 +1,18 @@
 {% assign posts = site.categories[include.taxonomy] | where_exp: "item", "item.hidden != true" %}
 {% if include.author %}
   {% assign posts = posts | where_exp: "post", "post.names contains include.author" %}
+  
+  {% comment %}
+  Ideally we want to use:
+  {% assign posts = posts | where_exp: "post", "post.names contains include.author or post.author == include.author" %}
+
+  However it is not currently supported by Jekyll 3.9.2, which is what is being used by the GitHub Pages Gem. However,
+  the gem maintainers are currently working on upgrading jekyll to 4.x, which supports binary operator for where_exp:
+  
+  https://github.com/github/pages-gem/issues/651#issuecomment-1156978042
+
+  {% endcomment %}
+
 {% endif %}
 {% assign postsByYear = posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 
