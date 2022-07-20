@@ -11,13 +11,6 @@
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
 
-        {% if post.course_code %}
-        <div>
-            <b>{{ post.course_code }}</b>
-            <b> ({{ post.term | date: "%Y"}}) </b>
-        </div>
-        {% endif %}
-
         {% if post.names %}
         <div>
             <i>{{ post.names }}</i>
@@ -28,12 +21,19 @@
         </div>
         {% endif %}
 
+        {% if post.course_code %}
+        <div>
+            <b>{{ post.course_code }}</b>
+            <b> ({{ post.term | date: "%Y"}}) </b>
+        </div>
+        {% else %}
         <div>
             {% if post.venue %}
             <b> {{ post.venue }} </b>
             {% endif %}
             <b> ({{ post.date | date: "%Y" }}) </b>
         </div>
+        {% endif %}
 
         {% include display-publication-links.html pub=post%}
     </article>
