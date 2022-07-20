@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "webrick"
+gem "jekyll", "> 4.0", "< 5.0"
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"

@@ -1,13 +1,30 @@
-<div>
-  {%- for post in site.categories[include.taxonomy] -%}
-    {%- unless post.hidden -%}
-      {% if include.author %}
-        {% if post.names contains include.author %}
-          {%- include display-publications.html %}
-        {%- endif %}
-      {%- else %}
+{% assign posts = site.categories[include.taxonomy] | where_exp: "item", "item.hidden != true" %}
+{% if include.author %}
+  {% assign posts = posts | where_exp: "post", "post.names contains include.author or post.author contains include.author" %}
+{% endif %}
+{% assign postsByYear = posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+
+<details>
+  <summary>Show years</summary>
+  <ul class="taxonomy__index">
+    {% for year in postsByYear %}
+      <li>
+        <a href="#{{ year.name }}">
+          <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</details>
+
+{% for year in postsByYear %}
+  <section id="{{ year.name }}" class="taxonomy__section">
+    <h3>{{ year.name }}</h3>
+    <div class="entries-{{ entries_layout }}">
+      {% for post in year.items %}
         {%- include display-publications.html %}
-      {%- endif %}
-    {%- endunless -%}
-  {%- endfor -%}
-</div>
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}

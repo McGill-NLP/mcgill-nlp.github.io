@@ -11,9 +11,20 @@
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         </h2>
 
+        {% if post.course_code %}
+        <div>
+            <b>{{ post.course_code }}</b>
+            <b> ({{ post.term | date: "%Y"}}) </b>
+        </div>
+        {% endif %}
+
         {% if post.names %}
         <div>
             <i>{{ post.names }}</i>
+        </div>
+        {% elsif post.author %}
+        <div>
+            <i>{{ post.author }}</i>
         </div>
         {% endif %}
 
