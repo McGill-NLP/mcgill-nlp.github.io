@@ -39,4 +39,4 @@ _data/authors.yml @cckitpw @language-learning-laboratory @sivareddyg @xhluca
 /_pages/profiles/siva.md @sivareddyg
 
 # Other directories without codeowners
-/ignored/
+/records/

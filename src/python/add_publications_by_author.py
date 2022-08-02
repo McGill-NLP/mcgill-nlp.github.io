@@ -17,8 +17,13 @@ def fetch_content(parsed):
 
 
 def main(parsed, save_dir="_posts/papers"):
-    with open("ignored/semantic_scholar_paper_ids.json") as f:
-        ignored_ids = set(json.loads(f.read()))
+    ignore_list_fname = "records/semantic_paper_ids_ignored.json"
+
+    if os.path.exists(ignore_list_fname):
+        with open(ignore_list_fname) as f:
+            ignored_ids = set(json.loads(f.read()))
+    else:
+        ignored_ids = set()
 
     fetched = fetch_content(parsed)
     cleaned = []
@@ -37,7 +42,7 @@ def main(parsed, save_dir="_posts/papers"):
             cleaned.append(formatted)
             write_content_to_file(formatted, save_dir)
 
-    with open("ignored/semantic_scholar_paper_ids.json", "w") as f:
+    with open(ignore_list_fname, "w") as f:
         json.dump(sorted(ignored_ids), f, indent=2)
 
     return {'cleaned': cleaned, 'ignored': ignored_ids}

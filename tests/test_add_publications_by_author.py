@@ -11,11 +11,11 @@ class TestAddPublicationsByAuthor(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.save_dir = "tests/scratch/_posts/papers"
-        shutil.move('ignored/semantic_scholar_paper_ids.json', 'ignored/old_semantic_scholar_paper_ids.json')
+        shutil.move('records/semantic_paper_ids_ignored.json', 'records/old_semantic_scholar_paper_ids.json')
     
     @classmethod
     def tearDownClass(cls):
-        shutil.move('ignored/old_semantic_scholar_paper_ids.json', 'ignored/semantic_scholar_paper_ids.json')
+        shutil.move('records/old_semantic_scholar_paper_ids.json', 'records/semantic_paper_ids_ignored.json')
 
 
     def tearDown(self) -> None:
@@ -40,7 +40,7 @@ class TestAddPublicationsByAuthor(unittest.TestCase):
             self.assertIn(file, list(file2paper.keys()), msg=error_msg)
             self.assertEqual(file2paper[file]["content"], expected_paper)
 
-        with open("ignored/semantic_scholar_paper_ids.json") as f:
+        with open("records/semantic_paper_ids_ignored.json") as f:
             ignored = set(json.load(f))
 
         # test if the paper was added to the list of ignored papers in semantic scholar IDs file

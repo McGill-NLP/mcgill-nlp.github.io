@@ -390,7 +390,7 @@ After you fill the form, an issue is created with an appropriate *tag*. Then, a 
 
 > When using `src/python/add_publications_by_author.py`, it keeps adding a paper I already added (or I want to ignore). How can I make it stop doing that?
 
-Add the semantic scholar paper ID to the list in `ignored/semantic_scholar_paper_ids.json`.
+Add the semantic scholar paper ID to the list in `records/semantic_paper_ids_ignored.json`.
 
 
 > When filling out the form, how do I upload my profile picture or a thumbnail without having to use an external source, like imgur?
