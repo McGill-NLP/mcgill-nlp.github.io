@@ -29,7 +29,8 @@ class TestAddUpdateMember(unittest.TestCase):
         with open("tests/data/add_member/in.md") as f:
             issue_body = f.read()
 
-        out = mod.main(issue_body, image_dir=self.image_dir)
+        parsed = mod.parse_issue_body(issue_body)
+        out = mod.main(parsed, image_dir=self.image_dir)
 
         with open("tests/data/add_member/out.json") as f:
             expected = json.load(f)
@@ -41,7 +42,8 @@ class TestAddUpdateMember(unittest.TestCase):
         with open("tests/data/update_member/in.md") as f:
             issue_body = f.read()
 
-        out = mod.main(issue_body, image_dir=self.image_dir)
+        parsed = mod.parse_issue_body(issue_body)
+        out = mod.main(parsed, image_dir=self.image_dir)
 
         with open("tests/data/update_member/out.json") as f:
             expected = json.load(f)

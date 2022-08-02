@@ -31,7 +31,8 @@ class TestAddPublicationById(unittest.TestCase):
             01    
         """
         )
-        mod.main(issue_body)
+        parsed = mod.parse_issue_body(issue_body)
+        mod.main(parsed)
 
         with open("_posts/papers/2020-08-01-2004.09456.md", "r") as f:
             content = f.read()

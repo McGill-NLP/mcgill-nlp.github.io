@@ -17,11 +17,10 @@ def fetch_content(parsed):
     return data
 
 
-def main(issue_body, save_dir="_posts/papers"):
+def main(parsed, save_dir="_posts/papers"):
     with open("ignored/semantic_scholar_paper_ids.json") as f:
         ignored_ids = set(json.loads(f.read()))
 
-    parsed = parse_issue_body(issue_body)
     fetched = fetch_content(parsed)
     cleaned = []
 
@@ -45,4 +44,5 @@ def main(issue_body, save_dir="_posts/papers"):
 
 if __name__ == "__main__":
     issue_body = os.environ['ISSUE_BODY']
-    main(issue_body)
+    parsed = parse_issue_body(issue_body)
+    main(parsed)

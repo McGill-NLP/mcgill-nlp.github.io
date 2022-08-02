@@ -19,8 +19,9 @@ class TestAddPublicationsByAuthor(unittest.TestCase):
     def add_publication_and_verify_all(self, author):
         with open(f"tests/data/add_publications_by_author/{author}/in.md") as f:
             issue_body = f.read()
-
-        out = mod.main(issue_body, save_dir=self.save_dir)
+        
+        parsed = mod.parse_issue_body(issue_body)
+        out = mod.main(parsed, save_dir=self.save_dir)
         papers = out["cleaned"]
         file2paper = {x["filename"]: x for x in papers}
 

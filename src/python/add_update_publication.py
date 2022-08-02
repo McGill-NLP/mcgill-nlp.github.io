@@ -117,8 +117,7 @@ def update_publication_post(parsed, load_dir="_posts/papers"):
         "content": top + bottom,
     }
 
-def main(issue_body, save_dir="_posts/papers", image_dir="assets/images/papers"):
-    parsed = parse_issue_body(issue_body)
+def main(parsed, save_dir="_posts/papers", image_dir="assets/images/papers"):
     save_url_image(
         fname=parsed["shorthand"],
         profile=parsed,
@@ -136,4 +135,5 @@ def main(issue_body, save_dir="_posts/papers", image_dir="assets/images/papers")
 
 if __name__ == "__main__":
     issue_body = os.environ["ISSUE_BODY"]
-    main(issue_body)
+    parsed = parse_issue_body(issue_body)
+    main(parsed)

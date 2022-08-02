@@ -56,8 +56,7 @@ def sort_by_lastname(authors):
         desc = authors.pop(user)
         authors.insert(0, user, desc)
 
-def main(issue_body, image_dir="assets/images/bio"):
-    parsed = parse_issue_body(issue_body)
+def main(parsed, image_dir="assets/images/bio"):
     profile = format_parsed_content(parsed)
 
     yaml = YAML()
@@ -97,4 +96,5 @@ def main(issue_body, image_dir="assets/images/bio"):
 
 if __name__ == "__main__":
     issue_body = os.environ["ISSUE_BODY"]
-    main(issue_body)
+    parsed = parse_issue_body(issue_body)
+    main(parsed)

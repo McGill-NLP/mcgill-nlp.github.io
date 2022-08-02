@@ -37,8 +37,9 @@ class TestAddUpdatePublication(unittest.TestCase):
         with open("tests/data/add_publication/out.md") as f:
             expected = f.read()
 
+        parsed = mod.parse_issue_body(issue_body)
         formatted = mod.main(
-            issue_body, save_dir=self.save_dir, image_dir=self.image_dir
+            parsed, save_dir=self.save_dir, image_dir=self.image_dir
         )
 
         self.assertEqual(formatted["content"], expected)
@@ -50,8 +51,9 @@ class TestAddUpdatePublication(unittest.TestCase):
         with open("tests/data/update_publication/out.md") as f:
             expected = f.read()
 
+        parsed = mod.parse_issue_body(issue_body)
         formatted = mod.main(
-            issue_body, save_dir=self.save_dir, image_dir=self.image_dir
+            parsed, save_dir=self.save_dir, image_dir=self.image_dir
         )
 
         self.assertEqual(formatted["content"], expected)

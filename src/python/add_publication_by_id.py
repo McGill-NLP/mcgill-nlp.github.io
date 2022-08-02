@@ -87,8 +87,7 @@ def wrangle_fetched_content(parsed, paper_json):
     return paper_json
 
 
-def main(issue_body, save_dir="_posts/papers"):
-    parsed = parse_issue_body(issue_body)
+def main(parsed, save_dir="_posts/papers"):
     paper_json = fetch_content(parsed)
     paper_json = wrangle_fetched_content(parsed, paper_json)  # in-place
     formatted = generate_publication_post(paper_json)
@@ -97,4 +96,5 @@ def main(issue_body, save_dir="_posts/papers"):
 
 if __name__ == "__main__":
     issue_body = os.environ["ISSUE_BODY"]
-    main(issue_body)
+    parsed = parse_issue_body(issue_body)
+    main(parsed)
