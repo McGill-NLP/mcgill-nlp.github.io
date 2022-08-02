@@ -8,7 +8,6 @@ from .add_publication_by_id import wrangle_fetched_content
 
 
 def fetch_content(parsed):
-
     url = urlopen(
         f"https://api.semanticscholar.org/graph/v1/author/{parsed['author_id']}?fields=papers.title,papers.venue,papers.year,papers.authors,papers.externalIds,papers.url,papers.abstract,papers.externalIds"
     )
@@ -25,12 +24,14 @@ def main(parsed, save_dir="_posts/papers"):
     cleaned = []
 
     for paper_json in fetched["papers"]:
+        paper_id = paper_json['paperId']
+
         start = int(parsed["start"])
         end = int(parsed["end"])
         year = int(paper_json["year"])
 
-        if year >= start and year <= end:
-            ignored_ids.add(paper_json["paperId"])
+        if year >= start and year <= end and paper_id not in ignored_ids:
+            ignored_ids.add(paper_id)
             paper_json = wrangle_fetched_content(parsed, paper_json)  # in-place
             formatted = generate_publication_post(paper_json)
             cleaned.append(formatted)

@@ -43,7 +43,7 @@ def wrangle_fetched_content(parsed, paper_json):
     paper_json["month"] = parsed.get("month", "01")
     paper_json["day"] = parsed.get("day", "01")
 
-    author_names = [parsed["name"] for parsed in paper_json["authors"]]
+    author_names = [data["name"] for data in paper_json["authors"]]
     paper_json["names"] = ", ".join(author_names)
     paper_json["tags"] = paper_json["venue"]
     paper_json["shorthand"] = str(paper_json["paperId"])
