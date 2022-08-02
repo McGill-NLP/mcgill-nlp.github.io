@@ -108,6 +108,7 @@ Meng Cao:
     url: https://github.com/mcao516
   - label: Scholar
     url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
+
 Ziling Cheng:
   name: Ziling Cheng
   role: Intern
@@ -115,6 +116,7 @@ Ziling Cheng:
   date: Summer 2022
   alumni: false
   links: []
+
 Jackie Cheung:
   name: Jackie Cheung
   role: Faculty
@@ -139,6 +141,7 @@ Nouha Dziri:
     url: https://webdocs.cs.ualberta.ca/~dziri/
   advisor: Siva Reddy
   date: May 2021
+
 Sabina Elkins:
   name: Sabina Elkins
   role: Master
@@ -149,6 +152,7 @@ Sabina Elkins:
   links:
   - label: Website
     url: https://sabina-elkins.github.io/
+
 Emily Goodwin:
   name: "Emily Goodwin"
   role: "Master"
@@ -199,6 +203,7 @@ Jasper Jian:
   links:
   - label: GitHub
     url: https://github.com/jasperjjian
+
 Jad Kabbara:
   name: Jad Kabbara
   role: PhD
@@ -211,6 +216,7 @@ Jad Kabbara:
     url: https://www.cs.mcgill.ca/~jkabba/
   - label: Twitter
     url: twitter.com/jad_kabbara
+
 Gaurav Kamath:
   name: Gaurav Kamath
   role: Master
@@ -220,6 +226,7 @@ Gaurav Kamath:
   bio: Interested in the abstract semantic structures language models capture.
   alumni: false
   links: []
+
 Amirhossein Kazemnejad:
   name: Amirhossein Kazemnejad
   role: Master
@@ -283,6 +290,7 @@ Xing Han Lu:
   advisor: Siva Reddy
   date: Fall 2021
   alumni: false
+  auto_update_publications: true
   links:
   - label: Website
     url: https://xinghanlu.com/
@@ -345,6 +353,7 @@ Neshma Metri:
     trees into lambda calculus forms
   alumni: true
   links: []
+
 Aristides Milios:
   name: Aristides Milios
   role: Master
@@ -375,6 +384,7 @@ Sivan Milton:
   links:
   - label: Scholar
     url: https://scholar.google.com/citations?user=psPfrkMAAAAJ&hl=en&authuser=1
+
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
@@ -407,6 +417,7 @@ Cesare Spinoso-Di Piano:
     url: https://github.com/cesare-spinoso
   - label: Scholar
     url: https://scholar.google.ca/citations?user=3XOcXPgAAAAJ&hl=en
+
 Edoardo M. Ponti:
   name: Edoardo M. Ponti
   role: Postdoc
@@ -453,10 +464,12 @@ Martin Pömsl:
     url: https://mpoemsl.github.io/
   - label: GitHub
     url: https://github.com/mpoemsl
+
 Siva Reddy:
   name: "Siva Reddy"
   bio: "Assistant Professor"
   semantic_scholar_id: "145732771"
+  auto_update_publications: true
   note: "Facebook CIFAR AI Chair"
   avatar: "/assets/images/bio/siva.jpg"
   date: "Jan 2020"
