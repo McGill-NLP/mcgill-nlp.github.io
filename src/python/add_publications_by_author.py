@@ -37,7 +37,7 @@ def main(parsed, save_dir="_posts/papers"):
             write_content_to_file(formatted, save_dir)
 
     with open("ignored/semantic_scholar_paper_ids.json", "w") as f:
-        json.dump(list(ignored_ids), f, indent=2)
+        json.dump(sorted(ignored_ids), f, indent=2)
 
     return {'cleaned': cleaned, 'ignored': ignored_ids}
 
