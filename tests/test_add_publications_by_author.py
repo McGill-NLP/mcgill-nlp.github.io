@@ -10,7 +10,13 @@ import src.python.add_publications_by_author as mod
 class TestAddPublicationsByAuthor(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.save_dir = "tests/scratch/_posts/papers"    
+        cls.save_dir = "tests/scratch/_posts/papers"
+        shutil.move('ignored/semantic_scholar_paper_ids.json', 'ignored/old_semantic_scholar_paper_ids.json')
+    
+    @classmethod
+    def tearDownClass(cls):
+        shutil.move('ignored/old_semantic_scholar_paper_ids.json', 'ignored/semantic_scholar_paper_ids.json')
+
 
     def tearDown(self) -> None:
         if os.path.exists(self.save_dir):
