@@ -1,0 +1,36 @@
+name: "Automatically fetch and update the publications of authors when auto_update_publications: true"
+on:
+  schedule:
+    - cron: '0 8 1,15 * *'
+
+jobs:
+  auto-update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+
+      - name: Install Python requirements
+        run: pip install -r src/python/requirements.txt
+      
+      - name: "Automatically add papers from authors with `auto_update_publications: true`"
+        run: python -m src.python.auto_update_publications
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          delete-branch: true
+          branch-suffix: timestamp
+          commit-message: "[GH Actions] Automatically add papers from authors"
+          title: "[Automatic PR] Automatically add papers from authors"
+          body: >
+            Automatically add papers from authors where `auto_update_publications: true`
+            in `_data/authors.yml` and that have a valid `semantic_scholar_id`.
+            This pull request was automatically created through GitHub Actions.
+          branch: "gh-actions/auto-update-publications"
+          team-reviewers: >
+            @McGill-NLP/maintainers
