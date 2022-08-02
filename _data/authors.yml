@@ -281,6 +281,7 @@ Xing Han Lu:
   role: Master
   avatar: /assets/images/bio/Xing Han Lu.jpg
   advisor: Siva Reddy
+  semantic_scholar_id: '50085049'
   date: Fall 2021
   alumni: false
   links:
@@ -456,6 +457,7 @@ Martin Pömsl:
 Siva Reddy:
   name: "Siva Reddy"
   bio: "Assistant Professor"
+  semantic_scholar_id: "145732771"
   note: "Facebook CIFAR AI Chair"
   avatar: "/assets/images/bio/siva.jpg"
   date: "Jan 2020"
