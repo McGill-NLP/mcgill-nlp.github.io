@@ -29,7 +29,7 @@ def front_matters_to_dict(front_matter):
 
 
 def get_filename(parsed):
-    return "-".join([parsed[k] for k in ["year", "month", "day", "shorthand"]]) + ".md"
+    return "-".join([str(parsed[k]) for k in ["year", "month", "day", "shorthand"]]) + ".md"
 
 
 def preprocess_parsed(parsed, keys_removed):
