@@ -6,6 +6,7 @@ from textwrap import dedent
 
 import src.python.add_publications_by_author as mod
 
+REMOVE_GENERATED_FILES = False
 
 class TestAddPublicationsByAuthor(unittest.TestCase):
     @classmethod
@@ -19,7 +20,7 @@ class TestAddPublicationsByAuthor(unittest.TestCase):
 
 
     def tearDown(self) -> None:
-        if os.path.exists(self.save_dir):
+        if REMOVE_GENERATED_FILES and os.path.exists(self.save_dir):
             shutil.rmtree(self.save_dir)
 
     def add_publication_and_verify_all(self, author):
