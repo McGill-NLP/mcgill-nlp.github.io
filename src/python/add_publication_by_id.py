@@ -14,7 +14,7 @@ def fetch_content(parsed):
     identifier = parsed["identifier"]
 
     url = urlopen(
-        f"https://api.semanticscholar.org/graph/v1/paper/{method}:{identifier}?fields=title,venue,year,authors.name,externalIds,url,abstract"
+        f"https://api.semanticscholar.org/graph/v1/paper/{method}:{identifier}?fields=title,venue,year,publicationDate,authors.name,externalIds,url,abstract"
     )
     data = json.loads(url.read())
 
@@ -40,15 +40,21 @@ def wrangle_fetched_content(parsed, paper_json):
         yaml.preserve_quotes = True
         lab_members = yaml.load(f)
 
-    paper_json["month"] = parsed.get("month", "01")
-    paper_json["day"] = parsed.get("day", "01")
 
     author_names = [data["name"] for data in paper_json["authors"]]
     paper_json["names"] = ", ".join(author_names)
     paper_json["tags"] = paper_json["venue"]
     paper_json["shorthand"] = str(paper_json["paperId"])
-    paper_json["year"] = str(paper_json["year"])
     paper_json["link"] = paper_json["url"]
+    
+    if paper_json['publicationDate']:
+        year, month, day = paper_json["publicationDate"].split("-")
+    else:
+        year, month, day = paper_json['year'], "01", "01"
+    
+    paper_json["year"] = parsed.get("year", year)
+    paper_json["month"] = parsed.get("month", month)
+    paper_json["day"] = parsed.get("day", day)
 
     if "ArXiv" in paper_json["externalIds"]:
         link = f"https://arxiv.org/abs/{paper_json['externalIds']['ArXiv']}"
@@ -82,6 +88,7 @@ def wrangle_fetched_content(parsed, paper_json):
         paper_json["paperId"],
         paper_json["url"],
         paper_json["authors"],
+        paper_json['publicationDate']
     )
 
     return paper_json
