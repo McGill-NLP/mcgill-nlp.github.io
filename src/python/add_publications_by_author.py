@@ -33,7 +33,10 @@ def main(parsed, save_dir="_posts/papers"):
 
         start = int(parsed["start"])
         end = int(parsed["end"])
-        year = int(paper_json["year"])
+        if paper_json['publicationDate']:
+            year = int(paper_json['publicationDate'].split('-')[0])
+        else:
+            year = int(paper_json["year"])
 
         if year >= start and year <= end and paper_id not in ignored_ids:
             ignored_ids.add(paper_id)
