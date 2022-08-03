@@ -6,7 +6,7 @@ from textwrap import dedent
 
 import src.python.add_publications_by_author as mod
 
-REMOVE_GENERATED_FILES = False
+REMOVE_GENERATED_FILES = True
 
 class TestAddPublicationsByAuthor(unittest.TestCase):
     @classmethod
