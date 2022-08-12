@@ -56,6 +56,17 @@ Malik H. Altakrori:
     url: https://github.com/malikaltakrori
   - label: Scholar
     url: https://www.semanticscholar.org/author/Malik-H.-Altakrori/51935928
+Dzmitry Bahdanau:
+  name: Dzmitry Bahdanau
+  role: Adjunct Faculty
+  semantic_scholar_id: '3335364'
+  avatar: /assets/images/bio/Dzmitry Bahdanau.jpg
+  bio: Adjunct Professor
+  note: Research Lead, ServiceNow Research
+  alumni: false
+  links:
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=Nq0dVMcAAAAJ&hl=en&oi=ao
 Parishad BehnamGhader:
   name: Parishad BehnamGhader
   role: Master
