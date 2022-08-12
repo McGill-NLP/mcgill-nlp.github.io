@@ -275,6 +275,22 @@ Devang Kulshreshtha:
   - label: Scholar
     url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en
 
+Ben LeBrun:
+  name: Ben LeBrun
+  role: Master
+  semantic_scholar_id: '2159712810'
+  avatar: /assets/images/bio/Ben LeBrun.jpg
+  advisor: Timothy J. O'Donnell
+  date: Winter 2020
+  bio: Currently working on computational models of pragmatic reasoning.
+  alumni: false
+  links:
+  - label: Website
+    url: https://benlebrun.github.io/about/
+  - label: GitHub
+    url: https://github.com/benlebrun
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
 Zichao Li:
   name: Zichao Li
   role: PhD
