@@ -56,6 +56,22 @@ Malik H. Altakrori:
     url: https://github.com/malikaltakrori
   - label: Scholar
     url: https://www.semanticscholar.org/author/Malik-H.-Altakrori/51935928
+Rahul Aralikatte:
+  name: Rahul Aralikatte
+  role: Postdoc
+  semantic_scholar_id: '19509693'
+  avatar: /assets/images/bio/Rahul Aralikatte.jpg
+  advisor: Jackie Cheung
+  date: Aug-2022
+  bio: Text summarization and low-resource learning
+  alumni: false
+  links:
+  - label: Website
+    url: http://www.rahular.com/
+  - label: GitHub
+    url: https://github.com/rahular
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
