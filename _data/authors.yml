@@ -158,6 +158,20 @@ Jackie Cheung:
   - label: Scholar
     url: https://scholar.google.com/citations?hl=en&user=Um-wmYQAAAAJ
 
+Amanda Doucette:
+  name: Amanda Doucette
+  role: PhD
+  advisor: Timothy J. O'Donnell
+  date: Fall 2020
+  bio: Works on computational phonology
+  alumni: false
+  links:
+  - label: Website
+    url: https://www.amandadoucette.com
+  - label: GitHub
+    url: https://github.com/amnda-d
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=KpJRQbsAAAAJ&hl=en
 Nouha Dziri:
   name: Nouha Dziri
   role: Intern
