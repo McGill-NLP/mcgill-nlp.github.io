@@ -128,7 +128,6 @@ defaults:
     values:
       layout: single
       classes:
-        - wide
         - no-sidebar
       author_profile: false
       share: true
