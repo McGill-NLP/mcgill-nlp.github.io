@@ -140,6 +140,14 @@ Meng Cao:
   - label: Scholar
     url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
 
+Xuanda Chen:
+  name: Xuanda Chen
+  role: PhD
+  advisor: Siva Reddy, Timothy J. O'Donnell
+  date: Fall 2022
+  bio: Works on language model probing
+  alumni: false
+  links: []
 Ziling Cheng:
   name: Ziling Cheng
   role: Intern
