@@ -41,15 +41,15 @@ Malik H. Altakrori:
   name: Malik H. Altakrori
   role: PhD
   semantic_scholar_id: '51935928'
-  advisor: Jackie Cheung
+  advisor: Jackie Cheung, Benjamin Fung
   date: Sept. 2017
   bio: Interested in writing style analysis, authorship identification and authorship
     obfuscation using DL/NLP
-  note: Co-Advised by Benjamin C.M. Fung
+  note: Graduating in Dec. 2022
   alumni: false
   links:
   - label: Website
-    url: https://mila.quebec/en/person/malik-altakrori/
+    url: https://malikaltakrori.github.io/
   - label: Twitter
     url: https://twitter.com/AltakroriM
   - label: GitHub
