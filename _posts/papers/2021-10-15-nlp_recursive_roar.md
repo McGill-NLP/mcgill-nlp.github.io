@@ -7,8 +7,8 @@ link: https://arxiv.org/abs/2110.08412 # link to paper
 code: https://github.com/AndreasMadsen/nlp-roar-interpretability # link to code (optional)
 twitter: https://twitter.com/andreas_madsen/status/1450832033282932741  # link to twitter thread (optional)
 thumbnail: /assets/images/papers/2021-nlp-recursive-roar.svg  # link to a thumbnail (optional)
-venue: ArXiv  # venue and year of the paper
-tags: ArXiv # tag of the paper (exclude year, use shorthand)
+venue: EMNLP 2022 Findings (2022)  # venue and year of the paper
+tags: EMNLP # tag of the paper (exclude year, use shorthand)
 ---
 
 *{{ page.names }}*
@@ -19,6 +19,8 @@ tags: ArXiv # tag of the paper (exclude year, use shorthand)
 
 ## Abstract
 
-To explain NLP models, many methods inform which inputs tokens are important for a prediction. However, an open question is if these methods accurately reflect the model's logic, a property often called faithfulness. In this work, we adapt and improve a recently proposed faithfulness benchmark from computer vision called ROAR (RemOve And Retrain), by Hooker et al. (2019).
-We improve ROAR by recursively removing dataset redundancies, which otherwise interfere with ROAR. We adapt and apply ROAR, to popular NLP importance measures, namely attention, gradient, and integrated gradients. Additionally, we use mutual information as an additional baseline. Evaluation is done on a suite of classification tasks often used in the faithfulness of attention literature. Finally, we propose a scalar faithfulness metric, which makes it easy to compare results across papers.
-We find that, importance measures considered to be unfaithful for computer vision tasks perform favorably for NLP tasks, the faithfulness of an importance measure is task-dependent, and the computational overhead of integrated gradient is rarely justified.
+To explain NLP models a popular approach is to use importance measures, such as attention, which inform input tokens are important for making a prediction. However, an open question is how well these explanations accurately reflect a model's logic, a property called faithfulness.
+
+To answer this question, we propose Recursive ROAR, a new faithfulness metric. This works by recursively masking allegedly important tokens and then retraining the model. The principle is that this should result in worse model performance compared to masking random tokens. The result is a performance curve given a masking-ratio. Furthermore, we propose a summarizing metric using relative area-between-curves (RACU), which allows for easy comparison across papers, models, and tasks.
+
+We evaluate 4 different importance measures on 8 different datasets, using both LSTM-attention models and RoBERTa models. We find that the faithfulness of importance measures is both model-dependent and task-dependent. This conclusion contradicts previous evaluations in both computer vision and faithfulness of attention literature.
