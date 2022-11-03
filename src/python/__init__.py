@@ -3,6 +3,11 @@ from urllib.request import urlopen
 
 from PIL import Image
 
+def remove_prefix(text, prefix):
+    if text.startswith(prefix):
+        return text[len(prefix):]
+    return text  # or whatever
+
 def parse_issue_body(body):
     """
     Parse the body of the issue and return a dictionary of the parsed data.
@@ -12,7 +17,7 @@ def parse_issue_body(body):
 
     for line in body.split("\n"):
         if line.startswith("###"):
-            k = line.removeprefix("###").strip().lower().replace(" ", "_")
+            k = remove_prefix(line, prefix="###").strip().lower().replace(" ", "_")
             parsed[k] = ""
         else:
             if k is not None:
