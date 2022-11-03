@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 from ruamel.yaml import YAML
 
@@ -56,12 +57,13 @@ def sort_by_lastname(authors):
         desc = authors.pop(user)
         authors.insert(0, user, desc)
 
-def main(parsed, image_dir="assets/images/bio"):
+def main(parsed, site_data_dir="_data/", image_dir="assets/images/bio"):
+    site_data_dir = Path(site_data_dir)
     profile = format_parsed_content(parsed)
 
     yaml = YAML()
     yaml.preserve_quotes = True
-    with open("_data/authors.yml") as f:
+    with open(site_data_dir / "authors.yml") as f:
         authors = yaml.load(f)
     name_to_username = {authors[username]["name"]: username for username in authors}
 
@@ -88,7 +90,7 @@ def main(parsed, image_dir="assets/images/bio"):
     
     sort_by_lastname(authors)
 
-    with open("_data/authors.yml", "w") as f:
+    with open(site_data_dir / "authors.yml", "w") as f:
         yaml.dump(authors, f)
 
     return authors

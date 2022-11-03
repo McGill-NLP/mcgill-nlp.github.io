@@ -1,12 +1,16 @@
 import datetime
+from pathlib import Path
+
 from ruamel.yaml import YAML
 
 from . import add_publications_by_author
 
-def main(save_dir="_posts/papers"):
+def main(save_dir="_posts/papers", site_data_dir="_data/"):
+    site_data_dir = Path(site_data_dir)
+
     yaml = YAML()
     yaml.preserve_quotes = True
-    with open("_data/authors.yml") as f:
+    with open(site_data_dir / "authors.yml") as f:
         authors = yaml.load(f)
     
     for author in authors.values():
