@@ -7,6 +7,7 @@ from ruamel.yaml import YAML
 
 import src.python.add_update_publication as mod
 
+from .config import REMOVE_GENERATED_FILES
 
 class TestAddUpdatePublication(unittest.TestCase):
     @classmethod
@@ -23,12 +24,13 @@ class TestAddUpdatePublication(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls) -> None:
-        for path in [
-            cls.save_dir,
-            cls.image_dir,
-        ]:
-            if os.path.exists(path):
-                shutil.rmtree(path)
+        if REMOVE_GENERATED_FILES:
+            for path in [
+                cls.save_dir,
+                cls.image_dir,
+            ]:
+                if os.path.exists(path):
+                    shutil.rmtree(path)
 
     def test_add_publication(self):
         with open("tests/data/add_publication/in.md") as f:

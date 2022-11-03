@@ -6,7 +6,7 @@ from textwrap import dedent
 
 import src.python.add_publications_by_author as mod
 
-REMOVE_GENERATED_FILES = True
+from .config import REMOVE_GENERATED_FILES
 
 class TestAddPublicationsByAuthor(unittest.TestCase):
     @classmethod
@@ -39,7 +39,7 @@ class TestAddPublicationsByAuthor(unittest.TestCase):
                 expected_paper = f.read()
             error_msg = f"\n\nWe did not find this paper in the list of all papers by {author}: {file}\nList of all papers: {file2paper.keys()}"
             self.assertIn(file, list(file2paper.keys()), msg=error_msg)
-            self.assertEqual(file2paper[file]["content"], expected_paper)
+            self.assertEqual(file2paper[file]["content"], expected_paper, msg=f"\n\nThe content of the paper {file} is not as expected.\n\nExpected:\n{expected_paper}\n\nActual:\n{file2paper[file]['content']}")
 
         with open("records/semantic_paper_ids_ignored.json") as f:
             ignored = set(json.load(f))
