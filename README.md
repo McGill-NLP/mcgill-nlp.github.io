@@ -287,13 +287,20 @@ This section is meant for the maintainer(s) or developers of the site. Please co
 
 ### Setup
 
-You will need to install ruby and gem to use `jekyll` locally. This is only if you want to compile and run this site locally. If you want to modify a markdown file or a yaml file, you don't need to do that; please refer to the sections above for instructions.
+#### Codespace 
 
-For the instructions, see [Jekyll quickstart](https://jekyllrb.com/docs/). If you are running on GitHub codespaces, you can simply run the following:
+Most of the dependencies (`jekyll`, `ruby`, `gem`, Python `requirements.txt`, etc.) are already installed thanks to automations in `.devcontainer/devcontainer.json`. You can simply open the repo in a codespace and start working.
 
-```bash
-bundle install
+#### Local
+
+You will need to install the python dependencies by running (from inside project directory):
 ```
+pip3 install --user -r src/python/requirements.txt
+```
+
+You will need to install ruby and gem to use `jekyll` locally. This is only if you want to compile and run this site locally. If you want to modify a markdown file or a yaml file, you don't need to do that; please refer to the sections above for instructions. For the instructions, see [Jekyll quickstart](https://jekyllrb.com/docs/).
+
+### Running the site in development mode
 
 To run the site locally (or remotely on Codespaces), use the last command in the quickstart:
 ```bash
