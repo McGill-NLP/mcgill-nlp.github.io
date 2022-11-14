@@ -252,12 +252,14 @@ Jasper Jian:
   avatar: /assets/images/bio/Jasper Jian.jpg
   advisor: Siva Reddy
   date: Summer 2022
-  bio: I work on interpreting large language models.
+  bio: Works on interpreting and extracting linguistic representations from large
+    language models.
   alumni: false
   links:
+  - label: Website
+    url: https://sites.google.com/view/jasperjian
   - label: GitHub
     url: https://github.com/jasperjjian
-
 Jad Kabbara:
   name: Jad Kabbara
   role: PhD
