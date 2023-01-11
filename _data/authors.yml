@@ -207,6 +207,18 @@ Sabina Elkins:
   - label: Website
     url: https://sabina-elkins.github.io/
 
+Aylin Erman:
+  name: Aylin Erman
+  role: Master
+  avatar: /assets/images/bio/Aylin Erman.jpg
+  advisor: Jackie Cheung
+  date: Fall 2022
+  bio: Works at the intersection of Health and AI
+  note: Co-advised by Dan Poenaru from paediatric surgery
+  alumni: false
+  links:
+  - label: Website
+    url: https://aylinerma.github.io
 Emily Goodwin:
   name: "Emily Goodwin"
   role: "Master"
