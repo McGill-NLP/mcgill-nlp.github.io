@@ -528,6 +528,21 @@ Elinor Poole-Dayan:
   avatar: "/assets/images/bio/placeholder/martlet.jpeg"
   alumni: true
 
+Ian Porada:
+  name: Ian Porada
+  role: PhD
+  semantic_scholar_id: '108508643'
+  advisor: Jackie Cheung
+  date: Winter 2019
+  bio: Working on coreference, commonsense knowledge, semantics
+  alumni: false
+  links:
+  - label: Website
+    url: https://ianporada.github.io/
+  - label: GitHub
+    url: https://github.com/ianporada
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=gQxa3i8AAAAJ
 Victor Prokhorov:
   name: "Victor Prokhorov"
   role: "Intern"
