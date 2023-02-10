@@ -508,7 +508,7 @@ Edoardo M. Ponti:
   role: Postdoc
   avatar: /assets/images/bio/Edoardo M. Ponti.jpg
   date: Jan 2021
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://ducdauge.github.io/
@@ -520,6 +520,7 @@ Edoardo M. Ponti:
     url: https://scholar.google.com/citations?user=tklL2q0AAAAJ
   semantic_scholar_id: '3381663'
 
+  new_role: Lecturer (Assistant Professor) at University of Edinburgh, UK
 Elinor Poole-Dayan:
   name: "Elinor Poole-Dayan"
   role: "Undergraduate"
