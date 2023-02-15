@@ -298,7 +298,7 @@ You will need to install the python dependencies by running (from inside project
 pip3 install --user -r src/python/requirements.txt
 ```
 
-You will need to install ruby and gem to use `jekyll` locally. This is only if you want to compile and run this site locally. If you want to modify a markdown file or a yaml file, you don't need to do that; please refer to the sections above for instructions. For the instructions, see [Jekyll quickstart](https://jekyllrb.com/docs/).
+You will need to install ruby and gem to use `jekyll` locally. This is only if you want to compile and run this site locally. If you want to modify a markdown file or a yaml file, you don't need to do that; please refer to the sections above for instructions. For the instructions, see [Jekyll installation](https://jekyllrb.com/docs/installation/) (e.g. [on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)).
 
 ### Running the site in development mode
 
