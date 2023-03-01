@@ -1,42 +1,42 @@
 <div class="publication-links">
     {% assign pub = include.pub %}
     {% if pub.link %}
-    <a class="publication-ext-link" href="{{ pub.link }}">
+    <a class="publication-ext-link" href="{{ pub.link }}" target="_blank">
         <i class="fas fa-book"></i>
         <span>Paper</span>
     </a>
     {% endif %}
 
     {% if pub.code %}
-    <a class="publication-ext-link" href="{{ pub.code }}">
+    <a class="publication-ext-link" href="{{ pub.code }}" target="_blank">
         <i class="fab fa-github"></i>
         <span>Code</span>
     </a>
     {% endif %}
     
     {% if pub.webpage %}
-    <a class="publication-ext-link" href="{{ pub.webpage }}">
+    <a class="publication-ext-link" href="{{ pub.webpage }}" target="_blank">
         <i class="fas fa-link"></i>
         <span>Page</span>
     </a>
     {% endif %}
 
     {% if pub.twitter %}
-    <a class="publication-ext-link" href="{{ pub.twitter }}">
+    <a class="publication-ext-link" href="{{ pub.twitter }}" target="_blank">
         <i class="fab fa-twitter"></i>
         <span>Tweet</span>
     </a>
     {% endif %}
 
     {% if pub.video %}
-    <a class="publication-ext-link" href="{{ pub.video }}">
+    <a class="publication-ext-link" href="{{ pub.video }}" target="_blank">
         <i class="fas fa-video"></i>
         <span>Video</span>
     </a>
     {% endif %}
 
     {% if pub.demo %}
-    <a class="publication-ext-link" href="{{ pub.demo }}">
+    <a class="publication-ext-link" href="{{ pub.demo }}" target="_blank">
         <i class="fas fa-laptop"></i>
         <span>Demo</span>
     </a>
