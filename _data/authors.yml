@@ -484,6 +484,24 @@ Timothy J. O'Donnell:
   avatar: /assets/images/bio/Timothy J. O'Donnell.jpg
   bio: Assistant Professor, Department of Linguistics
 
+Arkil Patel:
+  name: Arkil Patel
+  role: Master
+  semantic_scholar_id: '1443788809'
+  avatar: /assets/images/bio/Arkil Patel.jpg
+  advisor: Dzmitry Bahdanau, Siva Reddy
+  date: Fall 2022
+  bio: Systematic Generalization, Reasoning using LLMs
+  alumni: false
+  links:
+  - label: Website
+    url: https://arkilpatel.github.io/
+  - label: Twitter
+    url: https://twitter.com/arkil_patel
+  - label: GitHub
+    url: https://github.com/arkilpatel
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=-5goVAsAAAAJ&hl=en
 Cesare Spinoso-Di Piano:
   name: Cesare Spinoso-Di Piano
   role: Master
