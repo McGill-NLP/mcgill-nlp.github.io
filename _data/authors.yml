@@ -294,6 +294,24 @@ Gaurav Kamath:
   bio: Interested in the abstract semantic structures language models capture.
   alumni: false
   links: []
+Zdeněk Kasner:
+  name: Zdeněk Kasner
+  role: Intern
+  semantic_scholar_id: '1805991958'
+  avatar: /assets/images/bio/Zdeněk Kasner.jpg
+  advisor: Siva Reddy
+  date: Feb 2023
+  bio: Intern working on language & code generation
+  alumni: false
+  links:
+  - label: Website
+    url: https://kasnerz.github.io/
+  - label: Twitter
+    url: https://twitter.com/ZdenekKasner
+  - label: GitHub
+    url: https://github.com/kasnerz
+  - label: Scholar
+    url: https://scholar.google.cz/citations?user=6NnuRB8AAAAJ
 
 Amirhossein Kazemnejad:
   name: Amirhossein Kazemnejad
