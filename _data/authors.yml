@@ -189,13 +189,14 @@ Nouha Dziri:
   name: Nouha Dziri
   role: Intern
   semantic_scholar_id: '46217681'
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://webdocs.cs.ualberta.ca/~dziri/
   advisor: Siva Reddy
   date: May 2021
 
+  new_role: Postdoctoral young investigator at Allen Institute for AI
 Sabina Elkins:
   name: Sabina Elkins
   role: Master
