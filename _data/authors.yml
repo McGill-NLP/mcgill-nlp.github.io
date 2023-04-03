@@ -478,12 +478,12 @@ Aristides Milios:
 
 Sivan Milton:
   name: Sivan Milton
-  role: Undergraduate
+  role: Intern
   semantic_scholar_id: '2162779012'
   advisor: Siva Reddy
   date: Summer 2021
   bio: Works on Semantic Role Labelling
-  alumni: false
+  alumni: true
   links:
   - label: Scholar
     url: https://scholar.google.com/citations?user=psPfrkMAAAAJ&hl=en&authuser=1
