@@ -8,3 +8,4 @@ vendor/*
 *.pyc
 tests/scratch/*
 .jekyll-cache
+venv/
