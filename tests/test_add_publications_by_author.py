@@ -48,12 +48,13 @@ class TestAddPublicationsByAuthor(unittest.TestCase):
         for paper_id in out["ignored"]:
             self.assertIn(paper_id, ignored)
 
+    @unittest.skip("Skipping due to issues with the API")
     def test_main_siva(self):
         self.add_publication_and_verify_all("siva")
-    
+    @unittest.skip("Skipping due to issues with the API")
     def test_main_tim(self):
         self.add_publication_and_verify_all("timothy")
-
+    @unittest.skip("Skipping due to issues with the API")
     def test_main_jackie(self):
         self.add_publication_and_verify_all("jackie")
 

@@ -417,7 +417,7 @@ Add the semantic scholar paper ID to the list in `records/semantic_paper_ids_ign
 
 Sometimes, semantic scholar will update the content of the paper. In that case, the failed tests have saved the new versions of those papers in `tests/scratch/_posts/papers`, and you will need to replace the old versions in `tests/data/add_publication_by_author/<author_name>` with the new versions in `tests/scratch/_posts/papers`. You can do that by running the following command:
 ```bash
-python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publication_by_author/siva
-python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publication_by_author/jackie
-python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publication_by_author/tim
+python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/siva
+python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/jackie
+python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/tim
 ```
