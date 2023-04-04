@@ -52,6 +52,12 @@
             {{ author.note }}
         </div>
         {% endif %}
+        
+        {% if author.new_role %}
+        <div class="author-note">
+            <b>➡️ </b> {{ author.new_role }}
+        </div>
+        {% endif %}
 
         {% if author.links %}
         <div class="author-links">
