@@ -412,3 +412,12 @@ Add the semantic scholar paper ID to the list in `records/semantic_paper_ids_ign
 3. Upload your picture. 
 4. Copy only the URL link (i.e. `https://user-images.githubusercontent.com/...png` only). Ignore the rest (i.e. `![text]()`).
 5. Keep the link, but cancel the new issue. Paste that link in the form.
+
+> The tests in `test_add_publications_by_author.py` are failing. What should I do?
+
+Sometimes, semantic scholar will update the content of the paper. In that case, the failed tests have saved the new versions of those papers in `tests/scratch/_posts/papers`, and you will need to replace the old versions in `tests/data/add_publication_by_author/<author_name>` with the new versions in `tests/scratch/_posts/papers`. You can do that by running the following command:
+```bash
+python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publication_by_author/siva
+python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publication_by_author/jackie
+python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publication_by_author/tim
+```
