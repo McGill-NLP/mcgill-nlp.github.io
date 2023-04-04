@@ -3,6 +3,23 @@ from urllib.request import urlopen
 
 from PIL import Image
 
+def center_square_crop(im):        
+    # Do a center crop
+    width, height = im.size
+    if width > height:
+        left = (width - height) / 2
+        right = left + height
+        top = 0
+        bottom = height
+    else:
+        left = 0
+        right = width
+        top = (height - width) / 2
+        bottom = top + width
+    im = im.crop((left, top, right, bottom))
+
+    return im
+
 def remove_prefix(text, prefix):
     if text.startswith(prefix):
         return text[len(prefix):]
@@ -25,13 +42,14 @@ def parse_issue_body(body):
 
     return parsed
 
-def save_url_image(fname, profile, key, image_dir, ext='jpg', size=(700, 700)):
+def save_url_image(fname, profile, key, image_dir, ext='jpg', size=(400, 400)):
     if key in profile and profile[key].startswith("http"):
         file_path = os.path.join(image_dir, f"{fname}.{ext}")
         os.makedirs(image_dir, exist_ok=True)
         im = Image.open(urlopen(profile[key])).convert('RGB')
+        im = center_square_crop(im)
         im.thumbnail(size)
-        im.save(file_path)
+        im.save(file_path, quality=75)
         profile[key] = "/" + file_path
 
 
