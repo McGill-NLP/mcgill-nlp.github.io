@@ -16,10 +16,10 @@ def fetch_content(parsed):
     return data
 
 
-def main(parsed, save_dir="_posts/papers"):
+def main(parsed, save_dir="_posts/papers", use_ignore_list=True):
     ignore_list_fname = "records/semantic_paper_ids_ignored.json"
 
-    if os.path.exists(ignore_list_fname):
+    if use_ignore_list and os.path.exists(ignore_list_fname):
         with open(ignore_list_fname) as f:
             ignored_ids = set(json.loads(f.read()))
     else:
