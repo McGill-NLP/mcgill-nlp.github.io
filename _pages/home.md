@@ -14,7 +14,7 @@ header:
 excerpt: "McGill NLP is a research group within McGill University and Mila focusing on various topics in natural language processing."
 
 row_research:
-  - image_path: /assets/images/home/poster-1.jpeg
+  - image_path: /assets/images/home/poster-1.jpg
     url: /publications
     alt: "Poster Presentation"
     title: "Research"
