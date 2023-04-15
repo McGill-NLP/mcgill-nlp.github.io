@@ -120,12 +120,13 @@ Emanuele Bugliarello:
   name: Emanuele Bugliarello
   role: Intern
   semantic_scholar_id: '83574123'
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://e-bug.github.io/
   advisor: Siva Reddy
   date: Jan 2022
+  new_role: Intern at Deepmind
 Meng Cao:
   name: Meng Cao
   role: PhD
