@@ -31,7 +31,16 @@
 
         {% if author.advisor %}
         <div class="author-advisor">
-            <b>Advised by:</b> {{ author.advisor }}
+            <b>
+                {% if author.role == "Postdoc" %}
+                Working with:
+                {% elsif author.role == "Intern" %}
+                Hosted by:
+                {% else %}
+                Advised by:
+                {% endif %}
+            </b>
+            {{ author.advisor }}
             {% if author.date %}
             <span>
                 ({{ author.date }})
