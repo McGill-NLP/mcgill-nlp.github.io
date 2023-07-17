@@ -289,13 +289,15 @@ Jad Kabbara:
 
 Gaurav Kamath:
   name: Gaurav Kamath
-  role: Master
+  role: PhD
   avatar: /assets/images/bio/Gaurav Kamath.jpg
   advisor: Siva Reddy
   date: Summer 2022
   bio: Interested in the abstract semantic structures language models capture.
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: https://grvkamath.github.io/
 Zdeněk Kasner:
   name: Zdeněk Kasner
   role: Intern
