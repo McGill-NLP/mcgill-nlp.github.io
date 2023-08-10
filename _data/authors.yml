@@ -639,3 +639,10 @@ Michelle Yang:
   avatar: "/assets/images/bio/placeholder/martlet.jpeg"
   alumni: true
 
+test:
+  name: test
+  role: Faculty
+  semantic_scholar_id: test
+  avatar: /assets/images/bio/test.jpg
+  alumni: true
+  links: []
