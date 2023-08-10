@@ -639,3 +639,10 @@ Michelle Yang:
   avatar: "/assets/images/bio/placeholder/martlet.jpeg"
   alumni: true
 
+test:
+  name: test
+  role: Faculty
+  semantic_scholar_id: test
+  avatar: '![Untitled](https://github.com/McGill-NLP/mcgill-nlp.github.io/assets/21180505/c9ca45b1-b50a-4e1f-856d-9bd44f6fe4be)'
+  alumni: true
+  links: []
