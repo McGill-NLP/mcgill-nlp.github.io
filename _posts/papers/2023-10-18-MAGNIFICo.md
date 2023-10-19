@@ -12,6 +12,7 @@ tags:
 - Evaluation
 code: https://github.com/McGill-NLP/MAGNIFICo
 webpage: https://mcgill-nlp.github.io/MAGNIFICo
+thumbnail: /assets/images/papers/magnifico.svg
 categories: Publications
 
 ---
