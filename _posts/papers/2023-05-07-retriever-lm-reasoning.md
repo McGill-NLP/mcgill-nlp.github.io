@@ -8,7 +8,7 @@ link: https://arxiv.org/abs/2212.09146
 tags:
 - EMNLP Findings
 code: https://github.com/McGill-NLP/retriever-lm-reasoning
-thumbnail: /assets/images/papers/retriever-lm-reasoning.jpg
+thumbnail: /assets/images/papers/retriever-lm-reasoning-2.jpg
 categories: Publications
 
 ---
