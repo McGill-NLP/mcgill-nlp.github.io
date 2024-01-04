@@ -20,6 +20,20 @@
 #       icon: "fas fa-fw fa-graduation-cap"
 #       url: "https://scholar.google.com/citations?user=<user_id>"
 
+David Adelani:
+  name: David Adelani
+  role: Faculty
+  semantic_scholar_id: '2518906'
+  avatar: /assets/images/bio/David Adelani.png
+  date: Jan 2024
+  alumni: false
+  links:
+  - label: Website
+    url: https://dadelani.github.io/
+  - label: Twitter
+    url: https://twitter.com/davlanade
+  - label: GitHub
+    url: https://github.com/dadelani
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
   role: PhD
