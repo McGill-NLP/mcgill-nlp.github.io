@@ -55,6 +55,7 @@ body:
         - "10"
         - "11"
         - "12"
+      default: "01"
     validations:
       required: false
 
@@ -96,5 +97,6 @@ body:
         - "29"
         - "30"
         - "31"
+      default: "01"
     validations:
       required: false
