@@ -506,6 +506,24 @@ Sivan Milton:
   - label: Scholar
     url: https://scholar.google.com/citations?user=psPfrkMAAAAJ&hl=en&authuser=1
 
+Andrei Mircea:
+  name: Andrei Mircea
+  role: Master
+  semantic_scholar_id: '1683066845'
+  avatar: /assets/images/bio/Andrei Mircea.jpg
+  advisor: Jackie Cheung
+  date: Fall 2020
+  new_role: PhD @ University of Montreal
+  alumni: true
+  links:
+  - label: Website
+    url: https://mirandrom.github.io/
+  - label: Twitter
+    url: https://twitter.com/mirandrom/
+  - label: GitHub
+    url: https://github.com/mirandrom/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=JhhcaCsAAAAJ
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
