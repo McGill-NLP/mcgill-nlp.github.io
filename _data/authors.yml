@@ -620,6 +620,23 @@ Ian Porada:
     url: https://github.com/ianporada
   - label: Scholar
     url: https://scholar.google.com/citations?user=gQxa3i8AAAAJ
+Eva Portelance:
+  name: Eva Portelance
+  role: Postdoc
+  avatar: /assets/images/bio/Eva Portelance.jpg
+  advisor: Timothy J. O'Donnell, Siva Reddy
+  date: Winter 2023
+  bio: Bridging the gap between AI and cognitive science
+  alumni: false
+  links:
+  - label: Website
+    url: https://evaportelance.github.io/
+  - label: Twitter
+    url: https://twitter.com/EvaPortelance
+  - label: GitHub
+    url: https://github.com/evaportelance
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=oGYlQJIAAAAJ&hl=en
 Victor Prokhorov:
   name: "Victor Prokhorov"
   role: "Intern"
