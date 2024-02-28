@@ -620,6 +620,7 @@ Elinor Poole-Dayan:
   advisor: "Siva Reddy"
   avatar: "/assets/images/bio/Elinor Poole-Dayan.jpg"
   alumni: true
+  links:
   - label: "LinkedIn"
     url: "https://www.linkedin.com/in/elinor-poole-dayan/"
 
