@@ -28,7 +28,9 @@
         </div>
         {% else %}
         <div>
-            {% if post.venue %}
+            {% if post.venue_full %}
+            <b> {{ post.venue_full }} </b>
+            {% elsif post.venue %}
             <b> {{ post.venue }} </b>
             {% endif %}
             <b> ({{ post.date | date: "%Y" }}) </b>
