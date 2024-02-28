@@ -3,10 +3,14 @@
   {% assign posts = posts | where_exp: "post", "post.names contains include.author" %}
 {% endif %}
 
-{% assign postsByVenue = posts | group_by_exp: "post", "post.venue" %}
+
+
+{% assign postsByVenue = posts | group_by_exp: "post", "post.venue"%}
+{% assign sortedPostsByVenue = postsByVenue | sort: "size" | reverse %}
+{% assign sortedPostsByVenue = sortedPostsByVenue | where_exp: "item", "item.name != ''" %}
 
 <ul class="taxonomy__index">
-  {% for venue_group in postsByVenue %}
+  {% for venue_group in sortedPostsByVenue %}
     <li>
       <a href="#{{ venue_group.name | slugify }}">
         <strong>{{ venue_group.name }}</strong> <span class="taxonomy__count">{{ venue_group.items | size }}</span>
@@ -15,7 +19,7 @@
   {% endfor %}
 </ul>
 
-{% for venue_group in postsByVenue %}
+{% for venue_group in sortedPostsByVenue %}
   <section id="{{ venue_group.name | slugify }}" class="taxonomy__section">
     <h3>{{ venue_group.name }}</h3>
     <div class="entries-{{ entries_layout }}">
