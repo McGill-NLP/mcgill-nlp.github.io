@@ -81,7 +81,7 @@ Rahul Aralikatte:
   advisor: Jackie Cheung
   date: Aug-2022
   bio: Text summarization and low-resource learning
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: http://www.rahular.com/
@@ -89,6 +89,28 @@ Rahul Aralikatte:
     url: https://github.com/rahular
   - label: Scholar
     url: https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en
+Ines Arous:
+  name: Ines Arous
+  role: Postdoc
+  advisor: Jackie Cheung
+  date: Nov 2022
+  alumni: false
+  links:
+  - label: Website
+    url: https://inesarous.github.io/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
+Ori Ernst:
+  name: Ori Ernst
+  role: Postdoc
+  advisor: Jackie Cheung
+  date: Jan 2024
+  alumni: false
+  links:
+  - label: Website
+    url: https://oriern.github.io/
+  - label: Scholar
+    url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
@@ -226,7 +248,7 @@ Sabina Elkins:
   avatar: /assets/images/bio/Sabina Elkins.jpg
   advisor: Jackie Cheung
   date: Sep 2021
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://sabina-elkins.github.io/
@@ -243,6 +265,75 @@ Aylin Erman:
   links:
   - label: Website
     url: https://aylinerma.github.io
+
+Yu Lu Liu:
+  name: Yu Lu Liu
+  role: Master
+  advisor: Jackie Cheung
+  date: Fall 2022
+  bio: FATE + Evaluation metrics in summarization
+  alumni: false
+  links:
+  - label: Website
+    url: https://yululiu.github.io/
+
+Maxime Darrin:
+  name: Maxime Darrin
+  role: PhD
+  advisor: Jackie Cheung
+  date: Fall 2023
+  alumni: false
+  links:
+  - label: Website
+    url: https://icannos.github.io/
+
+Bonaventure Dossou:
+  name: Bonaventure Dossou
+  role: PhD
+  advisor: Jackie Cheung
+  date: Winter 2024
+  alumni: false
+  links:
+  - label: Website
+    url: https://bonaventuredossou.github.io/
+
+Caleb Mosses:
+  name: Caleb Mosses
+  role: PhD
+  advisor: Jackie Cheung
+  date: Fall 2022
+  alumni: false
+  links:
+  - label: Website
+    url: https://www.linkedin.com/in/calebjdmoses/
+
+Caleb Mosses:
+  name: Caleb Mosses
+  role: PhD
+  advisor: Jackie Cheung
+  date: Fall 2022
+  alumni: false
+  links:
+  - label: Website
+    url: https://www.linkedin.com/in/calebjdmoses/
+
+Kushal Arora:
+  name: Kushal Arora
+  role: PhD
+  advisor: Jackie Cheung
+  alumni: false
+  links:
+  - label: Website
+    url: https://kushalarora.github.io/
+
+Andre Cianflone:
+  name: Andre Cianflone
+  role: PhD
+  advisor: Jackie Cheung
+  alumni: false
+  links:
+  - label: Website
+    url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
 
 Emily Goodwin:
   name: "Emily Goodwin"
@@ -581,12 +672,11 @@ Arkil Patel:
     url: https://scholar.google.com/citations?user=-5goVAsAAAAJ&hl=en
 Cesare Spinoso-Di Piano:
   name: Cesare Spinoso-Di Piano
-  role: Master
+  role: PhD
   avatar: /assets/images/bio/Cesare Spinoso-Di Piano.jpg
   advisor: Jackie Cheung
-  date: Fall 2021
-  bio: NLP + Health
-  note: Co-advised by Samira Rahimi
+  date: Winter 2024
+  bio: NLP + Science
   alumni: false
   links:
   - label: Website
@@ -680,7 +770,7 @@ Martin Pömsl:
   avatar: /assets/images/bio/Martin Pömsl.jpg
   advisor: Jackie Cheung
   date: Fall 2021
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://mpoemsl.github.io/
