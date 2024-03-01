@@ -1,0 +1,32 @@
+{% assign posts = site.categories[include.taxonomy] | where_exp: "item", "item.hidden != true" %}
+{% if include.author %}
+  {% assign posts = posts | where_exp: "post", "post.names contains include.author" %}
+{% endif %}
+
+
+
+{% assign postsByVenue = posts | group_by_exp: "post", "post.venue"%}
+{% assign sortedPostsByVenue = postsByVenue | sort: "size" | reverse %}
+{% assign sortedPostsByVenue = sortedPostsByVenue | where_exp: "item", "item.name != ''" %}
+
+<ul class="taxonomy__index">
+  {% for venue_group in sortedPostsByVenue %}
+    <li>
+      <a href="#{{ venue_group.name | slugify }}">
+        <strong>{{ venue_group.name }}</strong> <span class="taxonomy__count">{{ venue_group.items | size }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+{% for venue_group in sortedPostsByVenue %}
+  <section id="{{ venue_group.name | slugify }}" class="taxonomy__section">
+    <h3>{{ venue_group.name }}</h3>
+    <div class="entries-{{ entries_layout }}">
+      {% for post in venue_group.items %}
+        {%- include display-publications.html %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endfor %}

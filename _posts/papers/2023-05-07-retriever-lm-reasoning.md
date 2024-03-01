@@ -6,7 +6,7 @@ names: Parishad BehnamGhader, Santiago Miret, Siva Reddy
 venue: EMNLP Findings
 link: https://arxiv.org/abs/2212.09146
 tags:
-- EMNLP Findings
+- EMNLP
 code: https://github.com/McGill-NLP/retriever-lm-reasoning
 thumbnail: /assets/images/papers/retriever-lm-reasoning-2.jpg
 categories: Publications
