@@ -58,7 +58,8 @@ def main(source_dir: str, move_originals_to: str):
         im.thumbnail((300, 300))
         
         # First, we move the original image to the `move_originals_to` directory
-        shutil.copy(image_path, move_originals_to / image_path.name)
+        shutil.move(image_path, move_originals_to / image_path.name)
+        print(f"Moved {image_path} to {move_originals_to / image_path.name}")
         
         # Save as .jpg, if there's other format, save as that format as well, use 80% quality
         im.save(image_path.with_suffix(".jpg"), "JPEG", quality=80)
@@ -73,9 +74,7 @@ def main(source_dir: str, move_originals_to: str):
             suffix = image_path.suffix.lower()
             im.save(image_path.with_suffix(suffix), "JPEG", quality=80)
 
-        print(f"Optimized {image_path} and moved the original to {move_originals_to / image_path.name}")
-        original_image_path = move_originals_to / image_path.name
-        image_path.rename(original_image_path)
+        print(f"Optimized {image_path} and saved it as {image_path.with_suffix('.jpg')}")
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Optimize images")
