@@ -10,9 +10,11 @@ import argparse
 from pathlib import Path
 import shutil
 
+from tqdm import tqdm
 from PIL import Image
 
 def main(source_dir: str, move_originals_to: str):
+    print(f"Optimizing images in {source_dir} and moving the originals to {move_originals_to}")
     source_dir: Path = Path(source_dir)
     move_originals_to: Path = Path(move_originals_to)
     move_originals_to.mkdir(parents=True, exist_ok=True)
@@ -21,8 +23,12 @@ def main(source_dir: str, move_originals_to: str):
         print(f"Directory {source_dir} does not exist.")
         return
     
+    all_images = []
+    for extension in ["jpg", "jpeg", "png", "webp"]:
+        all_images.extend(list(source_dir.glob(f"*.{extension}")))
+        
     # Allow jpg, jpeg, png, webp
-    for image_path in source_dir.glob("*.{jpg,jpeg,png,webp}"):
+    for image_path in tqdm(all_images):
         # First, get the extension of the image
         img_ext = image_path.suffix.lower()
         if img_ext not in [".jpg", ".jpeg"]:
@@ -32,8 +38,8 @@ def main(source_dir: str, move_originals_to: str):
         im = Image.open(image_path)
         
         # If it's already a 300x300 image, we skip it
-        if im.width == 300 and im.height == 300:
-            print(f"Skipping {image_path} as it is already 300x300.")
+        if im.width <= 300 and im.height <= 300 and im.width == im.height:
+            print(f"Skipping {image_path} as it is already 300x300 or smaller.")
             continue
         
         # If the image is not square, we crop it to make it square
@@ -50,8 +56,8 @@ def main(source_dir: str, move_originals_to: str):
         # First, we move the original image to the `move_originals_to` directory
         shutil.move(image_path, move_originals_to / image_path.name)
         
-        # Save as .jpg, if there's other format, save as that format as well
-        im.save(image_path.with_suffix(".jpg"), "JPEG")
+        # Save as .jpg, if there's other format, save as that format as well, use 80% quality
+        im.save(image_path.with_suffix(".jpg"), "JPEG", quality=80)
         
         if img_ext == ".png":
             im.save(image_path.with_suffix(".png"), "PNG")
@@ -61,8 +67,9 @@ def main(source_dir: str, move_originals_to: str):
         
         elif img_ext == ".jpeg":
             suffix = image_path.suffix.lower()
-            im.save(image_path.with_suffix(suffix), "JPEG")
+            im.save(image_path.with_suffix(suffix), "JPEG", quality=80)
 
+        print(f"Optimized {image_path} and moved the original to {move_originals_to / image_path.name}")
         original_image_path = move_originals_to / image_path.name
         image_path.rename(original_image_path)
         
