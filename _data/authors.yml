@@ -35,6 +35,7 @@ David Adelani:
     url: https://twitter.com/davlanade
   - label: GitHub
     url: https://github.com/dadelani
+
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
   role: PhD
@@ -73,6 +74,7 @@ Malik H. Altakrori:
     url: https://github.com/malikaltakrori
   - label: Scholar
     url: https://www.semanticscholar.org/author/Malik-H.-Altakrori/51935928
+
 Rahul Aralikatte:
   name: Rahul Aralikatte
   role: Postdoc
@@ -89,9 +91,11 @@ Rahul Aralikatte:
     url: https://github.com/rahular
   - label: Scholar
     url: https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en
+
 Ines Arous:
   name: Ines Arous
   role: Postdoc
+  avatar: /assets/images/bio/Ines Arous.jpg
   advisor: Jackie Cheung
   date: Nov 2022
   alumni: false
@@ -100,9 +104,11 @@ Ines Arous:
     url: https://inesarous.github.io/
   - label: Scholar
     url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
+
 Ori Ernst:
   name: Ori Ernst
   role: Postdoc
+  avatar: /assets/images/bio/Ori Ernst.jpg
   advisor: Jackie Cheung
   date: Jan 2024
   alumni: false
@@ -111,6 +117,7 @@ Ori Ernst:
     url: https://oriern.github.io/
   - label: Scholar
     url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
+
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
@@ -126,6 +133,7 @@ Dzmitry Bahdanau:
     url: https://rizar.github.io/
   - label: Twitter
     url: https://twitter.com/dbahdanau
+
 Parishad BehnamGhader:
   name: Parishad BehnamGhader
   role: Master
@@ -155,6 +163,7 @@ Laurestine Bradford:
     url: https://laurestine.github.io/
   - label: GitHub
     url: https://github.com/laurestine/
+
 Emanuele Bugliarello:
   name: Emanuele Bugliarello
   role: Intern
@@ -167,6 +176,7 @@ Emanuele Bugliarello:
   advisor: Siva Reddy
   date: Jan 2022
   new_role: Intern at Deepmind
+
 Meng Cao:
   name: Meng Cao
   role: PhD
@@ -182,6 +192,7 @@ Meng Cao:
   - label: Scholar
     url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
   avatar: /assets/images/bio/Meng Cao.jpg
+
 Xuanda Chen:
   name: Xuanda Chen
   role: PhD
@@ -191,6 +202,7 @@ Xuanda Chen:
   bio: Works on language model probing
   alumni: false
   links: []
+
 Ziling Cheng:
   name: Ziling Cheng
   avatar: /assets/images/bio/Ziling Cheng.jpg
@@ -269,6 +281,7 @@ Aylin Erman:
 Yu Lu Liu:
   name: Yu Lu Liu
   role: Master
+  avatar: /assets/images/bio/Yu Lu Liu.png
   advisor: Jackie Cheung
   date: Fall 2022
   bio: FATE + Evaluation metrics in summarization
@@ -277,9 +290,20 @@ Yu Lu Liu:
   - label: Website
     url: https://yululiu.github.io/
 
+Jules Gagnon-Marchand:
+  name: Jules Gagnon-Marchand
+  role: Master
+  avatar: /assets/images/bio/Jules Gagnon-Marchand.jpg
+  advisor: Jackie Cheung
+  alumni: true
+  links:
+  - label: Website
+    url: https://julesgm.github.io/
+
 Maxime Darrin:
   name: Maxime Darrin
   role: PhD
+  avatar: /assets/images/bio/Maxime Darrin.webp
   advisor: Jackie Cheung
   date: Fall 2023
   alumni: false
@@ -290,6 +314,7 @@ Maxime Darrin:
 Bonaventure Dossou:
   name: Bonaventure Dossou
   role: PhD
+  avatar: /assets/images/bio/Bonaventure Dossou.jpeg
   advisor: Jackie Cheung
   date: Winter 2024
   alumni: false
@@ -300,6 +325,7 @@ Bonaventure Dossou:
 Caleb Mosses:
   name: Caleb Mosses
   role: PhD
+  avatar: /assets/images/bio/Caleb Mosses.jpg
   advisor: Jackie Cheung
   date: Fall 2022
   alumni: false
@@ -310,6 +336,7 @@ Caleb Mosses:
 Kushal Arora:
   name: Kushal Arora
   role: PhD
+  avatar: /assets/images/bio/Kushal Arora.webp
   advisor: Jackie Cheung
   alumni: false
   links:
@@ -319,6 +346,7 @@ Kushal Arora:
 Andre Cianflone:
   name: Andre Cianflone
   role: PhD
+  avatar: /assets/images/bio/Andre Cianflone.jpg
   advisor: Jackie Cheung
   alumni: false
   links:
@@ -386,6 +414,7 @@ Jasper Jian:
     url: https://sites.google.com/view/jasperjian
   - label: GitHub
     url: https://github.com/jasperjjian
+
 Jad Kabbara:
   name: Jad Kabbara
   role: PhD
@@ -401,6 +430,32 @@ Jad Kabbara:
   - label: Twitter
     url: twitter.com/jad_kabbara
 
+Yue Dong:
+  name: Yue Dong
+  role: PhD
+  avatar: /assets/images/bio/Yue Dong.jpg
+  advisor: Jackie Cheung
+  new_role: Assistant Professor at UC Riverside
+  alumni: true
+  avatar: 
+  links:
+  - label: Website
+    url: https://yuedong.netlify.app/
+  - label: Twitter
+    url: https://twitter.com/yuedongcs
+
+Ali Emami:
+  name: Ali Emami
+  role: PhD
+  avatar: /assets/images/bio/Ali Emami.webp
+  advisor: Jackie Cheung
+  new_role: Assistant Professor at Brock University
+  alumni: true
+  avatar: 
+  links:
+  - label: Website
+    url: https://www.cosc.brocku.ca/~aemami/
+
 Gaurav Kamath:
   name: Gaurav Kamath
   role: PhD
@@ -412,6 +467,7 @@ Gaurav Kamath:
   links:
   - label: Website
     url: https://grvkamath.github.io/
+
 Zdeněk Kasner:
   name: Zdeněk Kasner
   role: Intern
@@ -478,8 +534,8 @@ Devang Kulshreshtha:
     url: https://github.com/geekydevu
   - label: Scholar
     url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en
-
   new_role: Amazon AWS Applied Scientist
+
 Ben LeBrun:
   name: Ben LeBrun
   role: Master
@@ -496,6 +552,7 @@ Ben LeBrun:
     url: https://github.com/benlebrun
   - label: Scholar
     url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
+
 Zichao Li:
   name: Zichao Li
   role: PhD
@@ -628,6 +685,7 @@ Andrei Mircea:
     url: https://github.com/mirandrom/
   - label: Scholar
     url: https://scholar.google.com/citations?user=JhhcaCsAAAAJ
+
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
@@ -660,6 +718,7 @@ Arkil Patel:
     url: https://github.com/arkilpatel
   - label: Scholar
     url: https://scholar.google.com/citations?user=-5goVAsAAAAJ&hl=en
+
 Cesare Spinoso-Di Piano:
   name: Cesare Spinoso-Di Piano
   role: PhD
@@ -724,6 +783,7 @@ Ian Porada:
     url: https://github.com/ianporada
   - label: Scholar
     url: https://scholar.google.com/citations?user=gQxa3i8AAAAJ
+
 Eva Portelance:
   name: Eva Portelance
   role: Postdoc
