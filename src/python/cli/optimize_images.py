@@ -62,15 +62,12 @@ def main(source_dir: str, move_originals_to: str):
         print(f"Moved {image_path} to {move_originals_to / image_path.name}")
         
         # Save as .jpg, if there's other format, save as that format as well, use 80% quality
-        im.save(image_path.with_suffix(".jpg"), "JPEG", quality=80)
+        im.save(image_path.with_suffix(".webp"), "WEBP")
         
         if img_ext == ".png":
             im.save(image_path.with_suffix(".png"), "PNG")
         
-        elif img_ext == ".webp":
-            im.save(image_path.with_suffix(".webp"), "WEBP")
-        
-        elif img_ext == ".jpeg":
+        elif img_ext == ".jpeg" or img_ext == ".jpg":
             suffix = image_path.suffix.lower()
             im.save(image_path.with_suffix(suffix), "JPEG", quality=80)
 
