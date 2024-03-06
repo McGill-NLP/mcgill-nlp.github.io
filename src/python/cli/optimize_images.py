@@ -31,11 +31,15 @@ def main(source_dir: str, move_originals_to: str):
     for image_path in tqdm(all_images):
         # First, get the extension of the image
         img_ext = image_path.suffix.lower()
-        if img_ext not in [".jpg", ".jpeg"]:
+        if img_ext not in [".jpg", ".jpeg", ".png", ".webp"]:
             print(f"Skipping {image_path} as it is not a jpg or jpeg image.")
             continue
         
         im = Image.open(image_path)
+        
+        # Remove transparency if it's a png
+        if img_ext == ".png":
+            im = im.convert("RGB")
         
         # If it's already a 300x300 image, we skip it
         if im.width <= 300 and im.height <= 300 and im.width == im.height:
@@ -54,7 +58,7 @@ def main(source_dir: str, move_originals_to: str):
         im.thumbnail((300, 300))
         
         # First, we move the original image to the `move_originals_to` directory
-        shutil.move(image_path, move_originals_to / image_path.name)
+        shutil.copy(image_path, move_originals_to / image_path.name)
         
         # Save as .jpg, if there's other format, save as that format as well, use 80% quality
         im.save(image_path.with_suffix(".jpg"), "JPEG", quality=80)
