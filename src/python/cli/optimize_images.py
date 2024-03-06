@@ -55,7 +55,7 @@ def main(source_dir: str, move_originals_to: str):
             bottom = (im.height + size) / 2
             im = im.crop((left, top, right, bottom))
         
-        im.thumbnail((250, 250))
+        im.thumbnail((300, 300))
         
         # First, we move the original image to the `move_originals_to` directory
         shutil.move(image_path, move_originals_to / image_path.name)
