@@ -60,10 +60,12 @@ def main(source_dir: str, move_originals_to: str):
         # First, we move the original image to the `move_originals_to` directory
         shutil.move(image_path, move_originals_to / image_path.name)
         print(f"Moved {image_path} to {move_originals_to / image_path.name}")
+        im.save(image_path.with_suffix(".thumbnail.webp"), "WEBP", quality=75)
         
         # Save as .jpg, if there's other format, save as that format as well, use 80% quality
-        im.save(image_path.with_suffix(".webp"), "WEBP", quality=80)
-        
+        if img_ext == ".webp":
+            im.save(image_path.with_suffix(".webp"), "WEBP")
+            
         if img_ext == ".png":
             im.save(image_path.with_suffix(".png"), "PNG")
         
