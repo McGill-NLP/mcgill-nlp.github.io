@@ -684,6 +684,22 @@ Andrei Mircea:
   - label: Scholar
     url: https://scholar.google.com/citations?user=JhhcaCsAAAAJ
 
+Marius Mosbach:
+  name: Marius Mosbach
+  role: Postdoc
+  semantic_scholar_id: '51510489'
+  avatar: /assets/images/bio/Marius Mosbach.jpg
+  date: March 2024
+  bio: NLP researcher
+  alumni: false
+  links:
+  - label: Website
+    url: https://mmarius.github.io/
+  - label: Twitter
+    url: https://twitter.com/mariusmosbach
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
+
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
