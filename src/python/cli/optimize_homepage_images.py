@@ -1,10 +1,9 @@
 """
+
 To resize an image, you can use the following command:
 ```bash
-python -m src.python.cli.optimize_images --source_dir assets/images/bio/
+python -m src.python.cli.optimize_homepage_images --source_dir assets/images/home/
 ```
-
-This will resize all images in `assets/images/bio/` to a resolution of 300x300 in webp format (they will be saved as '.avatar.webp').
 """
 import argparse
 from pathlib import Path
@@ -27,7 +26,7 @@ def main(source_dir: str):
         
     # Allow jpg, jpeg, png, webp
     for image_path in tqdm(all_images):
-        if str(image_path).endswith('avatar.webp'):
+        if str(image_path).endswith('.webp'):
             print(f"Skipping {image_path} as it is already a thumbnail.")
             continue
         
@@ -43,20 +42,10 @@ def main(source_dir: str):
         if img_ext == ".png":
             im = im.convert("RGB")
         
-        # If the image is not square, we crop it to make it square
-        if im.width != im.height:
-            size = min(im.width, im.height)
-            left = (im.width - size) / 2
-            top = (im.height - size) / 2
-            right = (im.width + size) / 2
-            bottom = (im.height + size) / 2
-            im = im.crop((left, top, right, bottom))
+        # First, we move the original image to the `move_originals_to` directory
+        im.save(image_path.with_suffix(".webp"), "WEBP", quality=80)
         
-        im.thumbnail((300, 300))
-        
-        im.save(image_path.with_suffix(".avatar.webp"), "WEBP", quality=80)
-        
-        print(f"Optimized {image_path} and saved it as {image_path.with_suffix('.thumbnail.webp')}")
+        print(f"Optimized {image_path} and saved it as {image_path.with_suffix('.webp')}")
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Optimize images")
