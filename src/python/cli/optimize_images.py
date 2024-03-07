@@ -29,6 +29,10 @@ def main(source_dir: str, move_originals_to: str):
         
     # Allow jpg, jpeg, png, webp
     for image_path in tqdm(all_images):
+        if image_path.endswith(".thumbnail.webp"):
+            print(f"Skipping {image_path} as it is already a thumbnail.")
+            continue
+        
         # First, get the extension of the image
         img_ext = image_path.suffix.lower()
         if img_ext not in [".jpg", ".jpeg", ".png", ".webp"]:
@@ -40,11 +44,6 @@ def main(source_dir: str, move_originals_to: str):
         # Remove transparency if it's a png
         if img_ext == ".png":
             im = im.convert("RGB")
-        
-        # If it's already a 300x300 image, we skip it
-        if im.width <= 300 and im.height <= 300 and im.width == im.height:
-            print(f"Skipping {image_path} as it is already 300x300 or smaller.")
-            continue
         
         # If the image is not square, we crop it to make it square
         if im.width != im.height:
