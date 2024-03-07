@@ -29,7 +29,7 @@ def main(source_dir: str, move_originals_to: str):
         
     # Allow jpg, jpeg, png, webp
     for image_path in tqdm(all_images):
-        if image_path.endswith(".thumbnail.webp"):
+        if image_path.suffix.lower().endswith('avatar.webp'):
             print(f"Skipping {image_path} as it is already a thumbnail.")
             continue
         
@@ -57,21 +57,8 @@ def main(source_dir: str, move_originals_to: str):
         im.thumbnail((300, 300))
         
         # First, we move the original image to the `move_originals_to` directory
-        shutil.move(image_path, move_originals_to / image_path.name)
-        print(f"Moved {image_path} to {move_originals_to / image_path.name}")
         im.save(image_path.with_suffix(".avatar.webp"), "WEBP", quality=80)
         
-        # Save as .jpg, if there's other format, save as that format as well, use 80% quality
-        if img_ext == ".webp":
-            im.save(image_path.with_suffix(".webp"), "WEBP")
-            
-        if img_ext == ".png":
-            im.save(image_path.with_suffix(".png"), "PNG")
-        
-        elif img_ext == ".jpeg" or img_ext == ".jpg":
-            suffix = image_path.suffix.lower()
-            im.save(image_path.with_suffix(suffix), "JPEG", quality=80)
-
         print(f"Optimized {image_path} and saved it as {image_path.with_suffix('.thumbnail.webp')}")
         
 if __name__ == "__main__":
