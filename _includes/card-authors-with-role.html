@@ -75,7 +75,7 @@
             {% include infer-icon.html link=link %}
 
             {% if icon %}
-            <a href="{{ link.url }}" class="{{ icon }}" aria-label="Access the author's external link relating to {{ icon }}"></a>
+            <a href="{{ link.url }}" class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}"></a>
             {% endif %}
 
             {% endfor %}
