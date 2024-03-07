@@ -201,7 +201,9 @@ Xuanda Chen:
   date: Fall 2022
   bio: Works on language model probing
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: https://xdchen2.github.io/
 
 Ziling Cheng:
   name: Ziling Cheng
