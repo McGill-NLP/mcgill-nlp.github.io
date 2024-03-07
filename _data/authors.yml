@@ -62,9 +62,8 @@ Malik H. Altakrori:
   date: Sept. 2017
   bio: Interested in writing style analysis, authorship identification and authorship
     obfuscation using DL/NLP
-  note: Graduating in Dec. 2022
   alumni: true
-  new_role: Postdoctoral Researcher at IBM
+  new_role: Postdoc at IBM
   links:
   - label: Website
     url: https://malikaltakrori.github.io/
@@ -254,7 +253,7 @@ Nouha Dziri:
     url: https://webdocs.cs.ualberta.ca/~dziri/
   advisor: Siva Reddy
   date: May 2021
-  new_role: Postdoctoral young investigator at Allen Institute for AI
+  new_role: Postdoc at Allen Institute for AI (AI2)
 
 Sabina Elkins:
   name: Sabina Elkins
@@ -769,7 +768,7 @@ Edoardo M. Ponti:
   - label: Scholar
     url: https://scholar.google.com/citations?user=tklL2q0AAAAJ
   semantic_scholar_id: '3381663'
-  new_role: Lecturer (Assistant Professor) at University of Edinburgh, UK
+  new_role: Lecturer (Assistant Professor) at University of Edinburgh
 
 Elinor Poole-Dayan:
   name: "Elinor Poole-Dayan"
