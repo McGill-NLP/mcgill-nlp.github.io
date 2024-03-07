@@ -29,7 +29,7 @@ def main(source_dir: str, move_originals_to: str):
         
     # Allow jpg, jpeg, png, webp
     for image_path in tqdm(all_images):
-        if image_path.suffix.lower().endswith('avatar.webp'):
+        if str(image_path).endswith('avatar.webp'):
             print(f"Skipping {image_path} as it is already a thumbnail.")
             continue
         
