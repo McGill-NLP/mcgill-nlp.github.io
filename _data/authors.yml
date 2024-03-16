@@ -91,6 +91,16 @@ Rahul Aralikatte:
   - label: Scholar
     url: https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en
 
+Kushal Arora:
+  name: Kushal Arora
+  role: PhD
+  avatar: /assets/images/bio/Kushal Arora.avatar.webp
+  advisor: Jackie Cheung
+  alumni: false
+  links:
+  - label: Website
+    url: https://kushalarora.github.io/
+
 Ines Arous:
   name: Ines Arous
   role: Postdoc
@@ -103,19 +113,6 @@ Ines Arous:
     url: https://inesarous.github.io/
   - label: Scholar
     url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
-
-Ori Ernst:
-  name: Ori Ernst
-  role: Postdoc
-  avatar: /assets/images/bio/Ori Ernst.avatar.webp
-  advisor: Jackie Cheung
-  date: Jan 2024
-  alumni: false
-  links:
-  - label: Website
-    url: https://oriern.github.io/
-  - label: Scholar
-    url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
 
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
@@ -227,6 +224,51 @@ Jackie Cheung:
   - label: Scholar
     url: https://scholar.google.com/citations?hl=en&user=Um-wmYQAAAAJ
 
+Andre Cianflone:
+  name: Andre Cianflone
+  role: PhD
+  avatar: /assets/images/bio/Andre Cianflone.avatar.webp
+  advisor: Jackie Cheung
+  alumni: false
+  links:
+  - label: Website
+    url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
+
+Maxime Darrin:
+  name: Maxime Darrin
+  role: PhD
+  avatar: /assets/images/bio/Maxime Darrin.avatar.webp
+  advisor: Jackie Cheung
+  date: Fall 2023
+  alumni: false
+  links:
+  - label: Website
+    url: https://icannos.github.io/
+
+Yue Dong:
+  name: Yue Dong
+  role: PhD
+  avatar: /assets/images/bio/Yue Dong.avatar.webp
+  advisor: Jackie Cheung
+  new_role: Assistant Professor at UC Riverside
+  alumni: true
+  links:
+  - label: Website
+    url: https://yuedong.netlify.app/
+  - label: Twitter
+    url: https://twitter.com/yuedongcs
+
+Bonaventure Dossou:
+  name: Bonaventure Dossou
+  role: PhD
+  avatar: /assets/images/bio/Bonaventure Dossou.avatar.webp
+  advisor: Jackie Cheung
+  date: Winter 2024
+  alumni: false
+  links:
+  - label: Website
+    url: https://bonaventuredossou.github.io/
+
 Amanda Doucette:
   name: Amanda Doucette
   role: PhD
@@ -266,6 +308,17 @@ Sabina Elkins:
   - label: Website
     url: https://sabina-elkins.github.io/
 
+Ali Emami:
+  name: Ali Emami
+  role: PhD
+  avatar: /assets/images/bio/Ali Emami.avatar.webp
+  advisor: Jackie Cheung
+  new_role: Assistant Professor at Brock University
+  alumni: true
+  links:
+  - label: Website
+    url: https://www.cosc.brocku.ca/~aemami/
+
 Aylin Erman:
   name: Aylin Erman
   role: Master
@@ -279,17 +332,18 @@ Aylin Erman:
   - label: Website
     url: https://aylinerma.github.io
 
-Yu Lu Liu:
-  name: Yu Lu Liu
-  role: Master
-  avatar: /assets/images/bio/Yu Lu Liu.avatar.webp
+Ori Ernst:
+  name: Ori Ernst
+  role: Postdoc
+  avatar: /assets/images/bio/Ori Ernst.avatar.webp
   advisor: Jackie Cheung
-  date: Fall 2022
-  bio: FATE + Evaluation metrics in summarization
+  date: Jan 2024
   alumni: false
   links:
   - label: Website
-    url: https://yululiu.github.io/
+    url: https://oriern.github.io/
+  - label: Scholar
+    url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
 
 Jules Gagnon-Marchand:
   name: Jules Gagnon-Marchand
@@ -300,59 +354,6 @@ Jules Gagnon-Marchand:
   links:
   - label: Website
     url: https://julesgm.github.io/
-
-Maxime Darrin:
-  name: Maxime Darrin
-  role: PhD
-  avatar: /assets/images/bio/Maxime Darrin.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2023
-  alumni: false
-  links:
-  - label: Website
-    url: https://icannos.github.io/
-
-Bonaventure Dossou:
-  name: Bonaventure Dossou
-  role: PhD
-  avatar: /assets/images/bio/Bonaventure Dossou.avatar.webp
-  advisor: Jackie Cheung
-  date: Winter 2024
-  alumni: false
-  links:
-  - label: Website
-    url: https://bonaventuredossou.github.io/
-
-Caleb Moses:
-  name: Caleb Moses
-  role: PhD
-  avatar: /assets/images/bio/Caleb Moses.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2022
-  alumni: false
-  links:
-  - label: Website
-    url: https://www.linkedin.com/in/calebjdmoses/
-
-Kushal Arora:
-  name: Kushal Arora
-  role: PhD
-  avatar: /assets/images/bio/Kushal Arora.avatar.webp
-  advisor: Jackie Cheung
-  alumni: false
-  links:
-  - label: Website
-    url: https://kushalarora.github.io/
-
-Andre Cianflone:
-  name: Andre Cianflone
-  role: PhD
-  avatar: /assets/images/bio/Andre Cianflone.avatar.webp
-  advisor: Jackie Cheung
-  alumni: false
-  links:
-  - label: Website
-    url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
 
 Emily Goodwin:
   name: "Emily Goodwin"
@@ -430,30 +431,6 @@ Jad Kabbara:
     url: https://www.cs.mcgill.ca/~jkabba/
   - label: Twitter
     url: twitter.com/jad_kabbara
-
-Yue Dong:
-  name: Yue Dong
-  role: PhD
-  avatar: /assets/images/bio/Yue Dong.avatar.webp
-  advisor: Jackie Cheung
-  new_role: Assistant Professor at UC Riverside
-  alumni: true
-  links:
-  - label: Website
-    url: https://yuedong.netlify.app/
-  - label: Twitter
-    url: https://twitter.com/yuedongcs
-
-Ali Emami:
-  name: Ali Emami
-  role: PhD
-  avatar: /assets/images/bio/Ali Emami.avatar.webp
-  advisor: Jackie Cheung
-  new_role: Assistant Professor at Brock University
-  alumni: true
-  links:
-  - label: Website
-    url: https://www.cosc.brocku.ca/~aemami/
 
 Gaurav Kamath:
   name: Gaurav Kamath
@@ -559,6 +536,18 @@ Zichao Li:
   advisor: Jackie Cheung, Siva Reddy
   alumni: false
   links: []
+Yu Lu Liu:
+  name: Yu Lu Liu
+  role: Master
+  avatar: /assets/images/bio/Yu Lu Liu.avatar.webp
+  advisor: Jackie Cheung
+  date: Fall 2022
+  bio: FATE + Evaluation metrics in summarization
+  alumni: false
+  links:
+  - label: Website
+    url: https://yululiu.github.io/
+
 
 Xing Han Lu:
   name: Xing Han Lu
@@ -700,6 +689,17 @@ Marius Mosbach:
     url: https://twitter.com/mariusmosbach
   - label: Scholar
     url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
+
+Caleb Moses:
+  name: Caleb Moses
+  role: PhD
+  avatar: /assets/images/bio/Caleb Moses.avatar.webp
+  advisor: Jackie Cheung
+  date: Fall 2022
+  alumni: false
+  links:
+  - label: Website
+    url: https://www.linkedin.com/in/calebjdmoses/
 
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
@@ -867,6 +867,24 @@ Siva Reddy:
     url: "/people/siva"
     icon: "fas fa-fw fa-user"
 
+Karolina Stanczak:
+  name: Karolina Stanczak
+  role: Postdoc
+  semantic_scholar_id: '82563120'
+  avatar: /assets/images/bio/Karolina Stanczak.jpg
+  advisor: Siva Reddy
+  date: Mar 2024
+  bio: Working on bias detection, multilinguality, and interpretability.
+  alumni: false
+  links:
+  - label: Website
+    url: https://kstanczak.github.io/
+  - label: Twitter
+    url: https://twitter.com/karstanczak
+  - label: GitHub
+    url: https://github.com/karstanczak
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
 Michelle Yang:
   name: "Michelle Yang"
   role: "Undergraduate"
