@@ -71,7 +71,7 @@ body:
       label: "Username"
       description: >
         Mila username e.g. `jon.doe` if `jon.doe@mila.quebec` is your Mila email address.
-      placeholder: "jon.doe"
+        
     validations:
       required: true
 
