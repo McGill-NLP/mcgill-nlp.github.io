@@ -66,6 +66,16 @@ body:
       required: true
 
   - type: input
+    id: username
+    attributes:
+      label: "Username"
+      description: >
+        Mila username e.g. `jon.doe` if `jon.doe@mila.quebec` is your Mila email address.
+        
+    validations:
+      required: true
+
+  - type: input
     id: semantic_scholar_id
     attributes:
       label: "Semantic Scholar ID"
