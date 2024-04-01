@@ -24,6 +24,7 @@ David Adelani:
   bio: "Assistant Professor"
   name: David Adelani
   role: Faculty
+  username: david.adelani
   semantic_scholar_id: '2518906'
   avatar: /assets/images/bio/David Adelani.jpg
   date: Jan 2024
@@ -39,6 +40,7 @@ David Adelani:
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
   role: PhD
+  username: vaibhav.adlakha
   semantic_scholar_id: '1666183192'
   avatar: /assets/images/bio/Vaibhav Adlakha.jpg
   advisor: Siva Reddy
@@ -95,6 +97,7 @@ Rahul Aralikatte:
 Ines Arous:
   name: Ines Arous
   role: Postdoc
+  username: ines.arous
   avatar: /assets/images/bio/Ines Arous.jpg
   advisor: Jackie Cheung
   date: Nov 2022
@@ -108,6 +111,7 @@ Ines Arous:
 Ori Ernst:
   name: Ori Ernst
   role: Postdoc
+  username: ori.ernst
   avatar: /assets/images/bio/Ori Ernst.jpg
   advisor: Jackie Cheung
   date: Jan 2024
@@ -121,6 +125,7 @@ Ori Ernst:
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
+  username: bahdanau
   semantic_scholar_id: '3335364'
   avatar: /assets/images/bio/Dzmitry Bahdanau.jpg
   bio: Adjunct Professor
@@ -137,6 +142,7 @@ Dzmitry Bahdanau:
 Parishad BehnamGhader:
   name: Parishad BehnamGhader
   role: Master
+  username: parishad.behnamghader
   semantic_scholar_id: '2101317786'
   avatar: /assets/images/bio/Parishad BehnamGhader.jpg
   advisor: Siva Reddy
@@ -153,6 +159,7 @@ Parishad BehnamGhader:
 Laurestine Bradford:
   name: Laurestine Bradford
   role: PhD
+  username: laurestine.bradford
   advisor: Siva Reddy, Tim O'Donnell
   date: Jan 2022
   bio: Language in math and connecting syntax to semantics
@@ -180,6 +187,7 @@ Emanuele Bugliarello:
 Meng Cao:
   name: Meng Cao
   role: PhD
+  username: caomeng
   advisor: Jackie Cheung
   date: Sep 2019
   bio: Works on factuality/bias in NLG
@@ -207,6 +215,7 @@ Ziling Cheng:
   name: Ziling Cheng
   avatar: /assets/images/bio/Ziling Cheng.jpg
   role: Intern
+  username: ziling.cheng
   advisor: Jackie CK Cheung
   date: Summer 2022
   alumni: false
@@ -215,6 +224,7 @@ Ziling Cheng:
 Jackie Cheung:
   name: Jackie Cheung
   role: Faculty
+  username: cheung.ja
   semantic_scholar_id: '3159752'
   avatar: /assets/images/bio/Jackie Cheung.jpg
   date: '2015'
@@ -268,6 +278,7 @@ Sabina Elkins:
 Aylin Erman:
   name: Aylin Erman
   role: Master
+  username: aylin.erman
   avatar: /assets/images/bio/Aylin Erman.jpg
   advisor: Jackie Cheung
   date: Fall 2022
@@ -281,6 +292,7 @@ Aylin Erman:
 Yu Lu Liu:
   name: Yu Lu Liu
   role: Master
+  username: yu-lu.liu
   avatar: /assets/images/bio/Yu Lu Liu.png
   advisor: Jackie Cheung
   date: Fall 2022
@@ -303,6 +315,7 @@ Jules Gagnon-Marchand:
 Maxime Darrin:
   name: Maxime Darrin
   role: PhD
+  username: maxime.darrin
   avatar: /assets/images/bio/Maxime Darrin.webp
   advisor: Jackie Cheung
   date: Fall 2023
@@ -314,6 +327,7 @@ Maxime Darrin:
 Bonaventure Dossou:
   name: Bonaventure Dossou
   role: PhD
+  username: bonaventure.dossou
   avatar: /assets/images/bio/Bonaventure Dossou.jpeg
   advisor: Jackie Cheung
   date: Winter 2024
@@ -325,6 +339,7 @@ Bonaventure Dossou:
 Caleb Mosses:
   name: Caleb Mosses
   role: PhD
+  username: caleb.moses
   avatar: /assets/images/bio/Caleb Mosses.jpg
   advisor: Jackie Cheung
   date: Fall 2022
@@ -336,6 +351,7 @@ Caleb Mosses:
 Kushal Arora:
   name: Kushal Arora
   role: PhD
+  username: arorakus
   avatar: /assets/images/bio/Kushal Arora.webp
   advisor: Jackie Cheung
   alumni: false
@@ -346,6 +362,7 @@ Kushal Arora:
 Andre Cianflone:
   name: Andre Cianflone
   role: PhD
+  username: cinafloa
   avatar: /assets/images/bio/Andre Cianflone.jpg
   advisor: Jackie Cheung
   alumni: false
@@ -385,6 +402,7 @@ Lucas Torroba Hennigen:
 Jacob Louis Hoover:
   name: Jacob Louis Hoover
   role: PhD
+  username: hooverjac
   semantic_scholar_id: '1729201519'
   avatar: /assets/images/bio/Jacob Louis Hoover.jpg
   advisor: Timothy J. O'Donnell
@@ -457,6 +475,7 @@ Ali Emami:
 Gaurav Kamath:
   name: Gaurav Kamath
   role: PhD
+  username: gaurav.kamath
   avatar: /assets/images/bio/Gaurav Kamath.jpg
   advisor: Siva Reddy
   date: Summer 2022
@@ -488,6 +507,7 @@ Zdeněk Kasner:
 Amirhossein Kazemnejad:
   name: Amirhossein Kazemnejad
   role: Master
+  username: amirhossein.kazemnejad
   semantic_scholar_id: '1754452702'
   avatar: /assets/images/bio/Amirhossein Kazemnejad.jpg
   advisor: Siva Reddy
@@ -501,6 +521,7 @@ Amirhossein Kazemnejad:
 Benno Krojer:
   name: "Benno Krojer"
   role: "PhD"
+  username: benno.krojer
   avatar: "/assets/images/bio/Benno Krojer.jpg"
   alumni: false
   date: "Summer 2021"
@@ -537,6 +558,7 @@ Devang Kulshreshtha:
 Ben LeBrun:
   name: Ben LeBrun
   role: Master
+  username: benjamin.lebrun
   semantic_scholar_id: '2159712810'
   avatar: /assets/images/bio/Ben LeBrun.jpg
   advisor: Timothy J. O'Donnell
@@ -554,6 +576,7 @@ Ben LeBrun:
 Zichao Li:
   name: Zichao Li
   role: PhD
+  username: zichao.li
   semantic_scholar_id: '2118274302'
   advisor: Jackie Cheung, Siva Reddy
   alumni: false
@@ -562,6 +585,7 @@ Zichao Li:
 Xing Han Lu:
   name: Xing Han Lu
   role: PhD
+  username: xing-han.lu
   avatar: /assets/images/bio/Xing Han Lu.jpg
   advisor: Siva Reddy
   date: Fall 2021
@@ -582,6 +606,7 @@ Xing Han Lu:
 Andreas Madsen:
   name: "Andreas Madsen"
   role: "PhD"
+  username: andreas.madsen
   avatar: "/assets/images/bio/andreasmadsen.jpg"
   date: "Fall 2020"
   advisor: Siva Reddy
@@ -604,6 +629,7 @@ Andreas Madsen:
 Nicholas Meade:
   name: Nicholas Meade
   role: PhD
+  username: nicholas.meade
   semantic_scholar_id: '150247363'
   avatar: /assets/images/bio/Nicholas Meade.jpg
   advisor: Siva Reddy
@@ -636,6 +662,7 @@ Neshma Metri:
 Aristides Milios:
   name: Aristides Milios
   role: Master
+  username: aristides.milios
   semantic_scholar_id: '1516303035'
   avatar: /assets/images/bio/Aristides Milios.jpg
   advisor: Dr. Siva Reddy
@@ -687,6 +714,7 @@ Andrei Mircea:
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
+  username: odonnelt
   semantic_scholar_id: '1400877758'
   date: Fall 2017
   alumni: false
@@ -701,6 +729,7 @@ Timothy J. O'Donnell:
 Arkil Patel:
   name: Arkil Patel
   role: Master
+  username: arkil.patel
   semantic_scholar_id: '1443788809'
   avatar: /assets/images/bio/Arkil Patel.jpg
   advisor: Dzmitry Bahdanau, Siva Reddy
@@ -720,6 +749,7 @@ Arkil Patel:
 Cesare Spinoso-Di Piano:
   name: Cesare Spinoso-Di Piano
   role: PhD
+  username: cesare.spinoso
   avatar: /assets/images/bio/Cesare Spinoso-Di Piano.jpg
   advisor: Jackie Cheung
   date: Winter 2024
@@ -768,6 +798,7 @@ Elinor Poole-Dayan:
 Ian Porada:
   name: Ian Porada
   role: PhD
+  username: poradaia
   semantic_scholar_id: '108508643'
   advisor: Jackie Cheung
   date: Winter 2019
@@ -785,6 +816,7 @@ Ian Porada:
 Eva Portelance:
   name: Eva Portelance
   role: Postdoc
+  username: eva.portelance
   avatar: /assets/images/bio/Eva Portelance.jpg
   advisor: Timothy J. O'Donnell, Siva Reddy
   date: Winter 2023
@@ -834,6 +866,7 @@ Siva Reddy:
   avatar: "/assets/images/bio/siva.jpg"
   date: "Jan 2020"
   role: "Faculty"
+  username: siva.reddy
   links:
   - label: "Website"
     url: "https://sivareddy.in"
