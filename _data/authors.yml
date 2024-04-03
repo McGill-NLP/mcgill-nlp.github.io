@@ -679,8 +679,8 @@ Marius Mosbach:
   role: Postdoc
   semantic_scholar_id: '51510489'
   avatar: /assets/images/bio/Marius Mosbach.avatar.webp
-  date: March 2024
-  bio: NLP researcher
+  date: Mar 2024
+  bio: Working on analysis, adaptation, and generalization abilities of language models
   alumni: false
   links:
   - label: Website
@@ -690,6 +690,7 @@ Marius Mosbach:
   - label: Scholar
     url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
 
+  advisor: Siva Reddy
 Caleb Moses:
   name: Caleb Moses
   role: PhD
