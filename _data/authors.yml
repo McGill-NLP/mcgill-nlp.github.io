@@ -425,21 +425,6 @@ Jasper Jian:
   - label: GitHub
     url: https://github.com/jasperjjian
 
-Jad Kabbara:
-  name: Jad Kabbara
-  role: PhD
-  semantic_scholar_id: '2631301'
-  advisor: Jackie Cheung
-  bio: Works on computational pragmatics and its intersection with NLG and NLU
-  new_role: Postdoc at MIT
-  alumni: true
-  avatar: /assets/images/bio/Jad Kabbara.avatar.webp
-  links:
-  - label: Website
-    url: https://www.cs.mcgill.ca/~jkabba/
-  - label: Twitter
-    url: twitter.com/jad_kabbara
-
 Ali Emami:
   name: Ali Emami
   role: PhD
