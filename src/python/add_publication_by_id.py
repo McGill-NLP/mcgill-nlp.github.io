@@ -1,5 +1,6 @@
 import os
 import json
+import time
 from urllib.request import urlopen
 
 from ruamel.yaml import YAML
@@ -8,15 +9,21 @@ from . import parse_issue_body, write_content_to_file, remove_items_with_values
 from .add_update_publication import generate_publication_post
 
 
-def fetch_content(parsed):
-
+def fetch_content(parsed, max_retry=3):
     method = parsed["method"]
     identifier = parsed["identifier"]
-
-    url = urlopen(
-        f"https://api.semanticscholar.org/graph/v1/paper/{method}:{identifier}?fields=title,venue,year,publicationDate,authors.name,externalIds,url,abstract"
-    )
-    data = json.loads(url.read())
+    try:
+        url = urlopen(
+            f"https://api.semanticscholar.org/graph/v1/paper/{method}:{identifier}?fields=title,venue,year,publicationDate,authors.name,externalIds,url,abstract"
+        )
+        data = json.loads(url.read())
+    except Exception as e:
+        if max_retry > 0:
+            # First, sleep for 20 second to avoid rate limiting
+            time.sleep(20)
+            return fetch_content(parsed, max_retry - 1)
+        else:
+            raise e
 
     return data
 
