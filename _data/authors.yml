@@ -425,16 +425,20 @@ Jasper Jian:
   - label: GitHub
     url: https://github.com/jasperjjian
 
-Ali Emami:
-  name: Ali Emami
+Jad Kabbara:
+  name: Jad Kabbara
   role: PhD
-  avatar: /assets/images/bio/Ali Emami.webp
+  semantic_scholar_id: '2631301'
   advisor: Jackie Cheung
-  new_role: Assistant Professor at Brock University
+  bio: Works on computational pragmatics and its intersection with NLG and NLU
+  new_role: Postdoc at MIT
   alumni: true
+  avatar: /assets/images/bio/Jad Kabbara.avatar.webp
   links:
   - label: Website
-    url: https://www.cosc.brocku.ca/~aemami/
+    url: https://www.cs.mcgill.ca/~jkabba/
+  - label: Twitter
+    url: twitter.com/jad_kabbara
 
 Gaurav Kamath:
   name: Gaurav Kamath
