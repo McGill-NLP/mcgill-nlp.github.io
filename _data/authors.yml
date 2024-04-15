@@ -542,11 +542,16 @@ Ben LeBrun:
 Zichao Li:
   name: Zichao Li
   role: PhD
+  avatar: /assets/images/bio/zichao.avatar.webp
   username: zichao.li
   semantic_scholar_id: '2118274302'
   advisor: Jackie Cheung, Siva Reddy
   alumni: false
-  links: []
+  links:
+    - label: "Page"
+    url: "/people/zichao"
+    icon: "fas fa-fw fa-user"
+    
 Yu Lu Liu:
   name: Yu Lu Liu
   role: Master
