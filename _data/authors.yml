@@ -548,7 +548,7 @@ Zichao Li:
   advisor: Jackie Cheung, Siva Reddy
   alumni: false
   links:
-    - label: "Page"
+  - label: "Page"
     url: "/people/zichao"
     icon: "fas fa-fw fa-user"
     
