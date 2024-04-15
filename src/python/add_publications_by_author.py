@@ -12,6 +12,7 @@ from urllib.request import Request
 def fetch_content(parsed, sleep=0):
     url = f"https://api.semanticscholar.org/graph/v1/author/{parsed['author_id']}?fields=papers.title,papers.venue,papers.year,papers.publicationDate,papers.authors,papers.externalIds,papers.url,papers.abstract,papers.externalIds"
     if 'SEMANTIC_SCHOLAR_API_KEY' in os.environ:
+        print("Using API key")
         api_key = os.environ['SEMANTIC_SCHOLAR_API_KEY']
         headers = {'x-api-key': api_key}
         r = Request(
