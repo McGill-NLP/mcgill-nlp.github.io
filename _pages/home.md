@@ -32,6 +32,7 @@ row_code:
     excerpt: "We publish code for our models and datasets on GitHub to make it easier for researchers and developers to reproduce and build upon our work. We welcome pull requests and issues on active projects from the community."
   
 row_about_us:
+  - image_path: /assets/images/home/retreat-2023.webp
   - image_path: /assets/images/home/lunch-1.webp
   - image_path: /assets/images/home/jackie-axes-2019.webp
   - image_path: /assets/images/home/park-1.webp
