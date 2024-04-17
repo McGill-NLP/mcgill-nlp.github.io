@@ -8,7 +8,10 @@ tags:
 categories:
     - Reading-Group
     - Summer-2024
-layout: single
+layout: archive
+classes:
+    - wide
+    - no-sidebar
 ---
 
 *{{ page.names }}*
