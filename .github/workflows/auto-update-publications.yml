@@ -19,6 +19,8 @@ jobs:
       
       - name: "Automatically add papers from authors with `auto_update_publications: true`"
         run: python -m src.python.auto_update_publications
+        env:
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v4
