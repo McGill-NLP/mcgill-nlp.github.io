@@ -440,30 +440,6 @@ Jad Kabbara:
   - label: Twitter
     url: twitter.com/jad_kabbara
 
-Yue Dong:
-  name: Yue Dong
-  role: PhD
-  avatar: /assets/images/bio/Yue Dong.jpg
-  advisor: Jackie Cheung
-  new_role: Assistant Professor at UC Riverside
-  alumni: true
-  links:
-  - label: Website
-    url: https://yuedong.netlify.app/
-  - label: Twitter
-    url: https://twitter.com/yuedongcs
-
-Ali Emami:
-  name: Ali Emami
-  role: PhD
-  avatar: /assets/images/bio/Ali Emami.webp
-  advisor: Jackie Cheung
-  new_role: Assistant Professor at Brock University
-  alumni: true
-  links:
-  - label: Website
-    url: https://www.cosc.brocku.ca/~aemami/
-
 Gaurav Kamath:
   name: Gaurav Kamath
   role: PhD
