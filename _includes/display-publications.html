@@ -26,6 +26,11 @@
             <b>{{ post.course_code }}</b>
             <b> ({{ post.term | date: "%Y"}}) </b>
         </div>
+        {% elsif post.semester %}
+        <div>
+            <b>{{ post.semester }}</b>
+            <!-- We do not show year here -->
+        </div>
         {% else %}
         <div>
             {% if post.venue_full %}
