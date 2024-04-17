@@ -11,19 +11,27 @@
 {% if alumni == include.alumni %}
 {% if author.role == include.role %}
 
+{% if alumni == false %}
+{% if author.role == "Faculty" or author.role == "Adjunct Faculty" or author.role == "Postdoc" %}
+{% assign loading = "eager" %}
+{% else %}
+{% assign loading = "lazy" %}
+{% endif %}
+{% endif %}
+
 <article class="author-card">
     <div class="author-avatar">
         {% if author.avatar %}
-        <img src="{{ author.avatar | relative_url }}" alt="">
+        <img loading="{{ loading }}" src="{{ author.avatar | relative_url }}" alt="An image of {{ author.name }}">
         {% else %}
-        <img src="{{ site.author.avatar | relative_url }}" alt="">
+        <img loading="{{ loading }}" src="{{ site.author.avatar | relative_url }}" alt="An image of {{ author.name }}">
         {% endif %}
     </div>
 
     <div class="author-info">
         <b class="author-name">
             {% if author.links %}
-            <a href="{{ author.links[0].url }}">{{ author.name }}</a>
+            <a href="{{ author.links[0].url }}" aria-label="Access the primary external link of this author">{{ author.name }}</a>
             {% else %}
             {{ author.name }}
             {% endif %}
@@ -75,7 +83,7 @@
             {% include infer-icon.html link=link %}
 
             {% if icon %}
-            <a href="{{ link.url }}" class="{{ icon }}"></a>
+            <a href="{{ link.url }}" class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}"></a>
             {% endif %}
 
             {% endfor %}

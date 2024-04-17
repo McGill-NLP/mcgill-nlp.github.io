@@ -3,7 +3,14 @@
 
         {% if post.thumbnail %}
         <div class="publication-thumbnail">
-            <img src="{{ post.thumbnail | relative_url }}" alt="">
+            {% assign currentYear = 'now' | date: "%Y" %}
+            {% assign postYear = post.date | date: "%Y" %}
+            {% if postYear == currentYear %}
+            {% assign loading = "eager" %}
+            {% else %}
+            {% assign loading = "lazy" %}
+            {% endif %}
+            <img src="{{ post.thumbnail | relative_url }}" loading="{{ loading }}" alt="A thumbnail that highlights the contribution of the paper">
         </div>
         {% endif %}
 
