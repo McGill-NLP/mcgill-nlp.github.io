@@ -456,3 +456,7 @@ python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_p
 python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/jackie
 python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/tim
 ```
+
+> Does Semantic Scholar require an API key? I am getting an HTTP 429 error.
+
+Although it is possible to make requests to Semantic Scholar without an API key, it is recommend to use one if available. Please set the environment variable `SEMANTIC_SCHOLAR_API_KEY` to your API key and it will be automatically used. For mcgill-nlp.github.io, we have set it up as a [*GitHub Repository Secret*](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository); please look at `.github/workflows/auto-update-publications.yml` to see how the environment variable is assigned. You can update Github Repository secrets for Actions at [this settings page](https://github.com/McGill-NLP/mcgill-nlp.github.io/settings/secrets/actions/).
