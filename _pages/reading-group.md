@@ -1,39 +1,44 @@
 ---
 title: Reading Group
 permalink: /reading-group/
-layout: category
-taxonomy: Reading Group
+taxonomy: Reading-Group
 classes:
     - wide
     - no-sidebar
 ---
 
-The McGill/Mila NLP reading group hosts speaker presentations and NLP-related discussions in a hybrid fashion at Mila. It is called the McGill/Mila reading group for historical reasons (see below!), but actively gathers NLP researchers from different Mila-affiliated research institutes across Montreal (McGill University, University of Montreal, etc.).
+The McGill NLP reading group hosts speaker presentations and NLP-related discussions in a hybrid fashion at Mila. It is called the McGill NLP reading group for historical reasons, but actively gathers NLP researchers from different Mila-affiliated research institutes across Montreal (McGill University, University of Montreal, etc.).
+
+### Current organizers
+
+The current organizers are Cesare Spinoso, Ori Ernst, Vaibhav Adlakha and Arian Hosseini. For more information about the reading group and for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`.
+
 
 ## Schedule
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6--pWGliyS88UY9OI2nrDQoWhuBol0uNlrdkh1t8sQnO-XgXQifDaXGF-n5d0_ysM12bybGlCDapn/pubhtml?widget=true&amp;headers=false" weight="600px" height="100%"></iframe>
+For the Summer 2024 semester, the reading group will meet every other Monday starting April 22nd at 11AM (with some exceptions to be expected). Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar links will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a tentative schedule of speakers/topics for the semester. All times are in EST.
 
-## Organizers
+| **Date/Time** | **Location** | **Speaker(s)** | **Topic** | **More Information** |
+|---|---|---|---|
+| April 18 @ 11:00 | Lili Mou | Multi-Teacher Distillation | [click here]({% link _posts/reading-group/summer-2024/2024-04-18-lili-mou.md %}) |
+| April 22 @ 11:00 | Piotr Nawrot | Dynamic Memory Compression | [click here]({% link _posts/reading-group/summer-2024/2024-04-22-piotr-nawrot.md %}) |
 
-The current organizers are Cesare Spinoso, Ori Ernst and Vaibhav Adlakha. For more information about the reading group, send an e-mail to the organizers `firstname (dot) lastname (at) mila (dot) quebec`.
+### History
 
-## A bit of history
+The McGill NLP reading group was originally started by [Prof. Jackie Cheung](https://www.cs.mcgill.ca/~jcheung/) in the summer of 2015 at McGill and was originally called the Computational Lingustics (CompLing) reading group. In 2019, the CompLing reading group (McGill-specific) merged with the Language Understanding reading group (Mila-wide) to become what it is today. Previous reading group organizers have been: Jackie Cheung (2015), Jad Kabbara (2016), Ali Emami (2017), Yue Dong (2018), Kushal Arora (2019), Aishik Chakraborty (2020), Ian Porada (2021), Arian Hossein (2019 to Present) and Vaibhav Adlakha (2022 to Present).
 
-The McGill/Mila NLP reading group was originally started by [Prof. Jackie Cheung](https://www.cs.mcgill.ca/~jcheung/) in the summer of 2015 at McGill and was originally called the Computational Lingustics (CompLing) reading group. In 2019, the CompLing reading group (McGill-specific) merged with the Language Understanding reading group (Mila-wide) to become the McGill/Mila NLP reading group. In case you're curious, here is a more specific timeline of the reading groups history and of past organizers:
 
+### Archive
+
+Previous semesters of the reading group may be found [here](https://www.cs.mcgill.ca/~jcheung/meetings.html).
+
+<!-- More history
 **2015.** Jackie Cheung starts the CompLing reading group at McGill.
-
 **2016.** Organizer: Jad Kabbara
-
 **2017.** Organizer: Ali Emami
-
 **2018.** Organizer: Yue Dong
-
 **2019.** Kushal Arora (CompLing) and Arian Hosseini (LURG) merge the two reading groups together to create the McGill/Mila NLP reading group and act.
-
 **2020.** Organizers: Aishik Chakraborty and Arian Hosseini.
-
 **January 2021 to May 2022.** Organizers: Ian Porada and Arian Hosseini.
-
 **May 2022 to May 2024.** Organizers: Vaibhav Adlakha and Arian Hosseini. 
+-->
