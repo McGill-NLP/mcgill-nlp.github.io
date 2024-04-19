@@ -11,7 +11,7 @@ The McGill NLP reading group hosts speaker presentations and NLP-related discuss
 
 ## Organizers
 
-The current organizers are Cesare Spinoso, Ori Ernst, Vaibhav Adlakha and Arian Hosseini. For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement' list.
+The current organizers are Cesare Spinoso, Ori Ernst, Vaibhav Adlakha and Arian Hosseini. For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` list.
 
 
 ## Schedule
