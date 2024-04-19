@@ -32,4 +32,6 @@ Piotr Nawrot is a second-year PhD student at the University of Edinburgh advised
 
 ## Logistics
 
-*TBA*
+Date: April 22nd <br>
+Time: 11:00AM <br>
+Location: F01 or via Zoom (See email)
