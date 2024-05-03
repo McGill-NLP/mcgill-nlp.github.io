@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to host our very own Ori Ernst and Xing Han Lù both from the McGill NLP group. They will each be giving 30 minute presentations on summarization evaluation and digital agents respectively, leaving time for questions and discussion. Here are more details on each of the talks
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to host our very own Ori Ernst and Xing Han Lù both from the McGill NLP group. They will each be giving 30 minute presentations on summarization evaluation and digital agents respectively, leaving time for questions and discussion. Here are more details on each of the talks.
 
 ## What is the "best" way to measure summaries? Not what you think.
 
