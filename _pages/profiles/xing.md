@@ -7,8 +7,8 @@ classes:
     - no-sidebar
 ---
 
-
-{% include display-author.html author="Xing Han Lu" loading="lazy" %}
+{% assign author = site.data.authors["Xing Han Lu"] %}
+{% include display-author.html author=author loading="lazy" %}
 
 ## Publications
 
