@@ -6,7 +6,7 @@ div.publication-card {
 div.publication-thumbnail>img {
     float: left;
     padding: 0 15px 15px 0;
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     aspect-ratio: 4/3;
     @media (min-width: 601px) {
@@ -43,4 +43,3 @@ div.publication-authors {
 .publication-links {
     margin-top: 10px;
 }
-
