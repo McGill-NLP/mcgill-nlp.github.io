@@ -7,8 +7,6 @@ layout: archive
 
 ## Faculty
 
-<!-- {% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %} -->
-
 {% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %}
 
 ## Adjunct Faculty

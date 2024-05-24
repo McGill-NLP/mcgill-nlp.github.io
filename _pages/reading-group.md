@@ -24,7 +24,7 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | April 22 @ 11:00 | Piotr Nawrot | Dynamic Memory Compression | [click here]({% link _posts/reading-group/summer-2024/2024-04-22-piotr-nawrot.md %}) |
 | May 6 @ 11:00  | Ori Ernst and Xing Han Lù | From Summarization Evaluation to Digital Agents | [click here]({% link _posts/reading-group/summer-2024/2024-05-06-ori-ernst-xin-hang-lu.md %}) |
 | **Tuesday** May 14 @ **10:00**  | Ehud Reiter | High-Quality Human Evaluation of Generated Texts| [click here]({% link _posts/reading-group/summer-2024/2024-05-14-ehud-reiter.md %}) |
-| May 20 @ 11:00 | Tianbao Xie | An Overview of Digital Agents | [click here]({% link _posts/reading-group/summer-2024/2024-05-20-tianbao-xie.md %}) |
+| May 27 @ 11:00 | Tianbao Xie | An Overview of Digital Agents | [click here]({% link _posts/reading-group/summer-2024/2024-05-27-tianbao-xie.md %}) |
 
 ## History
 

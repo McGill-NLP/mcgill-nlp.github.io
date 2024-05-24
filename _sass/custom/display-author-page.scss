@@ -1,0 +1,75 @@
+article.author-page-card {
+    display: grid;
+    grid-template-areas:
+        "name name"
+        "thumbnail role"
+        "thumbnail bio"
+        "thumbnail links"
+        "thumbnail .";
+    grid-template-columns: 300px 1fr;
+
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr 2fr;    
+    }
+    // For mobile devices, we want to stack the thumbnail on top of the rest of the content
+    // to make it easier to read.
+    @media (max-width: 500px) {
+        grid-template-areas:
+        "name"
+        "thumbnail"
+        "."
+        "role"
+        "bio"
+        "links";
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+    }
+
+    column-gap: 1em;
+    row-gap: .5em;
+    margin-top: 1em;
+    align-items: start;
+    align-content: start;
+}
+
+.author-page-thumbnail {
+    grid-area: thumbnail;
+    object-fit: contain;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.author-page-name {
+    grid-area: name;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.author-page-role {
+    grid-area: role;
+    font-weight: none;
+}
+
+.author-page-role-title {
+    grid-area: role;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.author-page-bio {
+    grid-area: bio;
+    font-weight: italic;
+}
+
+.author-page-links {
+    grid-area: links;
+}
+
+.author-page-ext-link {
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
