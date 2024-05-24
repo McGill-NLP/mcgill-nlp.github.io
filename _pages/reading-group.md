@@ -16,7 +16,7 @@ The current organizers are Cesare Spinoso, Ori Ernst and Vaibhav Adlakha. For mo
 
 ## Schedule
 
-For the Summer 2024 semester, the reading group will meet every other Monday starting April 22nd at 11AM (with some exceptions to be expected). Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a tentative schedule of speakers/topics for the semester. All times are in EST.
+For the Summer 2024 semester, the reading group will meet every other Monday starting April 22nd at 11AM (with some exceptions to be expected). Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a **tentative schedule** of speakers/topics for the semester. It is **actively updated**. All times are in EST.
 
 | **Date @ Time** | **Speaker(s)** | **Topic** | **More Information** |
 |---|---|---|---|
@@ -25,6 +25,14 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | May 6 @ 11:00  | Ori Ernst and Xing Han Lù | From Summarization Evaluation to Digital Agents | [click here]({% link _posts/reading-group/summer-2024/2024-05-06-ori-ernst-xin-hang-lu.md %}) |
 | **Tuesday** May 14 @ **10:00**  | Ehud Reiter | High-Quality Human Evaluation of Generated Texts| [click here]({% link _posts/reading-group/summer-2024/2024-05-14-ehud-reiter.md %}) |
 | May 27 @ 11:00 | Tianbao Xie | An Overview of Digital Agents | [click here]({% link _posts/reading-group/summer-2024/2024-05-27-tianbao-xie.md %}) |
+| June 3rd @ 11:00 | Vaibhav Adlakha | *TBA* | *TBA* | 
+| June 10th @ 11:00 | Matthias Lindemann | *TBA* | *TBA* | 
+| **Thursday** June 13th @ **14:00** | Marius Mosbach | *TBA* | *TBA* | 
+| June 17th @ 11:00 | Yu Bai | *TBA* | *TBA* | 
+| July 22nd @ 11:00 | Erfan Shayegani | *TBA* | *TBA* | 
+| July 29th @ 11:00 | Ivan Vulić | *TBA* | *TBA* | 
+| August 5th @ 11:00 | Jad Kabbara | *TBA* | *TBA* | 
+| August 19th @ 11:00 | Research intern presentation | *TBA* | *TBA* | 
 
 ## History
 
