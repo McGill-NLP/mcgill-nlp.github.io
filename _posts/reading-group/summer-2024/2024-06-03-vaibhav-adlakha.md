@@ -34,4 +34,4 @@ Vaibhav Adlakha is a PhD student at McGill University and Mila and a Visiting Re
 
 Date: June 3rd <br>
 Time: 11:00AM <br>
-Location: F01 or via Zoom (See email)
+Location: J09 or via Zoom (See email)
