@@ -26,7 +26,7 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | **Tuesday** May 14 @ **10:00**  | Ehud Reiter | High-Quality Human Evaluation of Generated Texts| [click here]({% link _posts/reading-group/summer-2024/2024-05-14-ehud-reiter.md %}) |
 | May 27 @ 11:00 | Tianbao Xie | An Overview of Digital Agents | [click here]({% link _posts/reading-group/summer-2024/2024-05-27-tianbao-xie.md %}) |
 | June 3rd @ 11:00 | Vaibhav Adlakha | LLMs as Text Encoders | [click here]({% link _posts/reading-group/summer-2024/2024-06-03-vaibhav-adlakha.md %}) | 
-| June 10th @ 11:00 | Matthias Lindemann | *TBA* | *TBA* | 
+| June 10th @ 11:00 | Matthias Lindemann and Fanny Jourdan | Inductive Biases and Concept-based Explainability | [click here]({% link _posts/reading-group/summer-2024/2024-06-10-matthias-lindemann-fanny-jourdan.md %}) | 
 | **Thursday** June 13th @ **14:00** | Marius Mosbach | *TBA* | *TBA* | 
 | June 17th @ 11:00 | Yu Bai | *TBA* | *TBA* | 
 | July 22nd @ 11:00 | Erfan Shayegani | *TBA* | *TBA* | 
