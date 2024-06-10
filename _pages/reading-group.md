@@ -29,6 +29,7 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | June 10th @ 11:00 | Matthias Lindemann and Fanny Jourdan | Inductive Biases and Concept-based Explainability | [click here]({% link _posts/reading-group/summer-2024/2024-06-10-matthias-lindemann-fanny-jourdan.md %}) | 
 | **Thursday** June 13th @ **14:00** | Marius Mosbach | *TBA* | *TBA* | 
 | June 17th @ 11:00 | Yu Bai | *TBA* | *TBA* | 
+| **Tuesday** July 2nd @ 11:00 | Jason Weston | *TBA* | *TBA* | 
 | July 22nd @ 11:00 | Erfan Shayegani | *TBA* | *TBA* | 
 | July 29th @ 11:00 | Ivan Vulić | *TBA* | *TBA* | 
 | August 5th @ 11:00 | Jad Kabbara | *TBA* | *TBA* | 
