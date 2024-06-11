@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is happy to have [Vaibhav Adlakha]([https://tianbaoxie.com/](https://vaibhavad.github.io/)) give a talk about "LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders".
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is happy to have [Vaibhav Adlakha](https://vaibhavad.github.io/) who will be giving a talk "LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders".
 
 ## Talk Description
 
