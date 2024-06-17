@@ -28,7 +28,7 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | June 3rd @ 11:00 | Vaibhav Adlakha | LLMs as Text Encoders | [click here]({% link _posts/reading-group/summer-2024/2024-06-03-vaibhav-adlakha.md %}) | 
 | June 10th @ 11:00 | Matthias Lindemann and Fanny Jourdan | Inductive Biases and Concept-based Explainability | [click here]({% link _posts/reading-group/summer-2024/2024-06-10-matthias-lindemann-fanny-jourdan.md %}) | 
 | **Thursday** June 13th @ **14:00** | Marius Mosbach | The Role of Analysis Work in NLP | [click here]({% link _posts/reading-group/summer-2024/2024-06-13-marius-mosbach.md %}) | 
-| June 17th @ 11:00 | Yu Bai | Representation-level information aggregation in LLMs | [click here]({% link _posts/reading-group/summer-2024/2024-06-17-yu-bai.md %) | 
+| June 17th @ 11:00 | Yu Bai | Representation-level information aggregation in LLMs | [click here]({% link _posts/reading-group/summer-2024/2024-06-17-yu-bai.md }%) | 
 | **Tuesday** July 2nd @ 11:00 | Jason Weston | *TBA* | *TBA* | 
 | July 22nd @ 11:00 | Erfan Shayegani | *TBA* | *TBA* | 
 | July 29th @ 11:00 | Ivan Vulić | *TBA* | *TBA* | 
