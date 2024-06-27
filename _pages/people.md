@@ -57,3 +57,9 @@ layout: archive
 ## Interns
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=true %}
+
+<br/>
+
+## Updating the website
+
+If you are part of the McGill NLP group (i.e., advised by one of the [faculty members](https://mcgill-nlp.github.io/people/)), please head to the [GitHub repository](https://github.com/McGill-NLP/mcgill-nlp.github.io), where you will find instructions on adding your publications, creating/updating your profile, updating other parts of the website, etc.

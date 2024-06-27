@@ -86,7 +86,7 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/McGill_NLP"
-    - label: "Source"
+    - label: "Updating the website"
       icon: "fas fa-fw fa-code"
       url: "https://github.com/McGill-NLP/mcgill-nlp.github.io"
 
