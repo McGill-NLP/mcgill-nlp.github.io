@@ -1,0 +1,78 @@
+<article class="author-page-card" itemscope itemtype="https://schema.org/CreativeWork">
+
+    <div id="page-title" class="author-page-name">
+        {{ author.name }}
+    </div>
+    {% if author.avatar %}
+        <img src="{{ author.avatar | relative_url }}" class="author-page-thumbnail" loading="eager" alt="A thumbnail of the author">
+    {% endif %}
+    
+    {% if author.role %}
+    <div class="author-page-role">
+        <div class="author-page-role-title">
+        {{ author.role }}
+        {% if author.role == "Postdoc" %}
+        Fellow
+        {% elsif author.role == "Intern" %}
+        {% else %}
+        Student
+        {% endif %}
+        </div>
+        <div>
+            {% if author.role == "Postdoc" %}
+            Working with:
+            {% elsif author.role == "Intern" %}
+            Hosted by:
+            {% else %}
+            Advised by:
+            {% endif %}
+            {{ author.advisor }}
+            {% if author.date %}
+            <span>
+                ({{ author.date }})
+            </span>
+            {% endif %}
+        </div>
+        {% if author.new_role %}
+        <div>
+            <b>➡️</b> 
+            {{ author.new_role }}
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    <div class="author-page-bio">
+        {% if author.page_bio %}
+        <i>
+            {{ author.page_bio }}
+        </i>
+        {% elsif author.bio %}
+        <i>
+            {{ author.bio }}
+        </i>
+        {% endif %}
+
+        {% if author.note %}
+        <div>
+            {{ author.note }}
+        </div>
+        {% endif %}
+    </div>
+
+    {% if author.links %}
+    <div class="author-page-links">
+        {% for link in author.links %}
+            
+            {% include infer-icon.html link=link %}
+            {% if icon %}
+            <a href="{{ link.url }}" class="author-page-ext-link">
+                <i class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}">
+                </i>
+                {{ link.label }}
+            </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>

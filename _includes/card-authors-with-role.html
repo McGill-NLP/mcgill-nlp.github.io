@@ -11,80 +11,15 @@
 {% if alumni == include.alumni %}
 {% if author.role == include.role %}
 
-<article class="author-card">
-    <div class="author-avatar">
-        {% if author.avatar %}
-        <img src="{{ author.avatar | relative_url }}" alt="">
-        {% else %}
-        <img src="{{ site.author.avatar | relative_url }}" alt="">
-        {% endif %}
-    </div>
+{% if alumni == false %}
+{% if author.role == "Faculty" or author.role == "Adjunct Faculty" or author.role == "Postdoc" %}
+{% assign loading = "eager" %}
+{% else %}
+{% assign loading = "lazy" %}
+{% endif %}
+{% endif %}
 
-    <div class="author-info">
-        <b class="author-name">
-            {% if author.links %}
-            <a href="{{ author.links[0].url }}">{{ author.name }}</a>
-            {% else %}
-            {{ author.name }}
-            {% endif %}
-        </b>
-
-        {% if author.advisor %}
-        <div class="author-advisor">
-            <b>
-                {% if author.role == "Postdoc" %}
-                Working with:
-                {% elsif author.role == "Intern" %}
-                Hosted by:
-                {% else %}
-                Advised by:
-                {% endif %}
-            </b>
-            {{ author.advisor }}
-            {% if author.date %}
-            <span>
-                ({{ author.date }})
-            </span>
-            {% endif %}
-        </div>
-        {% endif %}
-
-        
-        {% if author.bio %}
-        <div class="author-bio">
-            {{ author.bio }}
-        </div>
-        {% endif %}
-        
-        {% if author.note %}
-        <div class="author-note">
-            {{ author.note }}
-        </div>
-        {% endif %}
-        
-        {% if author.new_role %}
-        <div class="author-note">
-            <b>➡️ </b> {{ author.new_role }}
-        </div>
-        {% endif %}
-
-        {% if author.links %}
-        <div class="author-links">
-            {% for link in author.links %}
-
-            {% include infer-icon.html link=link %}
-
-            {% if icon %}
-            <a href="{{ link.url }}" class="{{ icon }}"></a>
-            {% endif %}
-
-            {% endfor %}
-        </div>
-        {% endif %}
-
-    </div>
-
-</article>
+{% include display-author.html author=author loading=loading %}
 
 {%endif %}
 {% endif %}

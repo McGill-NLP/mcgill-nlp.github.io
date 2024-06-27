@@ -17,15 +17,14 @@
 
 
 {% if include.disable_group_by_year == true %}
-
   {% for post in posts %}
     {%- include display-publications.html %}
   {% endfor %}
-
 {% else %}
 
 {% assign postsByYear = posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 
+{% unless include.hide_years_dropdown == true %}
 <details>
   <summary>Show years</summary>
   <ul class="taxonomy__index">
@@ -38,6 +37,7 @@
     {% endfor %}
   </ul>
 </details>
+{% endunless %}
 
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">

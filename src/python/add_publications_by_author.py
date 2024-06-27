@@ -1,18 +1,33 @@
 import os
 import json
 from urllib.request import urlopen
+import time
 
 from . import parse_issue_body, write_content_to_file
 from .add_update_publication import generate_publication_post
 from .add_publication_by_id import wrangle_fetched_content
+from urllib.request import Request
 
 
-def fetch_content(parsed):
-    url = urlopen(
-        f"https://api.semanticscholar.org/graph/v1/author/{parsed['author_id']}?fields=papers.title,papers.venue,papers.year,papers.publicationDate,papers.authors,papers.externalIds,papers.url,papers.abstract,papers.externalIds"
-    )
+def fetch_content(parsed, sleep=0):
+    url = f"https://api.semanticscholar.org/graph/v1/author/{parsed['author_id']}?fields=papers.title,papers.venue,papers.year,papers.publicationDate,papers.authors,papers.externalIds,papers.url,papers.abstract,papers.externalIds"
+    if 'SEMANTIC_SCHOLAR_API_KEY' in os.environ:
+        print("Using API key")
+        api_key = os.environ['SEMANTIC_SCHOLAR_API_KEY']
+        headers = {'x-api-key': api_key}
+        r = Request(
+            url,
+            headers=headers
+        )
+    else:
+        r = url
+    
+    url = urlopen(r)
     data = json.loads(url.read())
 
+    if sleep > 0:
+        time.sleep(sleep)
+    
     return data
 
 
@@ -25,7 +40,7 @@ def main(parsed, save_dir="_posts/papers", use_ignore_list=True):
     else:
         ignored_ids = set()
 
-    fetched = fetch_content(parsed)
+    fetched = fetch_content(parsed, sleep=2)
     cleaned = []
 
     for paper_json in fetched["papers"]:

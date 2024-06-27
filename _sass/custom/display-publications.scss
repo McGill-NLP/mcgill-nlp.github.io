@@ -1,23 +1,47 @@
-div.publication-card {
-    display: inline-block;
-    width: 100%;
-}
+article.publication-card {
+    display: grid;
+    grid-template-areas:
+        "thumbnail title"
+        "thumbnail authors"
+        "thumbnail venue"
+        "thumbnail links"
+        "thumbnail .";
+    grid-template-columns: 300px 1fr;
 
-div.publication-thumbnail>img {
-    float: left;
-    padding: 0 15px 15px 0;
-    object-fit: cover;
-    width: 100%;
-    aspect-ratio: 4/3;
-    @media (min-width: 601px) {
-        max-width: 300px;
-    }
     @media (max-width: 600px) {
-        max-width: 100%;
+        grid-template-areas:
+        "title"
+        "authors"
+        "venue"
+        "links"
+        "thumbnail";
+        grid-template-columns: 1fr;
+    }
+
+    column-gap: 15px;
+    margin-top: 1.5em;
+    align-items: start;
+    align-content: start;
+}
+
+.publication-thumbnail {
+    grid-area: thumbnail;
+    object-fit: contain;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.publication-title {
+    grid-area: title;
+    margin: 0 0 5px 0;
+    >a {
+        text-decoration: none;
     }
 }
 
-div.publication-authors {
+.publication-authors {
+    grid-area: authors;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -26,12 +50,13 @@ div.publication-authors {
     font-style: italic;
 }
 
-.publication-title{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    >a {
-        text-decoration: none;
-    }
+.publication-venue {
+    grid-area: venue;
+    font-weight: bold;
+}
+
+.publication-links {
+    grid-area: links;
 }
 
 .publication-ext-link {
@@ -39,8 +64,3 @@ div.publication-authors {
     margin-right: 15px;
     display: inline-block;
 }
-
-.publication-links {
-    margin-top: 10px;
-}
-
