@@ -54,6 +54,12 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 
 {% include feature_row id="row_code" type="right" %}
 
+# Join Us
+{: .text-center}
+
+We accept graduate students (Masters or PhD) through official Mila and McGill application channels. For internship opportunities and other positions, please apply using our <a href="https://forms.gle/3SA5K6pJxe4dAyhM7">Google Form</a>.
+{: .text-center}
+<br/>
 
 
 # About Us
