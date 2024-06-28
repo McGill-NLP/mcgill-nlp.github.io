@@ -57,7 +57,10 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 # Join Us
 {: .text-center}
 
-We accept graduate students (Masters or PhD) through official Mila and McGill application channels. For internship opportunities and other positions, please apply using our <a href="https://forms.gle/3SA5K6pJxe4dAyhM7">Google Form</a>.
+McGill NLP welcomes graduate students, interns, and researchers at various levels. We have opportunities for Masters and PhD students, postdocs, research assistants, and visiting researchers. 
+{: .text-center}
+
+For detailed information on how to apply and join our lab, please visit our [Join Us](/join-us) page.
 {: .text-center}
 <br/>
 
