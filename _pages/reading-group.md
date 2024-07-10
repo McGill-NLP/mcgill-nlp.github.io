@@ -38,7 +38,7 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | August 5th @ 11:00 | Jad Kabbara | *TBA* | *TBA* | 
 | August 12th @ 11:00 | Lucas Caccia | *TBA* | *TBA* | 
 | August 19th @ 11:00 | Research intern presentation | *TBA* | *TBA* |
-| August 26th @ 11:00 | Nelson Filipe Costa | Implicit Discourse Relations |  
+| August 26th @ 11:00 | Nelson Filipe Costa | Implicit Discourse Relations | *TBA* | 
 
 ## History
 
