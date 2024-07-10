@@ -30,8 +30,10 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | **Thursday** June 13th @ **14:00** | Marius Mosbach | The Role of Analysis Work in NLP | [click here]({% link _posts/reading-group/summer-2024/2024-06-13-marius-mosbach.md %}) | 
 | June 17th @ 11:00 | Yu Bai | Representation-level information aggregation in LLMs | [click here]({% link _posts/reading-group/summer-2024/2024-06-17-yu-bai.md %}) | 
 | **Wednesday** June 26th @ 11:00 | Nathan Schneider | Squirrel or Skunk? NLP Models Face the Long Tail of Language | [click here]({% link _posts/reading-group/summer-2024/2024-06-26-nathan-schneider.md %}) |
-| **Tuesday** July 2nd @ 11:00 | Jason Weston | *TBA* | *TBA* | 
-| July 15th @ 11:00 | Wenyu Du | Stacking your transformers: A closer look at model growth for efficient LLM pre-training | [click here]({% link _posts/reading-group/summer-2024/2024-07-15-wenyu-du.md %}) | 
+| **Friday** June 28th @ 10:30 | Vagrant Gautam | Are LLMs Reasoning, Repeating or Just Biased? | [click here]({% link _posts/reading-group/summer-2024/2024-06-28-vagrant-gautam.md %})
+| July 15th @ 11:00 | Wenyu Du | Stacking your transformers: A closer look at model growth for efficient LLM pre-training | [click here]({% link _posts/reading-group/summer-2024/2024-07-15-wenyu-du.md %}) |
+| **Tuesday** July 2nd @ 11:00 | Jason Weston | Self-Alignment of Large Language Models | [click here]({% link _posts/reading-group/summer-2024/2024-07-02-jason-weston.md %}) |
+| July 15th @ 11:00 | Wenyu Du | *TBA* | *TBA* | 
 | July 22nd @ 11:00 | Erfan Shayegani | *TBA* | *TBA* | 
 | July 29th @ 11:00 | Ivan Vulić | *TBA* | *TBA* | 
 | August 5th @ 11:00 | Jad Kabbara | *TBA* | *TBA* | 

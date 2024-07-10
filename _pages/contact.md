@@ -13,7 +13,7 @@ You can contact us via Mila email by using: `firstname (dot) lastname (at) mila 
 
 ## Form
 
-You can use the following contact form: [forms.gle/sucMLL4H7y9cW59U7](https://forms.gle/sucMLL4H7y9cW59U7). 
+You can use the following contact form: [forms.gle/3SA5K6pJxe4dAyhM7](https://forms.gle/3SA5K6pJxe4dAyhM7). 
 
 ## Updating the website
 

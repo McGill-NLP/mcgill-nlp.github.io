@@ -54,6 +54,15 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 
 {% include feature_row id="row_code" type="right" %}
 
+# Join Us
+{: .text-center}
+
+McGill NLP welcomes graduate students, interns, and researchers at various levels. We have opportunities for Masters and PhD students, postdocs, research assistants, and visiting researchers. 
+{: .text-center}
+
+For detailed information on how to apply and join our lab, please visit our [Join Us](/join-us) page.
+{: .text-center}
+<br/>
 
 
 # About Us
