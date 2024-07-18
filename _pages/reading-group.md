@@ -33,12 +33,12 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | **Friday** June 28th @ 10:30 | Vagrant Gautam | Are LLMs Reasoning, Repeating or Just Biased? | [click here]({% link _posts/reading-group/summer-2024/2024-06-28-vagrant-gautam.md %})
 | **Tuesday** July 2nd @ 11:00 | Jason Weston | Self-Alignment of Large Language Models | [click here]({% link _posts/reading-group/summer-2024/2024-07-02-jason-weston.md %}) |
 | July 15th @ 11:00 | Wenyu Du | Stacking your transformers: A closer look at model growth for efficient LLM pre-training | [click here]({% link _posts/reading-group/summer-2024/2024-07-15-wenyu-du.md %}) |
-| July 22nd @ 11:00 | Erfan Shayegani | *TBA* | *TBA* | 
+| July 22nd @ 11:00 | Erfan Shayegani | Cross-Modality Safety Alignment in Multi-Modal LLMs | [click here]({% link _posts/reading-group/summer-2024/2024-07-22-erfan-shayegani.md %}) | 
 | July 29th @ 11:00 | Ivan Vulić | *TBA* | *TBA* | 
-| August 5th @ 11:00 | Jad Kabbara | *TBA* | *TBA* | 
-| August 12th @ 11:00 | Lucas Caccia | *TBA* | *TBA* | 
-| August 19th @ 11:00 | Research intern presentation | *TBA* | *TBA* |
+| Talks for the 5th, 12th and 19th will be rescheduled due to ACL 2024 |
 | August 26th @ 11:00 | Nelson Filipe Costa | Implicit Discourse Relations | *TBA* | 
+
+<!-- TODO: Modify your local environment so correctly replicate the github page env. -->
 
 ## History
 
