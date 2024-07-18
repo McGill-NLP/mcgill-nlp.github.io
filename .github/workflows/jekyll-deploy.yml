@@ -34,7 +34,7 @@ jobs:
         with:
           ruby-version: '3.2.2' # Choose the Ruby version that matches your local development environment
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 1 # Increment this number if you need to re-download cached gems
+          cache-version: 2 # Increment this number if you need to re-download cached gems
 
       - name: Install Bundler
         run: gem install bundler -v 2.4.22
