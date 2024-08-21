@@ -36,7 +36,7 @@ For the Summer 2024 semester, the reading group will meet every other Monday sta
 | July 22nd @ 11:00 | Erfan Shayegani | Cross-Modality Safety Alignment in Multi-Modal LLMs | [click here]({% link _posts/reading-group/summer-2024/2024-07-22-erfan-shayegani.md %}) | 
 | July 29th @ 11:00 | Ivan Vulić | Balancing between Efficiencies, Modularity, and Performance of (L)LMs | [click here]({% link _posts/reading-group/summer-2024/2024-07-29-ivan-vulic.md %}) | 
 | Talks for the 5th, 12th and 19th will be rescheduled due to ACL 2024 |
-| August 26th @ 11:00 | Nelson Filipe Costa | Implicit Discourse Relations | *TBA* | 
+| August 26th @ 11:00 | Nelson Filipe Costa | Implicit Discourse Relations | [click here]({% link _posts/reading-group/summer-2024/2024-08-26-nelson-costa.md %}) | 
 
 <!-- TODO: Modify your local environment so correctly replicate the github page env. -->
 
