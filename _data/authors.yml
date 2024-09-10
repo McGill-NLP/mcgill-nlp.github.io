@@ -149,6 +149,23 @@ Parishad BehnamGhader:
   - label: Scholar
     url: https://scholar.google.com/citations?user=pw9mblYAAAAJ
 
+Mehar Bhatia:
+  name: Mehar Bhatia
+  role: PhD
+  username: mehar.bhatia
+  semantic_scholar_id: '2057417892'
+  avatar: /assets/images/bio/Mehar Bhatia.jpg
+  advisor: Siva Reddy
+  date: Fall 2024
+  note: Co-advised by Vered Shwartz (UBC)
+  alumni: false
+  links:
+  - label: Website
+    url: https://meharbhatia.github.io/
+  - label: Twitter
+    url: https://twitter.com/bhatia_mehar
+  - label: GitHub
+    url: https://meharbhatia.github.io/
 Laurestine Bradford:
   name: Laurestine Bradford
   role: PhD
@@ -551,7 +568,6 @@ Zichao Li:
   - label: "Page"
     url: "/people/zichao"
     icon: "fas fa-fw fa-user"
-    
 Yu Lu Liu:
   name: Yu Lu Liu
   role: Master
