@@ -369,6 +369,25 @@ Ori Ernst:
   - label: Scholar
     url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
 
+Lorenzo Flores:
+  name: Lorenzo Flores
+  role: Master
+  username: lorenzo.flores
+  semantic_scholar_id: '2127831186'
+  avatar: /assets/images/bio/Lorenzo Flores.png
+  advisor: Jackie Cheung
+  date: AUG-2024
+  bio: 'Research Interests: NLP, Active Learning, Hallucinations'
+  alumni: false
+  links:
+  - label: Website
+    url: https://ljyflores.github.io/
+  - label: Twitter
+    url: https://x.com/ljyflores38
+  - label: GitHub
+    url: https://github.com/ljyflores
+  - label: Scholar
+    url: https://www.semanticscholar.org/author/Lorenzo-Jaime-Yu-Flores/2127831186
 Jules Gagnon-Marchand:
   name: Jules Gagnon-Marchand
   role: Master
