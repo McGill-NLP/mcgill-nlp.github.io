@@ -943,6 +943,25 @@ Karolina Stanczak:
     url: https://github.com/karstanczak
   - label: Scholar
     url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
+Ada Tur:
+  name: Ada Tur
+  role: Undergraduate
+  username: ada.tur
+  semantic_scholar_id: '2129070227'
+  advisor: Siva Reddy
+  date: Summer 2024
+  bio: Working on linguistic theory advised by LLMs, and AI safety in digital web
+    agents
+  alumni: false
+  links:
+  - label: Website
+    url: https://adadtur.github.io/
+  - label: Twitter
+    url: https://twitter.com/adadtur
+  - label: GitHub
+    url: https://github.com/AdaDTur
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=9td9V50AAAAJ&hl=en&authuser=1
 Michelle Yang:
   name: "Michelle Yang"
   role: "Undergraduate"
