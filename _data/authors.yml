@@ -369,6 +369,25 @@ Ori Ernst:
   - label: Scholar
     url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
 
+Lorenzo Flores:
+  name: Lorenzo Flores
+  role: Master
+  username: lorenzo.flores
+  semantic_scholar_id: '2127831186'
+  avatar: /assets/images/bio/Lorenzo Flores.png
+  advisor: Jackie Cheung
+  date: AUG-2024
+  bio: 'Research Interests: NLP, Active Learning, Hallucinations'
+  alumni: false
+  links:
+  - label: Website
+    url: https://ljyflores.github.io/
+  - label: Twitter
+    url: https://x.com/ljyflores38
+  - label: GitHub
+    url: https://github.com/ljyflores
+  - label: Scholar
+    url: https://www.semanticscholar.org/author/Lorenzo-Jaime-Yu-Flores/2127831186
 Jules Gagnon-Marchand:
   name: Jules Gagnon-Marchand
   role: Master
@@ -924,6 +943,25 @@ Karolina Stanczak:
     url: https://github.com/karstanczak
   - label: Scholar
     url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
+Ada Tur:
+  name: Ada Tur
+  role: Undergraduate
+  username: ada.tur
+  semantic_scholar_id: '2129070227'
+  advisor: Siva Reddy
+  date: Summer 2024
+  bio: Working on linguistic theory advised by LLMs, and AI safety in digital web
+    agents
+  alumni: false
+  links:
+  - label: Website
+    url: https://adadtur.github.io/
+  - label: Twitter
+    url: https://twitter.com/adadtur
+  - label: GitHub
+    url: https://github.com/AdaDTur
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=9td9V50AAAAJ&hl=en&authuser=1
 Michelle Yang:
   name: "Michelle Yang"
   role: "Undergraduate"
