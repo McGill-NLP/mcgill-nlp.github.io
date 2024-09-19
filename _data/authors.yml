@@ -948,10 +948,10 @@ Ada Tur:
   role: Undergraduate
   username: ada.tur
   semantic_scholar_id: '2129070227'
+  avatar: /assets/images/bio/Ada Tur.png
   advisor: Siva Reddy
   date: Summer 2024
-  bio: Working on linguistic theory advised by LLMs, and AI safety in digital web
-    agents
+  bio: Working on linguistic behaviors in LLMs and AI safety in digital web agents
   alumni: false
   links:
   - label: Website
