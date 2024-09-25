@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is thrilled to showcase the work of our McGill NLP interns who will each be giving 10 minute talks (5 minutes of QA) to the group. The speakers will be [Fabian David Schmidt](https://fdschmidt93.github.io/), [Ada Tur](https://adadtur.github.io/), [Steven Koniaev](https://steven-koniaev.vercel.app/) and [Nathan Zeweniuk](https://mila.quebec/en/directory/nathan-zeweniuk).
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is thrilled to showcase the work of our McGill NLP interns who will each be giving 10 minute talks (5 minutes of QA) to the group. The speakers will be [Fabian David Schmidt](https://fdschmidt93.github.io/), [Ada Tur](https://adadtur.github.io/).
 
 More information about each talk below.
 
