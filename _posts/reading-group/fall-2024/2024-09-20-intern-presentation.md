@@ -1,8 +1,8 @@
 ---
 title: "Intern Presentations"
 venue: McGill + Mila
-names: Fabian David Schmidt, Ada Tur, Steven Koniaev, Nathan Zeweniuk
-author: Fabian David Schmidt, Ada Tur, Steven Koniaev, Nathan Zeweniuk
+names: Fabian David Schmidt, Ada Tur
+author: Fabian David Schmidt, Ada Tur
 tags:
 - NLP RG
 categories:
@@ -44,25 +44,6 @@ Though English sentences are typically flexible vis-a-vis word order, post-verba
 
 Ada Tur is a third year Computer Science and Linguistics student at McGill University in Montreal, QC, and an undergraduate researcher at McGill University/MILA in Professor Siva Reddy's NLP lab.
 
-# Steven Koniaev
-
-## Talk Description
-
-The vast volume of text generated in recent years has resulted in a growing demand for effective summarization methods. Consequently, various approaches have been introduced for this purpose, achieving commendable evaluation scores. However, despite the success of these models in summarizing most texts, they still exhibit lower scores for certain cases.  his observation leads to the hypothesis that some texts pose greater challenges for summarization. In this project, our aim is to develop a model that takes a document as input and predicts its summarization difficulty accurately. By utilizing this model and analyze its results, we can understand in which cases the text becomes more challenging to summarize, and apply this to certain NLP tasks such as Multidocument Summarization. 
-
-## Bio
-
-Steven is a current undergraduate researcher at McGill University under Prof. Jackie Cheung working alongside Ori Ernst.
-
-# Nathan Zeweniuk
-
-## Talk Description
-
-Summarization has become an important part of making large amounts of information more accessible to readers. Summarization methods are commonly described as either 'extractive', where salient text is copied directly from the source, or 'abstractive', where the source information can be reworded or altered. Previous attempts to describe a level of abstractiveness have been based on simple lexical measures, such as novel n-grams, which can fail to capture important semantic differences between sources and summaries. In this project, we analyze the levels of abstractiveness in human written summaries based on differences of information between the source and summary. Using this analysis, we are able to show that summarization systems struggle to generate reference summary content with the same level of abstractiveness.
-
-## Bio
-
-Nathan recently graduated from McGill University where he worked on research with Ori Ernst under Prof. Jackie Cheung. He is currently pursuing a master's degree at the University of Alberta.
 
 # Logistics
 
