@@ -21,7 +21,7 @@ For the Fall 2024 semester, the reading group will meet on Fridays at 11:30AM (w
 |---|---|---|---|
 | September 13th @ 11:30 AM | Priyank Jaini | Intriguing properties of generative classifiers: generative models align with human visual perception for object recognition | [click here]({% link _posts/reading-group/fall-2024/2024-09-13-priyank-jaini.md %}) |
 | September 20th @ 11:30 AM | Fabian David Schmidt, Ada Tur | Intern Presentations | [click here]({% link _posts/reading-group/fall-2024/2024-09-20-intern-presentation.md %}) |
-| September 27th @ 11:30 AM | Steven Koniaev, Nathan Zeweniuk | Intern Presentations | [click here]({% link _posts/reading-group/fall-2024/2024-09-20-intern-presentation-2.md %}) |
+| September 27th @ 11:30 AM | Steven Koniaev, Nathan Zeweniuk | Intern Presentations | [click here]({% link _posts/reading-group/fall-2024/2024-09-27-intern-presentation-2.md %}) |
 | October 1st to 3rd | Mila NLP Workshop | [Register here](https://mila.quebec/en/event/workshop-nlp-in-the-era-of-generative-ai-cognitive-sciences-and-societal-transformation) | | |
 | October 11th @ 11:00 AM | Tu Vu | *TBA* | *TBA* |
 | October 18th @ 11:30 AM | Eva Portelance | *TBA* | *TBA* |
