@@ -5,38 +5,38 @@
 
 
 # Global owners
-* @cckitpw @language-learning-laboratory @sivareddyg @xhluca
+* @RSTZZZ
 
 # Jekyll (Webpage)
-/_sass/ @xhluca
-/_layouts/ @xhluca
-/_includes/ @xhluca
-/_data/ @xhluca
-/assets/ @xhluca
-/_config.yml @xhluca
-/favicon.ico @xhluca
-/Gemfile @xhluca
+/_sass/ @RSTZZZ
+/_layouts/ @RSTZZZ
+/_includes/ @RSTZZZ
+/_data/ @RSTZZZ
+/assets/ @RSTZZZ
+/_config.yml @RSTZZZ
+/favicon.ico @RSTZZZ
+/Gemfile @RSTZZZ
 
 # Python scripts
-/src/python/ @xhluca
+/src/python/ @RSTZZZ
 
 # Unit Tests
-/tests/ @xhluca
+/tests/ @RSTZZZ
 
 # GitHub issue templates (Automation)
-/.github/ISSUE_TEMPLATE/ @xhluca
+/.github/ISSUE_TEMPLATE/ @RSTZZZ
 
 # GitHub Actions (Automation)
-/.github/workflows/ @xhluca
+/.github/workflows/ @RSTZZZ
 
 # Authors
-_data/authors.yml @cckitpw @language-learning-laboratory @sivareddyg @xhluca
+_data/authors.yml @RSTZZZ
 
 # Pages
-/_pages/ @xhluca
+/_pages/ @RSTZZZ
 
 # Profiles
-/_pages/profiles/siva.md @sivareddyg
+# /_pages/profiles/siva.md @sivareddyg
 
 # Other directories without codeowners
 /records/

@@ -1,10 +1,10 @@
-# McGill NLP Website
+# Complex Data Lab Website
 
-### [➡️ Click Here to Add Your Profile or Paper ⬅️](https://github.com/McGill-NLP/mcgill-nlp.github.io/issues/new/choose)
+### [➡️ Click Here to Add Your Profile or Paper ⬅️](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill/issues/new/choose)
 
 <br>
 
-This is the source code of the [group website](https://mcgill-nlp.github.io/), which was built using [Jekyll](https://github.com/jekyll/jekyll) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
+This is the source code of [Complex Data Lab Website](https://complexdatalab.com/), which was forked from [McGill-NLP](https://github.com/McGill-NLP/mcgill-nlp.github.io). Internally, it is built using [Jekyll](https://github.com/jekyll/jekyll) and [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes).
 
 ## Quickstart
 
@@ -12,24 +12,27 @@ This is the source code of the [group website](https://mcgill-nlp.github.io/), w
 > You should probably read this section!
 
 For certain contributions, it is possible to fill GitHub forms and everything will be automated without requiring to fork or modify the codebase. This currently works for:
+
 * Adding or updating the profile of a lab member
 * Adding a paper written by a lab member
   * With manual information entry
   * With a URL (for limited number of websites)
 * Adding all papers by a certain author within a time frame
 
-To get started, [click here to open the issue forms](https://github.com/McGill-NLP/mcgill-nlp.github.io/issues/new/choose).
+To get started, [click here to open the issue forms](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill/issues/new/choose).
 
 > [!NOTE]
-> * *If you made a mistake but already submitted the form, please see how to correct it in [FAQ](#FAQ).*
+>
+> * *If you made a mistake but already submitted the form, please see how to correct it in [FAQ](#faq).*
 > * *If you are looking to build a project website/webpage for your paper, check out the [project page template](https://github.com/McGill-NLP/project-page-template), which has the same style as this website.*
 
 ## Steps to contribute
 
 For other types of contribution (not covered by the issue form), please follow these steps:
-1. [Fork](https://github.com/McGill-NLP/mcgill-nlp.github.io/fork) the repository.
+
+1. [Fork](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill/fork) the repository.
 2. Add your contribution by editing the desired files.
-3. Create a pull request: Click on the [Pull Request](https://github.com/McGill-NLP/mcgill-nlp.github.io/pulls) tab and select "New pull request". Select the repository you forked and modified.
+3. Create a pull request: Click on the [Pull Request](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill/pulls) tab and select "New pull request". Select the repository you forked and modified.
 4. Wait for a team member to review and merge your pull request.
 
 ## Add new member profile
@@ -81,7 +84,6 @@ Has a member graduated? Does a member wish to have a new profile picture or bio?
 
 If you wish to delete a member (e.g. added by mistake, duplicates, etc.) you can directly delete their "block" (everything indented after their name) in the `_data/authors.yml` file.
 
-
 ## Front matters and YAML
 
 For any type of page or post (publication, blog post, course description), we use something called ["Front Matters"](https://jekyllrb.com/docs/front-matter/) to tell Jekyll about the purpose of the file. This is a block of YAML text at the beginning of the file. The rest of the file is regular [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
@@ -94,11 +96,13 @@ For any type of page or post (publication, blog post, course description), we us
 To modify a page, navigate to [_pages](_pages/) and update the desired file. If you add a new file, you will also need to edit the [_data/navigation.yml](_data/navigation.yml) file with the correct relative URL.
 
 The following pages are mostly likely to be frequently updated:
+
 * [home](_pages/home.md)
 * [contact](_pages/contact.md)
 
 The following pages are not likely to be frequently updated:
-* [people](_pages/people.md) 
+
+* [people](_pages/people.md)
 * [publications](_pages/publications.md)
 * [blog](_pages/blog.md)
 * [teaching](_pages/teaching.md)
@@ -106,6 +110,7 @@ The following pages are not likely to be frequently updated:
 Note: If you want to add new content to one of the pages above, please refer to the section on [creating a post](#creating-a-post).
 
 The following files are only meant to be modified by the site maintainer in rare cases:
+
 * [404](_pages/404.md)
 * [category-archive](_pages/category-archive.md)
 * [tag-archive](_pages/tag-archive.md)
@@ -124,6 +129,7 @@ You may want to add new content: blog post, a new publication (abstract/more inf
 To add a *publication*, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/papers` directory](_posts/papers). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
 
 Every file should start with the following:
+
 ```yaml
 ---
 title: "My cool paper" # Add official title
@@ -131,8 +137,8 @@ author: <full name> # Add name to show profile in sidebar
 categories: Publications # Used to list all posts about publications in /publications/
 names: "Firstname lastname, Firstname lastname, ..." # names of all authors
 link: https://arxiv.org/abs/1234.5678 # link to paper
-code: https://github.com/McGill-NLP/example  # link to code (optional)
-webpage: https://mcgill-nlp.github.io/project  # link to project (optional)
+code: https://github.com/ComplexData-MILA/example  # link to code (optional)
+webpage: https://complexdatalab.com/project  # link to project (optional)
 video: https://youtube.com  # link to video (optional)
 twitter: https://twitter.com/username  # link to twitter thread (optional)
 demo: https://project-demo.com  # link to interactive demo (optional)
@@ -161,16 +167,16 @@ It will look like this in `/publications/`:
 
 ![Showing new post in the publication page](.github/images/demo-publication.jpg)
 
-
 Notes:
+
 * `author`: This links to one of the authors in `_data/authors.yml`. If the author is missing, this will not work.
 * `{{ page.names }}` is a Jekyll snippet that will display the names of all authors (which was defined right above). This will save you from repeating yourself.
 * `{{ page.venue }}` is a Jekyll snippet, just like `{{ page.names }}`.
 * `include display-publication-links.html` will display the icons and links to code, webpage, tweets, etc. `pub=page` refers to the page object, which is handled by Jekyll.
 * `thumbnail` links to a image located in `assets/images/papers`. If you don't have one, remove that line. You will need to upload the image to the repository before it shows up. Make sure you choose a picture:
-  * in `jpg` (to save space), 
-  * an aspect ratio of 4:3 (landscape), 
-  * resolution of about 800x600, 
+  * in `jpg` (to save space),
+  * an aspect ratio of 4:3 (landscape),
+  * resolution of about 800x600,
   * taken from your paper.
 
 ### Blog
@@ -178,6 +184,7 @@ Notes:
 To write a blog post, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/blog` directory](_posts/blog). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
 
 Every file should start with the following:
+
 ```yaml
 ---
 title: "My cool blog post" # Add title
@@ -205,37 +212,9 @@ Some starting statement
 More content.
 ```
 
-### Teaching
-To write a course description, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/teaching` directory](_posts/teaching). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
-
-```yaml
----
-title: "COMP XYZ - Semester YYYY"  # Add course code, followed by the semester it's taught
-author: Siva Reddy  # Name of the instructor
-categories:
-  - Teaching  # Used to list all posts describing a course in /teaching/
-tags:
-  - Winter 2022  # Semester
-link: "https://docs.google.com/document/d/..." # Link to an external course description
----
-```
-
-Then, add content relevant to the course using markdown below the `---`, e.g.:
-
-```markdown
-*summary here*
-
-## Syllabus
-
-Content of syllabus here
-
-```
-
-
 ### Deleting a post
 
 You may want to delete posts forever. Then, delete the file in `_posts/`. If you simply want to hide it, you can prepend the file name with `hide`. For example, to hide the file `2016-03-09-COMP-XYZ.md`, you can rename it to `hide-2016-03-09-COMP-XYZ.md`.
-
 
 ## Create a profile page
 
@@ -243,6 +222,7 @@ You may want to delete posts forever. Then, delete the file in `_posts/`. If you
 > *If you are having a hard time in this section, try to copy from someone else's profile and modify it.*
 
 To have your own profile, you can create a new file called `<username>.md` in the [`_pages_/profiles` directory](_pages_/profiles). Note that `<username>` will determine the URL of the file, so choose carefully. You will need to add the following at the top:
+
 ```yaml
 ---
 title: John Doe  # Add your name
@@ -253,6 +233,7 @@ classes:
     - no-sidebar
 ---
 ```
+
 Then, you can add any content you like using markdown:
 
 ```markdown
@@ -284,6 +265,7 @@ Here's how to contact John Doe: ...
 Note that by using `{% include posts-publication.html taxonomy="Publications" author="John Doe" %}`, you can display all posts about publications by filtering for "John Doe" in the `names` field of each publication. If you choose `{% include posts-category.html taxonomy="Teaching" author="John Doe" %}`, you can display all posts about teaching instead, and `taxonomy="Blog"` will display all posts about blog posts. Note that `posts-publication.html` and `posts-category.html` are special html files in `_includes/` that generate a list of post following a specific format. That's a Jekyll feature and is considered as an advanced feature, so you don't have to worry and can just directly use it like above.
 
 Then, you can update `_data/authors.yml` to include a link to your profile page, e.g.:
+
 ```yaml
 John Doe:
   name: "John Doe"
@@ -302,6 +284,7 @@ John Doe:
 ### Resizing bio images
 
 To resize an image, you can use the following command:
+
 ```bash
 python -m src.python.cli.optimize_images --source_dir assets/images/bio/
 ```
@@ -311,6 +294,7 @@ This will resize all images in `assets/images/bio/` to a resolution of 300x300 i
 ### Resizing home images
 
 To resize an image, you can use the following command:
+
 ```bash
 python -m src.python.cli.optimize_homepage_images --source_dir assets/images/home/
 ```
@@ -322,13 +306,14 @@ python -m src.python.cli.optimize_homepage_images --source_dir assets/images/hom
 
 ### Setup
 
-#### Codespace 
+#### Codespace
 
 Most of the dependencies (`jekyll`, `ruby`, `gem`, Python `requirements.txt`, etc.) are already installed thanks to automations in `.devcontainer/devcontainer.json`. You can simply open the repo in a codespace and start working.
 
 #### Local
 
 You will need to install the python dependencies by running (from inside project directory):
+
 ```
 pip3 install --user -r src/python/requirements.txt
 ```
@@ -338,18 +323,19 @@ You will need to install ruby and gem to use `jekyll` locally. This is only if y
 ### Running the site in development mode
 
 To run the site locally (or remotely on Codespaces), use the last command in the quickstart:
+
 ```bash
 bundle exec jekyll serve
 ```
 
 We use the `minimal-mistakes` theme. Specifically, we use the `remote-theme` installation method, which is why the repo doesn't contain all of the html, css, and yaml files required for the theme. To learn more, read [this minimal-mistakes doc section](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method). Note we are using a specific version of the theme, which can be found on `_config.yml`.
 
-
 ### Editing SCSS
 
 If you need to modify some CSS attributes directly, you need to use [sass](https://sass-lang.com/documentation/syntax), or directly write CSS (which is still valid). You can create a new file in [_sass/custom](_sass/custom) and import it inside [_sass/main.scss](_sass/main.scss). Note that all files in [_sass/custom](_sass/custom) were added by the maintainers of this repo, in addition to the original styling provided by minimal-mistakes.
 
 Here's a brief description:
+
 * [_sass/custom/display-publications.scss](_sass/custom/display-publications.scss): Some custom CSS for styling the publications on `/publications/`, which did not have the same format in the original minimal-mistakes theme.
 * [_sass/custom/no-sidebar.scss](_sass/custom/no-sidebar.scss): This adds an option to shift the page to the left side when there's no sidebar. Search for `no-sidebar` in [_config.yml](_config.yml) to see how to use it, or read [this post](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#layout-based-and-user-defined-classes).
 * [_sass/custom/people-card.scss](_sass/custom/people-card.scss): This is a custom CSS for styling the "cards" for each member in `/people/`.
@@ -382,6 +368,7 @@ layout: archive
 ```
 
 To use them, simply specify, in the front matters of a page in `_page/`:
+
 ```yaml
 ---
 layout: publication
@@ -389,7 +376,6 @@ layout: publication
 ```
 
 Example: In our case, we have a custom `publications.html` layout for the `/publications/` page.
-
 
 ### Github Actions
 
@@ -414,13 +400,14 @@ To modify an issue form, simply edit the corresponding form in [`.github/ISSUE_T
 
 If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+* [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
+* [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+* [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
 
 ### Running tests
 
 There are some tests for the python scripts. You can run them by running the following command in the root folder:
+
 ```bash
 python -m unittest
 ```
@@ -439,18 +426,18 @@ After you fill the form, an issue is created with an appropriate *tag*. Then, a 
 
 Add the semantic scholar paper ID to the list in `records/semantic_paper_ids_ignored.json`.
 
-
 > When filling out the form, how do I upload my profile picture or a thumbnail without having to use an external source, like imgur?
 
-1. Open a [new blank issue](https://github.com/McGill-NLP/mcgill-nlp.github.io/issues/new). 
+1. Open a [new blank issue](https://github.com/McGill-NLP/mcgill-nlp.github.io/issues/new).
 2. Click on "Attach files by dragging & dropping, selecting, or pasting them".
-3. Upload your picture. 
+3. Upload your picture.
 4. Copy only the URL link (i.e. `https://user-images.githubusercontent.com/...png` only). Ignore the rest (i.e. `![text]()`).
 5. Keep the link, but cancel the new issue. Paste that link in the form.
 
 > The tests in `test_add_publications_by_author.py` are failing. What should I do?
 
 Sometimes, semantic scholar will update the content of the paper. In that case, the failed tests have saved the new versions of those papers in `tests/scratch/_posts/papers`, and you will need to replace the old versions in `tests/data/add_publication_by_author/<author_name>` with the new versions in `tests/scratch/_posts/papers`. You can do that by running the following command:
+
 ```bash
 python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/siva
 python -m src.python.cli.replace_files_in_test_dir --source_dir tests/scratch/_posts/papers --target_dir tests/data/add_publications_by_author/jackie
