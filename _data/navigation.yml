@@ -1,12 +1,42 @@
 main:
-  - title: "People"
-    url: /people/
-  - title: "Publications"
-    url: /publications/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Reading Group"
-    url: /reading-group/
+  - tab: "Research"
+    subpages:
+      - page: "Temporal Graph Learning"
+        url: /
+      - page: "Crime & Online Markets"
+        url: /
+      - page: "Politics & Online Media"
+        url: /
+      - page: "Toxicity & Online Games"
+        url: /
+      - page: "Tools & Resources"
+        url: /
+  - tab: "About"
+    subpages:
+      - page: "About the Lab"
+        url: /
+      - page: "People"
+        url: /people/
+      - page: "Teaching"
+        url: /teaching/
   - title: "Join Us"
     url: /join-us/
-  
+      
+    
+  # - title: "Research"
+  #   url: /people/
+  # - title: "About"
+  #   url: /publications/
+  # - title: "Join Us"
+  #   url: /join-us/
+
+  # - title: "People"
+  #   url: /people/
+  # - title: "Publications"
+  #   url: /publications/
+  # - title: "Teaching"
+  #   url: /teaching/
+  # - title: "Reading Group"
+  #   url: /reading-group/
+  # - title: "Join Us"
+  #   url: /join-us/

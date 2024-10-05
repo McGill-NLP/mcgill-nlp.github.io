@@ -15,6 +15,8 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
+
+          <!-- Added a toggle for light/dark mode: -->
           {% if site.dark_theme_css %}
           <li class="masthead__menu-item">
             <a name="dark-mode-selection-button" onclick="changeTheme()"><i class="fas fa-fw fa-sun"></i></a>
@@ -22,14 +24,33 @@
           {% endif %}
 
           {%- for link in site.data.navigation.main -%}
-          <!-- Added a toggle for light/dark mode: -->
+
+          {% if link.tab %}
+          <li class="masthead__menu-item">
+            <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif
+              %}>{{ link.tab }}</a>
+            <ul class="submenu">
+              {%- for sublink in link.subpages -%}
+              <li class="masthead__menu-item">
+                <a href="{{ sublink.url | relative_url }}" {% if sublink.description %}
+                  title="{{ sublink.description }}" {% endif %}>{{ sublink.page }}</a>
+              </li>
+              {%- endfor -%}
+            </ul>
+          </li>
+          {% endif %}
+
+          {% if link.title %}
           <li class="masthead__menu-item">
             <a href="{{ link.url | relative_url }}" {% if link.description %} title="{{ link.description }}" {% endif
               %}>{{ link.title }}</a>
           </li>
+          {% endif %}
+
           {%- endfor -%}
 
         </ul>
+
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search"
@@ -37,11 +58,14 @@
           <i class="fas fa-search search-button"></i>
         </button>
         {% endif %}
+
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
         </button>
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
     </div>
   </div>

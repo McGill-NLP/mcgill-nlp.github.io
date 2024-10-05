@@ -2,9 +2,11 @@ a.site-title {
     @media (min-width: 601px) {
         font-size: xx-large;
     }
+
     @media (max-width: 600px) {
         font-size: large;
     }
+
     color: $primary-color;
 
     &:hover {
@@ -16,4 +18,25 @@ a.site-title {
     @media (min-width: 601px) {
         margin: 0px;
     }
+}
+
+
+.submenu {
+    list-style: none;
+}
+
+.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li:hover>.submenu {
+    display: block;
+}
+
+.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li>.submenu {
+    position: absolute;
+    background: $background-color;
+    min-width: 200px;
+    z-index: 1000;
+    display: none;
+}
+
+.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li>.submenu>li>a {
+    padding: 10px 20px;
 }

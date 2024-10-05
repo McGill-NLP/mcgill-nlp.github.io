@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: McGill NLP
+title: Complex Data Lab
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  McGill NLP is a research group within McGill University and Mila focusing on various topics of natural language processing. 
-twitter_username: McGill_NLP
-github_username: McGill-NLP
+  Complex Data Lab is a research group within McGill University and Mila focusing on network science and applied machine learning. 
+twitter_username: complexDataLab
+github_username: ComplexData-MILA
 logo: "/assets/images/logo/logo.png"
 og_image: "/assets/images/logo/logo.png"
 dark_theme_css: "/assets/css/main-dark.css"
@@ -56,19 +56,19 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "McGill NLP Member(s)"
+  name   : "Complex Data Lab Member(s)"
   avatar : "/assets/images/bio/placeholder/martlet.jpeg"
   bio    : "Current or former lab member(s) worked on this."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://mcgill-nlp.github.io"
+      url: "https://complexdatalab.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/McGill-NLP"
+      url: "https://github.com/ComplexData-MILA"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/McGill_NLP"
+      url: "https://x.com/complexDataLab"
 
 analytics:
   provider: "google-gtag"
@@ -83,13 +83,13 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/McGill-NLP"
+      url: "https://github.com/ComplexData-MILA"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/McGill_NLP"
+      url: "https://x.com/complexDataLab"
     - label: "Updating the website"
       icon: "fas fa-fw fa-code"
-      url: "https://github.com/McGill-NLP/mcgill-nlp.github.io"
+      url: "https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill"
 
 defaults:
   # _pages

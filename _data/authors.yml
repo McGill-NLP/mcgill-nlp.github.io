@@ -20,956 +20,966 @@
 #       icon: "fas fa-fw fa-graduation-cap"
 #       url: "https://scholar.google.com/citations?user=<user_id>"
 
-David Adelani:
+Reihaneh Rabbany:
+  name: Reihaneh Rabbany
   bio: "Assistant Professor"
-  name: David Adelani
-  role: Faculty
-  username: david.adelani
-  semantic_scholar_id: '2518906'
-  avatar: /assets/images/bio/David Adelani.avatar.webp
-  date: Jan 2024
-  alumni: false
-  links:
-  - label: Website
-    url: https://dadelani.github.io/
-  - label: Twitter
-    url: https://twitter.com/davlanade
-  - label: GitHub
-    url: https://github.com/dadelani
-
-Vaibhav Adlakha:
-  name: Vaibhav Adlakha
-  role: PhD
-  username: vaibhav.adlakha
-  semantic_scholar_id: '1666183192'
-  avatar: /assets/images/bio/Vaibhav Adlakha.avatar.webp
-  advisor: Siva Reddy
-  date: Fall 2020
-  bio: Interested in knowledge-grounded conversations
-  alumni: false
-  links:
-  - label: Twitter
-    url: https://twitter.com/vaibhav_adlakha
-  - label: GitHub
-    url: https://github.com/vaibhavad
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
-
-Malik H. Altakrori:
-  name: Malik H. Altakrori
-  role: PhD
-  avatar: /assets/images/bio/malikaltakrori.avatar.webp
-  semantic_scholar_id: '51935928'
-  advisor: Jackie Cheung, Benjamin Fung
-  date: Sept. 2017
-  bio: Interested in writing style analysis, authorship identification and authorship
-    obfuscation using DL/NLP
-  alumni: true
-  new_role: Postdoc at IBM
-  links:
-  - label: Website
-    url: https://malikaltakrori.github.io/
-  - label: Twitter
-    url: https://twitter.com/AltakroriM
-  - label: GitHub
-    url: https://github.com/malikaltakrori
-  - label: Scholar
-    url: https://www.semanticscholar.org/author/Malik-H.-Altakrori/51935928
-
-Rahul Aralikatte:
-  name: Rahul Aralikatte
-  role: Postdoc
-  semantic_scholar_id: '19509693'
-  avatar: /assets/images/bio/Rahul Aralikatte.avatar.webp
-  advisor: Jackie Cheung
-  date: Aug-2022
-  bio: Text summarization and low-resource learning
-  alumni: true
-  links:
-  - label: Website
-    url: http://www.rahular.com/
-  - label: GitHub
-    url: https://github.com/rahular
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en
-
-Kushal Arora:
-  name: Kushal Arora
-  role: PhD
-  avatar: /assets/images/bio/Kushal Arora.avatar.webp
-  advisor: Jackie Cheung
-  alumni: false
-  links:
-  - label: Website
-    url: https://kushalarora.github.io/
-
-Ines Arous:
-  name: Ines Arous
-  role: Postdoc
-  avatar: /assets/images/bio/Ines Arous.avatar.webp
-  advisor: Jackie Cheung
-  date: Nov 2022
-  alumni: false
-  links:
-  - label: Website
-    url: https://inesarous.github.io/
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
-
-Dzmitry Bahdanau:
-  name: Dzmitry Bahdanau
-  role: Adjunct Faculty
-  username: bahdanau
-  semantic_scholar_id: '3335364'
-  avatar: /assets/images/bio/Dzmitry Bahdanau.avatar.webp
-  bio: Adjunct Professor
-  note: Research Lead, ServiceNow Research
-  alumni: false
-  links:
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=Nq0dVMcAAAAJ&hl=en&oi=ao
-  - label: Website
-    url: https://rizar.github.io/
-  - label: Twitter
-    url: https://twitter.com/dbahdanau
-
-Parishad BehnamGhader:
-  name: Parishad BehnamGhader
-  role: PhD
-  semantic_scholar_id: '2101317786'
-  avatar: /assets/images/bio/Parishad BehnamGhader.avatar.webp
-  advisor: Siva Reddy
-  date: Jan 2022
-  alumni: false
-  links:
-  - label: Website
-    url: https://parishadbehnam.github.io
-  - label: GitHub
-    url: https://github.com/parishadbehnam
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=pw9mblYAAAAJ
-
-Mehar Bhatia:
-  name: Mehar Bhatia
-  role: PhD
-  username: mehar.bhatia
-  semantic_scholar_id: '2057417892'
-  avatar: /assets/images/bio/Mehar Bhatia.jpg
-  advisor: Siva Reddy
-  date: Fall 2024
-  note: Co-advised by Vered Shwartz (UBC)
-  alumni: false
-  links:
-  - label: Website
-    url: https://meharbhatia.github.io/
-  - label: Twitter
-    url: https://twitter.com/bhatia_mehar
-  - label: GitHub
-    url: https://meharbhatia.github.io/
-Laurestine Bradford:
-  name: Laurestine Bradford
-  role: PhD
-  username: laurestine.bradford
-  advisor: Siva Reddy, Tim O'Donnell
-  date: Jan 2022
-  bio: Language in math and connecting syntax to semantics
-  alumni: false
-  avatar: /assets/images/bio/Laurestine Bradford.avatar.webp
-  links:
-  - label: Website
-    url: https://laurestine.github.io/
-  - label: GitHub
-    url: https://github.com/laurestine/
-
-Emanuele Bugliarello:
-  name: Emanuele Bugliarello
-  role: Intern
-  avatar: /assets/images/bio/Emanuele Bugliarello.avatar.webp
-  semantic_scholar_id: '83574123'
-  alumni: true
-  links:
-  - label: Website
-    url: https://e-bug.github.io/
-  advisor: Siva Reddy
-  date: Jan 2022
-  new_role: Intern at Deepmind
-
-Meng Cao:
-  name: Meng Cao
-  role: PhD
-  username: caomeng
-  advisor: Jackie Cheung
-  date: Sep 2019
-  bio: Works on factuality/bias in NLG
-  alumni: false
-  links:
-  - label: Website
-    url: https://mcao516.github.io/
-  - label: GitHub
-    url: https://github.com/mcao516
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
-  avatar: /assets/images/bio/Meng Cao.avatar.webp
-
-Xuanda Chen:
-  name: Xuanda Chen
-  role: PhD
-  advisor: Siva Reddy, Timothy J. O'Donnell
-  avatar: /assets/images/bio/Xuanda Chen.avatar.webp
-  date: Fall 2022
-  bio: Works on language model probing
-  alumni: false
-  links:
-  - label: Website
-    url: https://xdchen2.github.io/
-
-Ziling Cheng:
-  name: Ziling Cheng
-  avatar: /assets/images/bio/Ziling Cheng.avatar.webp
-  role: Intern
-  username: ziling.cheng
-  advisor: Jackie CK Cheung
-  date: Summer 2022
-  alumni: false
-  links: []
-
-Jackie Cheung:
-  name: Jackie Cheung
-  role: Faculty
-  username: cheung.ja
-  semantic_scholar_id: '3159752'
-  avatar: /assets/images/bio/Jackie Cheung.avatar.webp
-  date: '2015'
-  bio: Associate Professor
-  alumni: false
-  links:
-  - label: Website
-    url: https://www.cs.mcgill.ca/~jcheung/
-  - label: Scholar
-    url: https://scholar.google.com/citations?hl=en&user=Um-wmYQAAAAJ
-
-Andre Cianflone:
-  name: Andre Cianflone
-  role: PhD
-  avatar: /assets/images/bio/Andre Cianflone.avatar.webp
-  advisor: Jackie Cheung
-  alumni: false
-  links:
-  - label: Website
-    url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
-
-Maxime Darrin:
-  name: Maxime Darrin
-  role: PhD
-  avatar: /assets/images/bio/Maxime Darrin.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2023
-  alumni: false
-  links:
-  - label: Website
-    url: https://icannos.github.io/
-
-Yue Dong:
-  name: Yue Dong
-  role: PhD
-  avatar: /assets/images/bio/Yue Dong.avatar.webp
-  advisor: Jackie Cheung
-  new_role: Assistant Professor at UC Riverside
-  alumni: true
-  links:
-  - label: Website
-    url: https://yuedong.netlify.app/
-  - label: Twitter
-    url: https://twitter.com/yuedongcs
-
-Bonaventure Dossou:
-  name: Bonaventure Dossou
-  role: PhD
-  avatar: /assets/images/bio/Bonaventure Dossou.avatar.webp
-  advisor: Jackie Cheung
-  date: Winter 2024
-  alumni: false
-  links:
-  - label: Website
-    url: https://bonaventuredossou.github.io/
-
-Amanda Doucette:
-  name: Amanda Doucette
-  role: PhD
-  advisor: Timothy J. O'Donnell
-  date: Fall 2020
-  bio: Works on computational phonology
-  alumni: false
-  links:
-  - label: Website
-    url: https://www.amandadoucette.com
-  - label: GitHub
-    url: https://github.com/amnda-d
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=KpJRQbsAAAAJ&hl=en
-
-Nouha Dziri:
-  name: Nouha Dziri
-  role: Intern
-  avatar: /assets/images/bio/Nouha Dziri.avatar.webp
-  semantic_scholar_id: '46217681'
-  alumni: true
-  links:
-  - label: Website
-    url: https://webdocs.cs.ualberta.ca/~dziri/
-  advisor: Siva Reddy
-  date: May 2021
-  new_role: Postdoc at Allen Institute for AI (AI2)
-
-Sabina Elkins:
-  name: Sabina Elkins
-  role: Master
-  avatar: /assets/images/bio/Sabina Elkins.avatar.webp
-  advisor: Jackie Cheung
-  date: Sep 2021
-  alumni: true
-  links:
-  - label: Website
-    url: https://sabina-elkins.github.io/
-
-Ali Emami:
-  name: Ali Emami
-  role: PhD
-  avatar: /assets/images/bio/Ali Emami.avatar.webp
-  advisor: Jackie Cheung
-  new_role: Assistant Professor at Brock University
-  alumni: true
-  links:
-  - label: Website
-    url: https://www.cosc.brocku.ca/~aemami/
-
-Aylin Erman:
-  name: Aylin Erman
-  role: Master
-  avatar: /assets/images/bio/Aylin Erman.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2022
-  bio: Works at the intersection of Health and AI
-  note: Co-advised by Dan Poenaru from paediatric surgery
-  alumni: yulu
-  links:
-  - label: Website
-    url: https://aylinerma.github.io
-
-Ori Ernst:
-  name: Ori Ernst
-  role: Postdoc
-  avatar: /assets/images/bio/Ori Ernst.avatar.webp
-  advisor: Jackie Cheung
-  date: Jan 2024
-  alumni: false
-  links:
-  - label: Website
-    url: https://oriern.github.io/
-  - label: Scholar
-    url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
-
-Lorenzo Flores:
-  name: Lorenzo Flores
-  role: Master
-  username: lorenzo.flores
-  semantic_scholar_id: '2127831186'
-  avatar: /assets/images/bio/Lorenzo Flores.png
-  advisor: Jackie Cheung
-  date: AUG-2024
-  bio: 'Research Interests: NLP, Active Learning, Hallucinations'
-  alumni: false
-  links:
-  - label: Website
-    url: https://ljyflores.github.io/
-  - label: Twitter
-    url: https://x.com/ljyflores38
-  - label: GitHub
-    url: https://github.com/ljyflores
-  - label: Scholar
-    url: https://www.semanticscholar.org/author/Lorenzo-Jaime-Yu-Flores/2127831186
-Jules Gagnon-Marchand:
-  name: Jules Gagnon-Marchand
-  role: Master
-  avatar: /assets/images/bio/Jules Gagnon-Marchand.avatar.webp
-  advisor: Jackie Cheung
-  alumni: true
-  links:
-  - label: Website
-    url: https://julesgm.github.io/
-
-Emily Goodwin:
-  name: "Emily Goodwin"
-  role: "Master"
-  new_role: "PhD at Stanford Linguistics"
-  avatar: "/assets/images/bio/Emily Goodwin.avatar.webp"
-  date: "Jan 2020"
-  advisor: "Siva Reddy, Tim O'Donnell"
-  note: "Co-advised by Dzmitry Bahdanau"
-  alumni: true
-  links:
-  - label: "Website"
-    url: "https://emilygoodwin.github.io/"
-
-Lucas Torroba Hennigen:
-  name: "Lucas Torroba Hennigen"
-  role: "Intern"
-  advisor: "Siva Reddy"
-  new_role: "PhD at MIT Computer Science"
-  avatar: "/assets/images/bio/Lucas Torroba Hennigen.avatar.webp"
-  date: "Fall 2021"
-  alumni: true
-  links:
-  - label: "Website"
-    url: "https://ltorroba.github.io/"
-  - label: "GitHub"
-    url: "https://github.com/ltorroba"
-  - label: "Scholar"
-    url: "https://scholar.google.com/citations?user=Zhy1N1sAAAAJ"
-
-Jacob Louis Hoover:
-  name: Jacob Louis Hoover
-  role: PhD
-  username: hooverjac
-  semantic_scholar_id: '1729201519'
-  avatar: /assets/images/bio/Jacob Louis Hoover.avatar.webp
-  advisor: Timothy J. O'Donnell
-  date: Fall 2018
-  bio: Works on computational modelling and sentence processing.
-  alumni: false
-  links:
-  - label: Website
-    url: https://jahoo.github.io/
-  - label: GitHub
-    url: https://github.com/postylem
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=koLi2TwAAAAJ
-
-Jasper Jian:
-  name: Jasper Jian
-  role: Undergraduate
-  avatar: /assets/images/bio/Jasper Jian.avatar.webp
-  advisor: Siva Reddy
-  date: Summer 2022
-  new_role: PhD at Stanford Linguistics
-  bio: Works on interpreting and extracting linguistic representations from large
-    language models.
-  alumni: true
-  links:
-  - label: Website
-    url: https://sites.google.com/view/jasperjian
-  - label: GitHub
-    url: https://github.com/jasperjjian
-
-Jad Kabbara:
-  name: Jad Kabbara
-  role: PhD
-  semantic_scholar_id: '2631301'
-  advisor: Jackie Cheung
-  bio: Works on computational pragmatics and its intersection with NLG and NLU
-  new_role: Postdoc at MIT
-  alumni: true
-  avatar: /assets/images/bio/Jad Kabbara.avatar.webp
-  links:
-  - label: Website
-    url: https://www.cs.mcgill.ca/~jkabba/
-  - label: Twitter
-    url: twitter.com/jad_kabbara
-
-Gaurav Kamath:
-  name: Gaurav Kamath
-  role: PhD
-  avatar: /assets/images/bio/Gaurav Kamath.avatar.webp
-  advisor: Siva Reddy
-  date: Summer 2022
-  bio: Interested in the abstract semantic structures language models capture.
-  alumni: false
-  links:
-  - label: Website
-    url: https://grvkamath.github.io/
-
-Zdeněk Kasner:
-  name: Zdeněk Kasner
-  role: Intern
-  semantic_scholar_id: '1805991958'
-  avatar: /assets/images/bio/Zdeněk Kasner.avatar.webp
-  advisor: Siva Reddy
-  date: Feb 2023
-  bio: Intern working on language & code generation
-  alumni: true
-  links:
-  - label: Website
-    url: https://kasnerz.github.io/
-  - label: Twitter
-    url: https://twitter.com/ZdenekKasner
-  - label: GitHub
-    url: https://github.com/kasnerz
-  - label: Scholar
-    url: https://scholar.google.cz/citations?user=6NnuRB8AAAAJ
-
-Amirhossein Kazemnejad:
-  name: Amirhossein Kazemnejad
-  role: Master
-  username: amirhossein.kazemnejad
-  semantic_scholar_id: '1754452702'
-  avatar: /assets/images/bio/Amirhossein Kazemnejad.avatar.webp
-  advisor: Siva Reddy
-  date: Jan 2021
-  bio: Working on systematic generalization of language models
-  alumni: false
-  links:
-  - label: Website
-    url: https://kazemnejad.com
-
-Benno Krojer:
-  name: "Benno Krojer"
-  role: "PhD"
-  avatar: "/assets/images/bio/Benno Krojer.avatar.webp"
-  alumni: false
-  date: "Summer 2021"
-  links:
-  - label: Website
-    url: https://www.bennokrojer.com/
-  - label: Twitter
-    url: https://twitter.com/benno_krojer
-  - label: GitHub
-    url: https://github.com/BennoKrojer/
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=D5eyaLwAAAAJ&hl=en
-  advisor: Siva Reddy
-  bio: I work on language grounding and like Ultimate Frisbee
-  semantic_scholar_id: '1994697809'
-
-Devang Kulshreshtha:
-  name: Devang Kulshreshtha
-  role: Master
-  semantic_scholar_id: '38321735'
-  avatar: /assets/images/bio/Devang Kulshreshtha.avatar.webp
-  advisor: Siva Reddy
-  date: Fall 2020
-  alumni: true
-  links:
-  - label: Website
-    url: https://geekydevu.netlify.app/
-  - label: GitHub
-    url: https://github.com/geekydevu
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en
-  new_role: Amazon AWS Applied Scientist
-
-Ben LeBrun:
-  name: Ben LeBrun
-  role: Master
-  username: benjamin.lebrun
-  semantic_scholar_id: '2159712810'
-  avatar: /assets/images/bio/Ben LeBrun.avatar.webp
-  advisor: Timothy J. O'Donnell
-  date: Winter 2020
-  bio: Currently working on computational models of pragmatic reasoning.
-  alumni: false
-  links:
-  - label: Website
-    url: https://benlebrun.github.io/about/
-  - label: GitHub
-    url: https://github.com/benlebrun
-  - label: Scholar
-    url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
-
-Zichao Li:
-  name: Zichao Li
-  role: PhD
-  avatar: /assets/images/bio/zichao.avatar.webp
-  username: zichao.li
-  semantic_scholar_id: '2118274302'
-  advisor: Jackie Cheung, Siva Reddy
-  alumni: false
-  links:
-  - label: "Page"
-    url: "/people/zichao"
-    icon: "fas fa-fw fa-user"
-Yu Lu Liu:
-  name: Yu Lu Liu
-  role: Master
-  avatar: /assets/images/bio/Yu Lu Liu.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2022
-  bio: FATE + Evaluation metrics in summarization
-  alumni: true
-  links:
-  - label: Website
-    url: https://yululiu.github.io/
-
-
-Xing Han Lu:
-  name: Xing Han Lu
-  role: PhD
-  avatar: /assets/images/bio/Xing Han Lu.avatar.webp
-  advisor: Siva Reddy
-  date: Fall 2021
-  alumni: false
+  semantic_scholar_id: '2490772'
   auto_update_publications: true
-  links:
-  - label: Website
-    url: https://xinghanlu.com/
-  - label: Twitter
-    url: https://twitter.com/xhluca
-  - label: GitHub
-    url: https://github.com/xhluca
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=ekoOv3YAAAAJ&hl=en
-  semantic_scholar_id: '50085049'
-  bio: Working on retrieval and conversational QA
-
-Andreas Madsen:
-  name: "Andreas Madsen"
-  role: "PhD"
-  avatar: "/assets/images/bio/andreasmadsen.avatar.webp"
-  date: "Fall 2020"
-  advisor: Siva Reddy
-  bio: "Works on NLP Interpretability"
-  note: "Co-advised by Sarath Chandar"
-  alumni: false
-  links:
-  - label: "Website"
-    url: "https://andreasmadsen.github.io/"
-  - label: "GitHub"
-    url: "https://github.com/AndreasMadsen/"
-  - label: "Twitter"
-    url: "https://twitter.com/andreas_madsen"
-  - label: "LinkedIn"
-    url: https://www.linkedin.com/in/andreasmad/
-  - label: "Scholar"
-    icon: "fas fa-fw fa-graduation-cap"
-    url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
-
-Nicholas Meade:
-  name: Nicholas Meade
-  role: PhD
-  username: nicholas.meade
-  semantic_scholar_id: '150247363'
-  avatar: /assets/images/bio/Nicholas Meade.avatar.webp
-  advisor: Siva Reddy
-  date: Fall 2020
-  bio: Works on bias/safety in NLP
-  alumni: false
-  links:
-  - label: Website
-    url: https://ncmeade.github.io/
-  - label: Twitter
-    url: https://twitter.com/ncmeade
-  - label: GitHub
-    url: https://github.com/ncmeade
-  - label: Scholar
-    url: https://scholar.google.com/citations?hl=en&user=-aLqCbgAAAAJ
-
-Neshma Metri:
-  name: Neshma Metri
-  role: Undergraduate
-  advisor: Dr. Siva Reddy
-  date: Sep 2021
-  bio: Worked on introducing quantifiers in UDepLambda framework which converts dependency
-    trees into lambda calculus forms
-  alumni: true
-  avatar: /assets/images/bio/Neshma Metri.avatar.webp
-  links:
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/neshma-metri-06b8a1162/
-
-Aristides Milios:
-  name: Aristides Milios
-  role: Master
-  username: aristides.milios
-  semantic_scholar_id: '1516303035'
-  avatar: /assets/images/bio/Aristides Milios.avatar.webp
-  advisor: Dr. Siva Reddy
-  date: Fall 2021
-  bio: Interested in imbuing large language models with world knowledge
-  alumni: false
-  links:
-  - label: Website
-    url: https://atmilios.com/
-  - label: Twitter
-    url: https://twitter.com/amilios
-  - label: GitHub
-    url: https://github.com/amilios
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=5sCPodgAAAAJ
-
-Sivan Milton:
-  name: Sivan Milton
-  role: Intern
-  semantic_scholar_id: '2162779012'
-  advisor: Siva Reddy
-  date: Summer 2021
-  bio: Works on Semantic Role Labelling
-  new_role: PhD at University of Edinburgh
-  alumni: true
-  links:
-  - label: Website
-    url: https://www.inf.ed.ac.uk/people/students/Sivan_Milton.html
-
-Andrei Mircea:
-  name: Andrei Mircea
-  role: Master
-  semantic_scholar_id: '1683066845'
-  avatar: /assets/images/bio/Andrei Mircea.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2020
-  new_role: PhD @ University of Montreal
-  alumni: true
-  links:
-  - label: Website
-    url: https://mirandrom.github.io/
-  - label: Twitter
-    url: https://twitter.com/mirandrom/
-  - label: GitHub
-    url: https://github.com/mirandrom/
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=JhhcaCsAAAAJ
-
-Marius Mosbach:
-  name: Marius Mosbach
-  role: Postdoc
-  semantic_scholar_id: '51510489'
-  avatar: /assets/images/bio/Marius Mosbach.avatar.webp
-  date: Mar 2024
-  bio: Working on analysis, adaptation, and generalization abilities of language models
-  alumni: false
-  links:
-  - label: Website
-    url: https://mmarius.github.io/
-  - label: Twitter
-    url: https://twitter.com/mariusmosbach
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
-
-  advisor: Siva Reddy
-Caleb Moses:
-  name: Caleb Moses
-  role: PhD
-  avatar: /assets/images/bio/Caleb Moses.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2022
-  alumni: false
-  links:
-  - label: Website
-    url: https://www.linkedin.com/in/calebjdmoses/
-
-Timothy J. O'Donnell:
-  name: Timothy J. O'Donnell
-  role: Faculty
-  username: odonnelt
-  semantic_scholar_id: '1400877758'
-  date: Fall 2017
-  alumni: false
-  links:
-  - label: Website
-    url: https://mcqll.org/people/odonnell.timothy/
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=iYjXhYwAAAAJ&hl=en
-  avatar: /assets/images/bio/Timothy J. O'Donnell.avatar.webp
-  bio: Assistant Professor, Department of Linguistics
-
-Arkil Patel:
-  name: Arkil Patel
-  role: Master
-  username: arkil.patel
-  semantic_scholar_id: '1443788809'
-  avatar: /assets/images/bio/Arkil Patel.avatar.webp
-  advisor: Dzmitry Bahdanau, Siva Reddy
-  date: Fall 2022
-  bio: Systematic Generalization, Reasoning using LLMs
-  alumni: false
-  links:
-  - label: Website
-    url: https://arkilpatel.github.io/
-  - label: Twitter
-    url: https://twitter.com/arkil_patel
-  - label: GitHub
-    url: https://github.com/arkilpatel
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=-5goVAsAAAAJ&hl=en
-
-Cesare Spinoso-Di Piano:
-  name: Cesare Spinoso-Di Piano
-  role: PhD
-  avatar: /assets/images/bio/Cesare Spinoso-Di Piano.avatar.webp
-  advisor: Jackie Cheung
-  date: Winter 2024
-  bio: NLP + Science
-  alumni: false
-  links:
-  - label: Website
-    url: https://cesare-spinoso.github.io/
-  - label: Twitter
-    url: https://twitter.com/cesare_spinoso
-  - label: GitHub
-    url: https://github.com/cesare-spinoso
-  - label: Scholar
-    url: https://scholar.google.ca/citations?user=3XOcXPgAAAAJ&hl=en
-
-Edoardo M. Ponti:
-  name: Edoardo M. Ponti
-  role: Postdoc
-  avatar: /assets/images/bio/Edoardo M. Ponti.avatar.webp
-  date: Jan 2021
-  alumni: true
-  links:
-  - label: Website
-    url: https://ducdauge.github.io/
-  - label: Twitter
-    url: https://twitter.com/PontiEdoardo
-  - label: GitHub
-    url: https://github.com/ducdauge
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=tklL2q0AAAAJ
-  semantic_scholar_id: '3381663'
-  new_role: Lecturer (Assistant Professor) at University of Edinburgh
-
-Elinor Poole-Dayan:
-  name: "Elinor Poole-Dayan"
-  new_role: "Master's at MIT"
-  role: "Undergraduate"
-  date: "Winter 2021"
-  advisor: "Siva Reddy"
-  avatar: "/assets/images/bio/Elinor Poole-Dayan.avatar.webp"
-  alumni: true
-  links:
-  - label: "LinkedIn"
-    url: "https://www.linkedin.com/in/elinor-poole-dayan/"
-
-Ian Porada:
-  name: Ian Porada
-  role: PhD
-  username: poradaia
-  semantic_scholar_id: '108508643'
-  advisor: Jackie Cheung
-  date: Winter 2019
-  bio: Working on coreference, commonsense knowledge, semantics
-  alumni: false
-  avatar: /assets/images/bio/Ian Porada.avatar.webp
-  links:
-  - label: Website
-    url: https://ianporada.github.io/
-  - label: GitHub
-    url: https://github.com/ianporada
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=gQxa3i8AAAAJ
-
-Eva Portelance:
-  name: Eva Portelance
-  role: Postdoc
-  avatar: /assets/images/bio/Eva Portelance.avatar.webp
-  advisor: Timothy J. O'Donnell, Siva Reddy
-  date: Winter 2023
-  bio: Bridging the gap between AI and cognitive science
-  alumni: false
-  links:
-  - label: Website
-    url: https://evaportelance.github.io/
-  - label: Twitter
-    url: https://twitter.com/EvaPortelance
-  - label: GitHub
-    url: https://github.com/evaportelance
-  - label: Scholar
-    url: https://scholar.google.ca/citations?user=oGYlQJIAAAAJ&hl=en
-
-Victor Prokhorov:
-  name: "Victor Prokhorov"
-  role: "Intern"
-  advisor: "Siva Reddy"
-  avatar: "/assets/images/bio/Victor Prokhorov.avatar.webp"
-  date: "Fall 2021"
-  alumni: true
-  links:
-  - label: "Website"
-    url: "https://victorprokhorov.github.io/"
-
-Martin Pömsl:
-  name: Martin Pömsl
-  role: Master
-  semantic_scholar_id: '1712260962'
-  avatar: /assets/images/bio/Martin Pömsl.avatar.webp
-  advisor: Jackie Cheung
-  date: Fall 2021
-  alumni: true
-  links:
-  - label: Website
-    url: https://mpoemsl.github.io/
-  - label: GitHub
-    url: https://github.com/mpoemsl
-
-Siva Reddy:
-  name: "Siva Reddy"
-  bio: "Assistant Professor"
-  semantic_scholar_id: "145732771"
-  auto_update_publications: true
-  note: "Facebook CIFAR AI Chair"
-  avatar: "/assets/images/bio/siva.avatar.webp"
+  note: "CIFAR AI Chair"
+  avatar: "/assets/images/bio/reihaneh.rabbany.avatar.webp"
   date: "Jan 2020"
   role: "Faculty"
-  username: siva.reddy
+  username: reihaneh.rabbany
   links:
   - label: "Website"
-    url: "https://sivareddy.in"
-  - label: "Twitter"
-    url: "https://twitter.com/sivareddyg"
+    url: "http://www.reirab.com/"
+  - label: "X (prev. Twitter)"
+    url: "https://x.com/reirabb"
     icon: "fab fa-fw fa-twitter"
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
-    url: "https://github.com/sivareddyg"
+    url: "https://github.com/rabbanyk"
   - label: "Scholar"
     icon: "fas fa-fw fa-graduation-cap"
-    url: "https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&oi=ao"
+    url: "https://scholar.google.ca/citations?hl=en&user=Foh_c-QAAAAJ"
   - label: "Page"
-    url: "/people/siva"
+    url: "/people/reihaneh"
     icon: "fas fa-fw fa-user"
 
-Karolina Stanczak:
-  name: Karolina Stanczak
-  role: Postdoc
-  semantic_scholar_id: '82563120'
-  avatar: /assets/images/bio/Karolina Stanczak.jpg
-  advisor: Siva Reddy
-  date: Mar 2024
-  bio: Working on bias detection, multilinguality, and interpretability.
-  alumni: false
-  links:
-  - label: Website
-    url: https://kstanczak.github.io/
-  - label: Twitter
-    url: https://twitter.com/karstanczak
-  - label: GitHub
-    url: https://github.com/karstanczak
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
-Ada Tur:
-  name: Ada Tur
-  role: Undergraduate
-  username: ada.tur
-  semantic_scholar_id: '2129070227'
-  avatar: /assets/images/bio/Ada Tur.png
-  advisor: Siva Reddy
-  date: Summer 2024
-  bio: Working on linguistic behaviors in LLMs and AI safety in digital web agents
-  alumni: false
-  links:
-  - label: Website
-    url: https://adadtur.github.io/
-  - label: Twitter
-    url: https://twitter.com/adadtur
-  - label: GitHub
-    url: https://github.com/AdaDTur
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=9td9V50AAAAJ&hl=en&authuser=1
-Michelle Yang:
-  name: "Michelle Yang"
-  role: "Undergraduate"
-  date: "Fall 2021"
-  advisor: "Siva Reddy"
-  avatar: "/assets/images/bio/Michelle Yang.avatar.webp"
-  alumni: true
-  links:
-  - label: "Twitter"
-    url: "https://twitter.com/mjieyang"
+
+# Vaibhav Adlakha:
+#   name: Vaibhav Adlakha
+#   role: PhD
+#   username: vaibhav.adlakha
+#   semantic_scholar_id: '1666183192'
+#   avatar: /assets/images/bio/Vaibhav Adlakha.avatar.webp
+#   advisor: Siva Reddy
+#   date: Fall 2020
+#   bio: Interested in knowledge-grounded conversations
+#   alumni: false
+#   links:
+#   - label: Twitter
+#     url: https://twitter.com/vaibhav_adlakha
+#   - label: GitHub
+#     url: https://github.com/vaibhavad
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
+
+# Malik H. Altakrori:
+#   name: Malik H. Altakrori
+#   role: PhD
+#   avatar: /assets/images/bio/malikaltakrori.avatar.webp
+#   semantic_scholar_id: '51935928'
+#   advisor: Jackie Cheung, Benjamin Fung
+#   date: Sept. 2017
+#   bio: Interested in writing style analysis, authorship identification and authorship
+#     obfuscation using DL/NLP
+#   alumni: true
+#   new_role: Postdoc at IBM
+#   links:
+#   - label: Website
+#     url: https://malikaltakrori.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/AltakroriM
+#   - label: GitHub
+#     url: https://github.com/malikaltakrori
+#   - label: Scholar
+#     url: https://www.semanticscholar.org/author/Malik-H.-Altakrori/51935928
+
+# Rahul Aralikatte:
+#   name: Rahul Aralikatte
+#   role: Postdoc
+#   semantic_scholar_id: '19509693'
+#   avatar: /assets/images/bio/Rahul Aralikatte.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Aug-2022
+#   bio: Text summarization and low-resource learning
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: http://www.rahular.com/
+#   - label: GitHub
+#     url: https://github.com/rahular
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=UbcNXvQAAAAJ&hl=en
+
+# Kushal Arora:
+#   name: Kushal Arora
+#   role: PhD
+#   avatar: /assets/images/bio/Kushal Arora.avatar.webp
+#   advisor: Jackie Cheung
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://kushalarora.github.io/
+
+# Ines Arous:
+#   name: Ines Arous
+#   role: Postdoc
+#   avatar: /assets/images/bio/Ines Arous.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Nov 2022
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://inesarous.github.io/
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
+
+# Dzmitry Bahdanau:
+#   name: Dzmitry Bahdanau
+#   role: Adjunct Faculty
+#   username: bahdanau
+#   semantic_scholar_id: '3335364'
+#   avatar: /assets/images/bio/Dzmitry Bahdanau.avatar.webp
+#   bio: Adjunct Professor
+#   note: Research Lead, ServiceNow Research
+#   alumni: false
+#   links:
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=Nq0dVMcAAAAJ&hl=en&oi=ao
+#   - label: Website
+#     url: https://rizar.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/dbahdanau
+
+# Parishad BehnamGhader:
+#   name: Parishad BehnamGhader
+#   role: PhD
+#   semantic_scholar_id: '2101317786'
+#   avatar: /assets/images/bio/Parishad BehnamGhader.avatar.webp
+#   advisor: Siva Reddy
+#   date: Jan 2022
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://parishadbehnam.github.io
+#   - label: GitHub
+#     url: https://github.com/parishadbehnam
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=pw9mblYAAAAJ
+
+# Mehar Bhatia:
+#   name: Mehar Bhatia
+#   role: PhD
+#   username: mehar.bhatia
+#   semantic_scholar_id: '2057417892'
+#   avatar: /assets/images/bio/Mehar Bhatia.jpg
+#   advisor: Siva Reddy
+#   date: Fall 2024
+#   note: Co-advised by Vered Shwartz (UBC)
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://meharbhatia.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/bhatia_mehar
+#   - label: GitHub
+#     url: https://meharbhatia.github.io/
+# Laurestine Bradford:
+#   name: Laurestine Bradford
+#   role: PhD
+#   username: laurestine.bradford
+#   advisor: Siva Reddy, Tim O'Donnell
+#   date: Jan 2022
+#   bio: Language in math and connecting syntax to semantics
+#   alumni: false
+#   avatar: /assets/images/bio/Laurestine Bradford.avatar.webp
+#   links:
+#   - label: Website
+#     url: https://laurestine.github.io/
+#   - label: GitHub
+#     url: https://github.com/laurestine/
+
+# Emanuele Bugliarello:
+#   name: Emanuele Bugliarello
+#   role: Intern
+#   avatar: /assets/images/bio/Emanuele Bugliarello.avatar.webp
+#   semantic_scholar_id: '83574123'
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://e-bug.github.io/
+#   advisor: Siva Reddy
+#   date: Jan 2022
+#   new_role: Intern at Deepmind
+
+# Meng Cao:
+#   name: Meng Cao
+#   role: PhD
+#   username: caomeng
+#   advisor: Jackie Cheung
+#   date: Sep 2019
+#   bio: Works on factuality/bias in NLG
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://mcao516.github.io/
+#   - label: GitHub
+#     url: https://github.com/mcao516
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
+#   avatar: /assets/images/bio/Meng Cao.avatar.webp
+
+# Xuanda Chen:
+#   name: Xuanda Chen
+#   role: PhD
+#   advisor: Siva Reddy, Timothy J. O'Donnell
+#   avatar: /assets/images/bio/Xuanda Chen.avatar.webp
+#   date: Fall 2022
+#   bio: Works on language model probing
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://xdchen2.github.io/
+
+# Ziling Cheng:
+#   name: Ziling Cheng
+#   avatar: /assets/images/bio/Ziling Cheng.avatar.webp
+#   role: Intern
+#   username: ziling.cheng
+#   advisor: Jackie CK Cheung
+#   date: Summer 2022
+#   alumni: false
+#   links: []
+
+# Jackie Cheung:
+#   name: Jackie Cheung
+#   role: Faculty
+#   username: cheung.ja
+#   semantic_scholar_id: '3159752'
+#   avatar: /assets/images/bio/Jackie Cheung.avatar.webp
+#   date: '2015'
+#   bio: Associate Professor
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://www.cs.mcgill.ca/~jcheung/
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?hl=en&user=Um-wmYQAAAAJ
+
+# Andre Cianflone:
+#   name: Andre Cianflone
+#   role: PhD
+#   avatar: /assets/images/bio/Andre Cianflone.avatar.webp
+#   advisor: Jackie Cheung
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
+
+# Maxime Darrin:
+#   name: Maxime Darrin
+#   role: PhD
+#   avatar: /assets/images/bio/Maxime Darrin.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Fall 2023
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://icannos.github.io/
+
+# Yue Dong:
+#   name: Yue Dong
+#   role: PhD
+#   avatar: /assets/images/bio/Yue Dong.avatar.webp
+#   advisor: Jackie Cheung
+#   new_role: Assistant Professor at UC Riverside
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://yuedong.netlify.app/
+#   - label: Twitter
+#     url: https://twitter.com/yuedongcs
+
+# Bonaventure Dossou:
+#   name: Bonaventure Dossou
+#   role: PhD
+#   avatar: /assets/images/bio/Bonaventure Dossou.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Winter 2024
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://bonaventuredossou.github.io/
+
+# Amanda Doucette:
+#   name: Amanda Doucette
+#   role: PhD
+#   advisor: Timothy J. O'Donnell
+#   date: Fall 2020
+#   bio: Works on computational phonology
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://www.amandadoucette.com
+#   - label: GitHub
+#     url: https://github.com/amnda-d
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=KpJRQbsAAAAJ&hl=en
+
+# Nouha Dziri:
+#   name: Nouha Dziri
+#   role: Intern
+#   avatar: /assets/images/bio/Nouha Dziri.avatar.webp
+#   semantic_scholar_id: '46217681'
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://webdocs.cs.ualberta.ca/~dziri/
+#   advisor: Siva Reddy
+#   date: May 2021
+#   new_role: Postdoc at Allen Institute for AI (AI2)
+
+# Sabina Elkins:
+#   name: Sabina Elkins
+#   role: Master
+#   avatar: /assets/images/bio/Sabina Elkins.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Sep 2021
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://sabina-elkins.github.io/
+
+# Ali Emami:
+#   name: Ali Emami
+#   role: PhD
+#   avatar: /assets/images/bio/Ali Emami.avatar.webp
+#   advisor: Jackie Cheung
+#   new_role: Assistant Professor at Brock University
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://www.cosc.brocku.ca/~aemami/
+
+# Aylin Erman:
+#   name: Aylin Erman
+#   role: Master
+#   avatar: /assets/images/bio/Aylin Erman.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Fall 2022
+#   bio: Works at the intersection of Health and AI
+#   note: Co-advised by Dan Poenaru from paediatric surgery
+#   alumni: yulu
+#   links:
+#   - label: Website
+#     url: https://aylinerma.github.io
+
+# Ori Ernst:
+#   name: Ori Ernst
+#   role: Postdoc
+#   avatar: /assets/images/bio/Ori Ernst.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Jan 2024
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://oriern.github.io/
+#   - label: Scholar
+#     url: https://scholar.google.co.il/citations?hl=iw&user=_AZDDnMAAAAJ
+
+# Lorenzo Flores:
+#   name: Lorenzo Flores
+#   role: Master
+#   username: lorenzo.flores
+#   semantic_scholar_id: '2127831186'
+#   avatar: /assets/images/bio/Lorenzo Flores.png
+#   advisor: Jackie Cheung
+#   date: AUG-2024
+#   bio: 'Research Interests: NLP, Active Learning, Hallucinations'
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://ljyflores.github.io/
+#   - label: Twitter
+#     url: https://x.com/ljyflores38
+#   - label: GitHub
+#     url: https://github.com/ljyflores
+#   - label: Scholar
+#     url: https://www.semanticscholar.org/author/Lorenzo-Jaime-Yu-Flores/2127831186
+# Jules Gagnon-Marchand:
+#   name: Jules Gagnon-Marchand
+#   role: Master
+#   avatar: /assets/images/bio/Jules Gagnon-Marchand.avatar.webp
+#   advisor: Jackie Cheung
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://julesgm.github.io/
+
+# Emily Goodwin:
+#   name: "Emily Goodwin"
+#   role: "Master"
+#   new_role: "PhD at Stanford Linguistics"
+#   avatar: "/assets/images/bio/Emily Goodwin.avatar.webp"
+#   date: "Jan 2020"
+#   advisor: "Siva Reddy, Tim O'Donnell"
+#   note: "Co-advised by Dzmitry Bahdanau"
+#   alumni: true
+#   links:
+#   - label: "Website"
+#     url: "https://emilygoodwin.github.io/"
+
+# Lucas Torroba Hennigen:
+#   name: "Lucas Torroba Hennigen"
+#   role: "Intern"
+#   advisor: "Siva Reddy"
+#   new_role: "PhD at MIT Computer Science"
+#   avatar: "/assets/images/bio/Lucas Torroba Hennigen.avatar.webp"
+#   date: "Fall 2021"
+#   alumni: true
+#   links:
+#   - label: "Website"
+#     url: "https://ltorroba.github.io/"
+#   - label: "GitHub"
+#     url: "https://github.com/ltorroba"
+#   - label: "Scholar"
+#     url: "https://scholar.google.com/citations?user=Zhy1N1sAAAAJ"
+
+# Jacob Louis Hoover:
+#   name: Jacob Louis Hoover
+#   role: PhD
+#   username: hooverjac
+#   semantic_scholar_id: '1729201519'
+#   avatar: /assets/images/bio/Jacob Louis Hoover.avatar.webp
+#   advisor: Timothy J. O'Donnell
+#   date: Fall 2018
+#   bio: Works on computational modelling and sentence processing.
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://jahoo.github.io/
+#   - label: GitHub
+#     url: https://github.com/postylem
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=koLi2TwAAAAJ
+
+# Jasper Jian:
+#   name: Jasper Jian
+#   role: Undergraduate
+#   avatar: /assets/images/bio/Jasper Jian.avatar.webp
+#   advisor: Siva Reddy
+#   date: Summer 2022
+#   new_role: PhD at Stanford Linguistics
+#   bio: Works on interpreting and extracting linguistic representations from large
+#     language models.
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://sites.google.com/view/jasperjian
+#   - label: GitHub
+#     url: https://github.com/jasperjjian
+
+# Jad Kabbara:
+#   name: Jad Kabbara
+#   role: PhD
+#   semantic_scholar_id: '2631301'
+#   advisor: Jackie Cheung
+#   bio: Works on computational pragmatics and its intersection with NLG and NLU
+#   new_role: Postdoc at MIT
+#   alumni: true
+#   avatar: /assets/images/bio/Jad Kabbara.avatar.webp
+#   links:
+#   - label: Website
+#     url: https://www.cs.mcgill.ca/~jkabba/
+#   - label: Twitter
+#     url: twitter.com/jad_kabbara
+
+# Gaurav Kamath:
+#   name: Gaurav Kamath
+#   role: PhD
+#   avatar: /assets/images/bio/Gaurav Kamath.avatar.webp
+#   advisor: Siva Reddy
+#   date: Summer 2022
+#   bio: Interested in the abstract semantic structures language models capture.
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://grvkamath.github.io/
+
+# Zdeněk Kasner:
+#   name: Zdeněk Kasner
+#   role: Intern
+#   semantic_scholar_id: '1805991958'
+#   avatar: /assets/images/bio/Zdeněk Kasner.avatar.webp
+#   advisor: Siva Reddy
+#   date: Feb 2023
+#   bio: Intern working on language & code generation
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://kasnerz.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/ZdenekKasner
+#   - label: GitHub
+#     url: https://github.com/kasnerz
+#   - label: Scholar
+#     url: https://scholar.google.cz/citations?user=6NnuRB8AAAAJ
+
+# Amirhossein Kazemnejad:
+#   name: Amirhossein Kazemnejad
+#   role: Master
+#   username: amirhossein.kazemnejad
+#   semantic_scholar_id: '1754452702'
+#   avatar: /assets/images/bio/Amirhossein Kazemnejad.avatar.webp
+#   advisor: Siva Reddy
+#   date: Jan 2021
+#   bio: Working on systematic generalization of language models
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://kazemnejad.com
+
+# Benno Krojer:
+#   name: "Benno Krojer"
+#   role: "PhD"
+#   avatar: "/assets/images/bio/Benno Krojer.avatar.webp"
+#   alumni: false
+#   date: "Summer 2021"
+#   links:
+#   - label: Website
+#     url: https://www.bennokrojer.com/
+#   - label: Twitter
+#     url: https://twitter.com/benno_krojer
+#   - label: GitHub
+#     url: https://github.com/BennoKrojer/
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=D5eyaLwAAAAJ&hl=en
+#   advisor: Siva Reddy
+#   bio: I work on language grounding and like Ultimate Frisbee
+#   semantic_scholar_id: '1994697809'
+
+# Devang Kulshreshtha:
+#   name: Devang Kulshreshtha
+#   role: Master
+#   semantic_scholar_id: '38321735'
+#   avatar: /assets/images/bio/Devang Kulshreshtha.avatar.webp
+#   advisor: Siva Reddy
+#   date: Fall 2020
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://geekydevu.netlify.app/
+#   - label: GitHub
+#     url: https://github.com/geekydevu
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=-E2zJ4AAAAAJ&hl=en
+#   new_role: Amazon AWS Applied Scientist
+
+# Ben LeBrun:
+#   name: Ben LeBrun
+#   role: Master
+#   username: benjamin.lebrun
+#   semantic_scholar_id: '2159712810'
+#   avatar: /assets/images/bio/Ben LeBrun.avatar.webp
+#   advisor: Timothy J. O'Donnell
+#   date: Winter 2020
+#   bio: Currently working on computational models of pragmatic reasoning.
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://benlebrun.github.io/about/
+#   - label: GitHub
+#     url: https://github.com/benlebrun
+#   - label: Scholar
+#     url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
+
+# Zichao Li:
+#   name: Zichao Li
+#   role: PhD
+#   avatar: /assets/images/bio/zichao.avatar.webp
+#   username: zichao.li
+#   semantic_scholar_id: '2118274302'
+#   advisor: Jackie Cheung, Siva Reddy
+#   alumni: false
+#   links:
+#   - label: "Page"
+#     url: "/people/zichao"
+#     icon: "fas fa-fw fa-user"
+# Yu Lu Liu:
+#   name: Yu Lu Liu
+#   role: Master
+#   avatar: /assets/images/bio/Yu Lu Liu.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Fall 2022
+#   bio: FATE + Evaluation metrics in summarization
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://yululiu.github.io/
+
+
+# Xing Han Lu:
+#   name: Xing Han Lu
+#   role: PhD
+#   avatar: /assets/images/bio/Xing Han Lu.avatar.webp
+#   advisor: Siva Reddy
+#   date: Fall 2021
+#   alumni: false
+#   auto_update_publications: true
+#   links:
+#   - label: Website
+#     url: https://xinghanlu.com/
+#   - label: Twitter
+#     url: https://twitter.com/xhluca
+#   - label: GitHub
+#     url: https://github.com/xhluca
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=ekoOv3YAAAAJ&hl=en
+#   semantic_scholar_id: '50085049'
+#   bio: Working on retrieval and conversational QA
+
+# Andreas Madsen:
+#   name: "Andreas Madsen"
+#   role: "PhD"
+#   avatar: "/assets/images/bio/andreasmadsen.avatar.webp"
+#   date: "Fall 2020"
+#   advisor: Siva Reddy
+#   bio: "Works on NLP Interpretability"
+#   note: "Co-advised by Sarath Chandar"
+#   alumni: false
+#   links:
+#   - label: "Website"
+#     url: "https://andreasmadsen.github.io/"
+#   - label: "GitHub"
+#     url: "https://github.com/AndreasMadsen/"
+#   - label: "Twitter"
+#     url: "https://twitter.com/andreas_madsen"
+#   - label: "LinkedIn"
+#     url: https://www.linkedin.com/in/andreasmad/
+#   - label: "Scholar"
+#     icon: "fas fa-fw fa-graduation-cap"
+#     url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
+
+# Nicholas Meade:
+#   name: Nicholas Meade
+#   role: PhD
+#   username: nicholas.meade
+#   semantic_scholar_id: '150247363'
+#   avatar: /assets/images/bio/Nicholas Meade.avatar.webp
+#   advisor: Siva Reddy
+#   date: Fall 2020
+#   bio: Works on bias/safety in NLP
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://ncmeade.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/ncmeade
+#   - label: GitHub
+#     url: https://github.com/ncmeade
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?hl=en&user=-aLqCbgAAAAJ
+
+# Neshma Metri:
+#   name: Neshma Metri
+#   role: Undergraduate
+#   advisor: Dr. Siva Reddy
+#   date: Sep 2021
+#   bio: Worked on introducing quantifiers in UDepLambda framework which converts dependency
+#     trees into lambda calculus forms
+#   alumni: true
+#   avatar: /assets/images/bio/Neshma Metri.avatar.webp
+#   links:
+#   - label: LinkedIn
+#     url: https://www.linkedin.com/in/neshma-metri-06b8a1162/
+
+# Aristides Milios:
+#   name: Aristides Milios
+#   role: Master
+#   username: aristides.milios
+#   semantic_scholar_id: '1516303035'
+#   avatar: /assets/images/bio/Aristides Milios.avatar.webp
+#   advisor: Dr. Siva Reddy
+#   date: Fall 2021
+#   bio: Interested in imbuing large language models with world knowledge
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://atmilios.com/
+#   - label: Twitter
+#     url: https://twitter.com/amilios
+#   - label: GitHub
+#     url: https://github.com/amilios
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=5sCPodgAAAAJ
+
+# Sivan Milton:
+#   name: Sivan Milton
+#   role: Intern
+#   semantic_scholar_id: '2162779012'
+#   advisor: Siva Reddy
+#   date: Summer 2021
+#   bio: Works on Semantic Role Labelling
+#   new_role: PhD at University of Edinburgh
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://www.inf.ed.ac.uk/people/students/Sivan_Milton.html
+
+# Andrei Mircea:
+#   name: Andrei Mircea
+#   role: Master
+#   semantic_scholar_id: '1683066845'
+#   avatar: /assets/images/bio/Andrei Mircea.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Fall 2020
+#   new_role: PhD @ University of Montreal
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://mirandrom.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/mirandrom/
+#   - label: GitHub
+#     url: https://github.com/mirandrom/
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=JhhcaCsAAAAJ
+
+# Marius Mosbach:
+#   name: Marius Mosbach
+#   role: Postdoc
+#   semantic_scholar_id: '51510489'
+#   avatar: /assets/images/bio/Marius Mosbach.avatar.webp
+#   date: Mar 2024
+#   bio: Working on analysis, adaptation, and generalization abilities of language models
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://mmarius.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/mariusmosbach
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
+
+#   advisor: Siva Reddy
+# Caleb Moses:
+#   name: Caleb Moses
+#   role: PhD
+#   avatar: /assets/images/bio/Caleb Moses.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Fall 2022
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://www.linkedin.com/in/calebjdmoses/
+
+# Timothy J. O'Donnell:
+#   name: Timothy J. O'Donnell
+#   role: Faculty
+#   username: odonnelt
+#   semantic_scholar_id: '1400877758'
+#   date: Fall 2017
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://mcqll.org/people/odonnell.timothy/
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=iYjXhYwAAAAJ&hl=en
+#   avatar: /assets/images/bio/Timothy J. O'Donnell.avatar.webp
+#   bio: Assistant Professor, Department of Linguistics
+
+# Arkil Patel:
+#   name: Arkil Patel
+#   role: Master
+#   username: arkil.patel
+#   semantic_scholar_id: '1443788809'
+#   avatar: /assets/images/bio/Arkil Patel.avatar.webp
+#   advisor: Dzmitry Bahdanau, Siva Reddy
+#   date: Fall 2022
+#   bio: Systematic Generalization, Reasoning using LLMs
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://arkilpatel.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/arkil_patel
+#   - label: GitHub
+#     url: https://github.com/arkilpatel
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=-5goVAsAAAAJ&hl=en
+
+# Cesare Spinoso-Di Piano:
+#   name: Cesare Spinoso-Di Piano
+#   role: PhD
+#   avatar: /assets/images/bio/Cesare Spinoso-Di Piano.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Winter 2024
+#   bio: NLP + Science
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://cesare-spinoso.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/cesare_spinoso
+#   - label: GitHub
+#     url: https://github.com/cesare-spinoso
+#   - label: Scholar
+#     url: https://scholar.google.ca/citations?user=3XOcXPgAAAAJ&hl=en
+
+# Edoardo M. Ponti:
+#   name: Edoardo M. Ponti
+#   role: Postdoc
+#   avatar: /assets/images/bio/Edoardo M. Ponti.avatar.webp
+#   date: Jan 2021
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://ducdauge.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/PontiEdoardo
+#   - label: GitHub
+#     url: https://github.com/ducdauge
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=tklL2q0AAAAJ
+#   semantic_scholar_id: '3381663'
+#   new_role: Lecturer (Assistant Professor) at University of Edinburgh
+
+# Elinor Poole-Dayan:
+#   name: "Elinor Poole-Dayan"
+#   new_role: "Master's at MIT"
+#   role: "Undergraduate"
+#   date: "Winter 2021"
+#   advisor: "Siva Reddy"
+#   avatar: "/assets/images/bio/Elinor Poole-Dayan.avatar.webp"
+#   alumni: true
+#   links:
+#   - label: "LinkedIn"
+#     url: "https://www.linkedin.com/in/elinor-poole-dayan/"
+
+# Ian Porada:
+#   name: Ian Porada
+#   role: PhD
+#   username: poradaia
+#   semantic_scholar_id: '108508643'
+#   advisor: Jackie Cheung
+#   date: Winter 2019
+#   bio: Working on coreference, commonsense knowledge, semantics
+#   alumni: false
+#   avatar: /assets/images/bio/Ian Porada.avatar.webp
+#   links:
+#   - label: Website
+#     url: https://ianporada.github.io/
+#   - label: GitHub
+#     url: https://github.com/ianporada
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=gQxa3i8AAAAJ
+
+# Eva Portelance:
+#   name: Eva Portelance
+#   role: Postdoc
+#   avatar: /assets/images/bio/Eva Portelance.avatar.webp
+#   advisor: Timothy J. O'Donnell, Siva Reddy
+#   date: Winter 2023
+#   bio: Bridging the gap between AI and cognitive science
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://evaportelance.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/EvaPortelance
+#   - label: GitHub
+#     url: https://github.com/evaportelance
+#   - label: Scholar
+#     url: https://scholar.google.ca/citations?user=oGYlQJIAAAAJ&hl=en
+
+# Victor Prokhorov:
+#   name: "Victor Prokhorov"
+#   role: "Intern"
+#   advisor: "Siva Reddy"
+#   avatar: "/assets/images/bio/Victor Prokhorov.avatar.webp"
+#   date: "Fall 2021"
+#   alumni: true
+#   links:
+#   - label: "Website"
+#     url: "https://victorprokhorov.github.io/"
+
+# Martin Pömsl:
+#   name: Martin Pömsl
+#   role: Master
+#   semantic_scholar_id: '1712260962'
+#   avatar: /assets/images/bio/Martin Pömsl.avatar.webp
+#   advisor: Jackie Cheung
+#   date: Fall 2021
+#   alumni: true
+#   links:
+#   - label: Website
+#     url: https://mpoemsl.github.io/
+#   - label: GitHub
+#     url: https://github.com/mpoemsl
+
+# Siva Reddy:
+#   name: "Siva Reddy"
+#   bio: "Assistant Professor"
+#   semantic_scholar_id: "145732771"
+#   auto_update_publications: true
+#   note: "Facebook CIFAR AI Chair"
+#   avatar: "/assets/images/bio/siva.avatar.webp"
+#   date: "Jan 2020"
+#   role: "Faculty"
+#   username: siva.reddy
+#   links:
+#   - label: "Website"
+#     url: "https://sivareddy.in"
+#   - label: "Twitter"
+#     url: "https://twitter.com/sivareddyg"
+#     icon: "fab fa-fw fa-twitter"
+#   - label: "GitHub"
+#     icon: "fab fa-fw fa-github"
+#     url: "https://github.com/sivareddyg"
+#   - label: "Scholar"
+#     icon: "fas fa-fw fa-graduation-cap"
+#     url: "https://scholar.google.com/citations?user=LZZAAtoAAAAJ&hl=en&oi=ao"
+#   - label: "Page"
+#     url: "/people/siva"
+#     icon: "fas fa-fw fa-user"
+
+# Karolina Stanczak:
+#   name: Karolina Stanczak
+#   role: Postdoc
+#   semantic_scholar_id: '82563120'
+#   avatar: /assets/images/bio/Karolina Stanczak.jpg
+#   advisor: Siva Reddy
+#   date: Mar 2024
+#   bio: Working on bias detection, multilinguality, and interpretability.
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://kstanczak.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/karstanczak
+#   - label: GitHub
+#     url: https://github.com/karstanczak
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
+# Ada Tur:
+#   name: Ada Tur
+#   role: Undergraduate
+#   username: ada.tur
+#   semantic_scholar_id: '2129070227'
+#   avatar: /assets/images/bio/Ada Tur.png
+#   advisor: Siva Reddy
+#   date: Summer 2024
+#   bio: Working on linguistic behaviors in LLMs and AI safety in digital web agents
+#   alumni: false
+#   links:
+#   - label: Website
+#     url: https://adadtur.github.io/
+#   - label: Twitter
+#     url: https://twitter.com/adadtur
+#   - label: GitHub
+#     url: https://github.com/AdaDTur
+#   - label: Scholar
+#     url: https://scholar.google.com/citations?user=9td9V50AAAAJ&hl=en&authuser=1
+# Michelle Yang:
+#   name: "Michelle Yang"
+#   role: "Undergraduate"
+#   date: "Fall 2021"
+#   advisor: "Siva Reddy"
+#   avatar: "/assets/images/bio/Michelle Yang.avatar.webp"
+#   alumni: true
+#   links:
+#   - label: "Twitter"
+#     url: "https://twitter.com/mjieyang"
 

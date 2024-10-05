@@ -1,14 +1,14 @@
 ---
-title: "Join McGill NLP"
-taxonomy: Join McGill NLP
+title: "Join Complex Data Lab"
+taxonomy: Join Complex Data Lab
 permalink: /join-us/
 ---
 
-We're always looking for talented individuals to join our team. Here are the various ways you can become part of McGill NLP:
+We're always looking for talented individuals to join our team. Here are the various ways you can become part of Complex Data Lab:
 
 ## Temporary Research Positions
 
-If you're interested in joining us for an **internship**, **independent project**, as a **visiting researcher**, or as a **research assistant**, please apply using our [Google form](https://forms.gle/3SA5K6pJxe4dAyhM7).
+If you're interested in joining us for an **internship**, **independent project**, as a **visiting researcher**, or as a **research assistant**, please apply using XXX.
 
 ## Masters and PhDs
 
@@ -16,9 +16,6 @@ To join our lab as a Masters or PhD student, you **must** complete the following
 
 1. Apply to either:
    - [McGill Computer Science](https://www.cs.mcgill.ca/graduate/future/applying/)
-   - [McGill Linguistics](https://www.mcgill.ca/linguistics/graduate/graduate-admissions)
-
-   **Note**: Application to one of these programs is mandatory.
 
 2. We highly recommend also applying to [Mila](https://mila.quebec/en/research-masters-and-phd)
 
