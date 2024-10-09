@@ -26,7 +26,9 @@ For the Fall 2024 semester, the reading group will meet on Fridays at 11:30AM (w
 | October 11th @ 11:00 AM | Tu Vu | *TBA* | *TBA* |
 | October 18th @ 11:30 AM | Eva Portelance | *TBA* | *TBA* |
 | November 1st @ 11:30 AM | Bang Liu | *TBA* | *TBA* |
+| November 8th @ 11:30 AM | Boyuan Zheng | *TBA* | *TBA* |
 | November 12th to 16th | **EMNLP 2024** | | |
+| November 22nd @ 11:30 AM | William Held | *TBA* | *TBA* |
 | November 29th @ 11:30 AM | Luke Guerdan | *TBA* | *TBA* |
 | December 6th @ 11:30 AM | Amal Zouaq | *TBA* | *TBA* |
 
