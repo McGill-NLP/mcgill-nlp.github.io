@@ -212,6 +212,35 @@ Some starting statement
 More content.
 ```
 
+### Teaching
+To write a course description, create a new file called `<YYYY>-<MM>-<DD>-<shorthand>.md` in the [`_posts/teaching` directory](_posts/teaching). Note that `<shorthand>` will determine the URL of the file, so choose carefully.
+
+```yaml
+---
+title: "COMP XYZ - Semester YYYY"  # Add course code, followed by the semester it's taught
+author: Reihaneh Rabbany  # Name of the instructor
+categories:
+  - Teaching  # Used to list all posts describing a course in /teaching/
+tags:
+  - Winter 2022  # Semester
+  - Course Name  # Course Name
+---
+```
+
+Then, add content relevant to the course using markdown below the `---`, e.g.:
+
+```markdown
+* **Course codes:** COMP XXX (Semester Code)
+* **Instructors:**  XXX
+* **Location:** XXX
+* **Time:** XXX
+* **Course Website:** [here](url)
+
+# Overview
+Course Overview
+
+```
+
 ### Deleting a post
 
 You may want to delete posts forever. Then, delete the file in `_posts/`. If you simply want to hide it, you can prepend the file name with `hide`. For example, to hide the file `2016-03-09-COMP-XYZ.md`, you can rename it to `hide-2016-03-09-COMP-XYZ.md`.
