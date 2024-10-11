@@ -9,9 +9,9 @@ layout: archive
 
 {% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %}
 
-## Adjunct Faculty
+<!-- ## Adjunct Faculty
 
-{% include card-authors-with-role.html authors=site.data.authors role="Adjunct Faculty" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Adjunct Faculty" alumni=false %} -->
 
 ## Postdocs
 
@@ -38,13 +38,13 @@ layout: archive
 # Alumni
 
 
-## Postdocs
+<!-- ## Postdocs
 
 {% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=true %}
 
 ## PhD Students
 
-{% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=true %} -->
 
 ## Masters Students
 
