@@ -11,6 +11,8 @@ main:
         url: /
       - page: "Tools & Resources"
         url: /
+      - page: "Publications"
+        url: /
   - tab: "About"
     subpages:
       - page: "About the Lab"
@@ -21,22 +23,3 @@ main:
         url: /teaching/
   - title: "Join Us"
     url: /join-us/
-      
-    
-  # - title: "Research"
-  #   url: /people/
-  # - title: "About"
-  #   url: /publications/
-  # - title: "Join Us"
-  #   url: /join-us/
-
-  # - title: "People"
-  #   url: /people/
-  # - title: "Publications"
-  #   url: /publications/
-  # - title: "Teaching"
-  #   url: /teaching/
-  # - title: "Reading Group"
-  #   url: /reading-group/
-  # - title: "Join Us"
-  #   url: /join-us/
