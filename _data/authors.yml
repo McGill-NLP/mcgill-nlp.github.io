@@ -61,7 +61,7 @@ Aarash Feizi:
   bio: Works on applied machine learning (NLP, CV) for social good with real-world impacts -- identifying organized criminal activity regarding human trafficking using image data.
 
 Albert Orozco Camacho:
-  name: Albert Orozco Camacho
+  name: Albert Orozco
   role: Master
   avatar: /assets/images/bio/albert.camacho.avatar.webp
   advisor: Reihaneh Rabbany
@@ -233,7 +233,7 @@ Sacha Levy:
     url: https://github.com/tudou0002
   - label: LinkedIn
     url: https://www.linkedin.com/in/sacha-levy/
-  semantic_scholar_id: '2163439264'
+  semantic_scholar_id: '2054885747'
   bio: Applied ML for social good. I implement data pipelines. I am interested in artificial intelligence, computers and physics.
 
 Heather Bosiljevac:
