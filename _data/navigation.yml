@@ -12,7 +12,7 @@ main:
       - page: "Tools & Resources"
         url: /
       - page: "Publications"
-        url: /
+        url: /publications/
   - tab: "About"
     subpages:
       - page: "About the Lab"
