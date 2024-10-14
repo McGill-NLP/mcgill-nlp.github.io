@@ -318,16 +318,14 @@ Hao Yu:
   new_role: Master (Thesis) @ McGill
   alumni: true
   links:
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/haoy/
-
-
   - label: Website
     url: https://yhpeter.github.io/
   - label: GitHub
     url: https://github.com/YHPeter
   - label: Scholar
     url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/haoy/
   avatar: /assets/images/bio/Hao Yu.jpg
   date: Fall 2022
   bio: Interested in LLMs, RAG and Data Mining. Worked on NER in online escort ads
