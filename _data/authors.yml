@@ -231,7 +231,7 @@ Kellin Pelrine:
   bio: AI Safety, AI Agents. Towards transformative, positive impact from generative
     AI.
   note: CTO @ Stitch, Research Advisor @ FAR.AI
-  
+
 Reihaneh Rabbany:
   name: Reihaneh Rabbany
   bio: "Assistant Professor"
@@ -310,3 +310,17 @@ Zachary Yang:
   semantic_scholar_id: '2155115994'
   bio: Working on applied NLP for social good - toxicity, misinformation, polarization
   username: chin-chen.yang
+Peter Yu:
+  name: Peter Yu
+  role: Undergraduate
+  username: hao.yu
+  advisor: Prof. Reihaneh Rabbany
+  new_role: Master (Thesis) Student in McGill
+  alumni: true
+  links:
+  - label: Website
+    url: https://yhpeter.github.io/
+  - label: GitHub
+    url: https://github.com/YHPeter
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
