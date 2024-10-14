@@ -262,9 +262,19 @@ Sahar Omidi Shayegan:
   username: sahar.omidishayegan
   semantic_scholar_id: '2302559514'
   avatar: /assets/images/bio/Sahar Omidi Shayegan.jpg
-  advisor: Reihaneh Rabbany Dr., Isar
+  advisor: Reihaneh Rabbany Dr.
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: saharshayegan.github.io
+  - label: Twitter
+    url: https://x.com/sahar_shayegan
+  - label: GitHub
+    url: https://github.com/saharshayegan
+  date: Fall 2022
+  bio: Studies Social Networks through Graphs and Language Modeling
+  note: Co-advised by Dr. Isar Nejadgholi at NRC
+  linkedin: https://www.linkedin.com/in/sahar-shayegan/
 Jacob-Junqi Tian:
   name: Jacob-Junqi Tian
   role: Intern
