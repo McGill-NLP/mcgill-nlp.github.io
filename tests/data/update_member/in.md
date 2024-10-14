@@ -50,6 +50,10 @@ https://twitter.com/McGill_NLP
 
 https://scholar.google.com/
 
+### LinkedIn
+
+https://www.linkedin.com/in/fake_user/
+
 ### Website
 
 _No response_

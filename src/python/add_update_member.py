@@ -31,7 +31,7 @@ def format_parsed_content(parsed):
 
     parsed = remove_keys(
         parsed,
-        keys_to_remove=["status", "website", "twitter", "github", "scholar", "action"],
+        keys_to_remove=["status", "website", "twitter", "github", "scholar", "linkedin", "action"],
     )
     parsed = remove_items_with_values(parsed, "_No response_")
 

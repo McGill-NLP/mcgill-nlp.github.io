@@ -12,6 +12,10 @@
         {
             "label": "Scholar",
             "url": "https://scholar.google.com/"
+        },
+        {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/fake_user/"
         }
     ],
     "note": "Allergic to reviewer 2",
