@@ -11,7 +11,7 @@ def format_site_label(name):
         return "GitHub"
     elif name == "linkedin":
         return "LinkedIn"
-    elif name in ["twitter", "scholar", "website", "linkedin"]:
+    elif name in ["twitter", "scholar", "website"]:
         return name.title()
     else:
         return name
@@ -25,7 +25,7 @@ def format_parsed_content(parsed):
 
     parsed["links"] = [
         {"label": format_site_label(key), "url": parsed[key]}
-        for key in ["website", "twitter", "github", "scholar"]
+        for key in ["website", "twitter", "github", "scholar", "linkedin"]
         if parsed[key] != "_No response_"
     ]
 
