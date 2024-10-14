@@ -52,5 +52,5 @@ jobs:
           title: "[Automatic PR] ${{ github.event.issue.title }}"
           body: >
             Closes #${{ github.event.issue.number }}. This pull request was 
-            automatically created through GitHub Actions.
+            automatically created through GitHub Actions :).
           branch: "gh-actions/process-form-issue-${{ github.event.issue.number }}"
