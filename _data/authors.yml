@@ -179,16 +179,18 @@ Pratheeksha Nair:
     url: https://nair-p.github.io/
   - label: GitHub
     url: https://github.com/nair-p
-  - label: Scholar
-    url: https://scholar.google.com/citations?hl=en&user=_s2HT_0AAAAJ
   - label: Twitter
     url: https://twitter.com/prathena_96
   - label: LinkedIn
     url: https://www.linkedin.com/in/pnair96/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=jHCIepwAAAAJ&hl=en
   semantic_scholar_id: '48761500'
-  bio: Machine Learning and AI for socially good applications
+  bio: AI for social good applications - fighting online organized crime; Weak Supervision
+    and Graph Machine Learning
 
 
+  username: pratheeksha.nair
 Albert Orozco:
   name: Albert Orozco
   role: Master
