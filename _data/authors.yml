@@ -310,8 +310,8 @@ Zachary Yang:
   semantic_scholar_id: '2155115994'
   bio: Working on applied NLP for social good - toxicity, misinformation, polarization
   username: chin-chen.yang
-Peter Yu:
-  name: Peter Yu
+Hao Yu:
+  name: Hao Yu
   role: Undergraduate
   username: hao.yu
   advisor: Prof. Reihaneh Rabbany
@@ -323,4 +323,8 @@ Peter Yu:
   - label: GitHub
     url: https://github.com/YHPeter
   - label: Scholar
-    url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
+    url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/haoy/
+    
+
