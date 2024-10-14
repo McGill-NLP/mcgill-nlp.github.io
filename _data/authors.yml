@@ -256,6 +256,15 @@ Reihaneh Rabbany:
   - label: "LinkedIn"
     url: https://www.linkedin.com/in/reihaneh-rabbany/
 
+Sahar Omidi Shayegan:
+  name: Sahar Omidi Shayegan
+  role: Master
+  username: sahar.omidishayegan
+  semantic_scholar_id: '2302559514'
+  avatar: /assets/images/bio/Sahar Omidi Shayegan.jpg
+  advisor: Reihaneh Rabbany Dr., Isar
+  alumni: false
+  links: []
 Jacob-Junqi Tian:
   name: Jacob-Junqi Tian
   role: Intern
