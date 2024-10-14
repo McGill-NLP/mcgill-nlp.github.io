@@ -103,7 +103,7 @@ body:
     id: advisor
     attributes:
       label: "Advisor"
-      description: "For students, who is/are the advisor(s) from the faculty members of McGill NLP? Separate multiple names with a comma."
+      description: "For students, who is/are the advisor(s) from the faculty members of Complex Data Lab? Separate multiple names with a comma."
       placeholder: "John Doe Sr., Jane Doe"
     validations:
       required: false
