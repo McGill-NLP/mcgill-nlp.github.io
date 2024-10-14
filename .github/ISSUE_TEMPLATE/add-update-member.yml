@@ -159,6 +159,15 @@ body:
       required: false
 
   - type: "input"
+    id: linkedin
+    attributes:
+      label: "LinkedIn"
+      description: "Full URL of the lab member's LinkedIn profile"
+      placeholder: "https://www.linkedin.com/in/john-doe"
+    validations:
+      required: false
+  
+  - type: "input"
     id: website
     attributes:
       label: "Website"

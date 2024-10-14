@@ -9,7 +9,9 @@ from . import save_url_image, parse_issue_body, remove_keys, remove_items_with_v
 def format_site_label(name):
     if name == "github":
         return "GitHub"
-    elif name in ["twitter", "scholar", "website"]:
+    elif name == "linkedin":
+        return "LinkedIn"
+    elif name in ["twitter", "scholar", "website", "linkedin"]:
         return name.title()
     else:
         return name
