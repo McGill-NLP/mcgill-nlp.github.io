@@ -228,12 +228,10 @@ Kellin Pelrine:
   - label: LinkedIn
     url: https://www.linkedin.com/in/kellin-pelrine/
   semantic_scholar_id: '104333826'
-  bio: Working on misinformation. Happy to discuss all problems with real-world impact!
-
-
-  username: kellin.pelrine
-  note: AI Safety, AI Agents. Towards transformative, positive impact from generative
+  bio: AI Safety, AI Agents. Towards transformative, positive impact from generative
     AI.
+  note: CTO @ Stitch, Research Advisor @ FAR.AI
+  
 Reihaneh Rabbany:
   name: Reihaneh Rabbany
   bio: "Assistant Professor"
