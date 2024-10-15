@@ -256,6 +256,25 @@ Kellin Pelrine:
     AI.
   note: CTO @ Stitch, Research Advisor @ FAR.AI
 
+Farimah Poursafaei:
+  name: Farimah Poursafaei
+  role: Postdoc
+  username: farimah.poursafaei@mila.quebec
+  semantic_scholar_id: '9385224'
+  advisor: Prof. Reihaneh Rabbany
+  date: Fall 2020
+  bio: Works on Dynamic Graph Neural Networks
+  note: 'Current Position: Data Scientist @ Mila'
+  alumni: true
+  links:
+  - label: Website
+    url: https://fpour.github.io/
+  - label: GitHub
+    url: https://github.com/fpour
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=gZ7HEsMAAAAJ&hl=en
+  - label: LinkedIn
+    url: https://ca.linkedin.com/in/farimah-poursafaei-133195167
 Reihaneh Rabbany:
   name: Reihaneh Rabbany
   bio: "Assistant Professor"
