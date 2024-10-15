@@ -29,10 +29,10 @@ Heather Bosiljevac:
   auto_update_publications: false
   new_role: "Senior Advisor, Competitive Analytics @ Bell"
   links:
-    - label: GitHub
-      url: https://github.com/heatherboz
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/heather-bosiljevac-214226174/
+  - label: GitHub
+    url: https://github.com/heatherboz
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/heather-bosiljevac-214226174/
 
 Jacob Danovitch:
   name: Jacob Danovitch
@@ -44,17 +44,16 @@ Jacob Danovitch:
   auto_update_publications: false
   new_role: "Data & Applied Scientist II @ Microsoft"
   links:
-    - label: Website
-      url: http://jacobdanovitch.me/
-    - label: GitHub
-      url: https://github.com/jacobdanovitch/
-    - label: Scholar
-      url: https://scholar.google.com/citations?hl=en&user=bQTv8rkAAAAJ
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/jacobdanovitch/
+  - label: Website
+    url: http://jacobdanovitch.me/
+  - label: GitHub
+    url: https://github.com/jacobdanovitch/
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=bQTv8rkAAAAJ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jacobdanovitch/
   semantic_scholar_id: "1388354764"
-  bio:
-    Interested in the intersection of natural language processing and network science,
+  bio: Interested in the intersection of natural language processing and network science,
     with a focus on social media.
 
 Charlotte Ding:
@@ -67,8 +66,8 @@ Charlotte Ding:
   auto_update_publications: false
   new_role: "SDE II @ AWS"
   links:
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/charlottexiaoyeding/
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/charlottexiaoyeding/
   bio: Interested in graph representation learning and network science.
 
 Aarash Feizi:
@@ -80,15 +79,14 @@ Aarash Feizi:
   alumni: false
   auto_update_publications: true
   links:
-    - label: GitHub
-      url: https://github.com/aarashfeizi
-    - label: Scholar
-      url: https://scholar.google.com/citations?user=wdZdCMoAAAAJ&hl=en
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/aarashfeizi/
+  - label: GitHub
+    url: https://github.com/aarashfeizi
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=wdZdCMoAAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/aarashfeizi/
   semantic_scholar_id: "1962954677"
-  bio:
-    Works on applied machine learning (NLP, CV) for social good with real-world
+  bio: Works on applied machine learning (NLP, CV) for social good with real-world
     impacts -- identifying organized criminal activity regarding human trafficking
     using image data.
 
@@ -101,17 +99,16 @@ Shenyang Huang:
   alumni: false
   auto_update_publications: true
   links:
-    - label: Website
-      url: https://shenyanghuang.github.io/
-    - label: GitHub
-      url: https://github.com/shenyangHuang
-    - label: Scholar
-      url: https://scholar.google.com/citations?hl=en&user=ljIXv6kAAAAJ
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/shenyang-huang/
+  - label: Website
+    url: https://shenyanghuang.github.io/
+  - label: GitHub
+    url: https://github.com/shenyangHuang
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=ljIXv6kAAAAJ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/shenyang-huang/
   semantic_scholar_id: "51012317"
-  bio:
-    Working on Temporal Graphs. Previoulsy worked on anomaly detection in graph
+  bio: Working on Temporal Graphs. Previoulsy worked on anomaly detection in graph
     data using tensor factorization techniques.
 
 Raika Karimi:
@@ -124,10 +121,10 @@ Raika Karimi:
   auto_update_publications: false
   new_role: "Machine Learning Researcher @ Huawei"
   links:
-    - label: GitHub
-      url: https://github.com/raykakarimi
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/raika-karimi/
+  - label: GitHub
+    url: https://github.com/raykakarimi
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/raika-karimi/
 
 Yifei Li:
   name: Yifei Li
@@ -139,15 +136,14 @@ Yifei Li:
   auto_update_publications: false
   new_role: "Masters @ UBC"
   links:
-    - label: Website
-      url: https://www.yifeili.me/
-    - label: GitHub
-      url: https://github.com/tudou0002
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/yifeili2/
+  - label: Website
+    url: https://www.yifeili.me/
+  - label: GitHub
+    url: https://github.com/tudou0002
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/yifeili2/
   semantic_scholar_id: "2163439264"
-  bio:
-    Interested in data mining and NLP, worked on entity extraction in online escort
+  bio: Interested in data mining and NLP, worked on entity extraction in online escort
     ads.
 
 Sacha Levy:
@@ -160,15 +156,14 @@ Sacha Levy:
   auto_update_publications: false
   new_role: "Chief Scientific Officer @ Theseus"
   links:
-    - label: Website
-      url: https://www.yifeili.me/
-    - label: GitHub
-      url: https://github.com/tudou0002
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/sacha-levy/
+  - label: Website
+    url: https://www.yifeili.me/
+  - label: GitHub
+    url: https://github.com/tudou0002
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/sacha-levy/
   semantic_scholar_id: "2054885747"
-  bio:
-    Applied ML for social good. I implement data pipelines. I am interested in
+  bio: Applied ML for social good. I implement data pipelines. I am interested in
     artificial intelligence, computers and physics.
 
 Shahrad Mohammadzadeh:
@@ -183,16 +178,16 @@ Shahrad Mohammadzadeh:
   note: Co-advised by Doina Precup
   alumni: false
   links:
-    - label: Website
-      url: https://emzedi.github.io/homepage/
-    - label: Twitter
-      url: https://twitter.com/shahrad_mz
-    - label: GitHub
-      url: https://github.com/EMZEDI
-    - label: Scholar
-      url: https://scholar.google.ca/citations?user=6xCdxs0AAAAJ&hl=en
-    - label: LinkedIn
-      url: https://ca.linkedin.com/in/shahrad-mz
+  - label: Website
+    url: https://emzedi.github.io/homepage/
+  - label: Twitter
+    url: https://twitter.com/shahrad_mz
+  - label: GitHub
+    url: https://github.com/EMZEDI
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=6xCdxs0AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://ca.linkedin.com/in/shahrad-mz
 Pratheeksha Nair:
   name: Pratheeksha Nair
   role: PhD
@@ -202,22 +197,40 @@ Pratheeksha Nair:
   alumni: false
   auto_update_publications: true
   links:
-    - label: Website
-      url: https://nair-p.github.io/
-    - label: GitHub
-      url: https://github.com/nair-p
-    - label: Twitter
-      url: https://twitter.com/prathena_96
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/pnair96/
-    - label: Scholar
-      url: https://scholar.google.com/citations?user=jHCIepwAAAAJ&hl=en
+  - label: Website
+    url: https://nair-p.github.io/
+  - label: GitHub
+    url: https://github.com/nair-p
+  - label: Twitter
+    url: https://twitter.com/prathena_96
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/pnair96/
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=jHCIepwAAAAJ&hl=en
   semantic_scholar_id: "48761500"
-  bio:
-    AI for social good applications - fighting online organized crime; Weak Supervision
+  bio: AI for social good applications - fighting online organized crime; Weak Supervision
     and Graph Machine Learning
 
   username: pratheeksha.nair
+Soroush Omranpour:
+  name: Soroush Omranpour
+  role: Master
+  username: soroush.omranpour
+  avatar: /assets/images/bio/Soroush Omranpour.jpg
+  advisor: Reihaneh Rabbany, Guillaume Rabusseau
+  date: Fall 2022
+  bio: Working on building scalable and efficient machine learning models for tensor-structured
+    or highly complex and evolving data.
+  alumni: false
+  links:
+  - label: Website
+    url: https://s-omranpour.github.io/
+  - label: GitHub
+    url: https://github.com/s-omranpour
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=gDfZkT4AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/soroush-omranpour/
 Albert Orozco:
   name: Albert Orozco
   role: Master
@@ -228,14 +241,14 @@ Albert Orozco:
   auto_update_publications: false
   new_role: "PhD @ Concordia University"
   links:
-    - label: Website
-      url: https://alorozco53.github.io/
-    - label: GitHub
-      url: https://github.com/alorozco53
-    - label: Scholar
-      url: https://scholar.google.com/citations?hl=en&user=zYXzEisAAAAJ
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/alorozco53/
+  - label: Website
+    url: https://alorozco53.github.io/
+  - label: GitHub
+    url: https://github.com/alorozco53
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=zYXzEisAAAAJ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/alorozco53/
   semantic_scholar_id: "2007910379"
   bio: Interested in all things related to social network interactions.
 
@@ -248,17 +261,16 @@ Kellin Pelrine:
   alumni: false
   auto_update_publications: true
   links:
-    - label: Website
-      url: https://kellinpelrine.github.io/
-    - label: GitHub
-      url: https://github.com/kellinpelrine/
-    - label: Scholar
-      url: https://scholar.google.com/citations?hl=en&user=_s2HT_0AAAAJ
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/kellin-pelrine/
+  - label: Website
+    url: https://kellinpelrine.github.io/
+  - label: GitHub
+    url: https://github.com/kellinpelrine/
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=_s2HT_0AAAAJ
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/kellin-pelrine/
   semantic_scholar_id: "104333826"
-  bio:
-    AI Safety, AI Agents. Towards transformative, positive impact from generative
+  bio: AI Safety, AI Agents. Towards transformative, positive impact from generative
     AI.
   note: CTO @ Stitch, Research Advisor @ FAR.AI
 
@@ -273,14 +285,14 @@ Farimah Poursafaei:
   new_role: "Data Scientist @ Mila"
   alumni: true
   links:
-    - label: Website
-      url: https://fpour.github.io/
-    - label: GitHub
-      url: https://github.com/fpour
-    - label: Scholar
-      url: https://scholar.google.com/citations?user=gZ7HEsMAAAAJ&hl=en
-    - label: LinkedIn
-      url: https://ca.linkedin.com/in/farimah-poursafaei-133195167
+  - label: Website
+    url: https://fpour.github.io/
+  - label: GitHub
+    url: https://github.com/fpour
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=gZ7HEsMAAAAJ&hl=en
+  - label: LinkedIn
+    url: https://ca.linkedin.com/in/farimah-poursafaei-133195167
 Reihaneh Rabbany:
   name: Reihaneh Rabbany
   bio: "Assistant Professor"
@@ -292,16 +304,16 @@ Reihaneh Rabbany:
   role: "Faculty"
   username: reihaneh.rabbany
   links:
-    - label: "Website"
-      url: "http://www.reirab.com/"
-    - label: "Twitter"
-      url: "https://x.com/reirabb"
-    - label: "GitHub"
-      url: "https://github.com/rabbanyk"
-    - label: "Scholar"
-      url: "https://scholar.google.ca/citations?hl=en&user=Foh_c-QAAAAJ"
-    - label: "LinkedIn"
-      url: https://www.linkedin.com/in/reihaneh-rabbany/
+  - label: "Website"
+    url: "http://www.reirab.com/"
+  - label: "Twitter"
+    url: "https://x.com/reirabb"
+  - label: "GitHub"
+    url: "https://github.com/rabbanyk"
+  - label: "Scholar"
+    url: "https://scholar.google.ca/citations?hl=en&user=Foh_c-QAAAAJ"
+  - label: "LinkedIn"
+    url: https://www.linkedin.com/in/reihaneh-rabbany/
 
 Sahar Omidi Shayegan:
   name: Sahar Omidi Shayegan
@@ -312,14 +324,14 @@ Sahar Omidi Shayegan:
   advisor: Reihaneh Rabbany
   alumni: false
   links:
-    - label: Website
-      url: https://saharshayegan.github.io/
-    - label: Twitter
-      url: https://x.com/sahar_shayegan
-    - label: GitHub
-      url: https://github.com/saharshayegan
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/sahar-shayegan/
+  - label: Website
+    url: https://saharshayegan.github.io/
+  - label: Twitter
+    url: https://x.com/sahar_shayegan
+  - label: GitHub
+    url: https://github.com/saharshayegan
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/sahar-shayegan/
   date: Fall 2022
   bio: Studies Social Networks through Graphs and Language Modeling
   note: Co-advised by Dr. Isar Nejadgholi at NRC
@@ -336,12 +348,12 @@ Jacob-Junqi Tian:
   new_role: Associate Applied Machine Learning Specialist at Vector Institute
   alumni: false
   links:
-    - label: Website
-      url: https://j7n.me/
-    - label: GitHub
-      url: https://github.com/jacobthebanana
-    - label: Scholar
-      url: https://scholar.google.com/citations?user=Bkl3SakAAAAJ
+  - label: Website
+    url: https://j7n.me/
+  - label: GitHub
+    url: https://github.com/jacobthebanana
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=Bkl3SakAAAAJ
 Junhao Wang:
   name: Junhao Wang
   role: Master
@@ -352,10 +364,10 @@ Junhao Wang:
   auto_update_publications: false
   new_role: "Microsoft"
   links:
-    - label: GitHub
-      url: https://github.com/JunhaoWang
-    - label: Scholar
-      url: https://scholar.google.com/citations?hl=en&user=Nfg0gaoAAAAJ
+  - label: GitHub
+    url: https://github.com/JunhaoWang
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=Nfg0gaoAAAAJ
   semantic_scholar_id: "49605117"
   bio: Interested in graph mining and reinforcement learning
 
@@ -368,14 +380,14 @@ Zachary Yang:
   alumni: false
   auto_update_publications: true
   links:
-    - label: Website
-      url: https://rstzzz.github.io/
-    - label: GitHub
-      url: https://github.com/RSTZZZ
-    - label: Scholar
-      url: https://scholar.google.com/citations?user=ljOxbowAAAAJ&hl=en
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/zachary-y-647209103/
+  - label: Website
+    url: https://rstzzz.github.io/
+  - label: GitHub
+    url: https://github.com/RSTZZZ
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=ljOxbowAAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/zachary-y-647209103/
   semantic_scholar_id: "2155115994"
   bio: Working on applied NLP for social good - toxicity, misinformation, polarization
   username: chin-chen.yang
@@ -387,16 +399,15 @@ Hao Yu:
   new_role: Master (Thesis) @ McGill
   alumni: true
   links:
-    - label: Website
-      url: https://yhpeter.github.io/
-    - label: GitHub
-      url: https://github.com/YHPeter
-    - label: Scholar
-      url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
-    - label: LinkedIn
-      url: https://www.linkedin.com/in/haoy/
+  - label: Website
+    url: https://yhpeter.github.io/
+  - label: GitHub
+    url: https://github.com/YHPeter
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/haoy/
   avatar: /assets/images/bio/hao.yu.avatar.webp
   date: Fall 2022
-  bio:
-    Interested in LLMs, RAG and Data Mining. Worked on NER in online escort ads
+  bio: Interested in LLMs, RAG and Data Mining. Worked on NER in online escort ads
     and LLMs in detecting misinformation.
