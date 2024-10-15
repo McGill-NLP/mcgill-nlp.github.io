@@ -36,7 +36,7 @@ row_code:
 row_about_us:
   - image_path: /assets/images/home/misinfo_gov_outreach.webp
   - image_path: /assets/images/home/web_retrieval_mila_outreach.webp
-  - image_path: /assets/images/home/web_retrieval_colm_outreach.jpg
+  - image_path: /assets/images/home/web_retrieval_colm_outreach.webp
 
 ---
 {% comment %}
