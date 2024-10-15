@@ -33,18 +33,10 @@ row_code:
     btn_class: "btn--primary"
     excerpt: "We publish code for our models and datasets on GitHub to make it easier for researchers and developers to reproduce and build upon our work. We welcome pull requests and issues on active projects from the community."
 
-# row_about_us:
-#   - image_path: /assets/images/home/retreat-2023.webp
-#   - image_path: /assets/images/home/lunch-1.webp
-#   - image_path: /assets/images/home/jackie-axes-2019.webp
-#   - image_path: /assets/images/home/park-1.webp
-#   - image_path: /assets/images/home/coffee-acl-2022.webp
-#   - image_path: /assets/images/home/michaela-acl-2022.webp
-#   - image_path: /assets/images/home/zichao-acl-2022.webp
-#   - image_path: /assets/images/home/benno-acl-2022.webp
-#   - image_path: /assets/images/home/nick-acl-2022.webp
-#   - image_path: /assets/images/home/vaibhav-acl-2022.webp
-
+row_about_us:
+  - image_path: /assets/images/home/misinfo_gov_outreach.webp
+  - image_path: /assets/images/home/web_retrieval_mila_outreach.webp
+  - image_path: /assets/images/home/web_retrieval_colm_outreach.jpg
 
 ---
 {% comment %}
@@ -73,5 +65,5 @@ For detailed information on how to apply and join our lab, please visit our [Joi
 We are a group of faculty members, researchers and students affiliated with McGill University and Mila Quebec AI Institute, both located in Montreal, Canada. We often collaborate with researchers around the world.
 {: .text-center}
 
-<!-- {% include feature_row id="row_about_us" %} -->
+{% include feature_row id="row_about_us" %}
 
