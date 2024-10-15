@@ -9,18 +9,19 @@ article.author-page-card {
     grid-template-columns: 300px 1fr;
 
     @media (max-width: 900px) {
-        grid-template-columns: 1fr 2fr;    
+        grid-template-columns: 1fr 2fr;
     }
+
     // For mobile devices, we want to stack the thumbnail on top of the rest of the content
     // to make it easier to read.
     @media (max-width: 500px) {
         grid-template-areas:
-        "name"
-        "thumbnail"
-        "."
-        "role"
-        "bio"
-        "links";
+            "name"
+            "thumbnail"
+            "."
+            "role"
+            "bio"
+            "links";
         grid-template-columns: 1fr;
         justify-items: center;
         text-align: center;
@@ -59,6 +60,7 @@ article.author-page-card {
     font-weight: bold;
     font-size: 1.25em;
 }
+
 .author-page-bio {
     grid-area: bio;
     font-weight: italic;

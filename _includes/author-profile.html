@@ -52,7 +52,7 @@
                 {% for link in author.links %}
                 {% include infer-icon.html link=link %}
                 {% if icon %}
-                <li class="author-links-horizontal">
+                <li>
                     <a href="{{ link.url }}" class="author-button">
                         <i class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}">
                         </i>
