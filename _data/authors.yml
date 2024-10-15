@@ -166,6 +166,28 @@ Sacha Levy:
   bio: Applied ML for social good. I implement data pipelines. I am interested in
     artificial intelligence, computers and physics.
 
+Shahrad Mohammadzadeh:
+  name: Shahrad Mohammadzadeh
+  role: Master
+  username: shahrad.mohammadzadeh
+  semantic_scholar_id: '2281945133'
+  avatar: /assets/images/bio/Shahrad Mohammadzadeh.jpg
+  advisor: Reihaneh Rabbany
+  date: Fall 2023
+  bio: LLMs, RL, and Graph Learning
+  note: Co-advised by Doina Precup
+  alumni: false
+  links:
+  - label: Website
+    url: https://emzedi.github.io/homepage/
+  - label: Twitter
+    url: https://twitter.com/shahrad_mz
+  - label: GitHub
+    url: https://github.com/EMZEDI
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=6xCdxs0AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://ca.linkedin.com/in/shahrad-mz
 Pratheeksha Nair:
   name: Pratheeksha Nair
   role: PhD
@@ -276,7 +298,7 @@ Sahar Omidi Shayegan:
   date: Fall 2022
   bio: Studies Social Networks through Graphs and Language Modeling
   note: Co-advised by Dr. Isar Nejadgholi at NRC
-  
+
 
 Jacob-Junqi Tian:
   name: Jacob-Junqi Tian
