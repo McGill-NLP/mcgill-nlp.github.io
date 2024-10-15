@@ -38,13 +38,13 @@ layout: archive
 # Alumni
 
 
-<!-- ## Postdocs
+## Postdocs
 
 {% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=true %}
 
 ## PhD Students
 
-{% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=true %} -->
+{% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=true %}
 
 ## Masters Students
 
