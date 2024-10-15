@@ -19,6 +19,26 @@ div.author-avatar {
 
 }
 
+.author-avatar-v2 {
+    display: none;
+
+    @include breakpoint($large) {
+        display: flex;
+        justify-content: center;
+        /* Horizontally centers the image */
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
 .author-info {
     display: inline-block;
     width: max(calc(99% - 160px), calc(65% - 10px));
@@ -31,6 +51,7 @@ div.author-avatar {
 .author-name {
     font-size: x-large;
     font-weight: bold;
+    color: $primary-color;
 }
 
 .author-bio {
