@@ -29,6 +29,7 @@ div.author-avatar {
         align-items: center;
         width: auto;
         height: auto;
+
     }
 
     img {
@@ -36,6 +37,8 @@ div.author-avatar {
         width: 100%;
         border-radius: 50%;
         object-fit: cover;
+        max-height: 150px;
+        max-width: 150px;
     }
 }
 
