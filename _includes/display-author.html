@@ -11,7 +11,8 @@
     <div class="author-info">
         <b class="author-name">
             {% if author.links %}
-            <a href="{{ author.links[0].url }}" aria-label="Access the primary external link of this author">{{ author.name }}</a>
+            <a href="{{ author.links[0].url }}" aria-label="Access the primary external link of this author">{{
+                author.name }}</a>
             {% else %}
             {{ author.name }}
             {% endif %}
@@ -58,10 +59,11 @@
         {% if author.links %}
         <div class="author-links">
             {% for link in author.links %}
-                {% include infer-icon.html link=link %}
-                {% if icon %}
-                <a href="{{ link.url }}" class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}"></a>
-                {% endif %}
+            {% include infer-icon.html link=link %}
+            {% if icon %}
+            <a href="{{ link.url }}" class="{{ icon }} author-button"
+                aria-label="Access author's external link for {{ icon }}"></a>
+            {% endif %}
             {% endfor %}
         </div>
         {% endif %}

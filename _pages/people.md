@@ -62,4 +62,4 @@ layout: archive
 
 ## Updating the website
 
-If you are part of the Complex Data Lab (i.e., advised by one of the [faculty members](https://complexdatalab.com/people/)), please head to the [GitHub repository](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill), where you will find instructions on adding your publications, creating/updating your profile, updating other parts of the website, etc.
+If you are part of the Complex Data Lab (i.e., advised by one of the [faculty members](/people/)), please head to the [GitHub repository](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill), where you will find instructions on adding your publications, creating/updating your profile, updating other parts of the website, etc.
