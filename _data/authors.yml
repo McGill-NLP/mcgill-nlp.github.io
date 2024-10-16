@@ -131,7 +131,7 @@ Elahe Kooshafar:
   role: Master
   username: elahe.kooshafar
   avatar: /assets/images/bio/Elahe Kooshafar.jpg
-  advisor: Dr. Reihaneh Rabbany
+  advisor: Reihaneh Rabbany
   date: Fall 2022
   bio: Working on temporal graph representation learning models.
   alumni: false
@@ -142,6 +142,8 @@ Elahe Kooshafar:
     url: https://github.com/elahekooshafar
   - label: LinkedIn
     url: https://www.linkedin.com/in/elahe-kooshafar/
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=vuUUKUMAAAAJ&hl=en&oi=sra
 Yifei Li:
   name: Yifei Li
   role: Undergraduate
