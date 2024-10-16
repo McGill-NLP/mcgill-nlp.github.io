@@ -162,6 +162,25 @@ Yifei Li:
   bio: Interested in data mining and NLP, worked on entity extraction in online escort
     ads.
 
+Victor Livernoche:
+  name: Victor Livernoche
+  role: PhD
+  username: victor.livernoche
+  semantic_scholar_id: '2219226719'
+  avatar: /assets/images/bio/Victor Livernoche.jpg
+  advisor: Reihaneh Rabbany
+  date: Sept 2024
+  bio: Working on generative AI
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://x.com/VicLvne
+  - label: GitHub
+    url: https://github.com/vicliv
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=wgWMIK4AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/victor-livernoche/
 Sacha Levy:
   name: Sacha Lévy
   role: Undergraduate
