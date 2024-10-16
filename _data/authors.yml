@@ -126,6 +126,22 @@ Raika Karimi:
   - label: LinkedIn
     url: https://www.linkedin.com/in/raika-karimi/
 
+Elahe Kooshafar:
+  name: Elahe Kooshafar
+  role: Master
+  username: elahe.kooshafar
+  avatar: /assets/images/bio/Elahe Kooshafar.jpg
+  advisor: Dr. Reihaneh Rabbany
+  date: Fall 2022
+  bio: Working on temporal graph representation learning models.
+  alumni: false
+  links:
+  - label: Website
+    url: https://elahekooshafar.github.io/
+  - label: GitHub
+    url: https://github.com/elahekooshafar
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/elahe-kooshafar/
 Yifei Li:
   name: Yifei Li
   role: Undergraduate
