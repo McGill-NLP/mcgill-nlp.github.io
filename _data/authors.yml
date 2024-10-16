@@ -130,7 +130,7 @@ Elahe Kooshafar:
   name: Elahe Kooshafar
   role: Master
   username: elahe.kooshafar
-  avatar: /assets/images/bio/Elahe Kooshafar.jpg
+  avatar: /assets/images/bio/elahe.kooshafar.avatar.webp
   advisor: Reihaneh Rabbany
   date: Fall 2022
   bio: Working on temporal graph representation learning models.
@@ -169,9 +169,9 @@ Victor Livernoche:
   role: PhD
   username: victor.livernoche
   semantic_scholar_id: '2219226719'
-  avatar: /assets/images/bio/Victor Livernoche.jpg
+  avatar: /assets/images/bio/victor.livernoche.avatar.webp
   advisor: Reihaneh Rabbany
-  date: Sept 2024
+  date: Fall 2024
   bio: Working on generative AI
   alumni: false
   links:
@@ -208,7 +208,7 @@ Shahrad Mohammadzadeh:
   role: Master
   username: shahrad.mohammadzadeh
   semantic_scholar_id: "2281945133"
-  avatar: /assets/images/bio/Shahrad Mohammadzadeh.jpg
+  avatar: /assets/images/bio/shahrad.mohammadzadeh.avatar.webp
   advisor: Reihaneh Rabbany
   date: Fall 2023
   bio: LLMs, RL, and Graph Learning
@@ -233,6 +233,9 @@ Pratheeksha Nair:
   date: Fall 2020
   alumni: false
   auto_update_publications: true
+  bio: AI for social good applications - fighting online organized crime; Weak Supervision
+    and Graph Machine Learning
+  username: pratheeksha.nair
   links:
   - label: Website
     url: https://nair-p.github.io/
@@ -240,20 +243,17 @@ Pratheeksha Nair:
     url: https://github.com/nair-p
   - label: Twitter
     url: https://twitter.com/prathena_96
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/pnair96/
   - label: Scholar
     url: https://scholar.google.com/citations?user=jHCIepwAAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/pnair96/
   semantic_scholar_id: "48761500"
-  bio: AI for social good applications - fighting online organized crime; Weak Supervision
-    and Graph Machine Learning
 
-  username: pratheeksha.nair
 Soroush Omranpour:
   name: Soroush Omranpour
   role: Master
   username: soroush.omranpour
-  avatar: /assets/images/bio/Soroush Omranpour.jpg
+  avatar: /assets/images/bio/soroush.omranpour.avatar.webp
   advisor: Reihaneh Rabbany, Guillaume Rabusseau
   date: Fall 2022
   bio: Working on building scalable and efficient machine learning models for tensor-structured
@@ -380,7 +380,7 @@ Jacob-Junqi Tian:
   semantic_scholar_id: "2320260830"
   avatar: /assets/images/bio/jacob-junqi.tian.avatar.webp
   advisor: Reihaneh Rabbany
-  date: May 2022
+  date: Summer 2022
   bio: Works on projects related to NLP, LLM, and Reasoning
   new_role: Associate Applied Machine Learning Specialist at Vector Institute
   alumni: false
@@ -416,6 +416,7 @@ Zachary Yang:
   date: Winter 2021
   alumni: false
   auto_update_publications: true
+  note: Fast-tracked from Master -> PhD
   links:
   - label: Website
     url: https://rstzzz.github.io/
