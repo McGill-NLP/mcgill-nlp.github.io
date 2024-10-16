@@ -74,7 +74,7 @@ Aarash Feizi:
   name: Aarash Feizi
   role: PhD
   avatar: /assets/images/bio/aarash.feizi.avatar.webp
-  advisor: Reihaneh Rabbany
+  advisor: Reihaneh Rabbany, Adriana Romero Soriano
   date: Fall 2019
   alumni: false
   auto_update_publications: true
@@ -85,11 +85,13 @@ Aarash Feizi:
     url: https://scholar.google.com/citations?user=wdZdCMoAAAAJ&hl=en
   - label: LinkedIn
     url: https://www.linkedin.com/in/aarashfeizi/
+  - label: Website
+    url: https://aarashfeizi.github.io/
   semantic_scholar_id: "1962954677"
-  bio: Works on applied machine learning (NLP, CV) for social good with real-world
-    impacts -- identifying organized criminal activity regarding human trafficking
-    using image data.
+  bio: Works on multi-modal self-supervised learning and applied machine learning
+    techniques in CV and NLP for social good with real-world impacts.
 
+  username: feiziaar
 Shenyang Huang:
   name: Shenyang Huang
   role: PhD
