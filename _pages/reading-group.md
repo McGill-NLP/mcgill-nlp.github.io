@@ -24,7 +24,7 @@ For the Fall 2024 semester, the reading group will meet on Fridays at 11:30AM (w
 | September 27th @ 11:30 AM | Steven Koniaev, Nathan Zeweniuk | Intern Presentations | [click here]({% link _posts/reading-group/fall-2024/2024-09-27-intern-presentation-2.md %}) |
 | October 1st to 3rd | Mila NLP Workshop | [Register here](https://mila.quebec/en/event/workshop-nlp-in-the-era-of-generative-ai-cognitive-sciences-and-societal-transformation) | | |
 | October 11th @ 11:00 AM | Tu Vu | Efficient Model Development in the Era of Large Language Models | [click here]({% link _posts/reading-group/fall-2024/2024-10-11-tu-vu.md %}) |
-| October 18th @ 11:30 AM | Eva Portelance | *TBA* | *TBA* |
+| October 18th @ 11:30 AM | Eva Portelance | Reframing linguistic bootstrapping as joint inference using visually-grounded grammar induction models | [click here]({% link _posts/reading-group/fall-2024/2024-10-18-eva-portelance.md %}) |
 | November 1st @ 11:30 AM | Bang Liu | *TBA* | *TBA* |
 | November 8th @ 11:30 AM | Boyuan Zheng | *TBA* | *TBA* |
 | November 12th to 16th | **EMNLP 2024** | | |
