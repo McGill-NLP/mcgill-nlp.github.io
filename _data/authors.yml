@@ -521,6 +521,25 @@ Amirhossein Kazemnejad:
   - label: Website
     url: https://kazemnejad.com
 
+Aravind Krishnan:
+  name: Aravind Krishnan
+  role: Intern
+  username: aravind.krishnan@mila.quebec
+  avatar: https://github.com/Krishnan-Aravind/Krishnan-Aravind.github.io/blob/master/assets/img/krishnan_profile_headshot.jpg
+  advisor: Prof. Siva Reddy,  Dr. Marius Mosbach
+  date: October 2024
+  bio: I'm a master student at Saarland University, my research interests include
+    language modeling and interpretability in multimodal settings
+  alumni: false
+  links:
+  - label: Website
+    url: https://krishnan-aravind.github.io/
+  - label: Twitter
+    url: https://x.com/aravindhp1999
+  - label: GitHub
+    url: https://github.com/Krishnan-Aravind
+  - label: Scholar
+    url: https://x.com/aravindhp1999
 Benno Krojer:
   name: "Benno Krojer"
   role: "PhD"
