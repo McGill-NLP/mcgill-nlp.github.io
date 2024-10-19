@@ -393,6 +393,26 @@ Jacob-Junqi Tian:
     url: https://github.com/jacobthebanana
   - label: Scholar
     url: https://scholar.google.com/citations?user=Bkl3SakAAAAJ
+Maximilian Puelma Touzel:
+  name: Maximilian Puelma Touzel
+  role: Postdoc
+  username: puelmatm
+  semantic_scholar_id: '114414606'
+  avatar: /assets/images/bio/Maximilian Puelma Touzel.jpg
+  date: Sep 2024
+  bio: Research scientist in human and machine social decision-making for social impact
+  alumni: false
+  links:
+  - label: Website
+    url: https://mptouzel.github.io/
+  - label: Twitter
+    url: https://x.com/mptouzel
+  - label: GitHub
+    url: https://github.com/mptouzel
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=-EHSwJ4AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/maximilian-puelma-touzel-b170595/
 Junhao Wang:
   name: Junhao Wang
   role: Master
