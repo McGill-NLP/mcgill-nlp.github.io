@@ -318,7 +318,7 @@ Farimah Poursafaei:
   role: Postdoc
   username: farimah.poursafaei
   semantic_scholar_id: "9385224"
-  advisor: Prof. Reihaneh Rabbany
+  advisor: Reihaneh Rabbany
   date: Fall 2020
   bio: Works on Dynamic Graph Neural Networks
   new_role: "Data Scientist @ Mila"
@@ -398,8 +398,9 @@ Maximilian Puelma Touzel:
   role: Postdoc
   username: puelmatm
   semantic_scholar_id: '114414606'
+  advisor: Reihaneh Rabbany
   avatar: /assets/images/bio/Maximilian Puelma Touzel.jpg
-  date: Sep 2024
+  date: Fall 2024
   bio: Research scientist in human and machine social decision-making for social impact
   alumni: false
   links:
