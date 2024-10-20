@@ -944,6 +944,17 @@ Siva Reddy:
     url: "/people/siva"
     icon: "fas fa-fw fa-user"
 
+Nooshin Soheililangroodi:
+  name: Nooshin Soheililangroodi
+  role: Undergraduate
+  username: nooshin.soheililangroodi@mila.quebec
+  avatar: '[https://drive.google.com/file/d/15X9CcbZdoIsT17dtKAn6tl4MFMHAvjFm/view?usp=share_link](url)'
+  advisor: Prof. Siva Reddy, Benno Krojer
+  date: September 2024
+  bio: I’m an undergrad CS student at McGill and I’m mostly interested in researching
+    about vision-language models.
+  alumni: false
+  links: []
 Karolina Stanczak:
   name: Karolina Stanczak
   role: Postdoc
