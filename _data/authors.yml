@@ -539,6 +539,25 @@ Aditi Khandelwal:
     url: https://github.com/aditi184
   - label: Scholar
     url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=mahkGIoAAAAJ
+Aditi Khandelwal 2:
+  name: Aditi Khandelwal
+  role: PhD
+  username: aditi.khandelwal
+  semantic_scholar_id: '47000634'
+  avatar: /assets/images/bio/Aditi Khandelwal 2.jpg
+  advisor: Siva Reddy
+  date: September 2024
+  bio: I work on building AI that understands and adapts to diverse languages and
+    cultures, making tech more inclusive for everyone.
+  note: Co-advised by Dr. Golnoosh Farnadi
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://x.com/Aditi184
+  - label: GitHub
+    url: https://github.com/aditi184
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=mahkGIoAAAAJ
 Aravind Krishnan:
   name: Aravind Krishnan
   role: Intern
