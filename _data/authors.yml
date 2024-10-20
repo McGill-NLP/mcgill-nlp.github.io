@@ -521,6 +521,24 @@ Amirhossein Kazemnejad:
   - label: Website
     url: https://kazemnejad.com
 
+Aditi Khandelwal:
+  name: Aditi Khandelwal
+  role: PhD
+  username: aditi.khandelwal@mila.quebec
+  semantic_scholar_id: https://www.semanticscholar.org/author/Aditi-Khandelwal/47000634
+  avatar: '[https://drive.google.com/file/d/1cCnu4dtU-iuiGnl_KtMzEzwRO2xvSNst/view?usp=sharing](url)'
+  advisor: Prof. Siva Reddy and Prof. Golnoosh Farnadi
+  date: Sept.2024
+  bio: I work on building AI that understands and adapts to diverse languages and
+    cultures, making tech more inclusive for everyone.
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://x.com/Aditi184
+  - label: GitHub
+    url: https://github.com/aditi184
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=mahkGIoAAAAJ
 Aravind Krishnan:
   name: Aravind Krishnan
   role: Intern
