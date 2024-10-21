@@ -521,6 +521,44 @@ Amirhossein Kazemnejad:
   - label: Website
     url: https://kazemnejad.com
 
+Aditi Khandelwal:
+  name: Aditi Khandelwal
+  role: PhD
+  username: aditi.khandelwal
+  semantic_scholar_id: '47000634'
+  avatar: /assets/images/bio/Aditi Khandelwal 2.jpg
+  advisor: Siva Reddy
+  date: September 2024
+  bio: I work on building AI that understands and adapts to diverse languages and
+    cultures, making tech more inclusive for everyone.
+  note: Co-advised by Dr. Golnoosh Farnadi
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://x.com/Aditi184
+  - label: GitHub
+    url: https://github.com/aditi184
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=mahkGIoAAAAJ
+Aravind Krishnan:
+  name: Aravind Krishnan
+  role: Intern
+  username: aravind.krishnan
+  avatar: /assets/images/bio/Aravind Krishnan.webp
+  advisor: Siva Reddy
+  date: October 2024
+  bio: I'm a master student at Saarland University, my research interests include
+    language modeling and interpretability in multimodal settings
+  alumni: false
+  links:
+  - label: Website
+    url: https://krishnan-aravind.github.io/
+  - label: Twitter
+    url: https://x.com/aravindhp1999
+  - label: GitHub
+    url: https://github.com/Krishnan-Aravind
+  - label: Scholar
+    url: https://x.com/aravindhp1999
 Benno Krojer:
   name: "Benno Krojer"
   role: "PhD"
@@ -925,6 +963,17 @@ Siva Reddy:
     url: "/people/siva"
     icon: "fas fa-fw fa-user"
 
+Nooshin Soheililangroodi:
+  name: Nooshin Soheililangroodi
+  role: Undergraduate
+  username: nooshin.soheililangroodi
+  avatar: /assets/images/bio/Nooshin Soheililangroodi 2.jpg
+  advisor: Siva Reddy
+  date: September 2024
+  bio: I'm an undergrad CS student at McGill and I'm mostly interested in researching
+    about vision-language models.
+  alumni: false
+  links: []
 Karolina Stanczak:
   name: Karolina Stanczak
   role: Postdoc
