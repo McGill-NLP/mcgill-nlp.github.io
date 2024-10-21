@@ -33,6 +33,10 @@ layout: archive
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=false %}
 
+## Research Engineers
+
+{% include card-authors-with-role.html authors=site.data.authors role="Research Engineer" alumni=false %}
+
 ---
 
 # Alumni
@@ -57,6 +61,10 @@ layout: archive
 ## Interns
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=true %}
+
+## Research Engineers
+
+{% include card-authors-with-role.html authors=site.data.authors role="Research Engineer" alumni=true %}
 
 <br/>
 

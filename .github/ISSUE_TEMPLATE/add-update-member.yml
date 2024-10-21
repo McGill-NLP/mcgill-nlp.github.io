@@ -49,6 +49,7 @@ body:
         - "Master"
         - "Undergraduate"
         - "Intern"
+        - "Research Engineer"
     validations:
       required: true
 
