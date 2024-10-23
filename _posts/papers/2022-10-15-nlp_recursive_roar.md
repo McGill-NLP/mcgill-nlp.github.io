@@ -8,7 +8,7 @@ code: https://github.com/AndreasMadsen/nlp-roar-interpretability # link to code 
 twitter: https://twitter.com/andreas_madsen/status/1450832033282932741  # link to twitter thread (optional)
 thumbnail: /assets/images/papers/2021-nlp-recursive-roar.svg  # link to a thumbnail (optional)
 venue: EMNLP Findings # venue and year of the paper
-tags: EMNLP # tag of the paper (exclude year, use shorthand)
+tags: EMNLP # tag of the paper (exclude year, use shorthand)layout: paper
 ---
 
 *{{ page.names }}*

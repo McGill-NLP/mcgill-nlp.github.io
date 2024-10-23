@@ -11,7 +11,7 @@ code: https://github.com/McGill-NLP/statcan-dialogue-dataset
 webpage: https://mcgill-nlp.github.io/statcan-dialogue-dataset/
 thumbnail: /assets/images/papers/statcan-dialogue-dataset.png
 categories: Publications
-
+layout: paper
 ---
 
 *{{ page.names }}*

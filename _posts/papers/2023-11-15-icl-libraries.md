@@ -5,7 +5,7 @@ names: Arkil Patel, Siva Reddy, Dzmitry Bahdanau, Pradeep Dasigi
 venue: arXiv
 link: https://arxiv.org/abs/2311.09635
 categories: Publications
-
+layout: paper
 ---
 
 *{{ page.names }}*

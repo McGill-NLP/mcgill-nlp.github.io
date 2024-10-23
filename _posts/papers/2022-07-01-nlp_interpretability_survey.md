@@ -7,7 +7,7 @@ link: https://arxiv.org/abs/2108.04840 # link to paper
 twitter: https://twitter.com/andreas_madsen/status/1425794989741727748  # link to twitter thread (optional)
 thumbnail: /assets/images/papers/nlp_interpretability_survey.jpg  # link to a thumbnail (optional)
 venue: ACM Computing Surveys  # venue and year of the paper
-tags: ACM # tag of the paper (exclude year, use shorthand)
+tags: ACM # tag of the paper (exclude year, use shorthand)layout: paper
 ---
 
 *{{ page.names }}*

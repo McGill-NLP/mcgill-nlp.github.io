@@ -7,7 +7,7 @@ link: https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00670/121540/Scope-
 code: https://github.com/McGill-NLP/scope-ambiguity
 thumbnail: /assets/images/papers/scope-ambiguity.png
 categories: Publications
-
+layout: paper
 ---
 
 *{{ page.names }}*

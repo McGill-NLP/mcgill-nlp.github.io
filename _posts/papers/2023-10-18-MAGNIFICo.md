@@ -14,7 +14,7 @@ code: https://github.com/McGill-NLP/MAGNIFICo
 webpage: https://mcgill-nlp.github.io/MAGNIFICo
 thumbnail: /assets/images/papers/magnifico.jpg
 categories: Publications
-
+layout: paper
 ---
 
 *{{ page.names }}*

@@ -10,7 +10,7 @@ tags:
 code: https://github.com/McGill-NLP/retriever-lm-reasoning
 thumbnail: /assets/images/papers/retriever-lm-reasoning-2.jpg
 categories: Publications
-
+layout: paper
 ---
 
 *{{ page.names }}*
