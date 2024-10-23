@@ -963,6 +963,14 @@ Siva Reddy:
     url: "/people/siva"
     icon: "fas fa-fw fa-user"
 
+Hadia Samil:
+  name: Hadia Samil
+  role: Research Engineer
+  username: hadia.samil2
+  advisor: Prof. Siva Reddy
+  date: September 2024
+  alumni: false
+  links: []
 Nooshin Soheililangroodi:
   name: Nooshin Soheililangroodi
   role: Undergraduate
