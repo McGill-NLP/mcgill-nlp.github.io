@@ -390,6 +390,12 @@ layout: publication
 
 Example: In our case, we have a custom `publications.html` layout for the `/publications/` page.
 
+#### Existing layouts
+
+To better conceptualize this, here are the existing layouts in this repo:
+* `_layouts/publication.html`: This is a custom layout for the `/publications/` page that displays all publications.
+* `_layouts/profile.html`: TBD
+* `_layouts/venue.html`: TBD
 
 ### Github Actions
 

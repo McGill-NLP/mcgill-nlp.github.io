@@ -1,69 +1,74 @@
 <!-- show-author-with-roles.html -->
-<article class="author-card">
-    <div class="author-avatar">
-        {% if author.avatar %}
-        <img loading="{{ loading }}" src="{{ author.avatar | relative_url }}" alt="An image of {{ author.name }}">
-        {% else %}
-        <img loading="{{ loading }}" src="{{ site.author.avatar | relative_url }}" alt="An image of {{ author.name }}">
-        {% endif %}
-    </div>
-
-    <div class="author-info">
-        <b class="author-name">
-            {% if author.links %}
-            <a href="{{ author.links[0].url }}" aria-label="Access the primary external link of this author">{{ author.name }}</a>
+<article class="author-card" itemscope itemtype="https://schema.org/ProfilePage">
+    <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="identifier" content="{{ author.name }}">
+        <div class="author-avatar">
+            {% if author.avatar %}
+            <img itemprop="image" loading="{{ loading }}" src="{{ author.avatar | relative_url }}" alt="An image of {{ author.name }}">
             {% else %}
-            {{ author.name }}
+            <img loading="{{ loading }}" src="{{ site.author.avatar | relative_url }}" alt="An image of {{ author.name }}">
             {% endif %}
-        </b>
+        </div>
 
-        {% if author.advisor %}
-        <div class="author-advisor">
-            <b>
-                {% if author.role == "Postdoc" %}
-                Working with:
-                {% elsif author.role == "Intern" %}
-                Hosted by:
+        <div class="author-info">
+            <b class="author-name">
+                {% if author.links %}
+                <a itemprop="url" href="{{ author.links[0].url }}" aria-label="Access the primary external link of this author"><span itemprop="name">{{ author.name }}</span></a>
                 {% else %}
-                Advised by:
+                <span itemprop="name">
+                    {{ author.name }}
+                </span>
                 {% endif %}
             </b>
-            {{ author.advisor }}
-            {% if author.date %}
-            <span>
-                ({{ author.date }})
-            </span>
+
+            {% if author.advisor %}
+            <div class="author-advisor">
+                <b>
+                    {% if author.role == "Postdoc" %}
+                    Working with:
+                    {% elsif author.role == "Intern" %}
+                    Hosted by:
+                    {% else %}
+                    Advised by:
+                    {% endif %}
+                </b>
+                {{ author.advisor }}
+                {% if author.date %}
+                <span>
+                    ({{ author.date }})
+                </span>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            {% if author.bio %}
+            <div class="author-bio">
+                {{ author.bio }}
+            </div>
+            {% endif %}
+
+            {% if author.note %}
+            <div class="author-note">
+                {{ author.note }}
+            </div>
+            {% endif %}
+
+            {% if author.new_role %}
+            <div class="author-note">
+                <b>➡️ </b> {{ author.new_role }}
+            </div>
+            {% endif %}
+
+            {% if author.links %}
+            <div class="author-links">
+                {% for link in author.links %}
+                    {% include infer-icon.html link=link %}
+                    {% if icon %}
+                    <a itemprop="sameAs" href="{{ link.url }}" class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}"></a>
+                    {% endif %}
+                {% endfor %}
+            </div>
             {% endif %}
         </div>
-        {% endif %}
-
-        {% if author.bio %}
-        <div class="author-bio">
-            {{ author.bio }}
-        </div>
-        {% endif %}
-
-        {% if author.note %}
-        <div class="author-note">
-            {{ author.note }}
-        </div>
-        {% endif %}
-
-        {% if author.new_role %}
-        <div class="author-note">
-            <b>➡️ </b> {{ author.new_role }}
-        </div>
-        {% endif %}
-
-        {% if author.links %}
-        <div class="author-links">
-            {% for link in author.links %}
-                {% include infer-icon.html link=link %}
-                {% if icon %}
-                <a href="{{ link.url }}" class="{{ icon }} author-button" aria-label="Access author's external link for {{ icon }}"></a>
-                {% endif %}
-            {% endfor %}
-        </div>
-        {% endif %}
     </div>
 </article>
