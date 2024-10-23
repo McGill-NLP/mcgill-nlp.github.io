@@ -1022,3 +1022,19 @@ Michelle Yang:
   - label: "Twitter"
     url: "https://twitter.com/mjieyang"
 
+Hao Yu:
+  name: Hao Yu
+  role: Master
+  username: hao.yu
+  avatar: /assets/images/bio/Hao Yu.jpg
+  advisor: David Ifeoluwa Adelani
+  date: Fall 2024
+  bio: Works on RAG, and LLMs with multilingual and minority languages.
+  alumni: false
+  links:
+  - label: Website
+    url: https://yhpeter.github.io/
+  - label: GitHub
+    url: https://github.com/YHPeter
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ
