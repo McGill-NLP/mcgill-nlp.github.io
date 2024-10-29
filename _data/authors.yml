@@ -34,6 +34,19 @@ Heather Bosiljevac:
   - label: LinkedIn
     url: https://www.linkedin.com/in/heather-bosiljevac-214226174/
 
+Taylor Lynn Curtis:
+  name: Taylor Lynn Curtis
+  role: Intern
+  username: taylor.curtis@mila.quebec
+  avatar: /assets/images/bio/Taylor Lynn Curtis.jpg
+  date: September 30, 2024
+  bio: Works on AI Misinformation Mitigation
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/taylorlynn
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/taylor-lynn-curtis-650746142/
 Jacob Danovitch:
   name: Jacob Danovitch
   role: Master
