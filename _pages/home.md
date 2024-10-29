@@ -30,11 +30,11 @@ research_topics:
     alt: "Temporal Graph Learning"
     title: "Temporal Graph Learning"
     excerpt: Advancing the frontier of machine learning on time-evolving graphs to better model and predict dynamic real-world networks and relationships.
-  - image_path: /assets/images/home/research-direction-default.png
+  - image_path: /assets/images/home/crime_online_markets_logo.png
     url: /
     alt: "Crime & Online Markets"
     title: "Crime & Online Markets"
-    excerpt: Developing responsible AI solutions to detect and analyze suspicious online patterns, supporting law enforcement and organizations in protecting vulnerable individuals from exploitation
+    excerpt: Developing responsible AI solutions to analyze suspicious patterns in online escort markets to generate evidence for equipping survivors and enabling justice. 
   - image_path: /assets/images/home/research-direction-default.png
     url: /poli-sci/
     alt: "Politics & Online Media"
@@ -48,9 +48,8 @@ research_topics:
 
 ---
 {% comment %}
-Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md
+Based on: <https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md>
 {% endcomment %}
-
 
 {% include research-directions.html id="research_topics"%}
 
