@@ -1,9 +1,9 @@
 ---
 permalink: /
-title: "Complex Data Lab @ McGill / Mila"
+title: ""
 layout: splash
 header:
-    overlay_filter: rgba(237, 27, 47, 0.3)
+    overlay_filter: rgba(221, 0, 118, 0.3)
     overlay_image: /assets/images/trottier.webp
     actions:
         - label: "GitHub"
@@ -13,7 +13,7 @@ header:
         - label: "LinkedIn"
           url: "https://www.linkedin.com/company/complex-data-lab-mcgill-mila"
 
-excerpt: "Complex Data Lab is a research group within McGill University and Mila focusing on network science and applied machine learning."
+excerpt: "A research group focusing on developing techniques for analyzing complex data from online societies, with applications to enhance the health and safety of online spaces."
 
 row_research:
   - image_path: /assets/images/home/group-photo-1.webp
@@ -22,21 +22,29 @@ row_research:
     title: "Research"
     btn_label: "Publications"
     btn_class: "btn--primary"
-    excerpt: "We work on various topics, including algorithms analyzing temporal graphs, applying machine learning on the health of online societies (crime & online markets, politics & online media, toxicity & online games). We present our works in ML and NLP conferences and journals."
+    excerpt: "We work on various topics and present our works in ML and NLP conferences and journals."
 
-row_code:
-  - image_path: /assets/images/home/github.webp
-    url: https://github.com/ComplexData-MILA
-    alt: "Our GitHub page"
-    title: "Open-Source Code"
-    btn_label: "GitHub"
-    btn_class: "btn--primary"
-    excerpt: "We publish code for our models and datasets on GitHub to make it easier for researchers and developers to reproduce and build upon our work. We welcome pull requests and issues on active projects from the community."
-
-row_about_us:
-  - image_path: /assets/images/home/misinfo_gov_outreach.webp
-  - image_path: /assets/images/home/web_retrieval_mila_outreach.webp
-  - image_path: /assets/images/home/web_retrieval_colm_outreach.webp
+research_topics:
+  - image_path: /assets/images/home/research-direction-default.png
+    url: /
+    alt: "Temporal Graph Learning"
+    title: "Temporal Graph Learning"
+    excerpt: Advancing the frontier of machine learning on time-evolving graphs to better model and predict dynamic real-world networks and relationships.
+  - image_path: /assets/images/home/research-direction-default.png
+    url: /
+    alt: "Crime & Online Markets"
+    title: "Crime & Online Markets"
+    excerpt: Developing responsible AI solutions to detect and analyze suspicious online patterns, supporting law enforcement and organizations in protecting vulnerable individuals from exploitation
+  - image_path: /assets/images/home/research-direction-default.png
+    url: /poli-sci/
+    alt: "Politics & Online Media"
+    title: "Politics & Online Media"
+    excerpt: "Investigating how digital platforms and emerging AI technologies shape political discourse, social polarization, and information ecosystems through data-driven computational social science"
+  - image_path: /assets/images/home/research-direction-default.png
+    url: /
+    alt: "Toxicity & Online Games"
+    title: "Toxicity & Online Games"
+    excerpt: Building real-time, human-in-the-loop systems to foster healthier gaming communities, partnering with industry leaders to deploy scalable solutions that adapt to emerging challenges.
 
 ---
 {% comment %}
@@ -44,26 +52,6 @@ Based on: https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/do
 {% endcomment %}
 
 
+{% include research-directions.html id="research_topics"%}
+
 {% include feature_row id="row_research" type="left" %}
-
-{% include feature_row id="row_code" type="right" %}
-
-# Join Us
-{: .text-center}
-
-Complex Data Lab welcomes graduate students, interns, and researchers at various levels. We have opportunities for Masters and PhD students, postdocs, research assistants, and visiting researchers. 
-{: .text-center}
-
-For detailed information on how to apply and join our lab, please visit our [Join Us](/join-us) page.
-{: .text-center}
-<br/>
-
-
-# About Us
-{: .text-center}
-
-We are a group of faculty members, researchers and students affiliated with McGill University and Mila Quebec AI Institute, both located in Montreal, Canada. We often collaborate with researchers around the world.
-{: .text-center}
-
-{% include feature_row id="row_about_us" %}
-

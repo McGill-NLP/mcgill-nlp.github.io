@@ -1,0 +1,38 @@
+{% if include.id %}
+{% assign research-directions = page[include.id] %}
+{% else %}
+{% assign research-directions = page.research-directions %}
+{% endif %}
+
+<div class="research-directions__wrapper">
+
+  {% for r in research-directions %}
+  <div class="research-directions__item{% if include.type %}--{{ include.type }}{% endif %}">
+    <a class="archive__item" href="{{ r.url | relative_url }}">
+      {% if r.image_path %}
+      <div class="archive__item-teaser">
+        <img src="{{ r.image_path | relative_url }}" alt="{% if r.alt %}{{ r.alt }}{% endif %}">
+        {% if r.image_caption %}
+        <span class="archive__item-caption">{{ r.image_caption | markdownify | remove: "<p>" | remove: "</p>"
+          }}</span>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="archive__item-body">
+        {% if r.title %}
+        <h2 class="archive__item-title">{{ r.title }}</h2>
+        {% endif %}
+
+        {% if r.excerpt %}
+        <div class="archive__item-excerpt">
+          {{ r.excerpt | markdownify }}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+
+  </div>
+  {% endfor %}
+
+</div>

@@ -135,6 +135,17 @@ defaults:
         - no-sidebar
       author_profile: false
       share: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      classes:
+        - no-sidebar
+      author_profile: false
+      share: true
+
 
 category_archive:
   type: liquid
@@ -142,3 +153,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:path/

@@ -6,20 +6,26 @@ main:
       - page: "Crime & Online Markets"
         url: /
       - page: "Politics & Online Media"
-        url: /
+        url: /poli-sci/
       - page: "Toxicity & Online Games"
         url: /
       - page: "Tools & Resources"
         url: /
       - page: "Publications"
         url: /publications/
+  - tab: "News"
+    subpages:
+      - page: "In the Media"
+        url: /
+      - page: "Events"
+        url: /
   - tab: "About"
     subpages:
       - page: "About the Lab"
-        url: /
+        url: /about/
       - page: "People"
         url: /people/
       - page: "Teaching"
         url: /teaching/
   - title: "Join Us"
-    url: /join-us/
+    url: /about/#join-us

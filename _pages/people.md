@@ -5,31 +5,28 @@ layout: archive
 ---
 
 
-## Faculty
+## Faculty & Staff
 
 {% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %}
-
-<!-- ## Adjunct Faculty
-
-{% include card-authors-with-role.html authors=site.data.authors role="Adjunct Faculty" alumni=false %} -->
-
-## Postdocs
-
 {% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Research Assistant" alumni=false %}
 
-## PhD Students
+
+## Students
+
+### PhD 
 
 {% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=false %}
 
-## Masters Students
+### Masters
 
 {% include card-authors-with-role.html authors=site.data.authors role="Master" alumni=false %}
 
-## Undergraduate Students
+### Undergraduate
 
 {% include card-authors-with-role.html authors=site.data.authors role="Undergraduate" alumni=false %}
 
-## Interns
+### Interns
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=false %}
 
@@ -37,29 +34,30 @@ layout: archive
 
 # Alumni
 
-
-## Postdocs
+## Faculty & Staff
 
 {% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=true %}
 
-## PhD Students
+## Students
+
+### PhD
 
 {% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=true %}
 
-## Masters Students
+### Masters
 
 {% include card-authors-with-role.html authors=site.data.authors role="Master" alumni=true %}
 
-## Undergraduate Students
+### Undergraduate
 
 {% include card-authors-with-role.html authors=site.data.authors role="Undergraduate" alumni=true %}
 
-## Interns
+### Interns
 
 {% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=true %}
 
 <br/>
 
-## Updating the website
+# Updating the website
 
-If you are part of the Complex Data Lab (i.e., advised by one of the [faculty members](/people/)), please head to the [GitHub repository](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill), where you will find instructions on adding your publications, creating/updating your profile, updating other parts of the website, etc.
+If you are part of the Complex Data Lab, please head to the [GitHub repository](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill), for instructions on adding/updating your publications, creating/updating your profile, updating other parts of the website and etc.
