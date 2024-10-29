@@ -173,7 +173,8 @@ Laurestine Bradford:
   advisor: Siva Reddy, Tim O'Donnell
   date: Jan 2022
   bio: Language in math and connecting syntax to semantics
-  alumni: false
+  new_role: back to McGill
+  alumni: true
   avatar: /assets/images/bio/Laurestine Bradford.avatar.webp
   links:
   - label: Website
@@ -218,7 +219,8 @@ Xuanda Chen:
   avatar: /assets/images/bio/Xuanda Chen.avatar.webp
   date: Fall 2022
   bio: Works on language model probing
-  alumni: false
+  new_role: back to McGill
+  alumni: true
   links:
   - label: Website
     url: https://xdchen2.github.io/
@@ -722,7 +724,8 @@ Aristides Milios:
   advisor: Dr. Siva Reddy
   date: Fall 2021
   bio: Interested in imbuing large language models with world knowledge
-  alumni: false
+  new_role: PhD at Polytechnique Montreal
+  alumni: true
   links:
   - label: Website
     url: https://atmilios.com/
@@ -810,13 +813,13 @@ Timothy J. O'Donnell:
 
 Arkil Patel:
   name: Arkil Patel
-  role: Master
+  role: PhD
   username: arkil.patel
   semantic_scholar_id: '1443788809'
   avatar: /assets/images/bio/Arkil Patel.avatar.webp
   advisor: Dzmitry Bahdanau, Siva Reddy
   date: Fall 2022
-  bio: Systematic Generalization, Reasoning using LLMs
+  bio: Generalization in LLMs, Reasoning using LLMs
   alumni: false
   links:
   - label: Website
@@ -901,7 +904,8 @@ Eva Portelance:
   advisor: Timothy J. O'Donnell, Siva Reddy
   date: Winter 2023
   bio: Bridging the gap between AI and cognitive science
-  alumni: false
+  new_role: Assistant Professor at HEC Montreal
+  alumni: true
   links:
   - label: Website
     url: https://evaportelance.github.io/
@@ -981,7 +985,9 @@ Nooshin Soheililangroodi:
   bio: I'm an undergrad CS student at McGill and I'm mostly interested in researching
     about vision-language models.
   alumni: false
-  links: []
+  links: 
+  - label: Website
+    url: https://github.com/noosh1380
 Karolina Stanczak:
   name: Karolina Stanczak
   role: Postdoc
