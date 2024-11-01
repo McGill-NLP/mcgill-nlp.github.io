@@ -168,13 +168,13 @@ Mehar Bhatia:
     url: https://meharbhatia.github.io/
 Laurestine Bradford:
   name: Laurestine Bradford
-  role: PhD
+  role: Intern
   username: laurestine.bradford
   advisor: Siva Reddy, Tim O'Donnell
   date: Jan 2022
   bio: Language in math and connecting syntax to semantics
   new_role: back to McGill
-  alumni: true
+  alumni: false
   avatar: /assets/images/bio/Laurestine Bradford.avatar.webp
   links:
   - label: Website
@@ -214,13 +214,13 @@ Meng Cao:
 
 Xuanda Chen:
   name: Xuanda Chen
-  role: PhD
+  role: Intern
   advisor: Siva Reddy, Timothy J. O'Donnell
   avatar: /assets/images/bio/Xuanda Chen.avatar.webp
   date: Fall 2022
   bio: Works on language model probing
   new_role: back to McGill
-  alumni: true
+  alumni: false
   links:
   - label: Website
     url: https://xdchen2.github.io/
