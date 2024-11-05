@@ -2,7 +2,7 @@
 title: Evaluating In-Context Learning of Libraries for Code Generation
 author: Arkil Patel
 names: Arkil Patel, Siva Reddy, Dzmitry Bahdanau, Pradeep Dasigi
-venue: arXiv
+venue: TACL
 link: https://arxiv.org/abs/2311.09635
 categories: Publications
 layout: paper
