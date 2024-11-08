@@ -615,6 +615,16 @@ Ben LeBrun:
   - label: Scholar
     url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
 
+Senyu Li:
+  name: Senyu Li
+  role: PhD
+  username: senyu.li
+  advisor: David Ifeoluwa Adelani
+  date: Fall 2024
+  alumni: false
+  links:
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=lyhV_fgAAAAJ
 Zichao Li:
   name: Zichao Li
   role: PhD
@@ -985,7 +995,7 @@ Nooshin Soheililangroodi:
   bio: I'm an undergrad CS student at McGill and I'm mostly interested in researching
     about vision-language models.
   alumni: false
-  links: 
+  links:
   - label: Website
     url: https://github.com/noosh1380
 Karolina Stanczak:
