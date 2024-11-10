@@ -8,16 +8,23 @@
 
 <script type="text/javascript">
     const updateNodesRel = theme => {
+        console.log("hit")
         const node_light = document.getElementById('theme-css');
         const node_dark = document.getElementById('theme-css-dark');
+        const lightImages = document.querySelectorAll('.theme-image.light-image');
+        const darkImages = document.querySelectorAll('.theme-image.dark-image');
 
         if (theme === "dark") {
             node_light.setAttribute('rel', 'stylesheet alternate');
             node_dark.setAttribute('rel', 'stylesheet');
+            lightImages.forEach(img => img.style.display = 'none');
+            darkImages.forEach(img => img.style.display = 'block');
         }
-        else if (theme === "light") {
+        else {
             node_light.setAttribute('rel', 'stylesheet');
             node_dark.setAttribute('rel', 'stylesheet alternate');
+            lightImages.forEach(img => img.style.display = 'block');
+            darkImages.forEach(img => img.style.display = 'none');
         }
     }
 
@@ -30,7 +37,7 @@
         } else {
             theme = "light";
         }
-        
+
         // Update the stored session and the nodes' rel attribute
         sessionStorage.setItem('theme', theme);
         updateNodesRel(theme);
@@ -38,11 +45,22 @@
         return false;
     }
 
+    // check if we have the theme saved
+    // if not, we check whether theme-css is set as alternate or not.
     if (sessionStorage.getItem('theme') === null) {
+
+        const node_light = document.getElementById('theme-css');
+
         sessionStorage.setItem('theme', "light");
+        if (node_light.getAttribute('re') === 'stylesheet alternate') {
+            sessionStorage.setItem('theme', "dark");
+        }
+
     }
 
     const theme = sessionStorage.getItem('theme');
+
     updateNodesRel(theme);
+
 </script>
 {% endif %}

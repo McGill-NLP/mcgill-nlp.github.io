@@ -1,0 +1,98 @@
+/* Sub Research Directions styling */
+.sub-research-directions {
+    @include clearfix;
+    position: relative;
+    margin-bottom: 2em;
+
+    &.half {
+        .direction-item {
+            @include breakpoint($small) {
+                width: calc(50% - 0.5em);
+                float: left;
+
+                &:nth-child(2n+1) {
+                    clear: both;
+                    margin-left: 0;
+                }
+
+                &:nth-child(2n) {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+
+    &.third {
+        .direction-item {
+            @include breakpoint($small) {
+                width: calc(33.3333% - 0.6667em);
+                float: left;
+
+                &:nth-child(3n+1) {
+                    clear: both;
+                    margin-left: 0;
+                }
+
+                &:nth-child(3n+2) {
+                    margin-left: 1em;
+                }
+
+                &:nth-child(3n) {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+
+    .direction-item {
+        position: relative;
+        margin-bottom: 1em;
+
+        a {
+            position: relative;
+            display: block;
+
+            &:hover {
+                .direction-title {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .direction-image {
+        position: relative;
+        width: 100%;
+        padding-top: 75%; // 4:3 aspect ratio
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+        overflow: hidden;
+
+        &:hover {
+            .direction-title {
+                opacity: 1;
+            }
+        }
+    }
+
+    .direction-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 1em;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0.9;
+        transition: opacity 0.3s ease-in-out;
+        text-align: center;
+
+        h2 {
+            margin: 0;
+            font-size: 1.1em;
+            line-height: 1.2;
+        }
+    }
+}

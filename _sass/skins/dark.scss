@@ -29,3 +29,11 @@ $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 .ais-search-box .ais-search-box--input {
   background-color: $form-background-color;
 }
+
+.theme-image.dark-image {
+  display: block;
+}
+
+.theme-image.light-image {
+  display: none;
+}

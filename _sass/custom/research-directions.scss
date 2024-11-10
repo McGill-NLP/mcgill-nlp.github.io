@@ -1,203 +1,124 @@
 /*
-   research-directionss
+   Research Directions
    ========================================================================== */
 
 .research-directions__wrapper {
     @include clearfix();
+    padding-bottom: 1em;
     margin-bottom: 2em;
     border-bottom: 1px solid $border-color;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2em;
+    align-items: stretch;
+}
 
-    .archive__item-title {
-        margin-bottom: 0;
+.research-directions-item {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    min-height: 250px;
+    height: 100%;
+    background: transparent;
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        height: 100%;
+        display: block;
+
+        &,
+        &:hover,
+        &:visited,
+        &:focus {
+            text-decoration: none !important;
+            color: #fff !important;
+        }
+
     }
 }
 
-.research-directions__item {
+.direction-image {
     position: relative;
-    margin-bottom: 2em;
-    font-size: 1.125em;
-    background-color: $card-color; // Card background
-    border-radius: 8px; // Rounded corners
-    box-shadow: 0 2px 5px $border-color; // Shadow effect
-    transition: transform 0.2s; // Smooth hover effect
+    min-height: 250px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.5em;
+    border-radius: 8px;
 
-    &:hover {
-        transform: translateY(-2px); // Slight lift on hover
-    }
-
-    @include breakpoint($small) {
-        float: inline-start;
-        margin-bottom: 0;
-        width: span(3 of 12);
-
-        &:nth-child(4n + 1) {
-            clear: both;
-            margin-inline-start: 0;
-        }
-
-        &:nth-child(4n + 2),
-        &:nth-child(4n + 3),
-        &:nth-child(4n + 4) {
-            clear: none;
-            margin-inline-start: gutter(of 12);
-        }
-
-        .research-directions__item-teaser {
-            max-height: 200px;
-            overflow: hidden;
-        }
-    }
-
-    .archive__item {
-        text-decoration: none;
-    }
-
-    .archive__item-body {
-        padding-inline: gutter(1 of 12);
-
-        a {
-            text-decoration: none;
-        }
-    }
-
-    .archive__item-teaser {
-        img {
-            padding: 2em;
-        }
-    }
-
-    @media (max-width: $small) {
-        .archive__item-teaser {
-            text-align: center;
-
-            img {
-                max-width: 200px;
-                max-height: 200px;
-                width: auto;
-                height: auto;
-                padding: 1em;
-            }
-        }
-    }
-
-    .archive__item-title,
-    .archive__item-excerpt {
-        color: $text-color; // Ensure text is black
-        text-decoration: none; // No underlines
-    }
-
-    .archive__item-title {
-        margin-bottom: 0.5em; // Space between title and excerpt
-        font-weight: bold; // Optional: Make the title bold
-        text-align: center;
-    }
-
-    a.btn::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-    }
-
-    &--left,
-    &--right {
+    // If no overlay filter is specified in the frontmatter,
+    // add a default gradient overlay
+    >* {
         position: relative;
-        margin-inline: 0;
+        z-index: 2;
+    }
+}
+
+.direction-header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #f2f3f3;
+
+    h2 {
+        margin: 0;
+        color: #fff;
+        font-size: 1.25em;
+        font-weight: bold;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        line-height: 1.3;
+        border: none;
+    }
+}
+
+.research-directions-logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.25);
+
+    img {
         width: 100%;
-        clear: both;
-        font-size: 1.125em;
-
-        a.btn::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-        }
-
-        .archive__item-teaser {
-            margin-bottom: 2em;
-        }
+        height: 100%;
+        object-fit: contain;
     }
 
-    &--left {
-        float: inline-start;
+}
 
-        .archive__item {
-            float: inline-start;
-        }
+.direction-excerpt {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: auto;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
-        @include breakpoint($small) {
-            .archive__item-teaser {
-                float: inline-start;
-                width: span(5 of 12);
-            }
-
-            .archive__item-body {
-                float: inline-end;
-                width: span(7 of 12);
-                padding-inline-start: gutter(0.5 of 12);
-                padding-inline-end: gutter(1 of 12);
-            }
-        }
+    p {
+        margin: 0;
+        line-height: 1.4;
     }
+}
 
-    &--right {
-        float: inline-end;
-
-        .archive__item {
-            float: inline-end;
-        }
-
-        @include breakpoint($small) {
-            text-align: end;
-
-            .archive__item-teaser {
-                float: inline-end;
-                width: span(5 of 12);
-            }
-
-            .archive__item-body {
-                float: inline-start;
-                width: span(7 of 12);
-                padding-inline-start: gutter(1 of 12);
-                padding-inline-end: gutter(0.5 of 12);
-            }
-        }
+// Responsive adjustments
+@include breakpoint($medium) {
+    .research-directions__wrapper {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
+}
 
-    &--center {
-        position: relative;
-        float: inline-start;
-        margin-inline: 0;
-        width: 100%;
-        clear: both;
-        font-size: 1.125em;
-
-        .archive__item {
-            float: inline-start;
-            width: 100%;
-        }
-
-        .archive__item-teaser {
-            margin-bottom: 2em;
-        }
-
-        a.btn::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-        }
-
-        @include breakpoint($small) {
-            text-align: center;
-
-            .archive__item-teaser {
-                margin: 0 auto;
-                width: span(5 of 12);
-            }
-
-            .archive__item-body {
-                margin: 0 auto;
-                width: span(7 of 12);
-            }
-        }
+@include breakpoint($large) {
+    .research-directions__wrapper {
+        grid-template-columns: repeat(4, 1fr);
     }
 }

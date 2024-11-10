@@ -1,0 +1,37 @@
+{% if include.category %}
+{% assign directions = site.research_directions | where: "category", include.category %}
+{% else %}
+{% assign directions = site.research_directions %}
+{% endif %}
+
+{% assign sorted_directions = directions | sort: "order" %} <!-- or sort: "date" -->
+
+{% if include.layout %}
+{% assign gallery_layout = include.layout %}
+{% else %}
+{% if directions.size == 2 %}
+{% assign gallery_layout = 'half' %}
+{% elsif directions.size >= 3 %}
+{% assign gallery_layout = 'third' %}
+{% else %}
+{% assign gallery_layout = '' %}
+{% endif %}
+{% endif %}
+
+<div class="sub-research-directions {{ gallery_layout }} {{ include.class }}">
+    {% for direction in sorted_directions %}
+    <div class="direction-item">
+        <a href="{{ direction.url | relative_url }}" title="{{ direction.title }}">
+            <div class="direction-image" style="background-image: url('{{ direction.header.overlay_image | relative_url }}');
+                   {% if direction.header.overlay_filter %}
+                     background-image: {{ direction.header.overlay_filter }}, url('{{ direction.header.overlay_image | relative_url }}');
+                   {% endif %}">
+                <div class="direction-title">
+                    <h2>{{ direction.title }}</h2>
+                </div>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+
+</div>

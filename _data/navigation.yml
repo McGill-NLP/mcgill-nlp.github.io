@@ -2,13 +2,13 @@ main:
   - tab: "Research"
     subpages:
       - page: "Temporal Graph Learning"
-        url: /
+        url: /temporal-graph-learning/
       - page: "Crime & Online Markets"
-        url: /
+        url: /online-crime/
       - page: "Politics & Online Media"
         url: /poli-sci/
       - page: "Toxicity & Online Games"
-        url: /
+        url: /online-toxicity/
       - page: "Tools & Resources"
         url: /
       - page: "Publications"

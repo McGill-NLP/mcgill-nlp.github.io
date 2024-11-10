@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: " "
 layout: splash
 header:
     overlay_filter: rgba(221, 0, 118, 0.3)
@@ -24,33 +24,11 @@ row_research:
     btn_class: "btn--primary"
     excerpt: "We work on various topics and present our works in ML and NLP conferences and journals."
 
-research_topics:
-  - image_path: /assets/images/home/research-direction-default.png
-    url: /
-    alt: "Temporal Graph Learning"
-    title: "Temporal Graph Learning"
-    excerpt: Advancing the frontier of machine learning on time-evolving graphs to better model and predict dynamic real-world networks and relationships.
-  - image_path: /assets/images/home/crime_online_markets_logo.png
-    url: /
-    alt: "Crime & Online Markets"
-    title: "Crime & Online Markets"
-    excerpt: Developing responsible AI solutions to analyze suspicious patterns in online escort markets to generate evidence for equipping survivors and enabling justice. 
-  - image_path: /assets/images/home/research-direction-default.png
-    url: /poli-sci/
-    alt: "Politics & Online Media"
-    title: "Politics & Online Media"
-    excerpt: "Investigating how digital platforms and emerging AI technologies shape political discourse, social polarization, and information ecosystems through data-driven computational social science"
-  - image_path: /assets/images/home/research-direction-default.png
-    url: /
-    alt: "Toxicity & Online Games"
-    title: "Toxicity & Online Games"
-    excerpt: Building real-time, human-in-the-loop systems to foster healthier gaming communities, partnering with industry leaders to deploy scalable solutions that adapt to emerging challenges.
-
 ---
 {% comment %}
 Based on: <https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md>
 {% endcomment %}
 
-{% include research-directions.html id="research_topics"%}
+{% include research-directions.html category="research-directions"%}
 
 {% include feature_row id="row_research" type="left" %}
