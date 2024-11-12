@@ -20,13 +20,13 @@ layout: archive
 
 {% include card-authors-with-role.html authors=site.data.authors role="Student" title="Master" render_current_role=true %}
 
-<!-- ### Undergraduate
+### Undergraduate
 
 {% include card-authors-with-role.html authors=site.data.authors role="Student" title="Undergraduate" render_current_role=true %}
 
 ### Intern
 
-{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Intern" render_current_role=true %} -->
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Intern" render_current_role=true %}
 
 ---
 

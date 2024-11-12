@@ -61,7 +61,7 @@
 {% endunless %}
 {% endif %}
 
-{% include display-author.html author=author loading=loading render_current_role=render_current_role
+{% include display-author.html author=author loading=loading render_current_role=include.render_current_role
 role_to_render=role_to_render %}
 
 {% endif %}
