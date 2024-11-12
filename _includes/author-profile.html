@@ -21,8 +21,9 @@
     <div class="author__content">
 
         <h3 class="author-name">
-            {% if author.links %}
-            <a href="{{ author.links[0].url }}" aria-label="Access the primary external link of this author">{{
+            {% if author.social_media_links %}
+            <a href="{{ author.social_media_links[0].url }}"
+                aria-label="Access the primary external link of this author">{{
                 author.name }}</a>
             {% else %}
             {{ author.name }}
@@ -47,9 +48,9 @@
 
             <ul class="author__urls">
 
-                {% if author.links %}
+                {% if author.social_media_links %}
 
-                {% for link in author.links %}
+                {% for link in author.social_media_links %}
                 {% include infer-icon.html link=link %}
                 {% if icon %}
                 <li>
