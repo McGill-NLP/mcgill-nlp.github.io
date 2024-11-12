@@ -1,34 +1,16 @@
-# # To get started: Copy this template profile below and start editing.
-# John Doe:
-#   name: "John Doe"
-#   role: "PhD"
-#   avatar: "/assets/images/bio/placeholder/martlet.jpeg"
-#   date: "Sep 2030"
-#   advisor: "John Doe Sr."
-#   bio: "Just some cool student"
-#   note: "Co-advised by Amasa L."
-#   alumni: true
-#   new_role: "Professing at Leland Junior S. University"
-#   links:
-#     - label: "Website"
-#       url: "https://john-doe.github.io/"
-#     - label: "GitHub"
-#       url: "https://github.com/john-doe"
-#     - label: "Twitter"
-#       url: "https://twitter.com/john-doe"
-#     - label: "Scholar"
-#       icon: "fas fa-fw fa-graduation-cap"
-#       url: "https://scholar.google.com/citations?user=<user_id>"
-
 Heather Bosiljevac:
   name: Heather Bosiljevac
-  role: Undergraduate
-  advisor: Reihaneh Rabbany
-  date: Summer 2019
-  alumni: true
+  current_role:
+    type: Unaffiliated
+    title: "Senior Advisor, Competitive Analytics @ Bell"
+  past_roles:
+  - type: Student
+    title: Undergraduate
+    advisor: Reihaneh Rabbany
+    start_date: Summer 2019
+    end_date: Fall 2019
   auto_update_publications: false
-  new_role: "Senior Advisor, Competitive Analytics @ Bell"
-  links:
+  social_media_links:
   - label: GitHub
     url: https://github.com/heatherboz
   - label: LinkedIn
@@ -36,28 +18,35 @@ Heather Bosiljevac:
 
 Taylor Lynn Curtis:
   name: Taylor Lynn Curtis
-  role: Postdoc
-  advisor: Reihaneh Rabbany
-  username: taylor.curtis@mila.quebec
   avatar: /assets/images/bio/Taylor Lynn Curtis.jpg
-  date: September 30, 2024
   bio: Works on AI Misinformation Mitigation
-  alumni: false
-  links:
+  auto_update_publications: false
+  current_role:
+    type: Staff
+    title: Software Developer
+    start_date: September 30, 2024
+  social_media_links:
   - label: GitHub
     url: https://github.com/taylorlynn
   - label: LinkedIn
     url: https://www.linkedin.com/in/taylor-lynn-curtis-650746142/
+
 Jacob Danovitch:
   name: Jacob Danovitch
-  role: Master
   avatar: /assets/images/bio/jacob.danovitch.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2020
-  alumni: true
+  bio: Interested in the intersection of natural language processing and network science,
+    with a focus on social media.
   auto_update_publications: false
-  new_role: "Data & Applied Scientist II @ Microsoft"
-  links:
+  current_role:
+    type: Unaffiliated
+    title: "Data & Applied Scientist II @ Microsoft"
+  past_roles:
+  - type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2020
+    end_date: Summer 2023
+  social_media_links:
   - label: Website
     url: http://jacobdanovitch.me/
   - label: GitHub
@@ -66,33 +55,38 @@ Jacob Danovitch:
     url: https://scholar.google.com/citations?hl=en&user=bQTv8rkAAAAJ
   - label: LinkedIn
     url: https://www.linkedin.com/in/jacobdanovitch/
-  semantic_scholar_id: "1388354764"
-  bio: Interested in the intersection of natural language processing and network science,
-    with a focus on social media.
 
 Charlotte Ding:
   name: Xiaoye (Charlotte) Ding
-  role: Master
   avatar: /assets/images/bio/xiaoye.ding.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2019
-  alumni: true
-  auto_update_publications: false
-  new_role: "SDE II @ AWS"
-  links:
+  bio: Interested in graph representation learning and network science.
+  current_role:
+    type: Unaffiliated
+    title: SDE II @ AWS
+  past_roles:
+  - type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2019
+    end_date: Summer 2021
+  social_media_links:
   - label: LinkedIn
     url: https://www.linkedin.com/in/charlottexiaoyeding/
-  bio: Interested in graph representation learning and network science.
 
 Aarash Feizi:
   name: Aarash Feizi
-  role: PhD
   avatar: /assets/images/bio/aarash.feizi.avatar.webp
-  advisor: Reihaneh Rabbany, Adriana Romero Soriano
-  date: Fall 2019
-  alumni: false
+  bio: Works on multi-modal self-supervised learning and applied machine learning
+    techniques in CV and NLP for social good with real-world impacts.
+  username: feiziaar
+  semantic_scholar_id: "1962954677"
   auto_update_publications: true
-  links:
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany, Adriana Romero Soriano
+    start_date: Fall 2019
+  social_media_links:
   - label: GitHub
     url: https://github.com/aarashfeizi
   - label: Scholar
@@ -101,20 +95,20 @@ Aarash Feizi:
     url: https://www.linkedin.com/in/aarashfeizi/
   - label: Website
     url: https://aarashfeizi.github.io/
-  semantic_scholar_id: "1962954677"
-  bio: Works on multi-modal self-supervised learning and applied machine learning
-    techniques in CV and NLP for social good with real-world impacts.
-  username: feiziaar
-
+    
 Shenyang Huang:
   name: Shenyang (Andy) Huang
-  role: PhD
   avatar: /assets/images/bio/shenyang.huang.avatar.webp
-  advisor: Reihaneh Rabbany, Guillaume Rabusseau
-  date: Fall 2019
-  alumni: false
+  bio: Working temporal graph learning and graph learning applications for real world.
+  semantic_scholar_id: "51012317"
+  username: huanshe
   auto_update_publications: true
-  links:
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany, Guillaume Rabusseau
+    start_date: Fall 2019
+  social_media_links:
   - label: Website
     url: https://shenyanghuang.github.io/
   - label: GitHub
@@ -123,20 +117,20 @@ Shenyang Huang:
     url: https://scholar.google.com/citations?hl=en&user=ljIXv6kAAAAJ
   - label: LinkedIn
     url: https://www.linkedin.com/in/shenyang-huang/
-  semantic_scholar_id: "51012317"
-  bio: Working temporal graph learning and graph learning applications for real world.
-  username: huanshe
 
 Raika Karimi:
   name: Raika Karimi
-  role: Intern
   avatar: /assets/images/bio/raika.karimi.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Winter 2020
-  alumni: true
   auto_update_publications: false
-  new_role: "Machine Learning Researcher @ Huawei"
-  links:
+  current_role:
+    type: Unaffiliated
+    title: "Machine Learning Researcher @ Huawei"
+  past_roles:
+  - type: Staff
+    title: Intern
+    start_date: Winter 2020
+    end_date: Winter 2021
+  social_media_links:
   - label: GitHub
     url: https://github.com/raykakarimi
   - label: LinkedIn
@@ -144,14 +138,14 @@ Raika Karimi:
 
 Elahe Kooshafar:
   name: Elahe Kooshafar
-  role: Master
-  username: elahe.kooshafar
   avatar: /assets/images/bio/elahe.kooshafar.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2022
   bio: Working on temporal graph representation learning models.
-  alumni: false
-  links:
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2022
+  social_media_links:
   - label: Website
     url: https://elahekooshafar.github.io/
   - label: GitHub
@@ -160,37 +154,44 @@ Elahe Kooshafar:
     url: https://www.linkedin.com/in/elahe-kooshafar/
   - label: Scholar
     url: https://scholar.google.ca/citations?user=vuUUKUMAAAAJ&hl=en&oi=sra
+
 Yifei Li:
   name: Yifei Li
-  role: Undergraduate
   avatar: /assets/images/bio/yifei.li.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Summer 2020
-  alumni: true
+  bio: Interested in data mining and NLP, worked on entity extraction in online escort
+    ads.
+  semantic_scholar_id: "2163439264"
   auto_update_publications: false
-  new_role: "Masters @ UBC"
-  links:
+  current_role:
+    type: Unaffiliated
+    title: Masters @ UBC
+  past_roles:
+  - type: Student
+    title: Undergraduate
+    advisor: Reihaneh Rabbany
+    start_date: Summer 2020
+    new_role: 
+  social_media_links:
   - label: Website
     url: https://www.yifeili.me/
   - label: GitHub
     url: https://github.com/tudou0002
   - label: LinkedIn
     url: https://www.linkedin.com/in/yifeili2/
-  semantic_scholar_id: "2163439264"
-  bio: Interested in data mining and NLP, worked on entity extraction in online escort
-    ads.
 
 Victor Livernoche:
   name: Victor Livernoche
-  role: PhD
-  username: victor.livernoche
-  semantic_scholar_id: '2219226719'
   avatar: /assets/images/bio/victor.livernoche.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2024
   bio: Working on generative AI
-  alumni: false
-  links:
+  semantic_scholar_id: '2219226719'
+  username: victor.livernoche
+  auto_update_publications: true
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2024
+  social_media_links:
   - label: Twitter
     url: https://x.com/VicLvne
   - label: GitHub
@@ -199,38 +200,41 @@ Victor Livernoche:
     url: https://scholar.google.com/citations?user=wgWMIK4AAAAJ&hl=en
   - label: LinkedIn
     url: https://www.linkedin.com/in/victor-livernoche/
+
 Sacha Levy:
   name: Sacha Lévy
-  role: Undergraduate
   avatar: /assets/images/bio/sacha.levy.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2019
-  alumni: true
-  auto_update_publications: false
-  new_role: "Chief Scientific Officer @ Theseus"
-  links:
-  - label: Website
-    url: https://www.yifeili.me/
-  - label: GitHub
-    url: https://github.com/tudou0002
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/sacha-levy/
-  semantic_scholar_id: "2054885747"
   bio: Applied ML for social good. I implement data pipelines. I am interested in
     artificial intelligence, computers and physics.
+  current_role:
+    type: Unaffiliated
+    title: Chief Scientific Officer @ Theseus
+  past_roles:
+  - type: Student
+    title: Undergraduate
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2019
+    end_date: Summer 2023
+  social_media_links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/sacha-levy/
+  - label: GitHub
+    url: https://github.com/sachalevy
+
 
 Shahrad Mohammadzadeh:
   name: Shahrad Mohammadzadeh
-  role: Master
+  avatar: /assets/images/bio/shahrad.mohammadzadeh.avatar.webp
+  bio: LLMs, RL, and Graph Learning
   username: shahrad.mohammadzadeh
   semantic_scholar_id: "2281945133"
-  avatar: /assets/images/bio/shahrad.mohammadzadeh.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2023
-  bio: LLMs, RL, and Graph Learning
-  note: Co-advised by Doina Precup
-  alumni: false
-  links:
+  auto_update_publications: true
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany, Doina Precup
+    start_date: Fall 2023
+  social_media_links:
   - label: Website
     url: https://emzedi.github.io/homepage/
   - label: Twitter
@@ -241,18 +245,20 @@ Shahrad Mohammadzadeh:
     url: https://scholar.google.ca/citations?user=6xCdxs0AAAAJ&hl=en
   - label: LinkedIn
     url: https://ca.linkedin.com/in/shahrad-mz
+
 Pratheeksha Nair:
   name: Pratheeksha Nair
-  role: PhD
   avatar: /assets/images/bio/pratheeksha.nair.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2020
-  alumni: false
-  auto_update_publications: true
   bio: AI for social good applications - fighting online organized crime; Weak Supervision
     and Graph Machine Learning
-  username: pratheeksha.nair
-  links:
+  semantic_scholar_id: "48761500"
+  auto_update_publications: true
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2020
+  social_media_links:
   - label: Website
     url: https://nair-p.github.io/
   - label: GitHub
@@ -263,19 +269,18 @@ Pratheeksha Nair:
     url: https://scholar.google.com/citations?user=jHCIepwAAAAJ&hl=en
   - label: LinkedIn
     url: https://www.linkedin.com/in/pnair96/
-  semantic_scholar_id: "48761500"
 
 Soroush Omranpour:
   name: Soroush Omranpour
-  role: Master
-  username: soroush.omranpour
   avatar: /assets/images/bio/soroush.omranpour.avatar.webp
-  advisor: Reihaneh Rabbany, Guillaume Rabusseau
-  date: Fall 2022
   bio: Working on building scalable and efficient machine learning models for tensor-structured
     or highly complex and evolving data.
-  alumni: false
-  links:
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany, Guillaume Rabusseau
+    start_date: Fall 2022
+  social_media_links:
   - label: Website
     url: https://s-omranpour.github.io/
   - label: GitHub
@@ -284,16 +289,22 @@ Soroush Omranpour:
     url: https://scholar.google.com/citations?user=gDfZkT4AAAAJ&hl=en
   - label: LinkedIn
     url: https://www.linkedin.com/in/soroush-omranpour/
+
 Albert Orozco:
   name: Albert Orozco
-  role: Master
   avatar: /assets/images/bio/albert.camacho.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2019
-  alumni: true
-  auto_update_publications: false
-  new_role: "PhD @ Concordia University"
-  links:
+  bio: Interested in all things related to social network interactions.
+  semantic_scholar_id: "2007910379"
+  current_role:
+    type: Unaffiliated
+    title: "PhD @ Concordia University"
+  past_roles:
+  - type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2019
+    end_date: Summer 2021
+  social_media_links:
   - label: Website
     url: https://alorozco53.github.io/
   - label: GitHub
@@ -302,18 +313,21 @@ Albert Orozco:
     url: https://scholar.google.com/citations?hl=en&user=zYXzEisAAAAJ
   - label: LinkedIn
     url: https://www.linkedin.com/in/alorozco53/
-  semantic_scholar_id: "2007910379"
-  bio: Interested in all things related to social network interactions.
 
 Kellin Pelrine:
   name: Kellin Pelrine
-  role: PhD
   avatar: /assets/images/bio/kellin.pelrine.avatar.webp
-  advisor: Reihaneh Rabbany, Jean-François Godbout
-  date: Fall 2020
-  alumni: false
+  bio: AI Safety, AI Agents. Towards transformative, positive impact from generative
+    AI.
+  note: CTO @ Stitch, Research Advisor @ FAR.AI
+  semantic_scholar_id: "104333826"
   auto_update_publications: true
-  links:
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany, Jean-François Godbout
+    start_date: Fall 2020
+  social_media_links:
   - label: Website
     url: https://kellinpelrine.github.io/
   - label: GitHub
@@ -322,22 +336,24 @@ Kellin Pelrine:
     url: https://scholar.google.com/citations?hl=en&user=_s2HT_0AAAAJ
   - label: LinkedIn
     url: https://www.linkedin.com/in/kellin-pelrine/
-  semantic_scholar_id: "104333826"
-  bio: AI Safety, AI Agents. Towards transformative, positive impact from generative
-    AI.
-  note: CTO @ Stitch, Research Advisor @ FAR.AI
 
 Farimah Poursafaei:
   name: Farimah Poursafaei
-  role: Postdoc
-  username: farimah.poursafaei
-  semantic_scholar_id: "9385224"
-  advisor: Reihaneh Rabbany
-  date: Fall 2020
   bio: Works on Dynamic Graph Neural Networks
-  new_role: "Data Scientist @ Mila"
-  alumni: true
-  links:
+  current_role:
+    type: Staff
+    title: Data Scientist @ Mila
+    start_date: Fall 2024
+  past_roles:
+  - type: Postdoc
+    title: Postdoc
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2022
+  - type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2017
+  social_media_links:
   - label: Website
     url: https://fpour.github.io/
   - label: GitHub
@@ -346,37 +362,42 @@ Farimah Poursafaei:
     url: https://scholar.google.com/citations?user=gZ7HEsMAAAAJ&hl=en
   - label: LinkedIn
     url: https://ca.linkedin.com/in/farimah-poursafaei-133195167
+
 Reihaneh Rabbany:
   name: Reihaneh Rabbany
-  bio: "Assistant Professor"
+  avatar: /assets/images/bio/reihaneh.rabbany.avatar.webp
+  bio: 
+  note: CIFAR AI Chair
   semantic_scholar_id: "2490772"
   auto_update_publications: true
-  note: "CIFAR AI Chair"
-  avatar: "/assets/images/bio/reihaneh.rabbany.avatar.webp"
-  date: "Jan 2020"
-  role: "Faculty"
-  username: reihaneh.rabbany
-  links:
-  - label: "Website"
-    url: "http://www.reirab.com/"
-  - label: "Twitter"
-    url: "https://x.com/reirabb"
-  - label: "GitHub"
-    url: "https://github.com/rabbanyk"
-  - label: "Scholar"
-    url: "https://scholar.google.ca/citations?hl=en&user=Foh_c-QAAAAJ"
-  - label: "LinkedIn"
+  current_role:
+    type: Faculty
+    title: Assistant Professor
+  social_media_links:
+  - label: Website
+    url: http://www.reirab.com/
+  - label: Twitter
+    url: https://x.com/reirabb
+  - label: GitHub
+    url: https://github.com/rabbanyk
+  - label: Scholar
+    url: https://scholar.google.ca/citations?hl=en&user=Foh_c-QAAAAJ
+  - label: LinkedIn
     url: https://www.linkedin.com/in/reihaneh-rabbany/
 
 Sahar Omidi Shayegan:
   name: Sahar Omidi Shayegan
-  role: Master
-  username: sahar.omidishayegan
-  semantic_scholar_id: "2302559514"
   avatar: /assets/images/bio/sahar.omidi.shayegan.avatar.webp
-  advisor: Reihaneh Rabbany
-  alumni: false
-  links:
+  bio: Studies Social Networks through Graphs and Language Modeling
+  semantic_scholar_id: "2302559514"
+  username: sahar.omidishayegan
+  auto_update_publications: true
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany, Isar Nejadgholi @ NRC
+    start_date: Fall 2022
+  social_media_links:
   - label: Website
     url: https://saharshayegan.github.io/
   - label: Twitter
@@ -385,39 +406,41 @@ Sahar Omidi Shayegan:
     url: https://github.com/saharshayegan
   - label: LinkedIn
     url: https://www.linkedin.com/in/sahar-shayegan/
-  date: Fall 2022
-  bio: Studies Social Networks through Graphs and Language Modeling
-  note: Co-advised by Dr. Isar Nejadgholi at NRC
 
 Jacob-Junqi Tian:
   name: Jacob-Junqi Tian
-  role: Intern
+  avatar: /assets/images/bio/jacob-junqi.tian.avatar.webp
+  bio: Works on projects related to NLP, LLM, and Reasoning
   username: jacob-junqi.tian
   semantic_scholar_id: "2320260830"
-  avatar: /assets/images/bio/jacob-junqi.tian.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Summer 2022
-  bio: Works on projects related to NLP, LLM, and Reasoning
-  new_role: Associate Applied Machine Learning Specialist at Vector Institute
-  alumni: false
-  links:
+  current_role:
+    type: Collaborator
+    title: Associate Applied Machine Learning Specialist at Vector Institute
+  past_roles:
+  - type: Student
+    title: Undergraduate
+    advisor: Reihaneh Rabbany
+    start_date: Summer 2022
+    end_date: Fall 2023
+  social_media_links:
   - label: Website
     url: https://j7n.me/
   - label: GitHub
     url: https://github.com/jacobthebanana
   - label: Scholar
     url: https://scholar.google.com/citations?user=Bkl3SakAAAAJ
+
 Maximilian Puelma Touzel:
   name: Maximilian Puelma Touzel
-  role: Postdoc
+  avatar: /assets/images/bio/Maximilian Puelma Touzel.jpg
+  bio: Research scientist in human and machine social decision-making for social impact
   username: puelmatm
   semantic_scholar_id: '114414606'
-  advisor: Reihaneh Rabbany
-  avatar: /assets/images/bio/Maximilian Puelma Touzel.jpg
-  date: Fall 2024
-  bio: Research scientist in human and machine social decision-making for social impact
-  alumni: false
-  links:
+  current_role:
+    type: Staff
+    title: Research Associate
+    start_date: Fall 2024
+  social_media_links:
   - label: Website
     url: https://mptouzel.github.io/
   - label: Twitter
@@ -428,33 +451,40 @@ Maximilian Puelma Touzel:
     url: https://scholar.google.com/citations?user=-EHSwJ4AAAAJ&hl=en
   - label: LinkedIn
     url: https://www.linkedin.com/in/maximilian-puelma-touzel-b170595/
+
 Junhao Wang:
   name: Junhao Wang
-  role: Master
   avatar: /assets/images/bio/junhao.wang.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Fall 2019
-  alumni: true
-  auto_update_publications: false
-  new_role: "Microsoft"
-  links:
+  bio: Interested in graph mining and reinforcement learning
+  semantic_scholar_id: "49605117"
+  current_role:
+    type: Unaffiliated
+    title: Microsoft
+  past_roles:
+  - type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2019
+    end_date: Winter 2021
+  social_media_links:
   - label: GitHub
     url: https://github.com/JunhaoWang
   - label: Scholar
     url: https://scholar.google.com/citations?hl=en&user=Nfg0gaoAAAAJ
-  semantic_scholar_id: "49605117"
-  bio: Interested in graph mining and reinforcement learning
 
 Zachary Yang:
   name: Zachary Yang
-  role: PhD
   avatar: /assets/images/bio/zachary.yang.avatar.webp
-  advisor: Reihaneh Rabbany
-  date: Winter 2021
-  alumni: false
-  auto_update_publications: true
+  bio: Working on applied NLP for social good - toxicity, misinformation, polarization
   note: Fast-tracked from Master -> PhD
-  links:
+  semantic_scholar_id: "2155115994"
+  auto_update_publications: true
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Winter 2021
+  social_media_links:
   - label: Website
     url: https://rstzzz.github.io/
   - label: GitHub
@@ -463,17 +493,22 @@ Zachary Yang:
     url: https://scholar.google.com/citations?user=ljOxbowAAAAJ&hl=en
   - label: LinkedIn
     url: https://www.linkedin.com/in/zachary-y-647209103/
-  semantic_scholar_id: "2155115994"
-  bio: Working on applied NLP for social good - toxicity, misinformation, polarization
-  username: chin-chen.yang
+
 Hao Yu:
   name: Hao Yu
-  role: Undergraduate
-  username: hao.yu
-  advisor: Reihaneh Rabbany
-  new_role: Master (Thesis) @ McGill
-  alumni: true
-  links:
+  avatar: /assets/images/bio/hao.yu.avatar.webp
+  bio: Interested in LLMs, RAG and Data Mining. Worked on NER in online escort ads
+    and LLMs in detecting misinformation.
+  current_role:
+    type: Collaborator
+    title: Master (Thesis) @ McGill
+  past_roles:
+  - type: Student
+    title: Undergraduate
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2022
+    end_date: Winter 2024
+  social_media_links:
   - label: Website
     url: https://yhpeter.github.io/
   - label: GitHub
@@ -482,7 +517,3 @@ Hao Yu:
     url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
   - label: LinkedIn
     url: https://www.linkedin.com/in/haoy/
-  avatar: /assets/images/bio/hao.yu.avatar.webp
-  date: Fall 2022
-  bio: Interested in LLMs, RAG and Data Mining. Worked on NER in online escort ads
-    and LLMs in detecting misinformation.
