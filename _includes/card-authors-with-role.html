@@ -1,27 +1,69 @@
-
+<!-- Control which set of authors to show for the people page -->
 {% for hash in include.authors -%}
 {% assign author = hash[1] -%}
 
-{% if author.alumni %}
-{% assign alumni = true %}
-{% else %}
-{% assign alumni = false %}
+{% assign show_author = false %}
+
+{% if include.render_current_role %}
+
+{% if author.current_role.type == include.role %}
+
+{% if include.title %}
+{% if author.current_role.title == include.title %}
+{% assign show_author = true %}
+{% assign role_to_render = author.current_role %}
 {% endif %}
 
-{% if alumni == include.alumni %}
-{% if author.role == include.role %}
-
-{% if alumni == false %}
-{% if author.role == "Faculty" or author.role == "Adjunct Faculty" or author.role == "Postdoc" %}
-{% assign loading = "eager" %}
 {% else %}
+
+{% assign show_author = true %}
+{% assign role_to_render = author.current_role %}
+
+{% endif %}
+
+{% endif %}
+
+{% else %}
+
+{% for past_role in author.past_roles %}
+
+{% if past_role.type == include.role %}
+
+{% if include.title %}
+{% if past_role.title == include.title %}
+{% assign show_author = true %}
+{% assign role_to_render = past_role %}
+{% break %}
+{% endif %}
+
+
+{% else %}
+
+{% assign show_author = true %}
+{% assign role_to_render = past_role %}
+{% break %}
+{% endif %}
+
+
+
+{% endif %}
+{% endfor %}
+
+
+{% endif %}
+
+{% if show_author %}
+
 {% assign loading = "lazy" %}
-{% endif %}
+{% if include.render_current_role %}
+{% unless author.current_role.type == "Student" %}
+{% assign loading = "eager" %}
+{% endunless %}
 {% endif %}
 
-{% include display-author.html author=author loading=loading %}
+{% include display-author.html author=author loading=loading render_current_role=render_current_role
+role_to_render=role_to_render %}
 
-{%endif %}
 {% endif %}
 
 {% endfor %}

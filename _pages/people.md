@@ -4,57 +4,57 @@ permalink: /people/
 layout: archive
 ---
 
+## Faculty & Staff & Postdoc
 
-## Faculty & Staff
-
-{% include card-authors-with-role.html authors=site.data.authors role="Faculty" alumni=false %}
-{% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=false %}
-{% include card-authors-with-role.html authors=site.data.authors role="Research Assistant" alumni=false %}
-
+{% include card-authors-with-role.html authors=site.data.authors role="Faculty" render_current_role=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Staff" render_current_role=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Postdoc" render_current_role=true %}
 
 ## Students
 
 ### PhD 
 
-{% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="PhD" render_current_role=true %}
 
-### Masters
+### Master
 
-{% include card-authors-with-role.html authors=site.data.authors role="Master" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Master" render_current_role=true %}
 
-### Undergraduate
+<!-- ### Undergraduate
 
-{% include card-authors-with-role.html authors=site.data.authors role="Undergraduate" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Undergraduate" render_current_role=true %}
 
-### Interns
+### Intern
 
-{% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Intern" render_current_role=true %} -->
 
 ---
 
-# Alumni
+# Past Members
 
-## Faculty & Staff
+## Faculty & Staff & Postdoc
 
-{% include card-authors-with-role.html authors=site.data.authors role="Postdoc" alumni=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Faculty" render_current_role=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Staff" render_current_role=false %}
+{% include card-authors-with-role.html authors=site.data.authors role="Postdoc" render_current_role=false %}
 
-## Students
+## Alumni
 
 ### PhD
 
-{% include card-authors-with-role.html authors=site.data.authors role="PhD" alumni=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="PhD" render_current_role=false %}
 
 ### Masters
 
-{% include card-authors-with-role.html authors=site.data.authors role="Master" alumni=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Master" render_current_role=false %}
 
 ### Undergraduate
 
-{% include card-authors-with-role.html authors=site.data.authors role="Undergraduate" alumni=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Undergraduate" render_current_role=false %}
 
 ### Interns
 
-{% include card-authors-with-role.html authors=site.data.authors role="Intern" alumni=true %}
+{% include card-authors-with-role.html authors=site.data.authors role="Student" title="Intern" render_current_role=false %}
 
 <br/>
 

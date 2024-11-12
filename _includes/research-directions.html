@@ -20,12 +20,12 @@
           {% if r.logo_image_path %}
           <div class="research-directions-logo">
             {% if r.logo_dark_image_path %}
-            <img src="{{ r.logo_image_path | relative_url }}" class="theme-image light-image"
+            <img loading="lazy" src="{{ r.logo_image_path | relative_url }}" class="theme-image light-image"
               alt="{% if r.alt %}{{ r.alt }}{% endif %}">
-            <img src="{{ r.logo_dark_image_path | relative_url }}" class="theme-image dark-image"
+            <img loading="lazy" src="{{ r.logo_dark_image_path | relative_url }}" class="theme-image dark-image"
               alt="{% if r.alt %}{{ r.alt }}{% endif %}">
             {% else %}
-            <img src="{{ r.logo_image_path | relative_url }}" alt="{{ r.title }}">
+            <img loading="lazy" src="{{ r.logo_image_path | relative_url }}" alt="{{ r.title }}">
             {% endif %}
           </div>
           {% endif %}

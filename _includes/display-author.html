@@ -1,4 +1,4 @@
-<!-- show-author-with-roles.html -->
+<!-- Show author next to post, should show most up to date info -->
 <article class="author-card">
     <div class="author-avatar">
         {% if author.avatar %}
@@ -18,24 +18,31 @@
             {% endif %}
         </b>
 
-        {% if author.advisor %}
+        {% if include.role_to_render %}
+
         <div class="author-advisor">
+            {% if include.role_to_render.type == "Student" %}
             <b>
-                {% if author.role == "Postdoc" %}
-                Working with:
-                {% elsif author.role == "Intern" %}
+                {% if include.role_to_render.title == "Intern" %}
                 Hosted by:
                 {% else %}
                 Advised by:
                 {% endif %}
             </b>
-            {{ author.advisor }}
-            {% if author.date %}
-            <span>
-                ({{ author.date }})
-            </span>
+            {{ include.role_to_render.advisor }}
+            {% else %}
+            {{ include.role_to_render.title }}
             {% endif %}
         </div>
+        {% if include.role_to_render.start_date %}
+        <div class="author-advisor">
+            <span>
+                ({{ include.role_to_render.start_date }}{% if include.role_to_render.end_date %}-{{
+                include.role_to_render.end_date }}{% endif %})
+            </span>
+        </div>
+        {% endif %}
+
         {% endif %}
 
         {% if author.bio %}
@@ -50,11 +57,13 @@
         </div>
         {% endif %}
 
-        {% if author.new_role %}
+        {% unless include.render_current_role %}
+        {% if author.current_role == "Unaffiliated" %}
         <div class="author-note">
-            <b>➡️ </b> {{ author.new_role }}
+            <b>➡️ </b> {{ author.current_role.title }}
         </div>
         {% endif %}
+        {% endunless %}
 
         {% if author.links %}
         <div class="author-links">
