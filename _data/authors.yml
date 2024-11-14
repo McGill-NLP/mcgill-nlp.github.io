@@ -73,6 +73,19 @@ Charlotte Ding:
   - label: LinkedIn
     url: https://www.linkedin.com/in/charlottexiaoyeding/
 
+Mark Ezema:
+  name: Mark Ezema
+  role: Postdoc
+  username: mark.ezema@mila.quebec
+  avatar: /assets/images/bio/Mark Ezema.jpg
+  date: Mar 2023
+  bio: Works on AI for combating human trafficking in Canada
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/mezema
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/markezema/
 Aarash Feizi:
   name: Aarash Feizi
   avatar: /assets/images/bio/aarash.feizi.avatar.webp
@@ -95,7 +108,7 @@ Aarash Feizi:
     url: https://www.linkedin.com/in/aarashfeizi/
   - label: Website
     url: https://aarashfeizi.github.io/
-    
+
 Shenyang Huang:
   name: Shenyang (Andy) Huang
   avatar: /assets/images/bio/shenyang.huang.avatar.webp
@@ -170,7 +183,7 @@ Yifei Li:
     title: Undergraduate
     advisor: Reihaneh Rabbany
     start_date: Summer 2020
-    new_role: 
+    new_role:
   social_media_links:
   - label: Website
     url: https://www.yifeili.me/
@@ -366,7 +379,7 @@ Farimah Poursafaei:
 Reihaneh Rabbany:
   name: Reihaneh Rabbany
   avatar: /assets/images/bio/reihaneh.rabbany.avatar.webp
-  bio: 
+  bio:
   note: CIFAR AI Chair
   semantic_scholar_id: "2490772"
   auto_update_publications: true
