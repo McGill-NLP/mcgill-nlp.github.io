@@ -75,17 +75,19 @@ Charlotte Ding:
 
 Mark Ezema:
   name: Mark Ezema
-  role: Postdoc
-  username: mark.ezema@mila.quebec
   avatar: /assets/images/bio/Mark Ezema.jpg
-  date: Mar 2023
   bio: Works on AI for combating human trafficking in Canada
-  alumni: false
-  links:
+  current_role: 
+    type: Staff
+    title: AI Software Engineer
+    start_date: Mar 2023
+  username: mark.ezema@mila.quebec
+  social_media_links:
   - label: GitHub
     url: https://github.com/mezema
   - label: LinkedIn
     url: https://www.linkedin.com/in/markezema/
+    
 Aarash Feizi:
   name: Aarash Feizi
   avatar: /assets/images/bio/aarash.feizi.avatar.webp
