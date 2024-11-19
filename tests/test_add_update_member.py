@@ -39,8 +39,7 @@ class TestAddUpdateMember(unittest.TestCase):
             issue_body = f.read()
 
         parsed = mod.parse_issue_body(issue_body)
-        out = mod.main(parsed, image_dir=self.image_dir, site_data_dir=self.site_data_dir)
-
+        out = mod.main(parsed, action="Add member", image_dir=self.image_dir, site_data_dir=self.site_data_dir)
         with open("tests/data/add_member/out.json") as f:
             expected = json.load(f)
         
@@ -53,7 +52,7 @@ class TestAddUpdateMember(unittest.TestCase):
 
         exp_out_path = "tests/data/update_member/out.json"
         parsed = mod.parse_issue_body(issue_body)
-        out = mod.main(parsed, image_dir=self.image_dir, site_data_dir=self.site_data_dir)
+        out = mod.main(parsed, action="Update member", image_dir=self.image_dir, site_data_dir=self.site_data_dir)
         
 
         with open(exp_out_path) as f:

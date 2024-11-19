@@ -1,7 +1,17 @@
 {
     "name": "John Doe",
-    "role": "PhD",
     "avatar": "/tests/scratch/assets/images/bio/John Doe.jpg",
-    "alumni": false,
-    "links": []
+    "auto_update_publications": false,
+    "current_role": {
+        "type": "Student",
+        "title": "PhD",
+        "advisor": "Reihaneh Rabbany",
+        "start_date": "Fall 2019"
+    },
+    "social_media_links": [
+        {
+            "label": "GitHub",
+            "url": "www.github.com"
+        }
+    ]
 }

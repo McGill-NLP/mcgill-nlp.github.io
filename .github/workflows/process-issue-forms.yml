@@ -20,9 +20,17 @@ jobs:
         run: pip install -r src/python/requirements.txt
 
       - name: "Update _data/authors.yml with src/python/add_update_member.py"
-        if: github.event.label.name == 'automatic-add-update-member'
+        if: github.event.label.name == 'automatic-add-member'
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
+          ACTION: Add member
+        run: python -m src.python.add_update_member
+      
+      - name: "Update _data/authors.yml with src/python/add_update_member.py"
+        if: github.event.label.name == 'automatic-update-member'
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ACTION: Update member
         run: python -m src.python.add_update_member
       
       - name: "Create post in _posts/papers with src/python/add_update_publication.py"

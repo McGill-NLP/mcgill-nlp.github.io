@@ -1,10 +1,28 @@
 {
     "name": "John Doe",
-    "role": "PhD",
-    "semantic_scholar_id": "145113126",
     "avatar": "/tests/scratch/assets/images/bio/John Doe.jpg",
-    "alumni": false,
-    "links": [
+    "bio": "I'm a very happy student",
+    "note": "Allergic to reviewer 2",
+    "semantic_scholar_id": "145113126",
+    "auto_update_publications": true,
+    "current_role": {
+        "type": "Unaffiliated",
+        "title": "Professing at Leland S. Junior University"
+    },
+    "past_roles": [
+        {
+            "type": "Student",
+            "title": "PhD",
+            "start_date": "Fall 2019",
+            "advisor": "Reihaneh Rabbany",
+            "end_date": "Winter 2023"
+        }
+    ],
+    "social_media_links": [
+        {
+            "label": "GitHub",
+            "url": "www.github.com"
+        },
         {
             "label": "Twitter",
             "url": "https://twitter.com/McGill_NLP"
@@ -17,7 +35,5 @@
             "label": "LinkedIn",
             "url": "https://www.linkedin.com/in/fake_user/"
         }
-    ],
-    "note": "Allergic to reviewer 2",
-    "new_role": "Professing at Leland S. Junior University"
+    ]
 }

@@ -1,53 +1,131 @@
 import os
 from pathlib import Path
+from typing import Dict, List, Optional
 
 from ruamel.yaml import YAML
 
 from . import save_url_image, parse_issue_body, remove_keys, remove_items_with_values
 
 
-def format_site_label(name):
-    if name == "github":
-        return "GitHub"
-    elif name == "linkedin":
-        return "LinkedIn"
-    elif name in ["twitter", "scholar", "website"]:
-        return name.title()
-    else:
-        return name
+def format_site_label(name: str) -> str:
+    """Format social media site labels."""
+    labels = {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter",
+        "scholar": "Scholar",
+        "website": "Website"
+    }
+    return labels.get(name.lower(), name.title())
 
 
-def format_parsed_content(parsed):
-    """
-    Format the parsed content into a string.
-    """
-    parsed["alumni"] = parsed["status"] == "Alumni"
-
-    parsed["links"] = [
-        {"label": format_site_label(key), "url": parsed[key]}
-        for key in ["website", "twitter", "github", "scholar", "linkedin"]
-        if parsed[key] != "_No response_"
-    ]
-
-    parsed = remove_keys(
-        parsed,
-        keys_to_remove=["status", "website", "twitter", "github", "scholar", "linkedin", "action"],
-    )
-    parsed = remove_items_with_values(parsed, "_No response_")
-
-    return parsed
+def format_social_media_links(parsed: Dict) -> List[Dict]:
+    """Format social media links into structured format."""
+    social_links = []
+    for key in ["website", "twitter", "github", "scholar", "linkedin"]:
+        if parsed.get(key) and parsed[key] != "_No response_":
+            social_links.append({
+                "label": format_site_label(key),
+                "url": parsed[key]
+            })
+    return social_links
 
 
-def merge_links(old_links, new_links):
-    new_labels = {link["label"] for link in new_links}
-    out_links = [link for link in old_links if link["label"] not in new_labels]
+def process_role_data(parsed: Dict, prefix: str = "") -> Optional[Dict]:
+    """Process role data from parsed content with optional prefix."""
+    role_type = parsed.get(f"{prefix}type")
+    if not role_type or role_type == "_No response_":
+        return None
 
-    out_links.extend(new_links)
+    role = {
+        "type": role_type,
+        "title": parsed.get(f"{prefix}title")
+    }
 
-    return out_links
+    # Add optional fields if they exist
+    for field in ["start_date", "end_date", "advisor"]:
+        value = parsed.get(f"{prefix}{field}")
+        if value and value != "_No response_":
+            role[field] = value
+
+    return role
 
 
-def sort_by_lastname(authors):
+def format_parsed_content(parsed: Dict) -> Dict:
+    """Format the parsed content into the new structure."""
+    formatted = {
+        "name": parsed["name"],
+        "auto_update_publications": parsed.get("auto_update_publications", "False") == "True"
+    }
+
+    # Process current role
+    current_role = process_role_data(parsed, "current_role-")
+    if current_role:
+        formatted["current_role"] = current_role
+
+    # Process past role if it exists (for updates)
+    past_role = process_role_data(parsed, "past_role-")
+    if past_role:
+        formatted["past_roles"] = past_role
+
+    # Add optional fields if they exist and aren't empty
+    optional_fields = ["bio", "note", "semantic_scholar_id", "avatar"]
+    for field in optional_fields:
+        if parsed.get(field) and parsed[field] != "_No response_":
+            formatted[field] = parsed[field]
+
+    # Format social media links
+    social_links = format_social_media_links(parsed)
+    if social_links:
+        formatted["social_media_links"] = social_links
+
+    return formatted
+
+
+def merge_profile_data(old_profile: Dict, new_profile: Dict) -> Dict:
+    """Merge old and new profile data, preserving existing fields if not updated."""
+    merged = old_profile.copy()
+
+    # Update basic fields if provided
+    for field in ["bio", "note", "semantic_scholar_id", "avatar", "auto_update_publications"]:
+        if field in new_profile:
+            merged[field] = new_profile[field]
+
+    # Update current role if provided
+    if "current_role" in new_profile:
+        merged["current_role"] = new_profile["current_role"]
+
+    # Handle past roles
+    if "past_roles" in new_profile:
+        existing_past_roles = merged.get("past_roles", [])
+        new_past_role = new_profile["past_roles"]
+        
+        # Check if this past role already exists
+        role_exists = False
+        for role in existing_past_roles:
+            if (role.get("type") == new_past_role["type"] and 
+                role.get("title") == new_past_role["title"] and 
+                role.get("start_date") == new_past_role.get("start_date")):
+                role.update(new_past_role)
+                role_exists = True
+                break
+        
+        if not role_exists:
+            existing_past_roles.append(new_past_role)
+            merged["past_roles"] = existing_past_roles
+
+    # Merge social media links
+    if "social_media_links" in new_profile:
+        existing_links = {link["label"]: link for link in merged.get("social_media_links", [])}
+        new_links = {link["label"]: link for link in new_profile["social_media_links"]}
+        existing_links.update(new_links)
+        merged["social_media_links"] = list(existing_links.values())
+
+    return merged
+
+
+def sort_by_lastname(authors: Dict) -> None:
+    """Sort authors by last name."""
     lastname_to_user = {
         desc["name"].split()[-1] + user: user for user, desc in authors.items()
     }
@@ -58,7 +136,7 @@ def sort_by_lastname(authors):
         authors.insert(0, user, desc)
 
 
-def main(parsed, site_data_dir="_data/", image_dir="assets/images/bio"):
+def main(parsed: Dict, action: str, site_data_dir: str = "_data/", image_dir: str = "assets/images/bio") -> Dict:
     site_data_dir = Path(site_data_dir)
     profile = format_parsed_content(parsed)
 
@@ -66,29 +144,27 @@ def main(parsed, site_data_dir="_data/", image_dir="assets/images/bio"):
     yaml.preserve_quotes = True
     with open(site_data_dir / "authors.yml") as f:
         authors = yaml.load(f)
-    name_to_username = {authors[username]["name"]: username for username in authors}
-
-    if parsed["action"] == "Add member":
-        if profile["name"] not in authors:
-            username = profile["name"]
-        else:
+   
+    if action == "Add member":
+        # Handle new member addition
+        if profile["name"] in authors:
             n = 2
             while (k := f'{profile["name"]} {n}') in authors:
                 n += 1
             username = k
-
+        else:
+            username = profile["name"]
         authors[username] = profile
-
     else:
+        # Handle member update
+        name_to_username = {authors[username]["name"]: username for username in authors}
         if profile["name"] not in name_to_username:
             raise ValueError(f'{profile["name"]} not in authors')
 
         username = name_to_username[profile["name"]]
-        profile["links"] = merge_links(
-            authors[username].get("links", []), profile.get("links", [])
-        )
-        authors[username].update(profile)
+        authors[username] = merge_profile_data(authors[username], profile)
 
+    # Handle avatar image if provided
     img_path = save_url_image(
         fname=username,
         profile=authors[username],
@@ -99,8 +175,6 @@ def main(parsed, site_data_dir="_data/", image_dir="assets/images/bio"):
     )
 
     if img_path is not None:
-        # This could either mean that a new image was saved or that the image was
-        # updated. In either case, we need to update the path to the image.
         authors[username]["avatar"] = img_path
 
     sort_by_lastname(authors)
@@ -113,5 +187,6 @@ def main(parsed, site_data_dir="_data/", image_dir="assets/images/bio"):
 
 if __name__ == "__main__":
     issue_body = os.environ["ISSUE_BODY"]
-    parsed = parse_issue_body(issue_body)
+    action = os.environ["ACTION"]
+    parsed = parse_issue_body(issue_body, action)
     main(parsed)

@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   
-  - type: textarea
+   - type: textarea
     id: avatar
     attributes:
       label: "Avatar"
@@ -104,24 +104,24 @@ body:
     validations:
       required: true
 
-  - type: "input"
-    id: current_role-start_date
-    attributes:
-      label: "Start Date"
-      description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
-      placeholder: "Jan 2021"
-    validations:
-      required: true
-  
   - type: input
     id: current_role-advisor
     attributes:
-      label: "Advisor"
+      label: "Current Role Advisor"
       description: "For students, who is/are the advisor(s)? Separate multiple names with a comma."
       placeholder: "John Doe Sr., Jane Doe"
     validations:
       required: false
 
+  - type: "input"
+    id: current_role-start_date
+    attributes:
+      label: "Current Role Start Date"
+      description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
+      placeholder: "Jan 2021"
+    validations:
+      required: true
+  
   - type: "input"
     id: github
     attributes:
@@ -208,8 +208,8 @@ body:
   - type: "input"
     id: past_role-end_date
     attributes:
-      label: "Past Role Start Date"
-      description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
+      label: "Past Role End Date"
+      description: "When did the lab member leave the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
       placeholder: "Jan 2021"
     validations:
       required: false
