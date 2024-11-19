@@ -77,7 +77,7 @@ body:
         - "True"
         - "False"
     validations:
-      required: false
+      required: True
 
   - type: dropdown
     id: current_role-type
