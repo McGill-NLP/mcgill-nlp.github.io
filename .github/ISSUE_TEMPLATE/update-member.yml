@@ -1,7 +1,7 @@
 name: Update member profile 🧑‍🔬
 description: |
   Use this form to update a lab member's profile on the website.
-title: "[Add/update member]"
+title: "[Update member]"
 labels: ["automatic-add-update-member"]
 assignees:
   - octocat
@@ -77,7 +77,7 @@ body:
         - "True"
         - "False"
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: current_role-type
@@ -93,7 +93,7 @@ body:
         - "Collaborator"
         - "Unaffiliated"
     validations:
-      required: true
+      required: false
   
   - type: input
     id: current_role-title
@@ -102,7 +102,7 @@ body:
       description: What's the current title of this person? For students, please choose between ["PhD, "Master", "Undergraduate", "Intern"]
       placeholder: "PhD"
     validations:
-      required: true
+      required: false
 
   - type: input
     id: current_role-advisor
@@ -120,7 +120,7 @@ body:
       description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
       placeholder: "Jan 2021"
     validations:
-      required: true
+      required: false
   
   - type: "input"
     id: github
