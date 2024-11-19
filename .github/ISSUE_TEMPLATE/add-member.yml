@@ -1,0 +1,164 @@
+name: Add member profile 🧑‍🔬
+description: |
+  Use this form to add or update a lab member's profile on the website.
+title: "[Add member]"
+labels: ["automatic-add-update-member"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out as many fields as possible. This form will automatically generate a PR that will be reviewed by the maintainers.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Full name of the lab member
+      placeholder: "John Doe"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: avatar
+    attributes:
+      label: "Avatar"
+      description: |
+        Path or URL or image of the avatar of the lab member. If it's a URL, it will be automatically resized and saved to `/assets/images/bio`.
+        
+        Tip: You can drag and drop an image, or click on the "M" button on the bottom right of the text area.   
+        Otherwise, you can use imgur and give the **direct** link (e.g. https://i.imgur.com/{id}.png).
+      
+      placeholder: "Click here and drag an image to upload, or paste an image URL"
+    validations:
+      required: false
+  
+  - type: input
+    id: bio
+    attributes:
+      label: "Bio"
+      description: "A description of the lab member in one sentence (or less than 10 words)."
+      placeholder: "Works on Artificial Generic Intelligence"
+
+  - type: "input"
+    id: note
+    attributes:
+      label: "Note"
+      description: "Any special note you want to include in one sentence. For example, fellowship, co-advisor, etc."
+      placeholder: "Co-advised by Alan Turing"
+  
+  - type: markdown
+    attributes:
+      value: |
+        To have publications to be automatically updated, please provide both the semantic scholar ID and setting auto_update to True.
+  
+  - type: input
+    id: semantic_scholar_id
+    attributes:
+      label: "Semantic Scholar ID"
+      description: |
+        If you have a [Semantic Scholar](https://www.semanticscholar.org) ID, enter it here. This is highly recommend becasue it is used to automatically attribute a paper to the correct author.
+      placeholder: "145113126"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: auto_update_publications
+    attributes:
+      label: "Auto Update Publications"
+      description: Do you want your publications to be auto-updated?
+      multiple: false
+      options:
+        - "True"
+        - "False"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: current_role.type
+    attributes:
+      label: "Current Role Type"
+      description: What's the current role of this person? (set to Unaffilated for Alumni)
+      multiple: false
+      options:
+        - "Faculty"
+        - "Staff"
+        - "Postdoc"
+        - "Student"
+        - "Collaborator"
+        - "Unaffiliated"
+    validations:
+      required: true
+  
+  - type: input
+    id: current_role.title
+    attributes:
+      label: "Current Role Title"
+      description: What's the current title of this person? For students, please choose between ["PhD, "Master", "Undergraduate", "Intern"]
+      placeholder: "PhD"
+    validations:
+      required: true
+
+  - type: "input"
+    id: current_role.start_date
+    attributes:
+      label: "Start Date"
+      description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
+      placeholder: "Jan 2021"
+    validations:
+      required: true
+  
+  - type: input
+    id: current_role.advisor
+    attributes:
+      label: "Advisor"
+      description: "For students, who is/are the advisor(s)? Separate multiple names with a comma."
+      placeholder: "John Doe Sr., Jane Doe"
+    validations:
+      required: false
+
+  - type: "input"
+    id: github
+    attributes:
+      label: "GitHub"
+      description: "Full URL of the lab member's GitHub profile"
+      placeholder: "https://github.com/john-doe"
+    validations:
+      required: false
+  
+  - type: "input"
+    id: twitter
+    attributes:
+      label: "Twitter"
+      description: "Full URL of the lab member's Twitter profile"
+      placeholder: "https://twitter.com/john-doe"
+    validations:
+      required: false
+    
+  - type: "input"
+    id: scholar
+    attributes:
+      label: "Scholar"
+      description: "Full URL of the lab member's Google Scholar profile"
+      placeholder: "https://scholar.google.com/citations?user=<user_id>"
+    validations:
+      required: false
+
+  - type: "input"
+    id: linkedin
+    attributes:
+      label: "LinkedIn"
+      description: "Full URL of the lab member's LinkedIn profile"
+      placeholder: "https://www.linkedin.com/in/john-doe"
+    validations:
+      required: false
+  
+  - type: "input"
+    id: website
+    attributes:
+      label: "Website"
+      description: "Full URL of the lab member's website"
+      placeholder: "https://john-doe.github.io/"
+    validations:
+      required: false
