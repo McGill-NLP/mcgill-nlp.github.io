@@ -80,7 +80,7 @@ body:
       required: true
 
   - type: dropdown
-    id: current_role.type
+    id: current_role-type
     attributes:
       label: "Current Role Type"
       description: What's the current role of this person? (set to Unaffilated for Alumni)
@@ -96,7 +96,7 @@ body:
       required: true
   
   - type: input
-    id: current_role.title
+    id: current_role-title
     attributes:
       label: "Current Role Title"
       description: What's the current title of this person? For students, please choose between ["PhD, "Master", "Undergraduate", "Intern"]
@@ -105,7 +105,7 @@ body:
       required: true
 
   - type: "input"
-    id: current_role.start_date
+    id: current_role-start_date
     attributes:
       label: "Start Date"
       description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
@@ -114,7 +114,7 @@ body:
       required: true
   
   - type: input
-    id: current_role.advisor
+    id: current_role-advisor
     attributes:
       label: "Advisor"
       description: "For students, who is/are the advisor(s)? Separate multiple names with a comma."
@@ -173,7 +173,7 @@ body:
         With the limits of GitHub Issues, you can only add / update one past role at a time.
   
   - type: dropdown
-    id: past_role.type
+    id: past_role-type
     attributes:
       label: "Past Role Type"
       description: What's the past role of this person?
@@ -188,7 +188,7 @@ body:
       required: false
   
   - type: input
-    id: past_role.title
+    id: past_role-title
     attributes:
       label: "Past Role Title"
       description: What's the past title of this person? For students, please choose between ["PhD, "Master", "Undergraduate", "Intern"]
@@ -197,7 +197,7 @@ body:
       required: false
 
   - type: "input"
-    id: past_role.start_date
+    id: past_role-start_date
     attributes:
       label: "Past Role Start Date"
       description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
@@ -206,7 +206,7 @@ body:
       required: false
   
   - type: "input"
-    id: past_role.end_date
+    id: past_role-end_date
     attributes:
       label: "Past Role Start Date"
       description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
@@ -215,7 +215,7 @@ body:
       required: false
   
   - type: input
-    id: past_role.advisor
+    id: past_role-advisor
     attributes:
       label: "Advisor"
       description: "For students, who was/were the advisor(s)? Separate multiple names with a comma."

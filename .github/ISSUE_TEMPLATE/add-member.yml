@@ -76,7 +76,7 @@ body:
       required: true
 
   - type: dropdown
-    id: current_role.type
+    id: current_role-type
     attributes:
       label: "Current Role Type"
       description: What's the current role of this person? (set to Unaffilated for Alumni)
@@ -92,7 +92,7 @@ body:
       required: true
   
   - type: input
-    id: current_role.title
+    id: current_role-title
     attributes:
       label: "Current Role Title"
       description: What's the current title of this person? For students, please choose between ["PhD, "Master", "Undergraduate", "Intern"]
@@ -101,7 +101,7 @@ body:
       required: true
 
   - type: "input"
-    id: current_role.start_date
+    id: current_role-start_date
     attributes:
       label: "Start Date"
       description: "When did the lab member join the lab? MMM-YYYY or {Fall, Summer, Winter} YYYY"
@@ -110,7 +110,7 @@ body:
       required: true
   
   - type: input
-    id: current_role.advisor
+    id: current_role-advisor
     attributes:
       label: "Advisor"
       description: "For students, who is/are the advisor(s)? Separate multiple names with a comma."
