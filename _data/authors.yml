@@ -77,7 +77,7 @@ Mark Ezema:
   name: Mark Ezema
   avatar: /assets/images/bio/Mark Ezema.jpg
   bio: Works on AI for combating human trafficking in Canada
-  current_role: 
+  current_role:
     type: Staff
     title: AI Engineer
     start_date: Mar 2023
@@ -87,7 +87,7 @@ Mark Ezema:
     url: https://github.com/mezema
   - label: LinkedIn
     url: https://www.linkedin.com/in/markezema/
-    
+
 Aarash Feizi:
   name: Aarash Feizi
   avatar: /assets/images/bio/aarash.feizi.avatar.webp
@@ -491,9 +491,9 @@ Zachary Yang:
   name: Zachary Yang
   avatar: /assets/images/bio/zachary.yang.avatar.webp
   bio: Working on applied NLP for social good - toxicity, misinformation, polarization
-  note: Fast-tracked from Master -> PhD
+  note: Fast tracked from Masters to PhD
   semantic_scholar_id: "2155115994"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: PhD
