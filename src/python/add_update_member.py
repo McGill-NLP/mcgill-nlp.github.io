@@ -189,4 +189,4 @@ if __name__ == "__main__":
     issue_body = os.environ["ISSUE_BODY"]
     action = os.environ["ACTION"]
     parsed = parse_issue_body(issue_body)
-    main(parsed)
+    main(parsed, action)
