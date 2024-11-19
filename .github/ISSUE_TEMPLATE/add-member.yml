@@ -2,7 +2,7 @@ name: Add member profile 🧑‍🔬
 description: |
   Use this form to add or update a lab member's profile on the website.
 title: "[Add member]"
-labels: ["automatic-add-update-member"]
+labels: ["automatic-add-member"]
 assignees:
   - octocat
 body:

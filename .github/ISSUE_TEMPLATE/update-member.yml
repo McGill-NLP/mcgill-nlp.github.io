@@ -2,7 +2,7 @@ name: Update member profile 🧑‍🔬
 description: |
   Use this form to update a lab member's profile on the website.
 title: "[Update member]"
-labels: ["automatic-add-update-member"]
+labels: ["automatic-update-member"]
 assignees:
   - octocat
 body:
