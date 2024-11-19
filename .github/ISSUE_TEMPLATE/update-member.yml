@@ -49,8 +49,8 @@ body:
     id: note
     attributes:
       label: "Note"
-      description: "Any special note you want to include in one sentence. For example, fellowship, co-advisor, etc."
-      placeholder: "Co-advised by Alan Turing"
+      description: "Any special note you want to include in one sentence. For example, fellowship, etc."
+      placeholder: "I'm special!"
   
   - type: markdown
     attributes:
