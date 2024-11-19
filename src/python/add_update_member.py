@@ -188,5 +188,5 @@ def main(parsed: Dict, action: str, site_data_dir: str = "_data/", image_dir: st
 if __name__ == "__main__":
     issue_body = os.environ["ISSUE_BODY"]
     action = os.environ["ACTION"]
-    parsed = parse_issue_body(issue_body, action)
+    parsed = parse_issue_body(issue_body)
     main(parsed)
