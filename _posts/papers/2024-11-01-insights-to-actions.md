@@ -13,7 +13,7 @@ tags:
 code: https://github.com/mmarius/interpretability-impact
 categories: Publications
 layout: paper
-
+thumbnail: /assets/images/papers/IA_meme.png
 ---
 
 *{{ page.names }}*
