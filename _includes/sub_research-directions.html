@@ -22,10 +22,14 @@
     {% for direction in sorted_directions %}
     <div class="direction-item">
         <a href="{{ direction.url | relative_url }}" title="{{ direction.title }}">
-            <div class="direction-image" style="background-image: url('{{ direction.header.overlay_image | relative_url }}');
-                   {% if direction.header.overlay_filter %}
-                     background-image: {{ direction.header.overlay_filter }}, url('{{ direction.header.overlay_image | relative_url }}');
-                   {% endif %}">
+            <div class="direction-image" style="
+                   background-image:
+                   {% if direction.header.overlay_filter %} {{ direction.header.overlay_filter }},{% endif %}
+                   url('{{ direction.header.overlay_image | relative_url }}');
+                   {% if direction.header.overlay_size %}
+                   background-size: {{ direction.header.overlay_size }};
+                   {% endif %}
+                   ">
                 <div class="direction-title">
                     <h2>{{ direction.title }}</h2>
                 </div>
