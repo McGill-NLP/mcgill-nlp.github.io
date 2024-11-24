@@ -64,4 +64,4 @@ Please ensure you follow the application guidelines and deadlines for each insti
 
 ## Postdocs
 
-If you're interested in a postdoctoral position, please reach out fill out this [application form](https://docs.google.com/forms/d/1JU4PJ6vWHA98xIy3fXwe47S8ok51jkS_9_lIW2z7qdA/viewform?ts=673639e5&edit_requested=true).
+If you're interested in a postdoctoral position, please reach out fill out this [application form](https://docs.google.com/forms/d/e/1FAIpQLSc3Sjx3g28o90sStwGxLShKpnuSdw0oA9_Hegv9XaGcbnlc9A/viewform).
