@@ -48,7 +48,7 @@ We welcome talented individuals to join our team. Here are the various ways you 
 
 ## Temporary Research Positions
 
-If you're interested in joining us for an **internship**, **independent project**, as a **visiting researcher**, or as a **research assistant**, please apply using XXX.
+If you're interested in joining us for an **internship**, **independent project**, as a **visiting researcher**, or as a **research assistant**, please apply using this [Google Form](https://forms.gle/tvNMRpzPiRiHPpoQ9).
 
 ## Masters and PhDs
 
@@ -58,10 +58,10 @@ To join our lab as a Masters or PhD student, you **must** complete the following
    - [McGill Computer Science](https://www.cs.mcgill.ca/graduate/future/applying/)
    - [Mila](https://mila.quebec/en/research-masters-and-phd)
 
-2. Please also submit your application with this form: XXX
+2. Please also submit your application with this [Google Form](https://forms.gle/L4DL8bcGUnAgh4wz9).
 
 Please ensure you follow the application guidelines and deadlines for each institution. 
 
 ## Postdocs
 
-If you're interested in a postdoctoral position, please reach out fill out this application form: XXX
+If you're interested in a postdoctoral position, please reach out fill out this [application form](https://docs.google.com/forms/d/1JU4PJ6vWHA98xIy3fXwe47S8ok51jkS_9_lIW2z7qdA/viewform?ts=673639e5&edit_requested=true).
