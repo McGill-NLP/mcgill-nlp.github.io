@@ -1,58 +1,74 @@
-<!-- Control which set of authors to show for the people page -->
-{% for hash in include.authors -%}
-{% assign author = hash[1] -%}
-
+<!-- First collect the authors that should be shown -->
+{% assign authors_to_show = '' | split: '' %}
+{% for hash in include.authors %}
+{% assign author = hash[1] %}
 {% assign show_author = false %}
 
 {% if include.render_current_role %}
-
 {% if author.current_role.type == include.role %}
-
 {% if include.title %}
 {% if author.current_role.title == include.title %}
 {% assign show_author = true %}
 {% assign role_to_render = author.current_role %}
 {% endif %}
-
 {% else %}
-
 {% assign show_author = true %}
 {% assign role_to_render = author.current_role %}
-
 {% endif %}
-
 {% endif %}
-
 {% else %}
-
 {% for past_role in author.past_roles %}
-
 {% if past_role.type == include.role %}
-
 {% if include.title %}
 {% if past_role.title == include.title %}
 {% assign show_author = true %}
 {% assign role_to_render = past_role %}
 {% break %}
 {% endif %}
-
-
 {% else %}
-
 {% assign show_author = true %}
 {% assign role_to_render = past_role %}
 {% break %}
 {% endif %}
-
-
-
 {% endif %}
 {% endfor %}
-
-
 {% endif %}
 
 {% if show_author %}
+{% assign entry = "" | split: "" %}
+{% assign start_date = role_to_render.start_date | default: "9999" %}
+
+{% if start_date contains "Fall" or start_date contains "Winter" or start_date contains "Summer" %}
+{% assign season_year = start_date | split: " " %}
+{% if season_year[0] == "Fall" %}
+{% assign month = "09" %}
+{% elsif season_year[0] == "Winter" %}
+{% assign month = "01" %}
+{% elsif season_year[0] == "Summer" %}
+{% assign month = "05" %}
+{% endif %}
+{% assign formatted_date = season_year[1] | append: month %}
+{% else %}
+{% assign formatted_date = start_date | date: "%Y%m" %}
+{% endif %}
+
+{% assign sort_key = formatted_date | append: "|" | append: author.name %}
+{% assign entry = entry | push: sort_key %}
+{% assign entry = entry | push: author %}
+{% assign entry = entry | push: role_to_render %}
+{% assign authors_to_show = authors_to_show | push: entry %}
+{% endif %}
+
+
+{% endfor %}
+
+
+{% assign sorted_authors = authors_to_show | sort %}
+
+<!-- Then display the filtered authors -->
+{% for entry in sorted_authors %}
+{% assign author = entry[1] %}
+{% assign role_to_render = entry[2] %}
 
 {% assign loading = "lazy" %}
 {% if include.render_current_role %}
@@ -61,9 +77,9 @@
 {% endunless %}
 {% endif %}
 
-{% include display-author.html author=author loading=loading render_current_role=include.render_current_role
+{% include display-author.html
+author=author
+loading=loading
+render_current_role=include.render_current_role
 role_to_render=role_to_render %}
-
-{% endif %}
-
 {% endfor %}

@@ -388,6 +388,11 @@ Reihaneh Rabbany:
   current_role:
     type: Faculty
     title: Assistant Professor
+    research_directions:
+      - online-toxicity
+      - poli-sci
+      - online-crime
+      - temporal-graph-learning
   social_media_links:
   - label: Website
     url: http://www.reirab.com/
@@ -499,6 +504,9 @@ Zachary Yang:
     title: PhD
     advisor: Reihaneh Rabbany
     start_date: Winter 2021
+    research_directions:
+      - online-toxicity
+      - poli-sci
   social_media_links:
   - label: Website
     url: https://rstzzz.github.io/
