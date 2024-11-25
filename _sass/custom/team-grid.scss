@@ -1,0 +1,68 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    a {
+        text-decoration: none;
+        height: 100%;
+        display: block;
+
+        &,
+        &:hover,
+        &:visited,
+        &:focus {
+            text-decoration: none !important;
+        }
+
+    }
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.member-image {
+    margin-bottom: 1rem;
+
+    img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 50%; // Makes images circular
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.member-info {
+    .member-name {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+        color: $primary-color
+    }
+
+    .member-affiliation {
+        margin: 0.5rem 0 0;
+        font-size: 0.9rem;
+        color: #666;
+
+    }
+}

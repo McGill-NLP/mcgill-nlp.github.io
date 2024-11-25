@@ -1,0 +1,98 @@
+{% assign filtered_authors = '' | split: '' %}
+{% assign author_roles = '' | split: '' %}
+
+{% for author_hash in include.authors %}
+{% assign author = author_hash[1] %}
+
+{% if include.render_current_role and author.current_role %}
+{% if author.current_role.research_directions contains include.research_direction %}
+{% assign filtered_authors = filtered_authors | push: author %}
+{% assign author_roles = author_roles | push: author.current_role %}
+{% endif %}
+
+{% elsif include.render_current_role == false and author.past_roles %}
+
+{% unless author.current_role.research_directions contains include.research_direction %}
+{% for past_role in author.past_roles %}
+{% if past_role.research_directions contains include.research_direction %}
+{% assign filtered_authors = filtered_authors | push: author %}
+{% assign author_roles = author_roles | push: past_role %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% endunless %}
+
+
+{% endif %}
+
+{% endfor %}
+
+{% assign sorted_authors = '' | split: '' %}
+
+{% for author in filtered_authors %}
+{% assign role_index = forloop.index0 %}
+{% assign role_to_render = author_roles[role_index] %}
+{% assign entry = "" | split: "" %}
+
+
+{% if role_to_render.start_date %}
+{% assign start_date = role_to_render.start_date %}
+{% if start_date contains "Fall" or start_date contains "Winter" or start_date contains "Summer" %}
+{% assign season_year = start_date | split: " " %}
+{% if season_year[0] == "Fall" %}
+{% assign month = "09" %}
+{% elsif season_year[0] == "Winter" %}
+{% assign month = "01" %}
+{% elsif season_year[0] == "Summer" %}
+{% assign month = "05" %}
+{% endif %}
+{% assign formatted_date = season_year[1] | append: month %}
+{% else %}
+{% assign formatted_date = start_date | date: "%Y%m" %}
+{% endif %}
+{% else %}
+{% assign formatted_date = "999999" %}
+{% endif %}
+
+
+{% assign sort_key = formatted_date | append: "|" | append: author.name %}
+{% assign entry = entry | push: sort_key %}
+{% assign entry = entry | push: author %}
+{% assign entry = entry | push: role_to_render %}
+{% assign sorted_authors = sorted_authors | push: entry %}
+{% endfor %}
+
+{% assign sorted_authors = sorted_authors | sort %}
+
+
+<div class="team-grid">
+    {% for author_array in sorted_authors %}
+    {% assign author = author_array[1] %}
+    {% assign role = author_array[2] %}
+    {% assign member_url = author.social_media_links[0].url %}
+    {% if member_url == nil %}
+    <div class="team-member">
+        {% else %}
+        <a href="{{ member_url }}" class="team-member">
+            {% endif %}
+            <div class="member-image">
+                {% if author.avatar %}
+                <img src="{{ author.avatar }}" alt="{{ author.name }}" width="180" height="180">
+                {% else %}
+                <img src="{{ site.author.avatar }}" alt="{{ author.name }}" width="180" height="180">
+                {% endif %}
+
+            </div>
+            <div class="member-info">
+                <h3 class="member-name">{{ author.name }}</h3>
+                {% if role.affiliation%}
+                <p class="member-affiliation">{{ role.affiliation }}</p>
+                {% endif %}
+            </div>
+            {% if member_url == nil %}
+    </div>
+    {% else %}
+    </a>
+    {% endif %}
+    {% endfor %}
+</div>

@@ -25,6 +25,9 @@ Taylor Lynn Curtis:
     type: Staff
     title: Software Developer
     start_date: September 30, 2024
+    affiliation: Mila
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: GitHub
     url: https://github.com/taylorlynn
@@ -81,6 +84,9 @@ Mark Ezema:
     type: Staff
     title: AI Engineer
     start_date: Mar 2023
+    affiliation: Mila, McGill 
+    research_directions:
+      - online-crime
   username: mark.ezema@mila.quebec
   social_media_links:
   - label: GitHub
@@ -101,6 +107,9 @@ Aarash Feizi:
     title: PhD
     advisor: Reihaneh Rabbany, Adriana Romero Soriano
     start_date: Fall 2019
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: GitHub
     url: https://github.com/aarashfeizi
@@ -123,6 +132,9 @@ Shenyang Huang:
     title: PhD
     advisor: Reihaneh Rabbany, Guillaume Rabusseau
     start_date: Fall 2019
+    affiliation: Mila, McGill 
+    research_directions:
+      - temporal-graph-learning
   social_media_links:
   - label: Website
     url: https://shenyanghuang.github.io/
@@ -160,6 +172,9 @@ Elahe Kooshafar:
     title: Master
     advisor: Reihaneh Rabbany
     start_date: Fall 2022
+    affiliation: Mila, McGill 
+    research_directions:
+      - temporal-graph-learning
   social_media_links:
   - label: Website
     url: https://elahekooshafar.github.io/
@@ -185,7 +200,9 @@ Yifei Li:
     title: Undergraduate
     advisor: Reihaneh Rabbany
     start_date: Summer 2020
-    new_role:
+    affiliation: Mila, McGill 
+    research_directions:
+      - online-crime
   social_media_links:
   - label: Website
     url: https://www.yifeili.me/
@@ -230,6 +247,10 @@ Sacha Levy:
     advisor: Reihaneh Rabbany
     start_date: Fall 2019
     end_date: Summer 2023
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
+      - online-crime
   social_media_links:
   - label: LinkedIn
     url: https://www.linkedin.com/in/sacha-levy/
@@ -249,6 +270,9 @@ Shahrad Mohammadzadeh:
     title: Master
     advisor: Reihaneh Rabbany, Doina Precup
     start_date: Fall 2023
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: Website
     url: https://emzedi.github.io/homepage/
@@ -273,6 +297,9 @@ Pratheeksha Nair:
     title: PhD
     advisor: Reihaneh Rabbany
     start_date: Fall 2020
+    affiliation: Mila, McGill 
+    research_directions:
+      - online-crime
   social_media_links:
   - label: Website
     url: https://nair-p.github.io/
@@ -342,6 +369,11 @@ Kellin Pelrine:
     title: PhD
     advisor: Reihaneh Rabbany, Jean-François Godbout
     start_date: Fall 2020
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
+      - online-crime
+      - temporal-graph-learning
   social_media_links:
   - label: Website
     url: https://kellinpelrine.github.io/
@@ -359,6 +391,9 @@ Farimah Poursafaei:
     type: Staff
     title: Data Scientist @ Mila
     start_date: Fall 2024
+    affiliation: Mila 
+    research_directions:
+      - temporal-graph-learning
   past_roles:
   - type: Postdoc
     title: Postdoc
@@ -388,6 +423,7 @@ Reihaneh Rabbany:
   current_role:
     type: Faculty
     title: Assistant Professor
+    affiliation: Mila, McGill 
     research_directions:
       - online-toxicity
       - poli-sci
@@ -417,6 +453,9 @@ Sahar Omidi Shayegan:
     title: Master
     advisor: Reihaneh Rabbany, Isar Nejadgholi @ NRC
     start_date: Fall 2022
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: Website
     url: https://saharshayegan.github.io/
@@ -436,12 +475,18 @@ Jacob-Junqi Tian:
   current_role:
     type: Collaborator
     title: Associate Applied Machine Learning Specialist at Vector Institute
+    affiliation: Vector 
+    research_directions:
+      - poli-sci
   past_roles:
   - type: Student
     title: Undergraduate
     advisor: Reihaneh Rabbany
     start_date: Summer 2022
     end_date: Fall 2023
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: Website
     url: https://j7n.me/
@@ -460,6 +505,9 @@ Maximilian Puelma Touzel:
     type: Staff
     title: Research Associate
     start_date: Fall 2024
+    affiliation: Mila 
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: Website
     url: https://mptouzel.github.io/
@@ -504,6 +552,7 @@ Zachary Yang:
     title: PhD
     advisor: Reihaneh Rabbany
     start_date: Winter 2021
+    affiliation: Mila, McGill 
     research_directions:
       - online-toxicity
       - poli-sci
@@ -525,12 +574,19 @@ Hao Yu:
   current_role:
     type: Collaborator
     title: Master (Thesis) @ McGill
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
   past_roles:
   - type: Student
     title: Undergraduate
     advisor: Reihaneh Rabbany
     start_date: Fall 2022
     end_date: Winter 2024
+    affiliation: Mila, McGill 
+    research_directions:
+      - poli-sci
+      - online-crime
   social_media_links:
   - label: Website
     url: https://yhpeter.github.io/

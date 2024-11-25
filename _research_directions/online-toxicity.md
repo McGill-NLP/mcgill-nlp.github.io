@@ -44,6 +44,11 @@ projects:
 
 {% include feature_row id="projects"%}
 
+# Team Members
+
+{% include team-gallery.html authors=site.data.authors research_direction="online-toxicity" render_current_role=true %}
+
+
 # Funding
 
 We acknowledge funding from Ubisoft, the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Natural Sciences and Engineering Research Council of Canada (NSERC) Postgraduate Scholarship-Doctoral (PGS D) Award and Fonds de recherche du Québec - Nature et Technologies (FRQNT) Doctoral Award. Funding from Ubisoft is governed through the Mitacs Accelerate Program.
