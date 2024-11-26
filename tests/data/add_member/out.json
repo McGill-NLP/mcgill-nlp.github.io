@@ -5,6 +5,11 @@
     "current_role": {
         "type": "Student",
         "title": "PhD",
+        "affiliation": "Mila, McGill",
+        "research_directions": [
+            "online-toxicity",
+            "temporal-graph-learning"
+        ],
         "advisor": "Reihaneh Rabbany",
         "start_date": "Fall 2019"
     },

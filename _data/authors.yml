@@ -596,3 +596,28 @@ Hao Yu:
     url: https://scholar.google.com/citations?user=5Z10ts4AAAAJ&hl=zh-CN
   - label: LinkedIn
     url: https://www.linkedin.com/in/haoy/
+
+Jean-Francois Godbout:
+  name: Jean-François Godbout
+  avatar: /assets/images/bio/jean-francois-godbout.png
+  bio:
+  note: 
+  semantic_scholar_id: "2490772"
+  auto_update_publications: true
+  current_role:
+    type: Collaborator
+    title: Professor
+    affiliation: Mila, University of Montreal 
+    research_directions:
+      - poli-sci
+  social_media_links:
+  - label: Website
+    url: https://jf-godbout.github.io/
+  - label: Twitter
+    url: https://x.com/JF_Godbout
+  - label: GitHub
+    url: https://github.com/jf-godbout
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=SsVx064AAAAJ&hl=en
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jean-fran%C3%A7ois-godbout-9aa130221

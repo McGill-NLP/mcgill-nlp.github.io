@@ -48,6 +48,21 @@ def process_role_data(parsed: Dict, prefix: str = "") -> Optional[Dict]:
         if value and value != "_No response_":
             role[field] = value
 
+    # Add new fields for affiliation and research directions
+    affiliation = parsed.get(f"{prefix}affiliation")
+    if affiliation and affiliation != "_No response_":
+        role["affiliation"] = affiliation
+
+    research_directions = parsed.get(f"{prefix}research-directions")
+    if research_directions and research_directions != "_No response_":
+        # Handle both string and list inputs for research directions
+        if isinstance(research_directions, str):
+            # Split by commas if it's a comma-separated string
+            directions = [d.strip() for d in research_directions.split(',')]
+        else:
+            directions = research_directions
+        role["research_directions"] = directions
+
     return role
 
 

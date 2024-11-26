@@ -30,6 +30,15 @@ Student
 
 PhD
 
+### Current_role-affiliation
+
+Mila, McGill
+
+### Current_role-research-directions
+
+online-toxicity, temporal-graph-learning
+
+
 ### Current_role-advisor
 
 Reihaneh Rabbany

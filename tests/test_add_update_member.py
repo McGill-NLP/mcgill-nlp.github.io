@@ -34,12 +34,13 @@ class TestAddUpdateMember(unittest.TestCase):
             if os.path.exists(path):
                 shutil.rmtree(path)
 
-    def test_add_member(self):
+    def test_add_member(self):        
         with open("tests/data/add_member/in.md") as f:
             issue_body = f.read()
 
         parsed = mod.parse_issue_body(issue_body)
         out = mod.main(parsed, action="Add member", image_dir=self.image_dir, site_data_dir=self.site_data_dir)
+        
         with open("tests/data/add_member/out.json") as f:
             expected = json.load(f)
         
