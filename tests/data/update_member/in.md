@@ -30,6 +30,10 @@ Unaffiliated
 
 Professing at Leland S. Junior University
 
+### Current_role-research-directions
+
+online-toxicity, poli-sci, online-crime
+
 ### Current_role-advisor
 
 _No response_

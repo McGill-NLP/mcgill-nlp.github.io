@@ -7,7 +7,12 @@
     "auto_update_publications": true,
     "current_role": {
         "type": "Unaffiliated",
-        "title": "Professing at Leland S. Junior University"
+        "title": "Professing at Leland S. Junior University",
+        "research_directions": [
+            "online-toxicity",
+            "poli-sci",
+            "online-crime"
+        ]
     },
     "past_roles": [
         {

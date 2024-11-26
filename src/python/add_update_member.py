@@ -108,7 +108,17 @@ def merge_profile_data(old_profile: Dict, new_profile: Dict) -> Dict:
 
     # Update current role if provided
     if "current_role" in new_profile:
-        merged["current_role"] = new_profile["current_role"]
+        # Preserve existing fields that aren't being updated
+        if "current_role" in merged:
+            existing_role = merged["current_role"]
+            new_role = new_profile["current_role"]
+            
+            # Update each field only if it exists in the new data
+            for field in ["type", "title", "start_date", "advisor", "affiliation", "research_directions"]:
+                if field in new_role:
+                    existing_role[field] = new_role[field]
+        else:
+            merged["current_role"] = new_profile["current_role"]
 
     # Handle past roles
     if "past_roles" in new_profile:
