@@ -109,7 +109,7 @@ body:
     validations:
       required: false
   
-  - type: "input"
+  - type: "dropdown"
     id: current_role-research-directions
     attributes:
       label: "Current Role Research Directions"
