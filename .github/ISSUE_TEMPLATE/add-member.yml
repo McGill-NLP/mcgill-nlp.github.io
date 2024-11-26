@@ -100,6 +100,29 @@ body:
     validations:
       required: true
 
+  - type: "input"
+    id: current_role-affiliation
+    attributes:
+      label: "Current Role Affiliation"
+      description: "Affiliation"
+      placeholder: "Mila, McGill1"
+    validations:
+      required: false
+  
+  - type: "input"
+    id: current_role-research-directions
+    attributes:
+      label: "Current Role Research Directions"
+      description: "What research direction are you in"
+      multiple: true
+      options:
+        - "online-toxicity"
+        - "poli-sci"
+        - "online-crime"
+        - "temporal-graph-learning"
+    validations:
+      required: false
+
   - type: input
     id: current_role-advisor
     attributes:

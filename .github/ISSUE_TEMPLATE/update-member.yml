@@ -114,6 +114,29 @@ body:
       required: false
 
   - type: "input"
+    id: current_role-affiliation
+    attributes:
+      label: "Current Role Affiliation"
+      description: "Affiliation"
+      placeholder: "Mila, McGill1"
+    validations:
+      required: false
+  
+  - type: "input"
+    id: current_role-research-directions
+    attributes:
+      label: "Current Role Research Directions"
+      description: "What research direction are you in"
+      multiple: true
+      options:
+        - "online-toxicity"
+        - "poli-sci"
+        - "online-crime"
+        - "temporal-graph-learning"
+    validations:
+      required: false
+
+  - type: "input"
     id: current_role-start_date
     attributes:
       label: "Current Role Start Date"
@@ -193,6 +216,29 @@ body:
       label: "Past Role Title"
       description: What's the past title of this person? For students, please choose between ["PhD, "Master", "Undergraduate", "Intern"]
       placeholder: "PhD"
+    validations:
+      required: false
+
+  - type: "input"
+    id: past_role-affiliation
+    attributes:
+      label: "Past Role Affiliation"
+      description: "Affiliation"
+      placeholder: "Mila, McGill1"
+    validations:
+      required: false
+  
+  - type: "input"
+    id: past_role-research-directions
+    attributes:
+      label: "Past Role Research Directions"
+      description: "What research direction are you in"
+      multiple: true
+      options:
+        - "online-toxicity"
+        - "poli-sci"
+        - "online-crime"
+        - "temporal-graph-learning"
     validations:
       required: false
 
