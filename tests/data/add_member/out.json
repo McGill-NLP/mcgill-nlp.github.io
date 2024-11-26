@@ -1,7 +1,8 @@
 {
     "name": "John Doe",
     "avatar": "/tests/scratch/assets/images/bio/John Doe.jpg",
-    "auto_update_publications": false,
+    "semantic_scholar_id": "145113126",
+    "auto_update_publications": true,
     "current_role": {
         "type": "Student",
         "title": "PhD",

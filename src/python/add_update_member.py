@@ -53,7 +53,7 @@ def process_role_data(parsed: Dict, prefix: str = "") -> Optional[Dict]:
     if affiliation and affiliation != "_No response_":
         role["affiliation"] = affiliation
 
-    research_directions = parsed.get(f"{prefix}research-directions")
+    research_directions = parsed.get(f"{prefix}research_directions")
     if research_directions and research_directions != "_No response_":
         # Handle both string and list inputs for research directions
         if isinstance(research_directions, str):
@@ -74,12 +74,12 @@ def format_parsed_content(parsed: Dict) -> Dict:
     }
 
     # Process current role
-    current_role = process_role_data(parsed, "current_role-")
+    current_role = process_role_data(parsed, "current_role_")
     if current_role:
         formatted["current_role"] = current_role
 
     # Process past role if it exists (for updates)
-    past_role = process_role_data(parsed, "past_role-")
+    past_role = process_role_data(parsed, "past_role_")
     if past_role:
         formatted["past_roles"] = past_role
 

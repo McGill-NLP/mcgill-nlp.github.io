@@ -47,8 +47,6 @@ class TestAddUpdateMember(unittest.TestCase):
         
         output = json.loads(json.dumps(out['John Doe']))
 
-        print(output)
-        print(expected)
         self.assertEqual(output, expected)
 
     def test_update_member(self):
@@ -73,8 +71,6 @@ class TestAddUpdateMember(unittest.TestCase):
 
         error_message = f"\n\n!!! Expected content of generated file to match content of file {exp_out_path}, but they did not match !!!"
         
-        print(output)
-        print(expected)
         self.assertEqual(output, expected, error_message)
 
         

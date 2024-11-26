@@ -18,27 +18,27 @@ Allergic to reviewer 2
 
 145113126
 
-### Auto_update_publications
+### Auto Update Publications
 
 True
 
-### Current_role-type
+### Current Role Type
 
 Unaffiliated
 
-### Current_role-title
+### Current Role Title
 
 Professing at Leland S. Junior University
 
-### Current_role-research-directions
+### Current Role Research Directions
 
 online-toxicity, poli-sci, online-crime
 
-### Current_role-advisor
+### Current Role Advisor
 
 _No response_
 
-### Current_role-start_date
+### Current Role Start Date
 
 _No response_
 
@@ -62,22 +62,22 @@ https://www.linkedin.com/in/fake_user/
 
 _No response_
 
-### Past_role-type
+### Past Role Type
 
 Student
 
-### Past_role-title
+### Past Role Title
 
 PhD
 
-### Past_role-advisor
+### Past Role Advisor
 
 Reihaneh Rabbany
 
-### Past_role-start_date
+### Past Role Start Date
 
 Fall 2019
 
-### Past_role-end_date
+### Past Role End Date
 
 Winter 2023

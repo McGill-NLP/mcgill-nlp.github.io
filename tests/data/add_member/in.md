@@ -14,36 +14,36 @@ _No response_
 
 _No response_
 
-### Semantic_scholar_id
+### Semantic Scholar ID
 
-_No response_
+145113126
 
-### Auto_update_publications
+### Auto Update Publications
 
-False
+True
 
-### Current_role-type
+### Current Role Type
 
 Student
 
-### Current_role-title
+### Current Role Title
 
 PhD
 
-### Current_role-affiliation
+### Current Role Affiliation
 
 Mila, McGill
 
-### Current_role-research-directions
+### Current Role Research Directions
 
 online-toxicity, poli-sci
 
 
-### Current_role-advisor
+### Current Role Advisor
 
 Reihaneh Rabbany
 
-### Current_role-start_date
+### Current Role Start Date
 
 Fall 2019
 
