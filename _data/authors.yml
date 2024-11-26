@@ -268,7 +268,7 @@ Victor Livernoche:
     advisor: Reihaneh Rabbany
     start_date: Fall 2024
     affiliation: Mila, McGill
-    research_directions: 
+    research_directions:
     - poli-sci
   social_media_links:
   - label: Twitter
@@ -538,6 +538,26 @@ Sahar Omidi Shayegan:
   - label: LinkedIn
     url: https://www.linkedin.com/in/sahar-shayegan/
 
+Camille Thibault:
+  name: Camille Thibault
+  auto_update_publications: true
+  current_role:
+    type: Collaborator
+    title: Master
+    start_date: Summer 2023
+    advisor: Jean-François Godbout
+    affiliation: University of Montreal, Mila
+    research_directions:
+    - poli-sci
+  bio: Works on disinformation
+  avatar: /assets/images/bio/Camille Thibault.jpg
+  social_media_links:
+  - label: GitHub
+    url: https://github.com/CamilleThibault
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=r0mfGz0AAAAJ&hl=fr&oi=ao
+  - label: LinkedIn
+    url: www.linkedin.com/in/camille-thibault-2b9929220
 Jacob-Junqi Tian:
   name: Jacob-Junqi Tian
   avatar: /assets/images/bio/jacob-junqi.tian.avatar.webp
