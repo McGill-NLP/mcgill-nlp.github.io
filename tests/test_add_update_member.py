@@ -34,7 +34,8 @@ class TestAddUpdateMember(unittest.TestCase):
             if os.path.exists(path):
                 shutil.rmtree(path)
 
-    def test_add_member(self):        
+    def test_add_member(self):
+        self.maxDiff = None        
         with open("tests/data/add_member/in.md") as f:
             issue_body = f.read()
 
@@ -45,6 +46,9 @@ class TestAddUpdateMember(unittest.TestCase):
             expected = json.load(f)
         
         output = json.loads(json.dumps(out['John Doe']))
+
+        print(output)
+        print(expected)
         self.assertEqual(output, expected)
 
     def test_update_member(self):

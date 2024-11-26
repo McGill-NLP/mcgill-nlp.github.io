@@ -36,7 +36,7 @@ Mila, McGill
 
 ### Current_role-research-directions
 
-online-toxicity, temporal-graph-learning
+online-toxicity, poli-sci
 
 
 ### Current_role-advisor

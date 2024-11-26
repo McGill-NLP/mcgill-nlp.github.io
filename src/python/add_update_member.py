@@ -55,12 +55,13 @@ def process_role_data(parsed: Dict, prefix: str = "") -> Optional[Dict]:
 
     research_directions = parsed.get(f"{prefix}research-directions")
     if research_directions and research_directions != "_No response_":
-        print(research_directions)
-        role["research_directions"] = [
-        direction.strip() 
-        for direction in research_directions.split('-') 
-        if direction.strip()
-    ]
+        # Handle both string and list inputs for research directions
+        if isinstance(research_directions, str):
+            # Split by commas if it's a comma-separated string
+            directions = [d.strip() for d in research_directions.split(',')]
+        else:
+            directions = research_directions
+        role["research_directions"] = directions
 
     return role
 
