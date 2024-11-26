@@ -28,7 +28,7 @@ For the Fall 2024 semester, the reading group will meet on Fridays at 11:30AM (w
 | November 1st @ 11:45 AM | Bang Liu | Applications and Enhancements of LLM Agents Across Diverse Environments |  [click here]({% link _posts/reading-group/fall-2024/2024-11-1-bang-liu.md %}) |
 | November 8th @ 11:30 AM | Boyuan Zheng | Towards a Generalist Web Agent | [click here]({% link _posts/reading-group/fall-2024/2024-11-07-boyuan-zheng.md %}) |
 | November 12th to 16th | **EMNLP 2024** | | |
-| November 22nd @ 11:30 AM | William Held | *TBA* | *TBA* |
+| November 22nd @ 11:30 AM | William Held | Distilling an End-to-End Voice Assistant Without Instruction Training Data | [click here]({% link _posts/reading-group/fall-2024/2024-11-22-william-held.md %}) |
 | November 29th @ 11:30 AM | Luke Guerdan | *TBA* | *TBA* |
 | December 6th @ 11:30 AM | Amal Zouaq | *TBA* | *TBA* |
 

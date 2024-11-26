@@ -615,6 +615,16 @@ Ben LeBrun:
   - label: Scholar
     url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
 
+Senyu Li:
+  name: Senyu Li
+  role: PhD
+  username: senyu.li
+  advisor: David Ifeoluwa Adelani
+  date: Fall 2024
+  alumni: false
+  links:
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=lyhV_fgAAAAJ
 Zichao Li:
   name: Zichao Li
   role: PhD
@@ -811,6 +821,23 @@ Timothy J. O'Donnell:
   avatar: /assets/images/bio/Timothy J. O'Donnell.avatar.webp
   bio: Assistant Professor, Department of Linguistics
 
+Jessica Ojo:
+  name: Jessica Ojo
+  role: Master
+  username: Jessica.Ojo
+  semantic_scholar_id: '2214806280'
+  avatar: /assets/images/bio/Jessica Ojo.jpg
+  advisor: David Adelani
+  date: Fall 2024
+  bio: Works on Multilingual NLP
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://x.com/JessicaOjo__
+  - label: GitHub
+    url: https://github.com/JessicaOjo
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=H7PSf00AAAAJ&hl=en
 Arkil Patel:
   name: Arkil Patel
   role: PhD
@@ -985,7 +1012,7 @@ Nooshin Soheililangroodi:
   bio: I'm an undergrad CS student at McGill and I'm mostly interested in researching
     about vision-language models.
   alumni: false
-  links: 
+  links:
   - label: Website
     url: https://github.com/noosh1380
 Karolina Stanczak:
