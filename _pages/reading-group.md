@@ -29,8 +29,8 @@ For the Fall 2024 semester, the reading group will meet on Fridays at 11:30AM (w
 | November 8th @ 11:30 AM | Boyuan Zheng | Towards a Generalist Web Agent | [click here]({% link _posts/reading-group/fall-2024/2024-11-07-boyuan-zheng.md %}) |
 | November 12th to 16th | **EMNLP 2024** | | |
 | November 22nd @ 11:30 AM | William Held | Distilling an End-to-End Voice Assistant Without Instruction Training Data | [click here]({% link _posts/reading-group/fall-2024/2024-11-22-william-held.md %}) |
-| November 29th @ 11:30 AM | Luke Guerdan | *TBA* | *TBA* |
-| December 6th @ 11:30 AM | Amal Zouaq | *TBA* | *TBA* |
+| November 29th @ 11:30 AM | Luke Guerdan | Towards Principled Model Evaluation Under Imperfect "Ground Truth" Labels | [click here]({% link _posts/reading-group/fall-2024/2024-11-29-luke-guerdan.md %}) |
+| December 6th @ 11:30 AM | Poster presentations for [Comp 767](https://mcgill-nlp.github.io/teaching/comp767-ling782-F24/) | Various LLM-related topics -  To be hosted at the Mila Agora | |
 
 ## History
 
