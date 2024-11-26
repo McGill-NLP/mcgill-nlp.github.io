@@ -1,0 +1,13 @@
+{% if include.id %}
+{% assign display_logos = page[include.id] %}
+{% else %}
+{% assign display_logos = include.logos | default: page.logos %}
+{% endif %}
+
+<div class="logo-grid">
+    {% for logo in display_logos %}
+    <div class="logo-grid-item">
+        <img src="{{ logo.image }}" alt="{{ logo.name }}">
+    </div>
+    {% endfor %}
+</div>

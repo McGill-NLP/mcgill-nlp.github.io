@@ -24,7 +24,7 @@ row_intro:
 
 {% include sub_research-directions.html category="poli-sci" %}
 
-# Team Members
+# Core Team Members
 
 {% include team-gallery.html authors=site.data.authors research_direction="poli-sci" render_current_role=true %}
 

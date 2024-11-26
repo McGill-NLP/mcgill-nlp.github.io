@@ -15,7 +15,7 @@ one-liner: "Building real-time, human-in-the-loop systems to foster healthier ga
 row_intro:
   - title: "Why should we care?"
     alt: "Motivation"
-    image_path: /assets/images/research_directions/online-toxicity/toxic_gamer.webp
+    image_path: /assets/images/research_directions/online-toxicity/slightly-angry-gamer.jpg
     excerpt: "Toxic and harmful speech online is more than just unpleasant; it has widespread social and economic repercussions, particularly as it permeates social media and gaming platforms. In gaming, where toxicity affects 75% of young players, this behavior harms mental health, alienates communities, and even reduces player engagement and spending, which impacts the industry’s bottom line. Beyond financial losses, unchecked toxicity risks fostering real-world violence and inciting harmful social behaviors. Despite advances in detection methods, including AI-driven moderation, the ever-evolving nature of toxic language poses significant challenges to companies and communities alike. Addressing this problem isn’t just about improving user experience—it’s essential for maintaining safe, inclusive, and healthy online spaces."
 
 projects:
@@ -34,6 +34,16 @@ projects:
     image_path: /assets/images/research_directions/online-toxicity/toxplainer.jpg
     excerpt: "Identity biases arise commonly from annotated datasets, can be propagated in language models and can cause further harm to marginal groups. Existing bias benchmarking datasets are mainly focused on gender or racial biases and are made to pinpoint which class the model is biased towards. They also are not designed for the gaming industry, a concern for models built for toxicity detection in videogames’ chat."
     url: https://aclanthology.org/2023.emnlp-industry.26/
+
+logos:
+  - image: /assets/images/logo/ubisoft-la-forge.png
+    name: Ubisoft La Forge
+  - image: /assets/images/logo/CIFAR.png
+    name: CIFAR
+  - image: /assets/images/logo/NSERC.png
+    name: NSERC
+  - image: /assets/images/logo/mitacs.png
+    name: Mitacs
 ---
 
 
@@ -44,11 +54,13 @@ projects:
 
 {% include feature_row id="projects"%}
 
-# Team Members
+# Core Team Members
 
 {% include team-gallery.html authors=site.data.authors research_direction="online-toxicity" render_current_role=true %}
 
 
 # Funding
 
-We acknowledge funding from Ubisoft, the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Natural Sciences and Engineering Research Council of Canada (NSERC) Postgraduate Scholarship-Doctoral (PGS D) Award and Fonds de recherche du Québec - Nature et Technologies (FRQNT) Doctoral Award. Funding from Ubisoft is governed through the Mitacs Accelerate Program.
+We acknowledge funding from Ubisoft, the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Natural Sciences and Engineering Research Council of Canada (NSERC) Postgraduate Scholarship-Doctoral (PGS D) Award. Funding from Ubisoft is governed through the Mitacs Accelerate Program.
+
+{% include logo-grid.html id="logos" %}

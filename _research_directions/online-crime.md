@@ -25,7 +25,7 @@ row_intro:
 
 {% include sub_research-directions.html category="online-crime" %}
 
-# Team Members
+# Core Team Members
 
 {% include team-gallery.html authors=site.data.authors research_direction="online-crime" render_current_role=true %}
 
