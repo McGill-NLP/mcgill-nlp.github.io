@@ -74,8 +74,8 @@ body:
       description: Do you want your publications to be auto-updated?
       multiple: false
       options:
-        - "True"
         - "False"
+        - "True"
     validations:
       required: True
 

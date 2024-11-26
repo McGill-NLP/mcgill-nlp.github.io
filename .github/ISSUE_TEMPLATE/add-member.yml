@@ -70,8 +70,8 @@ body:
       description: Do you want your publications to be auto-updated?
       multiple: false
       options:
-        - "True"
         - "False"
+        - "True"
     validations:
       required: true
 
@@ -105,7 +105,7 @@ body:
     attributes:
       label: "Current Role Affiliation"
       description: "Affiliation"
-      placeholder: "Mila, McGill1"
+      placeholder: "Mila, McGill"
     validations:
       required: false
   
