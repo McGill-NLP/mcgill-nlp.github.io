@@ -52,6 +52,7 @@ class TestAddUpdateMember(unittest.TestCase):
         self.assertEqual(output, expected)
 
     def test_update_member(self):
+        self.maxDiff = None
         with open("tests/data/update_member/in.md") as f:
             issue_body = f.read()
 
@@ -71,6 +72,9 @@ class TestAddUpdateMember(unittest.TestCase):
         expected = {k: expected[k] for k in sorted(expected)}
 
         error_message = f"\n\n!!! Expected content of generated file to match content of file {exp_out_path}, but they did not match !!!"
+        
+        print(output)
+        print(expected)
         self.assertEqual(output, expected, error_message)
 
         
