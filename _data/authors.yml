@@ -217,9 +217,18 @@ Florence Laflamme:
     in big data analysis and a microprogram in Indigenous studies. She is particularly
     interested in AI governance, environmental politics and redistribution policies.
   avatar: /assets/images/bio/Florence Laflamme.jpg
+  current_role:
+    type: Collaborator
+    title: Undergraduate
+    affiliation: Mila, Université de Montréal
+    advisor: Jean-François Godbout
+    start_date: Summer 2020
+    research_directions:
+    - poli-sci
   social_media_links:
   - label: LinkedIn
     url: https://ca.linkedin.com/in/florence-laflamme-a4b542324
+    
 Yifei Li:
   name: Yifei Li
   avatar: /assets/images/bio/yifei.li.avatar.webp
