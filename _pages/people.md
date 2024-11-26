@@ -16,7 +16,7 @@ layout: archive
 
 {% include card-authors-with-role.html authors=site.data.authors role="Student" title="PhD" render_current_role=true %}
 
-### Master
+### Masters
 
 {% include card-authors-with-role.html authors=site.data.authors role="Student" title="Master" render_current_role=true %}
 
