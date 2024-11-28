@@ -52,15 +52,9 @@ If you're interested in joining us for an **internship**, **independent project*
 
 ## Masters and PhDs
 
-To join our lab as a Masters or PhD student, you **must** complete the following steps:
+To join our lab as a Masters or PhD student, please submit your application using this [Google Form](https://forms.gle/L4DL8bcGUnAgh4wz9).
 
-1. Apply to either:
-   - [McGill Computer Science](https://www.cs.mcgill.ca/graduate/future/applying/)
-   - [Mila](https://mila.quebec/en/research-masters-and-phd)
-
-2. Please also submit your application with this [Google Form](https://forms.gle/L4DL8bcGUnAgh4wz9).
-
-Please ensure you follow the application guidelines and deadlines for each institution. 
+*Note the deadline for each institution.*
 
 ## Postdocs
 
