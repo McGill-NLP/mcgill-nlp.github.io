@@ -52,7 +52,7 @@ If you're interested in joining us for an **internship**, **independent project*
 
 ## Masters and PhDs
 
-To join our lab as a Masters or PhD student, please submit your application using this [Google Form](https://forms.gle/L4DL8bcGUnAgh4wz9).
+To join our lab as a Masters or PhD student, please submit your application for supervision using this [Google Form](https://forms.gle/L4DL8bcGUnAgh4wz9).
 
 *Note the deadline for each institution.*
 
