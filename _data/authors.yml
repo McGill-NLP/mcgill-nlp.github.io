@@ -458,7 +458,8 @@ Kellin Pelrine:
 
 Farimah Poursafaei:
   name: Farimah Poursafaei
-  bio: Works on Dynamic Graph Neural Networks
+  avatar: /assets/images/bio/Farimah.JPG
+  bio: Machine Learning on Temporal Graphs
   current_role:
     type: Staff
     title: Data Scientist @ Mila
@@ -466,6 +467,8 @@ Farimah Poursafaei:
     affiliation: Mila
     research_directions:
     - temporal-graph-learning
+    - text-attributed-graphs
+    - foundation-models
   past_roles:
   - type: Postdoc
     title: Postdoc
@@ -473,7 +476,7 @@ Farimah Poursafaei:
     start_date: Fall 2022
   - type: Student
     title: PhD
-    advisor: Reihaneh Rabbany
+    advisor: Reihaneh Rabbany, Zeljko Zilic
     start_date: Fall 2017
   social_media_links:
   - label: Website
