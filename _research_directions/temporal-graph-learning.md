@@ -19,6 +19,8 @@ excerpt: "Our team brings together experts from fields like AI, data mining, and
 # Why should we care?
 Temporal graph learning is crucial for analyzing dynamic networks that evolve over time, such as social media or financial systems. Unlike static graphs, these networks require modeling both the temporal and structural features, which presents unique challenges. However, incorporating time-based information enhances the predictive power of graph algorithms, making them valuable for applications like recommendation systems, fraud detection, and disease modeling. As interest in this area grows, it spans fields like machine learning, AI, and public health. Temporal graph learning bridges gaps across disciplines and opens up new opportunities for solving real-world problems
 
+# Topics
+
 {% include sub_research-directions.html category="temporal-graph-learning" %}
 
 # Core Team Members
