@@ -8,12 +8,6 @@ header:
     overlay_image: /assets/images/research_directions/poli-sci/information-integrity.webp
 excerpt: ""
 
-row_intro:
-  - title: ""
-    alt: ""
-    image_path: /assets/images/research_directions/poli-sci/information-integrity/intro.jpg
-    excerpt: "The information integrity project explores methods to enhance the accuracy and reliability of online information within the context of digital platforms and AI technologies. By analyzing how information is created, shared, and verified on social media and other digital ecosystems, we aim to develop tools and frameworks that support the identification of misinformation, reduce its spread, and bolster public trust in verified sources. This project contributes to our broader goal of understanding and mitigating the effects of digital misinformation on political discourse and social cohesion"
-
 projects:
   - title: "Steward AI"
     alt: ""
@@ -31,7 +25,7 @@ projects:
     excerpt: "Our survey experiment page on the effects of deepfakes."
 ---
 
-{% include feature_row id="row_intro" type="left" %}
+The information integrity project explores methods to enhance the accuracy and reliability of online information within the context of digital platforms and AI technologies. By analyzing how information is created, shared, and verified on social media and other digital ecosystems, we aim to develop tools and frameworks that support the identification of misinformation, reduce its spread, and bolster public trust in verified sources. This project contributes to our broader goal of understanding and mitigating the effects of digital misinformation on political discourse and social cohesion
 
 # Projects
 {% include feature_row id="projects"%}

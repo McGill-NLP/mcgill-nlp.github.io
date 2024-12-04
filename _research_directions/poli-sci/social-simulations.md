@@ -8,13 +8,6 @@ header:
     overlay_image: /assets/images/research_directions/poli-sci/social_simulation.webp
 excerpt: ""
 
-row_intro:
-  - title: ""
-    alt: ""
-    image_path: /assets/images/research_directions/poli-sci/social-simulations/intro.jpg
-    excerpt: "The pernicious effects of digital manipulation campaigns can reverberate through entire societies, but evaluating them in real-world contexts is highly complex and poses ethical challenges. Through this project, we simulate a digital social environment with unprecedented control and study the properties of real world and future manipulation strategies and develop defenses against them."
-
-
 project_1:
   - title: "A Simulation System Towards Solving Societal-Scale Manipulation"
     alt: ""
@@ -22,7 +15,7 @@ project_1:
     excerpt: "First mixed-reality simulation system that can model both online and offline social dynamics"
 ---
 
-{% include feature_row id="row_intro" type="left" %}
+The pernicious effects of digital manipulation campaigns can reverberate through entire societies, but evaluating them in real-world contexts is highly complex and poses ethical challenges. Through this project, we simulate a digital social environment with unprecedented control and study the properties of real world and future manipulation strategies and develop defenses against them.
 
 # Publications
 

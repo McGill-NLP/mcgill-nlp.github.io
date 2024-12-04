@@ -8,13 +8,6 @@ header:
     overlay_image: /assets/images/research_directions/poli-sci/social_media.webp
 excerpt: ""
 
-row_intro:
-  - title: ""
-    alt: ""
-    image_path: /assets/images/research_directions/poli-sci/ideology-and-polarization/intro.jpg
-    excerpt: "Our research on ideology and polarization explores how digital platforms amplify partisan divides and shape political discourse across societal contexts. It focuses on understanding the expression, measurement, and impact of ideological differences in shaping public opinion, both within and across linguistic and cultural boundaries. This area highlights the interplay between technology, political behavior, and societal cohesion in an increasingly interconnected world."
-
-
 project_1:
   - title: "Party Prediction for Twitter "
     alt: ""
@@ -38,7 +31,7 @@ project_2:
 "
 ---
 
-{% include feature_row id="row_intro" type="left" %}
+Our research on ideology and polarization explores how digital platforms amplify partisan divides and shape political discourse across societal contexts. It focuses on understanding the expression, measurement, and impact of ideological differences in shaping public opinion, both within and across linguistic and cultural boundaries. This area highlights the interplay between technology, political behavior, and societal cohesion in an increasingly interconnected world.
 
 # Projects
 
