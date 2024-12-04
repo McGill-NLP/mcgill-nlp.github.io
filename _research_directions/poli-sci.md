@@ -11,16 +11,11 @@ logo_image_path: /assets/images/home/POM_logo-light.png
 logo_dark_image_path: /assets/images/home/POM_logo-dark.png
 one-liner: "Investigating how digital platforms and emerging AI technologies shape political discourse, social polarization, and information ecosystems through data-driven computational social science"
 
-row_intro:
-  - title: "Why should we care?"
-    alt: "Motivation"
-    image_path: /assets/images/research_directions/poli-sci/motivation_img.webp
-    excerpt: "In the current digital age, the speed and spread of information has equipped individuals with the tools to influence the public agenda. However, the quality of this information varies widely, and can have wide-reaching consequences. As the sophistication and accessibility of AI tools continue to expand, the authenticity of digital content has been increasingly called into question. Thus, our team stands at the forefront of the challenge to safeguard digital space, as we assess the nature of content and how it proliferates online."
 ---
 
 
-{% include feature_row id="row_intro" type="left" %}
-
+# Why should we care?
+The current digital age fundamentally changes how we as individuals and a society collect and distribute information. With these changes come powerful new approaches to influence the public agenda. However, the quality of shared information varies widely, and can have wide-reaching consequences. As the sophistication and accessibility of AI tools continue to expand, the authenticity of digital content has been increasingly called into question. Our team stands at the forefront of the challenge to safeguard digital space, as we assess the nature of content and how it proliferates online.
 
 {% include sub_research-directions.html category="poli-sci" %}
 
