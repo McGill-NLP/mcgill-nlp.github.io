@@ -337,41 +337,16 @@ Andreea Musulan:
   name: Andreea Musulan
   auto_update_publications: false
   current_role:
-    type: Collaborator
-    title: Researcher
-    start_date: 10-2022
-    affiliation: Mila
-    research_directions:
-    - poli-sci
-  bio: Currently investigating the nature of and actors involved in information-based
-    influence campaigns online, especially during elections
-  note: Political scientist that specializes in researching the dynamics of information
-    sharing on social media
-  semantic_scholar_id: '116225563'
-  avatar: /assets/images/bio/Andreea Musulan.jpg
-  social_media_links:
-  - label: Website
-    url: https://amusulan.github.io/
-  - label: GitHub
-    url: https://github.com/boomalope
-  - label: Scholar
-    url: https://scholar.google.com/citations?user=zexyaz0AAAAJ&hl=en&oi=ao
-  - label: LinkedIn
-    url: https://www.linkedin.com/in/andreea-musulan/
-Andreea Musulan 2:
-  name: Andreea Musulan
-  auto_update_publications: false
-  current_role:
     type: Postdoc
     title: Postdoc
     start_date: Fall 2024
     advisor: Jean-François Godbout
-    affiliation: Mila, Université de Montréal, MGill
+    affiliation: Mila, Université de Montréal, McGill
     research_directions:
     - poli-sci
   bio: Works on malicious coordinated activity online
   semantic_scholar_id: '116225563'
-  avatar: /assets/images/bio/Andreea Musulan 2.jpg
+  avatar: /assets/images/bio/Andreea Musulan.jpg
   social_media_links:
   - label: Website
     url: https://amusulan.github.io/
@@ -383,6 +358,7 @@ Andreea Musulan 2:
     url: https://scholar.google.com/citations?user=zexyaz0AAAAJ&hl=en&oi=ao
   - label: LinkedIn
     url: https://www.linkedin.com/in/andreea-musulan/
+
 Pratheeksha Nair:
   name: Pratheeksha Nair
   avatar: /assets/images/bio/pratheeksha.nair.avatar.webp
