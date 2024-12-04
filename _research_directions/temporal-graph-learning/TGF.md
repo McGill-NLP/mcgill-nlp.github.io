@@ -9,13 +9,6 @@ header:
 excerpt: ""
 
 
-row_intro:
-  - title: ""
-    alt: ""
-    image_path: /assets/images/research_directions/temporal-graph-learning/banner.webp
-    excerpt: "Temporal graph foundation models represent a paradigm shift in network science, combining the dynamic expressiveness of temporal graphs with the power of large-scale pre-training to enable sophisticated network understanding and prediction. This emerging field bridges traditional graph learning with modern foundation model approaches, while its integration with LLMs and multi-modal capabilities promises to unlock new frontiers in temporal network analysis."
-
-
 project_1:
   - title: "Foundation Model"
     alt: ""
@@ -36,7 +29,10 @@ project_3:
 
 ---
 
-{% include feature_row id="row_intro" type="left" %}
+This research direction focuses on advancing the frontier of temporal graph analysis by integrating Temporal Graph Foundation Models (TGFM), Large Language Models (LLMs), and multi-modal learning. Temporal graphs, which capture the dynamic relationships and evolving structures of real-world networks over time, are crucial for understanding complex, time-sensitive systems. By combining these graphs with foundation models, we can leverage large-scale pre-training to enable transfer learning and scalable solutions across a range of temporal tasks.
+
+The integration of LLMs with temporal graphs enhances reasoning and representation learning, enabling more sophisticated analysis of dynamic networks. This synergy allows for improved predictive capabilities, anomaly detection, and scenario modeling. Furthermore, the incorporation of multi-modal data—such as text, images, and signals into temporal graphs provides a holistic approach to complex tasks like misinformation detection, event prediction, and spatiotemporal analysis. This research aims to push the boundaries of temporal network analysis by combining the power of temporal graph models with cutting-edge AI techniques, unlocking new opportunities for real-world applications.
+
 
 <!-- # Projects
 

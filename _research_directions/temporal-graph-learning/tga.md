@@ -5,14 +5,8 @@ category: temporal-graph-learning
 order: 2
 header:
     overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))
-    overlay_image: /assets/images/research_directions/temporal-graph-learning/TGB.webp
+    overlay_image: /assets/images/research_directions/temporal-graph-learning/TGA.png
 excerpt: ""
-
-row_intro:
-  - title: ""
-    alt: ""
-    image_path: /assets/images/research_directions/temporal-graph-learning/banner.webp
-    excerpt: "Temporal graphs provide powerful frameworks for modeling and analyzing real-world systems that evolve over time. In the realm of anomaly detection, these dynamic structures enable us to identify unusual patterns and critical changes in evolving networks, from financial transactions to social interactions. Similarly, in epidemic modeling, temporal graphs capture the crucial time-varying nature of human contact networks and transportation systems, allowing for more accurate predictions of disease spread compared to traditional static network approaches."
 
 project_1:
   - title: "Anomaly Detection"
@@ -27,7 +21,7 @@ project_2:
     excerpt: ""
 ---
 
-{% include feature_row id="row_intro" type="left" %}
+Temporal graphs provide a robust framework for modeling and analyzing systems that evolve over time, offering unique advantages in addressing dynamic real-world challenges. In anomaly detection, they capture time-varying patterns to identify irregularities across domains such as finance, social networks, and cryptocurrency markets. For example, temporal graphs can highlight fraudulent transactions, uncover outliers in trading patterns, or detect sudden shifts in network behavior. In epidemic modeling, temporal graphs accurately represent evolving human contact networks, enabling more precise predictions of disease spread by accounting for temporal dependencies and behavioral changes, such as social distancing or vaccination. They also enhance forecasting in transportation systems like flight networks, tracking delays, cancellations, and disruptions over time to optimize scheduling and reduce congestion. By incorporating both structural and temporal dynamics, temporal graphs empower more realistic, data-driven approaches to solving complex, time-sensitive problems across diverse fields.
 
 <!-- # Projects
 
