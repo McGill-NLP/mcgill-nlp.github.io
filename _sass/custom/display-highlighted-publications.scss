@@ -1,0 +1,61 @@
+article.highlighted-publication-card {
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "excerpt excerpt"
+        "venue venue"
+        "links links";
+    grid-template-columns: 2fr 1fr;
+    column-gap: 15px;
+    margin-top: 1.5em;
+    align-items: start;
+    align-content: start;
+
+    @media (max-width: 600px) {
+        grid-template-areas:
+            "title"
+            "excerpt"
+            "venue"
+            "links";
+        grid-template-columns: 1fr;
+    }
+}
+
+.highlighted-publication-title {
+    grid-area: title;
+    margin: 0 0 5px 0;
+    border-bottom: none !important;
+
+    >a {
+        text-decoration: none;
+    }
+}
+
+.highlighted-publication-excerpt {
+    grid-area: excerpt;
+    display: block;
+    font-style: italic;
+
+    >p {
+        margin: 0;
+    }
+}
+
+.highlighted-publication-venue {
+    grid-area: venue;
+    font-weight: bold;
+}
+
+.publication-links {
+    grid-area: links;
+}
+
+.publication-ext-link {
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.highlighted-publications-spacing {
+    margin-bottom: 1rem; // Adjust this value to set the desired spacing
+}

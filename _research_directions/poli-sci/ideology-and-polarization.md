@@ -35,7 +35,7 @@ project_2:
 
 Our research on ideology and polarization explores how digital platforms amplify partisan divides and shape political discourse across societal contexts. It focuses on understanding the expression, measurement, and impact of ideological differences in shaping public opinion, both within and across linguistic and cultural boundaries. This area highlights the interplay between technology, political behavior, and societal cohesion in an increasingly interconnected world.
 
-# Higlighted Publications
+# Highlighted Publications
 
 ## Ideology Prediction
 {% include feature_row id="project_1" %}

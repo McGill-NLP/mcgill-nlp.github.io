@@ -1,0 +1,26 @@
+<div class="{{ include.type | default: 'list' }}__item">
+    <article class="highlighted-publication-card" itemscope itemtype="https://schema.org/CreativeWork">
+
+        <h2 class="highlighted-publication-title" itemprop="headline">
+            <a href="{{ post.link }}">{{ post.title }}</a>
+        </h2>
+
+        {% if post.excerpt %}
+        <div class="highlighted-publication-excerpt" itemprop="description">
+            {{ post.excerpt | markdownify }}
+        </div>
+        {% endif %}
+
+        <div class="highlighted-publication-venue">
+            {% if post.venue_full %}
+            {{ post.venue_full }}
+            {% elsif post.venue %}
+            {{ post.venue }}
+            {% endif %}
+            ({{ post.date | date: "%Y" }})
+        </div>
+
+        {% include display-publication-links.html pub=post%}
+    </article>
+</div>
+<div class="highlighted-publications-spacing"></div>

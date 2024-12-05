@@ -694,3 +694,14 @@ Hao Yu:
   - label: LinkedIn
     url: https://www.linkedin.com/in/haoy/
 
+
+Ubisoft:
+  name: Ubisoft
+  avatar: /assets/images/bio/ubisoft.svg
+  auto_update_publications: false
+  current_role:
+    type: Collaborator
+    title: Professor
+    affiliation: 
+    research_directions:
+    - online-toxicity

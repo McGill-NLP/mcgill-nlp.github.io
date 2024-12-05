@@ -1,14 +1,15 @@
 <article class="publication-card" itemscope itemtype="https://schema.org/CreativeWork">
 
     {% if post.thumbnail %}
-        {% assign currentYear = 'now' | date: "%Y" %}
-        {% assign postYear = post.date | date: "%Y" %}
-        {% if postYear == currentYear %}
-        {% assign loading = "eager" %}
-        {% else %}
-        {% assign loading = "lazy" %}
-        {% endif %}
-        <img src="{{ post.thumbnail | relative_url }}" class="publication-thumbnail" loading="{{ loading }}" alt="A thumbnail that highlights the contribution of the paper">
+    {% assign currentYear = 'now' | date: "%Y" %}
+    {% assign postYear = post.date | date: "%Y" %}
+    {% if postYear == currentYear %}
+    {% assign loading = "eager" %}
+    {% else %}
+    {% assign loading = "lazy" %}
+    {% endif %}
+    <img src="{{ post.thumbnail | relative_url }}" class="publication-thumbnail" loading="{{ loading }}"
+        alt="A thumbnail that highlights the contribution of the paper">
     {% endif %}
 
     <h2 class="publication-title" itemprop="headline">
