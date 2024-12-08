@@ -32,12 +32,12 @@ We are a group of faculty members, researchers and students affiliated with McGi
 {% include feature_row id="row_code" type="right" %}
 
 
-# Support Complex Data Lab
+<!-- # Support Complex Data Lab
 {: .text-center}
 
 Financial support for the Complex Data Lab's research has come from CIFAR, Mila, and XXX.
 
-Please make a [donation](xxx) to the Complex Data Lab. Your support plays an essential role in sustaining the quality, independence, and impact of our work.
+Please make a [donation](xxx) to the Complex Data Lab. Your support plays an essential role in sustaining the quality, independence, and impact of our work. -->
 
 <br>
 
