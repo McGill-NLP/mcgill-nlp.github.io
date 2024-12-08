@@ -9,23 +9,7 @@ header:
 excerpt: "Our team collaborates with game companies like Ubisoft to develop responsible, real-time, human-in-the-loop AI systems for chat toxicity detection, creating safer online gaming communities."
 logo_image_path: /assets/images/home/TOG_logo-light.png
 logo_dark_image_path: /assets/images/home/TOG_logo-dark.png
-one-liner: "Building real-time, human-in-the-loop systems to foster healthier gaming communities, partnering with industry leaders."
-
-projects:
-  - title: "Game on, Hate off"
-    excerpt: "While game companies are addressing the call to reduce toxicity and promote player health, the need to understand toxicity trends across time is important. With a reliable toxicity detection model (average precision of 0.95), we apply our model to eight months’ worth of in-game chat data, offering visual insights into toxicity trends for Rainbow Six Siege and For Honor, two games developed by Ubisoft. Ultimately, this study serves as a foundation for future research in creating more inclusive and enjoyable online gaming experiences."
-    url: https://dl.acm.org/doi/10.1145/3675805
-     
-  - title: "ToxBuster"
-    alt: "ToxBuster"
-    image_path: /assets/images/research_directions/online-toxicity/toxbuster.jpg
-    excerpt: "A simple and scalable model that reliably detects toxic content in real-time for a line of chat by including chat history and metadata. ToxBuster consistently outperforms conventional toxicity models across popular multiplayer games, including Rainbow Six Siege, For Honor, and DOTA 2. We conduct an ablation study to assess the importance of each model component and explore ToxBuster’s transferability across the datasets. Furthermore, we showcase ToxBuster’s efficacy in post-game moderation, successfully flagging 82.1% of chat-reported players at a precision level of 90.0%. Additionally, we show how an additional 6% of unreported toxic players can be proactively moderated."
-    url: "https://aclanthology.org/2023.findings-emnlp.663/"
-  - title: "ToxPlainer"
-    alt: "ToxPlainer"
-    image_path: /assets/images/research_directions/online-toxicity/toxplainer.jpg
-    excerpt: "Identity biases arise commonly from annotated datasets, can be propagated in language models and can cause further harm to marginal groups. Existing bias benchmarking datasets are mainly focused on gender or racial biases and are made to pinpoint which class the model is biased towards. They also are not designed for the gaming industry, a concern for models built for toxicity detection in videogames’ chat."
-    url: https://aclanthology.org/2023.emnlp-industry.26/
+one-liner: How can we build systems to foster healthier gaming communities?
 
 logos:
   - image: /assets/images/logo/ubisoft-la-forge.png
@@ -38,12 +22,11 @@ logos:
     name: Mitacs
 ---
 
-Toxic and harmful speech online is more than just unpleasant; it has widespread social and economic repercussions, particularly as it permeates social media and gaming platforms. In gaming, where toxicity affects 75% of young players, this behavior harms mental health, alienates communities, and even reduces player engagement and spending, which impacts the industry’s bottom line. Beyond financial losses, unchecked toxicity risks fostering real-world violence and inciting harmful social behaviors. Despite advances in detection methods, including AI-driven moderation, the ever-evolving nature of toxic language poses significant challenges to companies and communities alike. Addressing this problem isn’t just about improving user experience—it’s essential for maintaining safe, inclusive, and healthy online spaces.
+Toxic and harmful speech online is more than just unpleasant; it has widespread social and economic repercussions, particularly as it permeates social media and gaming platforms. In gaming, where toxicity affects 75% of young players, this behavior harms mental health, alienates communities, and even reduces player engagement and spending, which impacts the industry’s bottom line. Beyond financial losses, unchecked toxicity risks fostering real-world violence and inciting harmful social behaviors. Despite advances in detection methods, including AI-driven moderation, the ever-evolving nature of toxic language poses significant challenges to companies and communities alike. Addressing this problem isn’t just about improving user experience — it’s essential for maintaining safe, inclusive, and healthy online spaces.
 
 
 # Selected Publications
 
-<!-- {% include feature_row id="projects"%} -->
 
 {% include posts-highlighted-publications.html taxonomy="online-toxicity" %}
 
