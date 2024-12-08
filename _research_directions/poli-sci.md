@@ -6,10 +6,10 @@ order: 3
 header:
     overlay_filter: linear-gradient(rgba(157, 110, 219, 0.3), rgba(157, 110, 219, 1))
     overlay_image: /assets/images/research_directions/poli-sci/social_media.webp
-excerpt: "Our team creates tools and datasets to foster a safe, open space for online public discourse. We hope to empower researchers and the public to understand and navigate today’s digital landscape."
+excerpt: Our team creates tools and datasets to foster a safe, open space for online public discourse. We hope to empower researchers and the public to understand and navigate today’s digital landscape.
 logo_image_path: /assets/images/home/POM_logo-light.png
 logo_dark_image_path: /assets/images/home/POM_logo-dark.png
-one-liner: "Investigating how digital platforms and emerging AI technologies shape political discourse, social polarization, and information ecosystems through data-driven computational social science"
+one-liner: How can we use AI to understand the exchange of information and ideas, and to create positive, societally beneficial information ecosystems?"
 
 ---
 
