@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Frontiers
 layout: splash
 category: temporal-graph-learning
@@ -40,4 +40,4 @@ The integration of LLMs with temporal graphs enhances reasoning and representati
 {% include feature_row id="project_2" type="left" %}
 {% include feature_row id="project_3" type="right" %}
 
-# Funding -->
+# Funding --> -->
