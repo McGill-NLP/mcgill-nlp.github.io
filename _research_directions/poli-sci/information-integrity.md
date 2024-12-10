@@ -22,12 +22,7 @@ The information integrity project explores methods to enhance the accuracy and r
 # Selected Publications
 {% include posts-highlighted-publications.html taxonomy="information-integrity" %}
 
-# Selected Ongoing Projects
-
-## Steward AI
-The internet is full of dubious information, and it can be difficult and time-consuming to assess the veracity of everything we encounter. In this project, we are building towards an assistant that can help everyone validate information, facilitate learning, avoid harmful manipulation, and help bridge gaps to interact more productively with different groups and cultures.
-
-## Deepfake
+# Deepfake Project
 Our survey experiment on the effects of deepfakes.
 
 
