@@ -9,7 +9,7 @@ header:
 excerpt: "Our team combines AI and criminology expertise to develop ethical, human-centered tools that detect and counteract sex trafficking. Driven by a commitment to responsible research, we aim to bridge technology gaps and support victims in Canada and beyond."
 logo_image_path: /assets/images/home/COM_logo-light.png
 logo_dark_image_path: /assets/images/home/COM_logo-dark.png
-one-liner: "Developing responsible AI solutions to analyze suspicious patterns in online escort markets to generate evidence for equipping survivors and enabling justice." 
+one-liner: "How to analyze large online markets and build victim-centered tools for countering sex-trafficking?" 
 
 ---
 
