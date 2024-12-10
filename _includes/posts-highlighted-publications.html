@@ -3,13 +3,7 @@
 <div>
   {%- for post in site.categories[include.taxonomy] -%}
   {%- unless post.hidden -%}
-  {% if include.author %}
-  {% if post.author == include.author %}
   {% include display-highlighted-publications.html %}
-  {%- endif %}
-  {%- else %}
-  {% include display-highlighted-publications.html %}
-  {%- endif %}
   {%- endunless -%}
   {%- endfor -%}
 </div>
