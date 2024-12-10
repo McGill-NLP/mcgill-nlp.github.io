@@ -8,7 +8,7 @@ header:
     overlay_image: /assets/images/research_directions/temporal-graph-learning/banner.webp
 logo_image_path: /assets/images/home/TGL_logo-light.png
 logo_dark_image_path: /assets/images/home/TGL_logo-dark.png
-one-liner: "Advancing the frontier of machine learning on time-evolving graphs to better model and predict dynamic real-world networks and relationships."
+one-liner: "When networks breathe, pulse, and transform, what fundamental truths about complexity and connection can machine learning unveil?"
 excerpt: "Our team brings together experts from fields like AI, data mining, and public health to improve how we analyze networks that change over time. We’re focused on creating better ways to predict outcomes and make decisions, especially in areas like fraud detection and disease tracking."
 
 ---

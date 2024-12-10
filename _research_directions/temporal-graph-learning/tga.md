@@ -4,8 +4,9 @@ layout: splash
 category: temporal-graph-learning
 order: 2
 header:
-    overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))
+    overlay_filter: 
     overlay_image: /assets/images/research_directions/temporal-graph-learning/TGA.png
+    overlay_size: "contain"
 excerpt: ""
 
 ---

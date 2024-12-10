@@ -9,7 +9,8 @@ header:
     overlay_size: "contain"
 excerpt: ""
 
-redirect_to: https://tgb.complexdatalab.com/
+
 ---
 
+TGB is a collection of challenging and diverse benchmark datasets for realistic, reproducible, and robust evaluation for machine learning on temporal graphs. TGB includes both dynamic link and node property prediction tasks and an automated pipeline from dataset downloading, dataloading, evaluation and submission to the TGB leaderboard. Learn more [here](https://tgb.complexdatalab.com/)
 
