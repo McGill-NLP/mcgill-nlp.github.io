@@ -116,6 +116,25 @@ Ines Arous:
   - label: Scholar
     url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
 
+David Austin:
+  name: David Austin
+  role: Master
+  username: david.austin
+  semantic_scholar_id: '2299329319'
+  avatar: /assets/images/bio/David Austin.jpg
+  advisor: Jackie Cheung
+  date: Fall 2024
+  bio: NLP, Pragmatics
+  alumni: false
+  links:
+  - label: Website
+    url: https://davaus80.github.io/
+  - label: Twitter
+    url: https://x.com/DavidAustinCS
+  - label: GitHub
+    url: https://github.com/davaus80
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=c-iLCzEAAAAJ&hl=en
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
