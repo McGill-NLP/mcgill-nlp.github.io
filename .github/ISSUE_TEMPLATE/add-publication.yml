@@ -1,9 +1,9 @@
-name: Add publication manually 📝
+name: Add a single publication by manully filling information 📝
 description:  |
-  Fill this form to add a publication on the website.
+  Fill this form to add a single publication to the website. You will need to manually specify the details.
   
 title: "[Add publication]"
-labels: ["automatic-add-update-publication"]
+labels: ["automatic-add-publication"]
 assignees:
   - octocat
 body:
