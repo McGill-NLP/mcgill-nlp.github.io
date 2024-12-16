@@ -36,6 +36,8 @@ David Adelani:
     url: https://twitter.com/davlanade
   - label: GitHub
     url: https://github.com/dadelani
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=W9sTkS0AAAAJ
 
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
@@ -116,6 +118,25 @@ Ines Arous:
   - label: Scholar
     url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
 
+David Austin:
+  name: David Austin
+  role: Master
+  username: david.austin
+  semantic_scholar_id: '2299329319'
+  avatar: /assets/images/bio/David Austin.jpg
+  advisor: Jackie Cheung
+  date: Fall 2024
+  bio: NLP, Pragmatics
+  alumni: false
+  links:
+  - label: Website
+    url: https://davaus80.github.io/
+  - label: Twitter
+    url: https://x.com/DavidAustinCS
+  - label: GitHub
+    url: https://github.com/davaus80
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=c-iLCzEAAAAJ&hl=en
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
@@ -1002,6 +1023,23 @@ Hadia Samil:
   date: September 2024
   alumni: false
   links: []
+Fabian David Schmidt:
+  name: Fabian David Schmidt
+  role: Intern
+  username: fabian-david.schmidt@mila.quebec
+  semantic_scholar_id: '2067934339'
+  avatar: /assets/images/bio/Fabian David Schmidt.jpg
+  advisor: David Ifeoluwa Adelani
+  date: Sep 2024
+  bio: PhD Candidate at the University of Würzburg working on multilinguality & multimodality
+  alumni: false
+  links:
+  - label: Website
+    url: https://fdschmidt93.github.io
+  - label: Twitter
+    url: https://twitter.com/fdschmidt
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=U_ukcNYAAAAJ&hl=de
 Nooshin Soheililangroodi:
   name: Nooshin Soheililangroodi
   role: Undergraduate

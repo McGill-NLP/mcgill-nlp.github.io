@@ -1,29 +1,26 @@
-name: Add or update publication manually 📝
+name: Add a single publication by manully filling information 📝
 description:  |
-  Fill this form to add or update a publication on the website.
+  Fill this form to add a single publication to the website. You will need to manually specify the details.
   
-title: "[Add/update publication]"
-labels: ["automatic-add-update-publication"]
+title: "[Add publication]"
+labels: ["automatic-add-publication"]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
       value: |
-        If you choose to add a publication, fill out as many fields as possible. If you choose to update an existing publication, only fill out the required and the fields that you want to modify. Leave everything else blank.
-
-        When updating an existing publication, the automated script will try to find a file at `_posts/papers/<year>-<month>-<day>-<shorthand>.md` and update that. Thus, make sure you are entering all 4 fields correctly.
-
+        If you choose to add a publication, fill out as many fields as possible.
+        
         This form will automatically generate a PR that will be reviewed by the maintainers.
 
   - type: dropdown
     id: action
     attributes:
       label: Action
-      description: What do you want to do?
+      description: Right now, only *Add publication* is supported. A form will be eventually available for updating publications.
       options:
         - "Add publication"
-        - "Update publication"
     validations:
       required: true
   
@@ -231,8 +228,6 @@ body:
       label: Abstract
       description: |
         The abstract of the paper. Please do not use `###`.
-
-        Note: If you select "Update publication", this field is completely ignored.
       placeholder: >
         Our paper introduces recursion. We show it achieves state-of-the-art results on MNIST. We  believe it is all you need because...
     validations:
