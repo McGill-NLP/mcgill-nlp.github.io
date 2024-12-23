@@ -47,8 +47,21 @@ Here, we automatically collect papers (md files under `_posts`). Within these md
 
 E.g. For the topic _Temporal Graph Applications_, we use the key `TGA`. Hence, we add `TGA` as one of the categories for a paper we want to shown on the _Temporal Graph Applications_ page.
 
+Note, we need an extra field `excerpt` within the md file of the paper. This is the custom text shown for the paper. When `adding` or `removing` new selected publications, it is recommended to:
 
+1. Locate the markdown file for the paper.
+  - If you do not know when the paper was published / added to the our lab paper crawler:
+    1. Use the website search function to query the paper (search -> title of the publication)
+    2. Click on the appropriate page
+    3. Use the url (at the end) to find the appropriate md file. (e.g. https://www.complexdatalab.com/publications/tgb/2406.09639/), the md file would end with 2406.09639. 
+  - If you do know:
+    1. All papers are done with YYYY-MM-DD. If unknown MM-DD, it defaults to JAN-01. 
 
+2. Update the categories to include / remove the `RESEARCH DIRECTION` or `TOPIC`. 
+
+3. Update the excerpt with the desired text.
+
+4. Add any relevant links for the paper. To see how links are represented, you can look at `_includes/display-publication-links.html`.
 
 
 
