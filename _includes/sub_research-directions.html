@@ -18,11 +18,11 @@
 {% endif %}
 {% endif %}
 
-<div class="sub-research-directions {{ gallery_layout }} {{ include.class }}">
+<div class="sub-research-directions__wrapper  {{ gallery_layout }}">
     {% for direction in sorted_directions %}
-    <div class="direction-item">
+    <div class="sub-research-directions-item">
         <a href="{{ direction.url | relative_url }}" title="{{ direction.title }}">
-            <div class="direction-image" style="
+            <div class="sub-direction-image" style="
                    background-image:
                    {% if direction.header.overlay_filter %} {{ direction.header.overlay_filter }},{% endif %}
                    url('{{ direction.header.overlay_image | relative_url }}');
@@ -30,9 +30,17 @@
                    background-size: {{ direction.header.overlay_size }};
                    {% endif %}
                    ">
-                <div class="direction-title">
+
+
+                <div class="sub-direction-title">
                     <h2>{{ direction.title }}</h2>
                 </div>
+                {% if direction.one-liner %}
+                <div class="sub-direction-excerpt">
+                    {{ direction.one-liner | markdownify }}
+                </div>
+                {% endif %}
+
             </div>
         </a>
     </div>

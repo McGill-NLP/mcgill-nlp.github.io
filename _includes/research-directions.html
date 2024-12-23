@@ -12,23 +12,18 @@
   <div class="research-directions-item">
     <a href="{{ r.url | relative_url }}" title="{{r.title}}">
 
-      <div class="direction-image" style="background-image: url('{{ r.header.overlay_image | relative_url }}');
+      <div class="direction-image" style="
+      background-image: 
       {% if r.header.overlay_filter %}
-        background-image: {{ r.header.overlay_filter }}, url('{{ r.header.overlay_image | relative_url }}');
-      {% endif %}">
-        <div class="direction-header">
-          {% if r.logo_image_path %}
-          <div class="research-directions-logo">
-            {% if r.logo_dark_image_path %}
-            <img loading="lazy" src="{{ r.logo_image_path | relative_url }}" class="theme-image light-image"
-              alt="{% if r.alt %}{{ r.alt }}{% endif %}">
-            <img loading="lazy" src="{{ r.logo_dark_image_path | relative_url }}" class="theme-image dark-image"
-              alt="{% if r.alt %}{{ r.alt }}{% endif %}">
-            {% else %}
-            <img loading="lazy" src="{{ r.logo_image_path | relative_url }}" alt="{{ r.title }}">
-            {% endif %}
-          </div>
-          {% endif %}
+      {{ r.header.overlay_filter }},
+      {% endif %}
+      url('{{ r.header.overlay_image | relative_url }}');
+      {% if r.header.overlay_size %} 
+      background-size: {{r.header.overlay_size }}; 
+      {% endif %}
+      ">
+        <div class="direction-title">
+
           <h2>{{ r.title }}</h2>
         </div>
         {% if r.one-liner %}

@@ -54,7 +54,6 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
-  - jekyll-redirect-from
 
 author:
   name   : "Complex Data Lab Member(s)"
@@ -148,6 +147,7 @@ defaults:
       share: true
 
 
+
 category_archive:
   type: liquid
   path: /categories/
@@ -160,3 +160,9 @@ collections:
   research_directions:
     output: true
     permalink: /:path/
+
+# Performance
+compress_html:
+  clippings: all
+  # ignore:
+  #   envs: development

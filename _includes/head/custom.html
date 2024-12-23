@@ -63,4 +63,23 @@
     updateNodesRel(theme);
 
 </script>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the current URL path
+        const path = window.location.pathname;
+        const pathSegments = path.split('/').filter(segment => segment);
+
+        // Update breadcrumb positions dynamically
+        const breadcrumbItems = document.querySelectorAll('.breadcrumb-item');
+        breadcrumbItems.forEach((item, index) => {
+            const position = item.querySelector('[itemprop="position"]');
+            if (position) {
+                position.content = (index + 1).toString();
+            }
+        });
+    });
+</script>
+
+
 {% endif %}

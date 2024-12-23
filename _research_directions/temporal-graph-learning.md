@@ -6,17 +6,12 @@ order: 1
 header:
     overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1))
     overlay_image: /assets/images/research_directions/temporal-graph-learning/banner.webp
-logo_image_path: /assets/images/home/TGL_logo-light.png
-logo_dark_image_path: /assets/images/home/TGL_logo-dark.png
-one-liner: "When networks breathe, pulse, and transform, what fundamental truths about complexity and connection can machine learning unveil?"
-excerpt: "Our team brings together experts from fields like AI, data mining, and public health to improve how we analyze networks that change over time. We’re focused on creating better ways to predict outcomes and make decisions, especially in areas like fraud detection and disease tracking."
+one-liner: "How can we advance machine learning methods to more effectively model and predict dynamic real-world networks and relationships within these time-evolving graphs?"
+excerpt: "Our team comprises experts in AI, data mining, social science, and public health, dedicated to advancing the analysis, prediction, and understanding of dynamic networks. We specialize in developing innovative models and creating realistic, robust benchmarks for state-of-the-art models and real-world applications of temporal graphs. Our work encompasses areas such as recommendation systems, fraud detection, disease modeling, and more."
 
 ---
 
-
-{% include feature_row id="row_intro" type="left" %}
-
-Temporal graph learning is crucial for analyzing dynamic networks that evolve over time, such as social media or financial systems. Unlike static graphs, these networks require modeling both the temporal and structural features, which presents unique challenges. However, incorporating time-based information enhances the predictive power of graph algorithms, making them valuable for applications like recommendation systems, fraud detection, and disease modeling. As interest in this area grows, it spans fields like machine learning, AI, and public health. Temporal graph learning bridges gaps across disciplines and opens up new opportunities for solving real-world problems
+Time-evolving graphs, also known as temporal networks, are a crucial area of study in network science and are ubiquitous in the real world. They represent systems where entities (nodes) and their interactions (edges) change over time. Understanding and predicting the behavior of these dynamic networks are essential for various applications, from tracking disease spread to detecting fraudulent activities and enhancing recommendation systems. However, modeling and analyzing time-evolving graphs presents significant challenges due to their complex and ever-changing nature. Therefore, there is a pressing need to develop advanced machine learning techniques that can effectively handle the unique characteristics of temporal networks.
 
 # Topics
 

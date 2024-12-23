@@ -7,8 +7,6 @@ header:
     overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.4))
     overlay_image: /assets/images/research_directions/online-toxicity/dystopian_city.webp
 excerpt: "Our team collaborates with game companies like Ubisoft to develop responsible, real-time, human-in-the-loop AI systems for chat toxicity detection, creating safer online gaming communities."
-logo_image_path: /assets/images/home/TOG_logo-light.png
-logo_dark_image_path: /assets/images/home/TOG_logo-dark.png
 one-liner: How can we build systems to foster healthier gaming communities?
 
 logos:
@@ -26,7 +24,6 @@ Toxic and harmful speech online is more than just unpleasant; it has widespread 
 
 
 # Selected Publications
-
 
 {% include posts-highlighted-publications.html taxonomy="online-toxicity" %}
 
