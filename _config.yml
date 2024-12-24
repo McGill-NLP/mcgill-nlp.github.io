@@ -106,6 +106,7 @@ defaults:
         - no-sidebar
         - wide
       author_profile: false
+
   # _posts/blog
   - scope:
       path: _posts/blog
@@ -119,6 +120,7 @@ defaults:
       related: false
       classes:
         - wide
+
   # _posts/papers
   - scope:
       path: _posts/papers
@@ -129,6 +131,7 @@ defaults:
         - wide
       author_profile: true
       share: true
+
   # _posts/teaching
   - scope:
       path: _posts/teaching
@@ -138,7 +141,8 @@ defaults:
       classes:
         - no-sidebar
       author_profile: false
-      share: true
+
+
   # _projects
   - scope:
       path: ""
@@ -149,6 +153,7 @@ defaults:
         - no-sidebar
       author_profile: false
       share: true
+
 
 
 

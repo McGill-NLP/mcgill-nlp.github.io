@@ -1,28 +1,30 @@
 <!-- _includes/breadcrumbs.html -->
-<nav class="breadcrumbs">
-    <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
-        <!-- Home -->
-        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="{{ site.url }}" itemprop="item">
-                <span itemprop="name">Home</span>
-            </a>
-            <meta itemprop="position" content="1" />
-        </li>
+<div class="breadcrumb-wrapper">
+    <nav class="breadcrumbs">
+        <ol class="breadcrumb-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+            <!-- Home -->
+            <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="{{ site.url }}" itemprop="item"> Home
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
 
-        <!-- Previous page (if exists) -->
-        {% if page.parent %}
-        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="{{ site.url }}/{{ page.parent | slugify }}" itemprop="item">
-                <span itemprop="name">{{ page.parent }}</span>
-            </a>
-            <meta itemprop="position" content="2" />
-        </li>
-        {% endif %}
+            <!-- Previous page (if exists) -->
+            {% if page.parent %}
+            <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="{{ site.url }}/{{ page.parent | slugify }}" itemprop="item">
+                    {{ page.parent }}
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+            {% endif %}
 
-        <!-- Current page -->
-        <li class="breadcrumb-item current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <span itemprop="name">{{ page.title }}</span>
-            <meta itemprop="position" content="{% if page.parent %}3{% else %}2{% endif %}" />
-        </li>
-    </ol>
-</nav>
+            <!-- Current page -->
+            <li class="breadcrumb-item current" itemprop="itemListElement" itemscope
+                itemtype="https://schema.org/ListItem">
+                {{ page.title }}
+                <meta itemprop="position" content="{% if page.parent %}3{% else %}2{% endif %}" />
+            </li>
+        </ol>
+    </nav>
+</div>

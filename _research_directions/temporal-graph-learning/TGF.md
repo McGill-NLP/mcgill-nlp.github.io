@@ -7,7 +7,7 @@ header:
     overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))
     overlay_image: /assets/images/research_directions/temporal-graph-learning/TGB.webp
 excerpt: ""
-
+parent: Temporal Graph Learning
 
 project_1:
   - title: "Foundation Model"
@@ -28,6 +28,8 @@ project_3:
     excerpt: ""
 
 ---
+
+{% include breadcrumbs.html %}
 
 This research direction focuses on advancing the frontier of temporal graph analysis by integrating Temporal Graph Foundation Models (TGFM), Large Language Models (LLMs), and multi-modal learning. Temporal graphs, which capture the dynamic relationships and evolving structures of real-world networks over time, are crucial for understanding complex, time-sensitive systems. By combining these graphs with foundation models, we can leverage large-scale pre-training to enable transfer learning and scalable solutions across a range of temporal tasks.
 

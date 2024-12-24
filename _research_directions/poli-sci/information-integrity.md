@@ -17,7 +17,12 @@ projects:
   - title: "Deepfake"
     alt: "Deepfake"
     excerpt: ""
+
+parent: Politics & Online Media
+
 ---
+
+{% include breadcrumbs.html %}
 
 The information integrity project explores methods to enhance the accuracy and reliability of online information within the context of digital platforms and AI technologies. By analyzing how information is created, shared, and verified on social media and other digital ecosystems, we aim to develop tools and frameworks that support the identification of misinformation, reduce its spread, and bolster public trust in verified sources. This project contributes to our broader goal of understanding and mitigating the effects of digital misinformation on political discourse and social cohesion.
 

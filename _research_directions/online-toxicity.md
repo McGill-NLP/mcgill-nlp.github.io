@@ -20,6 +20,8 @@ logos:
     name: Mitacs
 ---
 
+{% include breadcrumbs.html %}
+
 Toxic and harmful speech online is more than just unpleasant; it has widespread social and economic repercussions, particularly as it permeates social media and gaming platforms. In gaming, where toxicity affects 75% of young players, this behavior harms mental health, alienates communities, and even reduces player engagement and spending, which impacts the industry’s bottom line. Beyond financial losses, unchecked toxicity risks fostering real-world violence and inciting harmful social behaviors. Despite advances in detection methods, including AI-driven moderation, the ever-evolving nature of toxic language poses significant challenges to companies and communities alike. Addressing this problem isn’t just about improving user experience — it’s essential for maintaining safe, inclusive, and healthy online spaces.
 
 

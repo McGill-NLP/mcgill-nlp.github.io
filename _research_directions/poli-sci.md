@@ -11,6 +11,8 @@ one-liner: How can we use AI to understand the exchange of information and ideas
 
 ---
 
+{% include breadcrumbs.html %}
+
 The current digital age fundamentally changes how we as individuals and a society collect and distribute information. With these changes come powerful new approaches to influence the public agenda. However, the quality of shared information varies widely, and can have wide-reaching consequences. As the sophistication and accessibility of AI tools continue to expand, the authenticity of digital content has been increasingly called into question. Our team stands at the forefront of the challenge to safeguard digital space, as we assess the nature of content and how it proliferates online.
 
 # Topics
