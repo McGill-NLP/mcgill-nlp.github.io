@@ -617,6 +617,16 @@ Maximilian Puelma Touzel:
   - label: LinkedIn
     url: https://www.linkedin.com/in/maximilian-puelma-touzel-b170595/
 
+Ubisoft:
+  name: Ubisoft
+  avatar: /assets/images/bio/ubisoft.svg
+  auto_update_publications: false
+  current_role:
+    type: Collaborator
+    title: Professor
+    affiliation:
+    research_directions:
+    - online-toxicity
 Junhao Wang:
   name: Junhao Wang
   avatar: /assets/images/bio/junhao.wang.avatar.webp
@@ -695,13 +705,15 @@ Hao Yu:
     url: https://www.linkedin.com/in/haoy/
 
 
-Ubisoft:
-  name: Ubisoft
-  avatar: /assets/images/bio/ubisoft.svg
+Svetlana Zhuk:
+  name: Svetlana Zhuk
   auto_update_publications: false
   current_role:
-    type: Collaborator
-    title: Professor
-    affiliation: 
-    research_directions:
-    - online-toxicity
+    type: Student
+    title: Master
+    start_date: May 2024
+    affiliation: Mila, University of Montreal
+  avatar: /assets/images/bio/Svetlana Zhuk.jpg
+  social_media_links:
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/svetazhuk/
