@@ -29,8 +29,9 @@ The information integrity project explores methods to enhance the accuracy and r
 # Selected Publications
 {% include posts-highlighted-publications.html taxonomy="information-integrity" %}
 
-# Deepfake Project
-Our survey experiment on the effects of deepfakes.
+
+<!-- # Deepfake Project
+Our survey experiment on the effects of deepfakes. -->
 
 
 <!-- # Funding -->
