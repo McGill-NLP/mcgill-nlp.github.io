@@ -804,18 +804,18 @@ Marius Mosbach:
   role: Postdoc
   semantic_scholar_id: '51510489'
   avatar: /assets/images/bio/Marius Mosbach.avatar.webp
-  date: Mar 2024
+  date: March 2024
   bio: Working on analysis, adaptation, and generalization abilities of language models
   alumni: false
   links:
   - label: Website
-    url: https://mmarius.github.io/
+    url: https://mariusmosbach.com/
   - label: Twitter
-    url: https://twitter.com/mariusmosbach
+    url: https://bsky.app/profile/mariusmosbach.bsky.social
   - label: Scholar
-    url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
-
+    url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ&hl=en
   advisor: Siva Reddy
+  username: marius.mosbach
 Caleb Moses:
   name: Caleb Moses
   role: PhD
