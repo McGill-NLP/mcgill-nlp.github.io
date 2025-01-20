@@ -14,13 +14,12 @@ If you're interested in joining us for an **internship**, **independent project*
 
 To join our lab as a Masters or PhD student, you **must** complete the following steps:
 
-1. Apply to either:
+1. Apply to [Mila](https://mila.quebec/en/prospective-students-and-postdocs/research-programs/request-supervisor)
+2. Apply to either:
    - [McGill Computer Science](https://www.cs.mcgill.ca/graduate/future/applying/)
    - [McGill Linguistics](https://www.mcgill.ca/linguistics/graduate/graduate-admissions)
 
-   **Note**: Application to one of these programs is mandatory.
-
-2. We highly recommend also applying to [Mila](https://mila.quebec/en/research-masters-and-phd)
+   **Note**: Application to one of these programs is mandatory (study permit/visa will be issued by McGill).
 
 Please ensure you follow the application guidelines and deadlines for each institution. 
 

@@ -36,6 +36,8 @@ David Adelani:
     url: https://twitter.com/davlanade
   - label: GitHub
     url: https://github.com/dadelani
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=W9sTkS0AAAAJ
 
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
@@ -116,6 +118,25 @@ Ines Arous:
   - label: Scholar
     url: https://scholar.google.com/citations?user=RWXHLa8AAAAJ&hlr=UbcNXvQAAAAJ&hl=en
 
+David Austin:
+  name: David Austin
+  role: Master
+  username: david.austin
+  semantic_scholar_id: '2299329319'
+  avatar: /assets/images/bio/David Austin.jpg
+  advisor: Jackie Cheung
+  date: Fall 2024
+  bio: NLP, Pragmatics
+  alumni: false
+  links:
+  - label: Website
+    url: https://davaus80.github.io/
+  - label: Twitter
+    url: https://x.com/DavidAustinCS
+  - label: GitHub
+    url: https://github.com/davaus80
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=c-iLCzEAAAAJ&hl=en
 Dzmitry Bahdanau:
   name: Dzmitry Bahdanau
   role: Adjunct Faculty
@@ -168,12 +189,13 @@ Mehar Bhatia:
     url: https://meharbhatia.github.io/
 Laurestine Bradford:
   name: Laurestine Bradford
-  role: PhD
+  role: Intern
   username: laurestine.bradford
   advisor: Siva Reddy, Tim O'Donnell
   date: Jan 2022
   bio: Language in math and connecting syntax to semantics
-  alumni: false
+  new_role: back to McGill
+  alumni: true
   avatar: /assets/images/bio/Laurestine Bradford.avatar.webp
   links:
   - label: Website
@@ -213,12 +235,13 @@ Meng Cao:
 
 Xuanda Chen:
   name: Xuanda Chen
-  role: PhD
+  role: Intern
   advisor: Siva Reddy, Timothy J. O'Donnell
   avatar: /assets/images/bio/Xuanda Chen.avatar.webp
   date: Fall 2022
   bio: Works on language model probing
-  alumni: false
+  new_role: back to McGill
+  alumni: true
   links:
   - label: Website
     url: https://xdchen2.github.io/
@@ -613,6 +636,16 @@ Ben LeBrun:
   - label: Scholar
     url: https://scholar.google.ca/citations?user=QTIN18wAAAAJ&hl=en
 
+Senyu Li:
+  name: Senyu Li
+  role: PhD
+  username: senyu.li
+  advisor: David Ifeoluwa Adelani
+  date: Fall 2024
+  alumni: false
+  links:
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=lyhV_fgAAAAJ
 Zichao Li:
   name: Zichao Li
   role: PhD
@@ -722,7 +755,8 @@ Aristides Milios:
   advisor: Dr. Siva Reddy
   date: Fall 2021
   bio: Interested in imbuing large language models with world knowledge
-  alumni: false
+  new_role: PhD at Polytechnique Montreal
+  alumni: true
   links:
   - label: Website
     url: https://atmilios.com/
@@ -770,18 +804,18 @@ Marius Mosbach:
   role: Postdoc
   semantic_scholar_id: '51510489'
   avatar: /assets/images/bio/Marius Mosbach.avatar.webp
-  date: Mar 2024
+  date: March 2024
   bio: Working on analysis, adaptation, and generalization abilities of language models
   alumni: false
   links:
   - label: Website
-    url: https://mmarius.github.io/
+    url: https://mariusmosbach.com/
   - label: Twitter
-    url: https://twitter.com/mariusmosbach
+    url: https://bsky.app/profile/mariusmosbach.bsky.social
   - label: Scholar
-    url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ
-
+    url: https://scholar.google.com/citations?user=O7RwHEkAAAAJ&hl=en
   advisor: Siva Reddy
+  username: marius.mosbach
 Caleb Moses:
   name: Caleb Moses
   role: PhD
@@ -808,15 +842,32 @@ Timothy J. O'Donnell:
   avatar: /assets/images/bio/Timothy J. O'Donnell.avatar.webp
   bio: Assistant Professor, Department of Linguistics
 
+Jessica Ojo:
+  name: Jessica Ojo
+  role: Master
+  username: Jessica.Ojo
+  semantic_scholar_id: '2214806280'
+  avatar: /assets/images/bio/Jessica Ojo.jpg
+  advisor: David Adelani
+  date: Fall 2024
+  bio: Works on Multilingual NLP
+  alumni: false
+  links:
+  - label: Twitter
+    url: https://x.com/JessicaOjo__
+  - label: GitHub
+    url: https://github.com/JessicaOjo
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=H7PSf00AAAAJ&hl=en
 Arkil Patel:
   name: Arkil Patel
-  role: Master
+  role: PhD
   username: arkil.patel
   semantic_scholar_id: '1443788809'
   avatar: /assets/images/bio/Arkil Patel.avatar.webp
   advisor: Dzmitry Bahdanau, Siva Reddy
   date: Fall 2022
-  bio: Systematic Generalization, Reasoning using LLMs
+  bio: Generalization in LLMs, Reasoning using LLMs
   alumni: false
   links:
   - label: Website
@@ -901,7 +952,8 @@ Eva Portelance:
   advisor: Timothy J. O'Donnell, Siva Reddy
   date: Winter 2023
   bio: Bridging the gap between AI and cognitive science
-  alumni: false
+  new_role: Assistant Professor at HEC Montreal
+  alumni: true
   links:
   - label: Website
     url: https://evaportelance.github.io/
@@ -971,6 +1023,23 @@ Hadia Samil:
   date: September 2024
   alumni: false
   links: []
+Fabian David Schmidt:
+  name: Fabian David Schmidt
+  role: Intern
+  username: fabian-david.schmidt@mila.quebec
+  semantic_scholar_id: '2067934339'
+  avatar: /assets/images/bio/Fabian David Schmidt.jpg
+  advisor: David Ifeoluwa Adelani
+  date: Sep 2024
+  bio: PhD Candidate at the University of Würzburg working on multilinguality & multimodality
+  alumni: false
+  links:
+  - label: Website
+    url: https://fdschmidt93.github.io
+  - label: Twitter
+    url: https://twitter.com/fdschmidt
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=U_ukcNYAAAAJ&hl=de
 Nooshin Soheililangroodi:
   name: Nooshin Soheililangroodi
   role: Undergraduate
@@ -981,7 +1050,9 @@ Nooshin Soheililangroodi:
   bio: I'm an undergrad CS student at McGill and I'm mostly interested in researching
     about vision-language models.
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: https://github.com/noosh1380
 Karolina Stanczak:
   name: Karolina Stanczak
   role: Postdoc

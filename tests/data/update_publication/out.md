@@ -6,6 +6,7 @@ venue: ABC
 link: https://example.com/paper
 code: https://github.com/McGill-NLP
 categories: Publications
+layout: paper
 tags:
 - Pytorch
 - Dataset

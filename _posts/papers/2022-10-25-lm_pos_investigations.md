@@ -8,7 +8,8 @@ code: https://github.com/kazemnejad/lm_pos_investigations  # link to code (optio
 twitter: https://twitter.com/koustuvsinha/status/1584928673463169025
 thumbnail: /assets/images/papers/lm_pos_investigation.jpg
 venue: EMNLP Findings
-tags: EMNLPlayout: paper
+tags: EMNLP
+layout: paper
 ---
 
 
