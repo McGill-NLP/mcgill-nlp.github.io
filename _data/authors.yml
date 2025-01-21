@@ -292,6 +292,17 @@ Maxime Darrin:
   - label: Website
     url: https://icannos.github.io/
 
+Jonah Dauvet:
+  name: Jonah Dauvet
+  role: Undergraduate
+  username: jonah.dauvet
+  advisor: David Adelani
+  date: Jan 2025
+  bio: Works on Speech Tasks in multilingual NLP
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/jonahdvt
 Yue Dong:
   name: Yue Dong
   role: PhD
