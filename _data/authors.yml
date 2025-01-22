@@ -98,7 +98,7 @@ Kushal Arora:
   role: PhD
   avatar: /assets/images/bio/Kushal Arora.avatar.webp
   advisor: Jackie Cheung
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://kushalarora.github.io/
@@ -255,7 +255,7 @@ Andre Cianflone:
   role: PhD
   avatar: /assets/images/bio/Andre Cianflone.avatar.webp
   advisor: Jackie Cheung
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
