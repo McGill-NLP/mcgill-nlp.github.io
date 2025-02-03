@@ -699,7 +699,7 @@ Andreas Madsen:
   advisor: Siva Reddy
   bio: "Works on NLP Interpretability"
   note: "Co-advised by Sarath Chandar"
-  alumni: false
+  alumni: true
   links:
   - label: "Website"
     url: "https://andreasmadsen.github.io/"
@@ -713,6 +713,7 @@ Andreas Madsen:
     icon: "fas fa-fw fa-graduation-cap"
     url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
 
+  username: andreas.madsen
 Nicholas Meade:
   name: Nicholas Meade
   role: PhD
