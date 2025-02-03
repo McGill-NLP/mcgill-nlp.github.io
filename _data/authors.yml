@@ -572,7 +572,7 @@ Aravind Krishnan:
   date: October 2024
   bio: I'm a master student at Saarland University, my research interests include
     language modeling and interpretability in multimodal settings
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://krishnan-aravind.github.io/
