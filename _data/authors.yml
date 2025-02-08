@@ -1102,6 +1102,16 @@ Ada Tur:
     url: https://github.com/AdaDTur
   - label: Scholar
     url: https://scholar.google.com/citations?user=9td9V50AAAAJ&hl=en&authuser=1
+Vivek Verma:
+  name: Vivek Verma
+  role: Intern
+  username: vivek.verma
+  avatar: /assets/images/bio/Vivek Verma.jpg
+  advisor: David Adelani
+  date: Jan 2025
+  bio: Multilingual NLP
+  alumni: false
+  links: []
 Michelle Yang:
   name: "Michelle Yang"
   role: "Undergraduate"
