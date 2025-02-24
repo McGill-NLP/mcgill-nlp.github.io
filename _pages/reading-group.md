@@ -15,11 +15,13 @@ The current organizers are Cesare Spinoso and Ori Ernst. For more information ab
 
 ## Schedule
 
-For the Winter 2025 semester, the reading group will meet every other week on Fridays at 3PM (with some exceptions to be expected). Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a **tentative schedule** of speakers/topics for the semester. It is **actively updated**. All times are in ET.
+For the Winter 2025 semester, the reading group will meet every other week on **Fridays at 1PM** (with some exceptions to be expected). Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a **tentative schedule** of speakers/topics for the semester. It is **actively updated**. All times are in ET.
 
 | **Date @ Time** | **Speaker(s)** | **Topic** | **More Information** |
 |---|---|---|---|
 | January 31st @ 3PM | Group Discussion | NLP Roundtable: Where have we been and where are we going? | [click here]({% link _posts/reading-group/winter-2025/2025-01-31-nlp-roundtable.md %}) |
+| February 21st @ 1PM | Group Discussion | NLP Roundtable: The Reviewing Process | [click here]({% link _posts/reading-group/winter-2025/2025-02-21-nlp-roundtable.md %}) |
+| February 28th @ 1PM | Amal Zouaq |*TBD* | *TBD* |
 
 ## History
 
