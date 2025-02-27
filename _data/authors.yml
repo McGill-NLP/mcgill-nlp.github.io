@@ -16,6 +16,23 @@ Heather Bosiljevac:
   - label: LinkedIn
     url: https://www.linkedin.com/in/heather-bosiljevac-214226174/
 
+Aurélien Bück-Kaeffer:
+  name: Aurélien Bück-Kaeffer
+  auto_update_publications: false
+  current_role:
+    type: Collaborator
+    title: Intern
+    start_date: Feb 2025
+    affiliation: Mila, McGill
+    research_directions:
+    - poli-sci
+  bio: Into RL, currently working on an accurate social media simulation using LLMs
+  avatar: /assets/images/bio/Aurélien Bück-Kaeffer.jpg
+  social_media_links:
+  - label: GitHub
+    url: https://github.com/Scezaquer
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/aur%C3%A9lien-b%C3%BCck-kaeffer-8b627820b/
 Taylor Lynn Curtis:
   name: Taylor Lynn Curtis
   avatar: /assets/images/bio/Taylor Lynn Curtis.jpg
