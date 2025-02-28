@@ -7,7 +7,7 @@ tags:
 - NLP RG
 categories:
     - Reading-Group
-    - Fall-2024
+    - Winter-2025
 layout: archive
 classes:
     - wide
