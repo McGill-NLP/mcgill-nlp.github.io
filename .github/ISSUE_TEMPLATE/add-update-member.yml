@@ -71,7 +71,7 @@ body:
     attributes:
       label: "Username"
       description: >
-        Mila username e.g. `jon.doe` if `jon.doe@mila.quebec` is your Mila email address.
+        Mila username, for example `jon.doe` if `jon.doe@mila.quebec` is your Mila email address.
         
     validations:
       required: true
@@ -94,7 +94,8 @@ body:
         Path or URL or image of the avatar of the lab member. If it's a URL, it will be automatically resized and saved to `/assets/images/bio`.
         
         Tip: You can drag and drop an image, or click on the "M" button on the bottom right of the text area.   
-        Otherwise, you can use imgur and give the **direct** link (e.g. https://i.imgur.com/{id}.png).
+        Otherwise, you can use imgur and give the **direct** link (for example `https://i.imgur.com/id.png`, `https://user.github.io/assets/headshot.jpg`, etc.).
+        Do NOT use indirect links to webpages that contains an image, this will not be parsed correctly.
       
       placeholder: "Click here and drag an image to upload, or paste an image URL"
     validations:
