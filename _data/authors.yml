@@ -1052,6 +1052,22 @@ Fabian David Schmidt:
     url: https://twitter.com/fdschmidt
   - label: Scholar
     url: https://scholar.google.com/citations?user=U_ukcNYAAAAJ&hl=de
+Dongchan Shin:
+  name: Dongchan Shin
+  role: Intern
+  username: dongchan.shin
+  avatar: /assets/images/bio/Dongchan Shin.jpg
+  advisor: Siva Reddy
+  date: Mar 2025
+  bio: Working on Language Agents
+  alumni: false
+  links:
+  - label: Website
+    url: www.linkedin.com/in/dongchan-shin-2a4890275
+  - label: GitHub
+    url: https://github.com/thomasshin
+  - label: Scholar
+    url: https://scholar.google.ca/citations?hl=en&pli=1&user=QzZOkfIAAAAJ
 Nooshin Soheililangroodi:
   name: Nooshin Soheililangroodi
   role: Undergraduate
