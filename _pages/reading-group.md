@@ -22,6 +22,9 @@ For the Winter 2025 semester, the reading group will meet every other week on **
 | January 31st @ 3PM | Group Discussion | NLP Roundtable: Where have we been and where are we going? | [click here]({% link _posts/reading-group/winter-2025/2025-01-31-nlp-roundtable.md %}) |
 | February 21st @ 1PM | Group Discussion | NLP Roundtable: The Reviewing Process | [click here]({% link _posts/reading-group/winter-2025/2025-02-21-nlp-roundtable.md %}) |
 | February 28th @ 1PM | Amal Zouaq | LLMs/VLMs and Nonparametric Memory | [click here]({% link _posts/reading-group/winter-2025/2025-02-28-amal-zouaq.md %}) |
+| March 14th @ 1PM | Muhammad Umair | *TBD* | *TBD* |
+| March 21st @ 1PM | Group Discussion Led by Sara Vera Marjanovic | DeepSeek | *TBD* |
+| March 21st @ 1PM | Karolina Stanczak | *TBD* | *TBD* |
 
 ## History
 
