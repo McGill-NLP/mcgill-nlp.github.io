@@ -1,5 +1,5 @@
 ---
-title: "AI Conversationalists know what to say but not when to speak "
+title: "AI Conversationalists know what to say but not when to speak"
 venue: Tufts University
 names: Muhammad Umair
 author: Muhammad Umair
