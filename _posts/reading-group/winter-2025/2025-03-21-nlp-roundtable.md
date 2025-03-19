@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to have a roundtable discussion led by (Sara Vera Marjanovic)[https://spaidataiga.github.io/ ] who will be discussing the recent **investigations** of members of Prof. Siva Reddy's group on **the DeepSeek model**. In-person attendance is highly encouraged!
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to have a roundtable discussion led by [Sara Vera Marjanovic](https://spaidataiga.github.io/) who will be discussing the recent **investigations** of members of Prof. Siva Reddy's group on **the DeepSeek model**. In-person attendance is highly encouraged!
 
 ## Routable Description
 
