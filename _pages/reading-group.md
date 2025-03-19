@@ -23,7 +23,7 @@ For the Winter 2025 semester, the reading group will meet every other week on **
 | February 21st @ 1PM | Group Discussion | NLP Roundtable: The Reviewing Process | [click here]({% link _posts/reading-group/winter-2025/2025-02-21-nlp-roundtable.md %}) |
 | February 28th @ 1PM | Amal Zouaq | LLMs/VLMs and Nonparametric Memory | [click here]({% link _posts/reading-group/winter-2025/2025-02-28-amal-zouaq.md %}) |
 | March 14th @ 1PM | Muhammad Umair | AI Conversationalists know what to say but not when to speak | [click here]({% link _posts/reading-group/winter-2025/2025-03-14-muhammad-umair.md %}) |
-| March 21st @ 1PM | Group Discussion (Led by Sara Vera Marjanovic) | NLP Trends: DeepSeek | *TBD* |
+| March 21st @ 1PM | Group Discussion Led by Sara Vera Marjanovic | NLP Roundtable: DeepSeek | [click here]({% link _posts/reading-group/winter-2025/2025-03-21-nlp-roundtable.md  %}) |
 
 ## History
 
