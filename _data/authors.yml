@@ -725,6 +725,27 @@ Andreas Madsen:
     url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
 
   username: andreas.madsen
+Sara Vera Marjanović:
+  name: Sara Vera Marjanović
+  role: Intern
+  username: sara.marjanovic
+  semantic_scholar_id: https://www.semanticscholar.org/author/Sara-Vera-Marjanovi'c/2284760365
+  avatar: /assets/images/bio/Sara Vera Marjanović.jpg
+  advisor: Prof. Siva Reddy, Dr. Karolina Stańczak
+  date: Jan 2025
+  bio: I'm a PhD student in Computer Science at the University of Copenhagen, with
+    an interest in interpretability within sensitive domains, like fact-checking and
+    social bias.
+  alumni: false
+  links:
+  - label: Website
+    url: https://spaidataiga.github.io/
+  - label: Twitter
+    url: https://x.com/saraveramarjano
+  - label: GitHub
+    url: https://github.com/spaidataiga
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=f026qd8AAAAJ
 Nicholas Meade:
   name: Nicholas Meade
   role: PhD
