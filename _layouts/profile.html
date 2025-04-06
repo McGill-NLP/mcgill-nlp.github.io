@@ -1,25 +1,66 @@
 ---
-layout: default
+layout: archive
 ---
 
+{% include breadcrumbs-schema.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ page.title }}",
+  "url": "{{ site.url }}{{ page.permalink }}",
+  {% assign author = site.data.authors[page.title] %}
+  {% if author.avatar %}
+  "image": "{{ site.url }}{{ author.avatar }}",
+  {% endif %}
+  {% if author.bio %}
+  "description": {{ author.bio | jsonify }} ,
+  {% endif %}
+  {% if author.googleScholar %}
+  "sameAs": [
+    "{{ author.googleScholar }}"
+    {% if author.twitter %}, "{{ author.twitter }}"{% endif %}
+    {% if author.linkedin %}, "{{ author.linkedin }}"{% endif %}
+    {% if author.github %}, "https://github.com/{{ author.github }}"{% endif %}
+  ],
+  {% endif %}
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Complex Data Lab, McGill University & Mila"
+  }
+}
+</script>
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
+{% include page__hero_video.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
 {% endif %}
 
 <div id="main" role="main">
   {% include sidebar.html %}
 
+  <div class="profile-header">
+    {% assign author = site.data.authors[page.title] %}
+    {% if author.avatar %}
+    <img src="{{ author.avatar | relative_url }}" alt="{{ page.title }}">
+    {% endif %}
+    <div class="profile-info">
+      <h1>{{ page.title }}</h1>
+      {% if author.bio %}<p>{{ author.bio }}</p>{% endif %}
+    </div>
+  </div>
+
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <!-- <h1 id="page-title" class="page__title">{{ page.title }}</h1> -->
+    <!-- <h1 id="page-title" class="page__title">{{ page.title }}</h1> -->
     {% endunless %}
     {{ content }}
   </div>

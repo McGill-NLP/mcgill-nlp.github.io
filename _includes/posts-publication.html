@@ -1,54 +1,56 @@
 {% assign posts = site.categories[include.taxonomy] | where_exp: "item", "item.hidden != true" %}
-{% assign group_by_year = include.group_by_year | default: true %}
 {% if include.author %}
-  {% assign posts = posts | where_exp: "post", "post.names contains include.author" %}
-  
-  {% comment %}
-  Ideally we want to use:
-  {% assign posts = posts | where_exp: "post", "post.names contains include.author or post.author == include.author" %}
-
-  However it is not currently supported by Jekyll 3.9.2, which is what is being used by the GitHub Pages Gem. However,
-  the gem maintainers are currently working on upgrading jekyll to 4.x, which supports binary operator for where_exp:
-  
-  https://github.com/github/pages-gem/issues/651#issuecomment-1156978042
-  {% endcomment %}
-
+{% assign posts = posts | where_exp: "post", "post.names contains include.author" %}
 {% endif %}
 
-
 {% if include.disable_group_by_year == true %}
+<div class="entries-{{ entries_layout | default: 'list' }}">
   {% for post in posts %}
-    {%- include display-publications.html %}
+  {%- include display-publications.html %}
   {% endfor %}
+</div>
 {% else %}
+{% assign postsByYear = posts | group_by_exp: 'post', 'post.date | default: "9999-01-01" | date: "%Y"' %}
 
-{% assign postsByYear = posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-
+{% if postsByYear.size > 0 %}
 {% unless include.hide_years_dropdown == true %}
-<details>
+<details class="publications-years">
   <summary>Show years</summary>
-  <ul class="taxonomy__index">
-    {% for year in postsByYear %}
-      <li>
-        <a href="#{{ year.name }}">
-          <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
-        </a>
-      </li>
+  <div class="taxonomy__index">
+    {% assign sortedYears = postsByYear | sort: 'name' | reverse %}
+    {% for year in sortedYears %}
+    {% if year.name == "9999" %}
+    {% assign yearName = "None" %}
+    {% else %}
+    {% assign yearName = year.name %}
+    {% endif %}
+    <a href="#{{ yearName | slugify }}" class="year-link">
+      <strong>{{ yearName }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
 </details>
 {% endunless %}
 
-{% for year in postsByYear %}
-  <section id="{{ year.name }}" class="taxonomy__section">
-    <h3>{{ year.name }}</h3>
-    <div class="entries-{{ entries_layout }}">
-      {% for post in year.items %}
-        {%- include display-publications.html %}
-      {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-  </section>
-{% endfor %}
+{% assign sortedYears = postsByYear | sort: 'name' | reverse %}
+{% for year in sortedYears %}
+{% if year.name == "9999" %}
+{% assign yearName = "None" %}
+{% else %}
+{% assign yearName = year.name %}
+{% endif %}
 
+<section id="{{ yearName | slugify }}" class="taxonomy__section">
+  <h3 class="archive__subtitle">{{ yearName }}</h3>
+  <div class="entries-{{ entries_layout | default: 'list' }}">
+    {% assign yearItems = year.items | sort: 'date' | reverse %}
+    {% for post in yearItems %}
+    {%- include display-publications.html %}
+    {% endfor %}
+  </div>
+  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }}
+    &uarr;</a>
+</section>
+{% endfor %}
+{% endif %}
 {% endif %}

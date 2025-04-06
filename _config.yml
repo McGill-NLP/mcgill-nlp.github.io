@@ -126,7 +126,7 @@ defaults:
       path: _posts/papers
       type: posts
     values:
-      layout: single
+      layout: publication
       classes:
         - wide
       author_profile: true
@@ -142,6 +142,16 @@ defaults:
         - no-sidebar
       author_profile: false
 
+  # _pages/profiles
+  - scope:
+      path: "_pages/profiles"
+      type: pages
+    values:
+      layout: profile
+      classes:
+        - wide
+        - no-sidebar
+      author_profile: true
 
   # _projects
   - scope:
@@ -153,9 +163,6 @@ defaults:
         - no-sidebar
       author_profile: false
       share: true
-
-
-
 
 category_archive:
   type: liquid

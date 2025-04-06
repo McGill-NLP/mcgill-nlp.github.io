@@ -1,0 +1,41 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    }
+    {% if page.layout == 'publication' %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Publications",
+      "item": "{{ site.url }}/publications/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title | truncate: 60 }}",
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+    {% elsif page.layout == 'profile' %},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "People",
+      "item": "{{ site.url }}/people/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ page.title }}",
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+    {% endif %}
+  ]
+}
+</script>

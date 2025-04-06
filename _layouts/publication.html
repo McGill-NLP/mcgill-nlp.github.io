@@ -1,6 +1,37 @@
 ---
-layout: archive
+layout: single
 ---
+
+{% include breadcrumbs-schema.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "{{ page.title }}",
+  "author": [
+    {% assign authors = page.names | split: ", " %}
+    {% for author in authors %}
+    {
+      "@type": "Person",
+      "name": "{{ author }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "datePublished": "{{ page.name | slice: 0,10 }}",
+  "publisher": "{{ page.venue }}",
+  {% if page.openAccessPdf.url %}
+  "url": "{{ page.openAccessPdf.url }}",
+  {% endif %}
+  {% if page.abstract %}
+  "abstract": {{ page.abstract | jsonify }},
+  {% endif %}
+  {% if page.tags %}
+  "keywords": {{ page.tags | jsonify }},
+  {% endif %}
+  "isAccessibleForFree": {% if page.openAccessPdf.status == "OPEN" %}true{% else %}false{% endif %}
+}
+</script>
 
 {{ content }}
 
