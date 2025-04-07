@@ -40,6 +40,14 @@ def create_attr_to_username_map(lab_members, attribute):
         if attribute in member_info
     }
 
+
+def filter_keys(d, keys):
+    """
+    Only keep the keys in the dictionary that are in the given list.
+    """
+    return {key: d[key] for key in keys if key in d}
+
+
 def wrangle_fetched_content(parsed, paper_json):
     with open("_data/authors.yml") as f:
         yaml = YAML()
@@ -53,12 +61,12 @@ def wrangle_fetched_content(parsed, paper_json):
     paper_json["tags"] = paper_json["venue"]
     paper_json["shorthand"] = str(paper_json["paperId"])
     paper_json["link"] = paper_json["url"]
-    
-    if paper_json['publicationDate']:
+
+    if paper_json["publicationDate"]:
         year, month, day = paper_json["publicationDate"].split("-")
     else:
-        year, month, day = paper_json['year'], "01", "01"
-    
+        year, month, day = paper_json["year"], "01", "01"
+
     paper_json["year"] = parsed.get("year", year)
     paper_json["month"] = parsed.get("month", month)
     paper_json["day"] = parsed.get("day", day)
@@ -90,13 +98,29 @@ def wrangle_fetched_content(parsed, paper_json):
             paper_json["author"] = fullname_to_username[author["name"]]
             break
 
-    del (
-        paper_json["externalIds"],
-        paper_json["paperId"],
-        paper_json["url"],
-        paper_json["authors"],
-        paper_json['publicationDate']
-    )
+    breakpoint()
+
+    keys_to_keep = [
+        # "paperId",
+        # "externalIds",
+        # "url",
+        "title",
+        "abstract",
+        "venue",
+        "year",
+        # "openAccessPdf",
+        # "publicationDate",
+        # "authors",
+        "names",
+        "tags",
+        "shorthand",
+        "link",
+        "month",
+        "day",
+        "author",
+    ]
+
+    paper_json = filter_keys(paper_json, keys_to_keep)
 
     return paper_json
 
