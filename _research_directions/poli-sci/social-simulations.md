@@ -21,3 +21,7 @@ The pernicious effects of digital manipulation campaigns can reverberate through
 # Selected Publications
 
 {% include posts-highlighted-publications.html taxonomy="social-simulations" %}
+
+# Technology Transfer
+
+{% include tech-transfer.html category="social-simulations" %}
