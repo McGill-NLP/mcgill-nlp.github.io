@@ -3,8 +3,8 @@ permalink: /
 title: " "
 layout: splash
 header:
-    overlay_filter: rgba(221, 0, 118, 0.3)
     overlay_image: /assets/images/trottier.webp
+    overlay_filter:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(221, 0, 118, 0.3))
     actions:
         - label: "GitHub"
           url: "https://github.com/ComplexData-MILA"
@@ -25,9 +25,6 @@ row_research:
     excerpt: "We work on various topics and present our works in ML and NLP conferences and journals."
 
 ---
-{% comment %}
-Based on: <https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/docs/_pages/splash-page.md>
-{% endcomment %}
 
 {% include research-directions.html category="research-directions"%}
 
