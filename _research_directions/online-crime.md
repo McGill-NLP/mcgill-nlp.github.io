@@ -19,6 +19,10 @@ Sex trafficking impacts 4.8 million people globally and is a $99 billion USD ind
 
 {% include posts-highlighted-publications.html taxonomy="online-crime" %}
 
+# Technology Transfer
+
+{% include tech-transfer.html category="online-crime" %}
+
 # Core Team Members
 
 {% include team-gallery.html authors=site.data.authors research_direction="online-crime" render_current_role=true %}

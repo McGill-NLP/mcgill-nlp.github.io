@@ -9,15 +9,6 @@ header:
 one-liner: How can we find reliable insights amid a deluge of conflicting information?
 excerpt: The information landscape is increasingly flooded with uncertain and conflicting information. We aim to create understanding and tools that will empower all of us in navigating this landscape and finding the trustworthy insights every person wants.
 
-
-projects:
-  - title: ""
-    alt: ""
-    excerpt: ""
-  - title: "Deepfake"
-    alt: "Deepfake"
-    excerpt: ""
-
 parent: Politics & Online Media
 
 ---
@@ -30,8 +21,9 @@ The information integrity project explores methods to enhance the accuracy and r
 {% include posts-highlighted-publications.html taxonomy="information-integrity" %}
 
 
-<!-- # Deepfake Project
-Our survey experiment on the effects of deepfakes. -->
+# Technology Transfer
+
+{% include tech-transfer.html category="information-integrity" %}
 
 
 <!-- # Funding -->

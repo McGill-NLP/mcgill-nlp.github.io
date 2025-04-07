@@ -1,0 +1,15 @@
+{% if include.category %}
+{% assign tech_items = site.tech_transfer | where: "category", include.category %}
+{% else %}
+{% assign tech_items = site.tech_transfer %}
+{% endif %}
+
+{% assign sorted_items = tech_items | sort: "order" %}
+
+<div class="tech-transfer__wrapper">
+  {% for item in sorted_items %}
+  <div class="tech-transfer-item">
+    {{ item.content | markdownify }}
+  </div>
+  {% endfor %}
+</div>

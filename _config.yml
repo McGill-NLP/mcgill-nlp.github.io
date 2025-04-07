@@ -176,6 +176,8 @@ collections:
   research_directions:
     output: true
     permalink: /:path/
+  tech_transfer:
+    output: false
 
 # Performance
 compress_html:

@@ -10,7 +10,7 @@ main:
       - page: "Toxicity & Online Games"
         url: /online-toxicity/
       - page: "Tools & Resources"
-        url: /
+        url: /tools-and-resources/
       - page: "Publications"
         url: /publications/
   - tab: "News"
