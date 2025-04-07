@@ -98,8 +98,6 @@ def wrangle_fetched_content(parsed, paper_json):
             paper_json["author"] = fullname_to_username[author["name"]]
             break
 
-    breakpoint()
-
     keys_to_keep = [
         # "paperId",
         # "externalIds",
