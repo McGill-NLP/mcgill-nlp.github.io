@@ -13,16 +13,12 @@ main:
         url: /tools-and-resources/
       - page: "Publications"
         url: /publications/
-  - tab: "News"
-    subpages:
-      - page: "In the Media"
-        url: /
-      - page: "Events"
-        url: /
   - tab: "About"
     subpages:
       - page: "About the Lab"
         url: /about/
+      - page: "News"
+        url: /
       - page: "People"
         url: /people/
       - page: "Teaching"
