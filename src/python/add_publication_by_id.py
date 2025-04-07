@@ -8,6 +8,12 @@ from ruamel.yaml import YAML
 from . import parse_issue_body, write_content_to_file, remove_items_with_values
 from .add_update_publication import generate_publication_post
 
+def normalize_venue_names(venue):
+    d = {
+        'Annual Meeting of the Association for Computational Linguistics': 'ACL',
+    }
+
+    return d.get(venue, venue)
 
 def fetch_content(parsed, max_retry=3):
     method = parsed["method"]
@@ -84,6 +90,15 @@ def wrangle_fetched_content(parsed, paper_json):
     for key in ["title", "names", "tags", "venue", "shorthand", "link"]:
         paper_json[key] = paper_json[key].replace("\n", " ")
 
+    # Normalize the venue names
+    if 'venue' in paper_json and paper_json["venue"] is not None:
+        paper_json["venue"] = normalize_venue_names(paper_json["venue"])
+    if 'tags' in paper_json:
+        tags = [t.strip() for t in paper_json["tags"].split(", ")]
+        normalized_tags = [normalize_venue_names(t) for t in tags]
+        paper_json["tags"] = ",".join(normalized_tags)
+    
+    
     fullname_to_username = create_attr_to_username_map(lab_members, "name")
     member_id_to_username = create_attr_to_username_map(
         lab_members, "semantic_scholar_id"
