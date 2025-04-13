@@ -267,7 +267,7 @@ Xuanda Chen:
 Ziling Cheng:
   name: Ziling Cheng
   avatar: /assets/images/bio/Ziling Cheng.avatar.webp
-  role: Intern
+  role: Master
   username: ziling.cheng
   advisor: Jackie CK Cheung
   date: Summer 2022
@@ -1083,7 +1083,7 @@ Fabian David Schmidt:
   advisor: David Ifeoluwa Adelani
   date: Sep 2024
   bio: PhD Candidate at the University of Würzburg working on multilinguality & multimodality
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://fdschmidt93.github.io
@@ -1116,7 +1116,7 @@ Nooshin Soheililangroodi:
   date: September 2024
   bio: I'm an undergrad CS student at McGill and I'm mostly interested in researching
     about vision-language models.
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://github.com/noosh1380

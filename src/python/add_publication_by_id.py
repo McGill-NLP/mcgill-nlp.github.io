@@ -8,6 +8,12 @@ from ruamel.yaml import YAML
 from . import parse_issue_body, write_content_to_file, remove_items_with_values
 from .add_update_publication import generate_publication_post
 
+def normalize_venue_names(venue):
+    d = {
+        'Annual Meeting of the Association for Computational Linguistics': 'ACL',
+    }
+
+    return d.get(venue, venue)
 
 def fetch_content(parsed, max_retry=3):
     method = parsed["method"]
@@ -40,6 +46,14 @@ def create_attr_to_username_map(lab_members, attribute):
         if attribute in member_info
     }
 
+
+def filter_keys(d, keys):
+    """
+    Only keep the keys in the dictionary that are in the given list.
+    """
+    return {key: d[key] for key in keys if key in d}
+
+
 def wrangle_fetched_content(parsed, paper_json):
     with open("_data/authors.yml") as f:
         yaml = YAML()
@@ -53,12 +67,12 @@ def wrangle_fetched_content(parsed, paper_json):
     paper_json["tags"] = paper_json["venue"]
     paper_json["shorthand"] = str(paper_json["paperId"])
     paper_json["link"] = paper_json["url"]
-    
-    if paper_json['publicationDate']:
+
+    if paper_json["publicationDate"]:
         year, month, day = paper_json["publicationDate"].split("-")
     else:
-        year, month, day = paper_json['year'], "01", "01"
-    
+        year, month, day = paper_json["year"], "01", "01"
+
     paper_json["year"] = parsed.get("year", year)
     paper_json["month"] = parsed.get("month", month)
     paper_json["day"] = parsed.get("day", day)
@@ -76,6 +90,15 @@ def wrangle_fetched_content(parsed, paper_json):
     for key in ["title", "names", "tags", "venue", "shorthand", "link"]:
         paper_json[key] = paper_json[key].replace("\n", " ")
 
+    # Normalize the venue names
+    if 'venue' in paper_json and paper_json["venue"] is not None:
+        paper_json["venue"] = normalize_venue_names(paper_json["venue"])
+    if 'tags' in paper_json:
+        tags = [t.strip() for t in paper_json["tags"].split(", ")]
+        normalized_tags = [normalize_venue_names(t) for t in tags]
+        paper_json["tags"] = ",".join(normalized_tags)
+    
+    
     fullname_to_username = create_attr_to_username_map(lab_members, "name")
     member_id_to_username = create_attr_to_username_map(
         lab_members, "semantic_scholar_id"
@@ -90,13 +113,27 @@ def wrangle_fetched_content(parsed, paper_json):
             paper_json["author"] = fullname_to_username[author["name"]]
             break
 
-    del (
-        paper_json["externalIds"],
-        paper_json["paperId"],
-        paper_json["url"],
-        paper_json["authors"],
-        paper_json['publicationDate']
-    )
+    keys_to_keep = [
+        # "paperId",
+        # "externalIds",
+        # "url",
+        "title",
+        "abstract",
+        "venue",
+        "year",
+        # "openAccessPdf",
+        # "publicationDate",
+        # "authors",
+        "names",
+        "tags",
+        "shorthand",
+        "link",
+        "month",
+        "day",
+        "author",
+    ]
+
+    paper_json = filter_keys(paper_json, keys_to_keep)
 
     return paper_json
 

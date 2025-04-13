@@ -24,7 +24,11 @@ For the Winter 2025 semester, the reading group will meet every other week on **
 | February 28th @ 1PM | Amal Zouaq | LLMs/VLMs and Nonparametric Memory | [click here]({% link _posts/reading-group/winter-2025/2025-02-28-amal-zouaq.md %}) |
 | March 14th @ 1PM | Muhammad Umair | AI Conversationalists know what to say but not when to speak | [click here]({% link _posts/reading-group/winter-2025/2025-03-14-muhammad-umair.md %}) |
 | March 21st @ 1PM | Group Discussion Led by Sara Vera Marjanovic | NLP Roundtable: DeepSeek | [click here]({% link _posts/reading-group/winter-2025/2025-03-21-nlp-roundtable.md  %}) |
-| April 4th @ 1PM | Yiyan Wang | RSA-Control: A Pragmatics-Grounded Lightweight Controllable Text Generation Framework | [click here]({% link _posts/reading-group/winter-2025/2025-04-04-yifan-wang.md  %}) |
+| April 4th @ 1PM | Yifan Wang | RSA-Control: A Pragmatics-Grounded Lightweight Controllable Text Generation Framework | [click here]({% link _posts/reading-group/winter-2025/2025-04-04-yifan-wang.md  %}) |
+| April 11th @ 1PM | Jean-Philippe Corbeil | A Modular Approach for Clinical SLMs Driven by Synthetic Data with Pre-Instruction Tuning, Model Merging, and Clinical Alignment | [click here]({% link _posts/reading-group/winter-2025/2025-04-11-jean-philippe-corbeil.md  %}) |
+| April 18th @ 1PM | Ayla Rigouts Terryn | *TBD* | *TBD* |
+| April 25th @ 1PM | Catarina Belem | *TBD* | *TBD* |
+| May 5th @ 1PM | Reto Gubelmann and Stevan Harnad | *TBD* | *TBD* |
 
 ## History
 

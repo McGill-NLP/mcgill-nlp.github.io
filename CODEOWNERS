@@ -5,35 +5,35 @@
 
 
 # Global owners
-* @cckitpw @language-learning-laboratory @sivareddyg @xhluca
+* @xhluca @Senyu-Li1 @cesare-spinoso
 
 # Jekyll (Webpage)
-/_sass/ @xhluca
-/_layouts/ @xhluca
-/_includes/ @xhluca
-/_data/ @xhluca
-/assets/ @xhluca
-/_config.yml @xhluca
-/favicon.ico @xhluca
-/Gemfile @xhluca
+/_sass/ @xhluca @Senyu-Li1 @cesare-spinoso
+/_layouts/ @xhluca @Senyu-Li1 @cesare-spinoso
+/_includes/ @xhluca @Senyu-Li1 @cesare-spinoso
+/_data/ @xhluca @Senyu-Li1 @cesare-spinoso
+/assets/ @xhluca @Senyu-Li1 @cesare-spinoso
+/_config.yml @xhluca @Senyu-Li1 @cesare-spinoso
+/favicon.ico @xhluca @Senyu-Li1 @cesare-spinoso
+/Gemfile @xhluca @Senyu-Li1 @cesare-spinoso
 
 # Python scripts
-/src/python/ @xhluca
+/src/python/ @xhluca @Senyu-Li1 @cesare-spinoso
 
 # Unit Tests
-/tests/ @xhluca
+/tests/ @xhluca @Senyu-Li1 @cesare-spinoso
 
 # GitHub issue templates (Automation)
-/.github/ISSUE_TEMPLATE/ @xhluca
+/.github/ISSUE_TEMPLATE/ @xhluca @Senyu-Li1 @cesare-spinoso
 
 # GitHub Actions (Automation)
-/.github/workflows/ @xhluca
+/.github/workflows/ @xhluca @Senyu-Li1 @cesare-spinoso
 
 # Authors
-_data/authors.yml @cckitpw @language-learning-laboratory @sivareddyg @xhluca
+_data/authors.yml @cckitpw @language-learning-laboratory @sivareddyg @xhluca @Senyu-Li1 @cesare-spinoso
 
 # Pages
-/_pages/ @xhluca
+/_pages/ @xhluca @Senyu-Li1 @cesare-spinoso
 
 # Profiles
 /_pages/profiles/siva.md @sivareddyg

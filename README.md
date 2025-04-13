@@ -327,13 +327,14 @@ python -m src.python.cli.optimize_homepage_images --source_dir assets/images/hom
 Most of the dependencies (`jekyll`, `ruby`, `gem`, Python `requirements.txt`, etc.) are already installed thanks to automations in `.devcontainer/devcontainer.json`. You can simply open the repo in a codespace and start working.
 
 #### Local
+First, install jekyll. See [Jekyll installation](https://jekyllrb.com/docs/installation/) (e.g. [on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)).
 
-You will need to install the python dependencies by running (from inside project directory):
+Then, you will need to install the python dependencies by running (from inside project directory):
 ```
 pip3 install --user -r src/python/requirements.txt
 ```
 
-You will need to install ruby and gem to use `jekyll` locally. This is only if you want to compile and run this site locally. If you want to modify a markdown file or a yaml file, you don't need to do that; please refer to the sections above for instructions. For the instructions, see [Jekyll installation](https://jekyllrb.com/docs/installation/) (e.g. [on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)).
+You will need to install ruby and gem to use `jekyll` locally. This is only if you want to compile and run this site locally. If you want to modify a markdown file or a yaml file, you don't need to do that; please refer to the sections above for instructions. 
 
 ### Running the site in development mode
 
