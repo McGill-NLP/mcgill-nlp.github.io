@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to have [Catarina Belem](https://scholar.google.com/citations?user=nMwgV2UAAAAJ&hl=en), a PhD at UC Irvine, who will be discussing **Perceptions of Linguistic Uncertainty by Language Models and Humans**. The talk will happen on Zoom and in A14 on Friday April 24th at 1PM.
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to have [Catarina Belem](https://scholar.google.com/citations?user=nMwgV2UAAAAJ&hl=en), a PhD at UC Irvine, who will be discussing **Perceptions of Linguistic Uncertainty by Language Models and Humans**. The talk will happen on Zoom and in A14 on Friday April 25th at 1PM.
 
 ## Talk Description
 
@@ -34,6 +34,6 @@ Catarina is a 4th year PhD Candidate in Computer Science at University of Califo
 
 ## Logistics
 
-Date: April 24th<br>
+Date: April 25th<br>
 Time: 1PM <br>
 Location: A14 or Zoom (See email)
