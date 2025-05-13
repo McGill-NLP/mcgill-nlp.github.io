@@ -1131,7 +1131,7 @@ Karolina Stanczak:
   advisor: Siva Reddy
   date: Mar 2024
   bio: Working on bias detection, multilinguality, and interpretability.
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://kstanczak.github.io/
@@ -1141,6 +1141,7 @@ Karolina Stanczak:
     url: https://github.com/karstanczak
   - label: Scholar
     url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
+  username: karolina.stanczak
 Ada Tur:
   name: Ada Tur
   role: Undergraduate
