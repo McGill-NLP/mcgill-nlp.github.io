@@ -28,7 +28,7 @@ For the Winter 2025 semester, the reading group will meet every other week on **
 | April 11th @ 1PM | Jean-Philippe Corbeil | A Modular Approach for Clinical SLMs Driven by Synthetic Data with Pre-Instruction Tuning, Model Merging, and Clinical Alignment | [click here]({% link _posts/reading-group/winter-2025/2025-04-11-jean-philippe-corbeil.md  %}) |
 | April 25th @ 1PM | Catarina Belem | Perceptions of Linguistic Uncertainty by Language Models and Humans | [click here]({% link _posts/reading-group/winter-2025/2025-04-25-catarina-belem.md  %}) |
 | May 9th @ 1PM | Reto Gubelmann and Stevan Harnad | LLMs and Language Grounding | [click here]({% link _posts/reading-group/winter-2025/2025-05-09-reto-gubelman-stevan-harnad.md  %}) |
-| May 23rd @ 1PM | Angelie Kraft | *TBD* | *TBD* |
+| May 23rd @ 1PM | Angelie Kraft | Epistemic Injustice in the Age of Language Models | [click here]({% link _posts/reading-group/winter-2025/2025-05-23-angelie-kraft.md %}) |
 | May 30th @ 1PM | Ayla Rigouts Terryn | *TBD* | *TBD* |
 
 ## History
