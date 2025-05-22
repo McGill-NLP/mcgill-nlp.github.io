@@ -630,9 +630,11 @@ Benno Krojer:
   - label: Scholar
     url: https://scholar.google.com/citations?user=D5eyaLwAAAAJ&hl=en
   advisor: Siva Reddy
-  bio: I work on language grounding and like Ultimate Frisbee
+  bio: I work on vision-and-language reasoning, interpretability and evaluation. In
+    my free time I do lots of sports.
   semantic_scholar_id: '1994697809'
 
+  username: benno.krojer
 Devang Kulshreshtha:
   name: Devang Kulshreshtha
   role: Master
@@ -1131,7 +1133,7 @@ Karolina Stanczak:
   advisor: Siva Reddy
   date: Mar 2024
   bio: Working on bias detection, multilinguality, and interpretability.
-  alumni: false
+  alumni: true
   links:
   - label: Website
     url: https://kstanczak.github.io/
@@ -1141,6 +1143,7 @@ Karolina Stanczak:
     url: https://github.com/karstanczak
   - label: Scholar
     url: https://scholar.google.com/citations?user=4XT8OgEAAAAJ&hl=en
+  username: karolina.stanczak
 Ada Tur:
   name: Ada Tur
   role: Undergraduate
