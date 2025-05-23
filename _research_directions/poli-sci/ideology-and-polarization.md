@@ -8,7 +8,9 @@ header:
     overlay_image: /assets/images/research_directions/poli-sci/social_media.webp
 one-liner: How can we measure and understand political conflict?
 excerpt:  From echo chamber to public square, online environments are full of political discussion and conflict. We aim to measure and understand the evolving discourse, and ultimately, how it shapes our beliefs.
+
 parent: Politics & Online Media
+parent_key: poli-sci
 
 ---
 

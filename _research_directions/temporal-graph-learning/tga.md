@@ -8,7 +8,9 @@ header:
     overlay_image: /assets/images/research_directions/temporal-graph-learning/TGA.jpg
 one-liner: How to deploy TGL methods for applications such as disease modeling, anomaly detection and forecasting?
 excerpt: Explore the cutting-edge applications of temporal graph learning, from real-time fraud detection to advanced disease modeling. Discover how dynamic network analysis enhances accuracy and efficiency in various domains.
+
 parent: Temporal Graph Learning
+parent_key: temporal-graph-learning
 
 ---
 

@@ -9,7 +9,9 @@ header:
     overlay_size: contain
 one-liner: How to realistically, reproducibly, and robustly evaluate machine learning models on temporal graphs?
 excerpt: ""
+
 parent: Temporal Graph Learning
+parent_key: temporal-graph-learning
 
 ---
 

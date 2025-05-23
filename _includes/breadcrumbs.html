@@ -11,9 +11,9 @@
             </li>
 
             <!-- Previous page (if exists) -->
-            {% if page.parent %}
+            {% if page.parent and page.parent_key %}
             <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a href="{{ page.parent | slugify | prepend: '/' | relative_url }}" itemprop="item">
+                <a href="{{ page.parent_key | slugify | prepend: '/' | relative_url }}" itemprop="item">
                     <span itemprop="name">{{ page.parent }}</span>
                 </a>
                 <meta itemprop="position" content="2" />

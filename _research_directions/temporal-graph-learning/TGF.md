@@ -8,6 +8,7 @@ header:
     overlay_image: /assets/images/research_directions/temporal-graph-learning/TGB.webp
 excerpt: ""
 parent: Temporal Graph Learning
+parent_key: temporal-graph-learning
 
 project_1:
   - title: "Foundation Model"

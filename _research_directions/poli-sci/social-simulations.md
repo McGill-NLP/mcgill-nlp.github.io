@@ -10,7 +10,7 @@ one-liner: How can we prototype effective defenses to attacks on information int
 excerpt: We use and develop state-of-the-art approaches to human social system simulation to simulate attacks on information integrity in critical social phenomena and to prototype effective defenses against them. 
 
 parent: Politics & Online Media
-
+parent_key: poli-sci
 ---
 
 {% include breadcrumbs.html %}
