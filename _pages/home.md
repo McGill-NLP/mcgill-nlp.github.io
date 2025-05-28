@@ -3,7 +3,7 @@ permalink: /
 title: Complex Data Lab
 layout: splash
 header:
-    overlay_image: # /assets/images/trottier.webp
+    overlay_image: /assets/images/trottier.webp
     actions:
         - label: "GitHub"
           url: "https://github.com/ComplexData-MILA"
