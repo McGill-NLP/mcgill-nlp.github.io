@@ -1,10 +1,10 @@
 ---
 permalink: /
-title: " "
+title: Complex Data Lab
 layout: splash
 header:
-    overlay_image: /assets/images/trottier.webp
-    overlay_filter:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(221, 0, 118, 0.3))
+    # overlay_image: /assets/images/trottier.webp
+    # overlay_filter:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(221, 0, 118, 0.3))
     actions:
         - label: "GitHub"
           url: "https://github.com/ComplexData-MILA"
