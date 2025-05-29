@@ -29,7 +29,7 @@ For the Winter 2025 semester, the reading group will meet every other week on **
 | April 25th @ 1PM | Catarina Belem | Perceptions of Linguistic Uncertainty by Language Models and Humans | [click here]({% link _posts/reading-group/winter-2025/2025-04-25-catarina-belem.md  %}) |
 | May 9th @ 1PM | Reto Gubelmann and Stevan Harnad | LLMs and Language Grounding | [click here]({% link _posts/reading-group/winter-2025/2025-05-09-reto-gubelman-stevan-harnad.md  %}) |
 | May 23rd @ 1PM | Angelie Kraft | Epistemic Injustice in the Age of Language Models | [click here]({% link _posts/reading-group/winter-2025/2025-05-23-angelie-kraft.md %}) |
-| May 30th @ 1PM | Ayla Rigouts Terryn | *TBD* | *TBD* |
+| May 30th @ 1PM | Ayla Rigouts Terryn |  Large language models, large culture models? The role of language in the cultural values exhibited by LLMs | [click here]({% link _posts/reading-group/winter-2025/2025-05-30-ayla-rigouts-terryn.md %}) |
 
 ## History
 
