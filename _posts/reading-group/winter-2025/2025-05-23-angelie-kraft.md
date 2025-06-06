@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is thrilled to have [Angelie Kraft](https://angeliekraft.com/), a PhD at University of Hamburg, who will be discussing **Epistemic Injustice in the Age of Language Models**. The talk will happen on Zoom and in A14 on Friday May 23rd at 1PM.
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is thrilled to have [Angelie Kraft](https://angeliekraft.com/), a PhD student at the University of Hamburg, who will be discussing **Epistemic Injustice in the Age of Language Models**. The talk will happen on Zoom and in A14 on Friday May 23rd at 1PM.
 
 ## Talk Description
 

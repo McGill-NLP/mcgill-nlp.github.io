@@ -266,13 +266,23 @@ Xuanda Chen:
 
 Ziling Cheng:
   name: Ziling Cheng
-  avatar: /assets/images/bio/Ziling Cheng.avatar.webp
+  avatar: /assets/images/bio/Ziling Cheng.jpg
   role: Master
   username: ziling.cheng
-  advisor: Jackie CK Cheung
-  date: Summer 2022
+  advisor: Jackie Cheung
+  date: May 2022
   alumni: false
-  links: []
+  links:
+  - label: Website
+    url: https://ziling-cheng.github.io/
+  - label: Twitter
+    url: https://x.com/ziling_cheng
+  - label: GitHub
+    url: https://github.com/ziling-cheng
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=_2W8Ai4AAAAJ&hl=en
+  semantic_scholar_id: '2216710980'
+  bio: Model analysis and interpretability to guide design for reasoning and hallucination.
 
 Jackie Cheung:
   name: Jackie Cheung
