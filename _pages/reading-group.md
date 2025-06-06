@@ -11,7 +11,7 @@ The McGill NLP reading group hosts speaker presentations and NLP-related discuss
 
 ## Admin
 
-The current organizers are (Andrei Mircea)[https://mirandrom.github.io/], (Cesare Spinoso)[https://cesare-spinoso.github.io/], (David Austin)[https://scholar.google.com/citations?user=c-iLCzEAAAAJ&hl=en], (Senyu Li)[https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en], and (Ziling Cheng)[https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en][^1]. They will be taking **monthly turns** organizing the reading group and its related activities.
+The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Cesare Spinoso](https://cesare-spinoso.github.io/), [David Austin](https://scholar.google.com/citations?user=c-iLCzEAAAAJ&hl=en), [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en), and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1]. They will be taking **monthly turns** organizing the reading group and its related activities.
 
 For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. For spam filtering reasons, you will need to reply to a confirmation e-mail. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` mailing list.
 
@@ -19,9 +19,9 @@ For more information about the reading group or for requests to join the mailing
 
 For the Summer 2025 semester, the reading group will meet on **Fridays at 1PM**. Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a **tentative schedule** of speakers/topics for the semester. It is **actively updated**. All times are in ET.
 
-| **Date @ Time** | **Speaker(s)** | **Topic** | **More Information** |
-|---|---|---|---|
-| *TBD* | *TBD* | *TBD* | *TBD* |
+| **Date @ Time** | **Organizer in Charge** | **Speaker(s)** | **Topic** | **More Information** |
+|---|---|---|---|---|
+| *TBD* | *TBD* | *TBD* | *TBD* | *TBD* |
 
 
 ## History
