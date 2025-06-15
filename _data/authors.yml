@@ -204,6 +204,26 @@ Raika Karimi:
   - label: LinkedIn
     url: https://www.linkedin.com/in/raika-karimi/
 
+Emma Kondrup:
+  name: Emma Kondrup
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: Intern
+    start_date: May 2025
+    advisor: Reihaneh Rabbany
+    affiliation: Mila
+    research_directions:
+    - temporal-graph-learning
+  social_media_links:
+  - label: Website
+    url: https://ekmpa.github.io
+  - label: GitHub
+    url: https://github.com/ekmpa
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=Ov-LMukAAAAJ&hl=fr&oi=ao
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/emmakondrup/
 Elahe Kooshafar:
   name: Elahe Kooshafar
   avatar: /assets/images/bio/elahe.kooshafar.avatar.webp
