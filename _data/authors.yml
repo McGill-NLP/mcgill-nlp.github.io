@@ -908,6 +908,25 @@ Timothy J. O'Donnell:
   avatar: /assets/images/bio/Timothy J. O'Donnell.avatar.webp
   bio: Assistant Professor, Department of Linguistics
 
+Hanseok Oh:
+  name: Hanseok Oh
+  role: Intern
+  username: hanseok.oh
+  semantic_scholar_id: '2150052936'
+  avatar: https://drive.google.com/file/d/1-ezm0XzxUBqerI6KVdKWAut-1a-404pk/view?usp=drive_link
+  advisor: Prof. Siva Reddy
+  date: June 2025
+  bio: Working on personalized conversational agents, especially in AgenticRAG scenario.
+  alumni: false
+  links:
+  - label: Website
+    url: https://hanseokoh.github.io/
+  - label: Twitter
+    url: https://x.com/hanseok_oh
+  - label: GitHub
+    url: https://github.com/hanseokOh
+  - label: Scholar
+    url: https://scholar.google.com/citations?hl=en&user=EHjq6IoAAAAJ
 Jessica Ojo:
   name: Jessica Ojo
   role: Master
