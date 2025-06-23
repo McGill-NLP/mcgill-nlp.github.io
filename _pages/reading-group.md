@@ -23,6 +23,7 @@ For the Summer 2025 semester, the reading group will meet on **Fridays at 1PM**.
 |---|---|---|---|
 | June 13 @1PM | Several Mila students | Lightning talks of NLP research at Mila| See email |
 | June 20 @1PM | [Gaurav Sahu](https://demfier.github.io/) | [LitLLMs, LLMs for Literature Review: Are we there yet?](https://arxiv.org/abs/2412.15249) | [click here]({% link _posts/reading-group/summer-2025/2025-06-20-gaurav-sahu.md %}) |
+| June 27 @1PM | [Diganta Misra](https://digantamisra98.github.io/) | [Using Shapley interactions to understand how models use structure](https://arxiv.org/abs/2403.13106) | [click here]({% link _posts/reading-group/summer-2025/2025-06-27-diganta-misra.md %}) |
 
 ## History
 
