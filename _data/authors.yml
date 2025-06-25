@@ -221,6 +221,24 @@ Tomás Vergara Browne:
     url: https://github.com/tvergara
   - label: Scholar
     url: https://scholar.google.com/citations?user=RknbgOkAAAAJ
+Tomás Vergara Browne 2:
+  name: Tomás Vergara Browne
+  role: Intern
+  username: tomasvergara.browne
+  avatar: /assets/images/bio/Tomás Vergara Browne 2.jpg
+  advisor: Prof. Siva Reddy, Dr. Marius Mosbach
+  date: March 2025
+  bio: Interested in analysis in NLP, and reasoning.
+  alumni: false
+  links:
+  - label: Website
+    url: https://tvergara.github.io/
+  - label: Twitter
+    url: https://x.com/tombrownev
+  - label: GitHub
+    url: https://github.com/tvergara
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=RknbgOkAAAAJ
 Emanuele Bugliarello:
   name: Emanuele Bugliarello
   role: Intern
