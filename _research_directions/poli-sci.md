@@ -4,8 +4,8 @@ layout: splash
 category: research-directions
 order: 3
 header:
-    overlay_filter: linear-gradient(rgba(157, 110, 219, 0.3), rgba(157, 110, 219, 1))
-    overlay_image: /assets/images/research_directions/poli-sci/social_media.webp
+    overlay_image: /assets/images/research_directions/poli-sci/banner.png
+    overlay_css: "background-position&#58; center; background-repeat&#58; no-repeat; background-size&#58; 40% 100%"
 excerpt: Our team creates tools and datasets to foster a safe, open space for online public discourse. We hope to empower researchers and the public to understand and navigate today’s digital landscape.
 one-liner: How can we use AI to understand the exchange of information and ideas, and to create positive, societally beneficial information ecosystems?
 

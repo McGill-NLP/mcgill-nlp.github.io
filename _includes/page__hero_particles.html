@@ -5,6 +5,7 @@ background-image: {% if page.header.overlay_filter %}{{ page.header.overlay_filt
 page.header.overlay_image | relative_url }}');
 background-position: center;
 background-size: cover;
+{% if page.header.overlay_css %}{{ page.header.overlay_css }}{% endif %}
 {% endif %}
 {% endcapture %}
 <div class="page__hero--overlay">

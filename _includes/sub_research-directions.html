@@ -26,12 +26,10 @@
                    background-image:
                    {% if direction.header.overlay_filter %} {{ direction.header.overlay_filter }},{% endif %}
                    url('{{ direction.header.overlay_image | relative_url }}');
-                   {% if direction.header.overlay_size %}
-                   background-size: {{ direction.header.overlay_size }};
+                   {% if direction.header.overaly_css %}
+                   {{ direction.header.overlay_size }}
                    {% endif %}
                    ">
-
-
                 <div class="sub-direction-title">
                     <h2>{{ direction.title }}</h2>
                 </div>

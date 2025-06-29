@@ -4,8 +4,8 @@ layout: splash
 category: research-directions
 order: 4
 header:
-    overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.4))
-    overlay_image: /assets/images/research_directions/online-toxicity/dystopian_city.webp
+    overlay_image: /assets/images/research_directions/online-toxicity/banner.png
+    overlay_css: "background-position&#58; center; background-repeat&#58; no-repeat; background-size&#58; 40% 100%"
 excerpt: "Our team collaborates with game companies like Ubisoft to develop responsible, real-time, human-in-the-loop AI systems for chat toxicity detection, creating safer online gaming communities."
 one-liner: How can we build systems to foster healthier gaming communities?
 

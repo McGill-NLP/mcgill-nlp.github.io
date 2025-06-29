@@ -4,8 +4,8 @@ layout: splash
 category: research-directions
 order: 2
 header:
-    overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(196, 20, 61, 0.4))
-    overlay_image: /assets/images/research_directions/online-crime/supporting_hands.webp
+    overlay_image: /assets/images/research_directions/online-crime/banner.png
+    overlay_css: "background-position&#58; center; background-repeat&#58; no-repeat; background-size&#58; 40% 100%"
 excerpt: "Our team combines AI and criminology expertise to develop ethical, human-centered tools that detect and counteract sex trafficking. Driven by a commitment to responsible research, we aim to bridge technology gaps and support victims in Canada and beyond."
 one-liner: "How to analyze large online markets and build victim-centered tools for countering sex-trafficking?" 
 

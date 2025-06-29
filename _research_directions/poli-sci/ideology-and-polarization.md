@@ -5,7 +5,7 @@ category: poli-sci
 order: 3
 header:
     overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 1))
-    overlay_image: /assets/images/research_directions/poli-sci/social_media.webp
+    overlay_image: /assets/images/research_directions/poli-sci/ideology_and_polarization.png
 one-liner: How can we measure and understand political conflict?
 excerpt:  From echo chamber to public square, online environments are full of political discussion and conflict. We aim to measure and understand the evolving discourse, and ultimately, how it shapes our beliefs.
 

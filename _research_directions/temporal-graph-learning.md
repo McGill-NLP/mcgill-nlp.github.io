@@ -4,8 +4,8 @@ layout: splash
 category: research-directions
 order: 1
 header:
-    overlay_image: /assets/images/research_directions/temporal-graph-learning/banner.webp
-    overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1))
+    overlay_image: /assets/images/research_directions/temporal-graph-learning/banner.png
+    overlay_css: "background-position&#58; center; background-repeat&#58; no-repeat; background-size&#58; 40% 100%"
 one-liner: "How can we advance machine learning methods to more effectively model and predict dynamic real-world networks and relationships within these time-evolving graphs?"
 excerpt: "Our team comprises experts in AI, data mining, social science, and public health, dedicated to advancing the analysis, prediction, and understanding of dynamic networks. We specialize in developing innovative models and creating realistic, robust benchmarks for state-of-the-art models and real-world applications of temporal graphs. Our work encompasses areas such as recommendation systems, fraud detection, disease modeling, and more."
 
