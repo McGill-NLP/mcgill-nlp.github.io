@@ -4,8 +4,7 @@ layout: splash
 category: temporal-graph-learning
 order: 1
 header:
-    overlay_filter: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5))
-    overlay_image: /assets/images/research_directions/temporal-graph-learning/TGB.jpg
+    overlay_image: /assets/images/research_directions/temporal-graph-learning/TGB.png
     overlay_size: contain
 one-liner: How to realistically, reproducibly, and robustly evaluate machine learning models on temporal graphs?
 excerpt: ""
