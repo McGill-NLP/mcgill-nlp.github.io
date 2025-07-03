@@ -309,6 +309,25 @@ Andre Cianflone:
   - label: Website
     url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
 
+Verna Dankers:
+  name: Verna Dankers
+  role: Postdoc
+  username: verna.dankers
+  semantic_scholar_id: '74461595'
+  avatar: /assets/images/bio/Verna Dankers.jpg
+  advisor: Siva Reddy
+  date: Summer 2025
+  bio: Works on interpretability and memorization vs generalization
+  alumni: false
+  links:
+  - label: Website
+    url: https://www.vernadankers.com
+  - label: Twitter
+    url: https://x.com/vernadankers
+  - label: GitHub
+    url: https://github.com/vernadankers
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=DOoFS7IAAAAJ&hl=en
 Maxime Darrin:
   name: Maxime Darrin
   role: PhD
