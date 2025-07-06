@@ -16,12 +16,6 @@
         </a>
         <ul class="visible-links">
 
-          <!-- Added a toggle for light/dark mode: -->
-          {% if site.dark_theme_css %}
-          <li class="masthead__menu-item">
-            <a name="dark-mode-selection-button" onclick="changeTheme()"><i class="fas fa-fw fa-sun"></i></a>
-          </li>
-          {% endif %}
 
           {%- for link in site.data.navigation.main -%}
 

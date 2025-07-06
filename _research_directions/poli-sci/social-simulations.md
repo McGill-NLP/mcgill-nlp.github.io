@@ -4,7 +4,6 @@ layout: splash
 category: poli-sci
 order: 2
 header:
-    overlay_filter: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.9))
     overlay_image: /assets/images/research_directions/poli-sci/social_simulation.png
 one-liner: How can we prototype effective defenses to attacks on information integrity in an ethical and efficient way?
 excerpt: We use and develop state-of-the-art approaches to human social system simulation to simulate attacks on information integrity in critical social phenomena and to prototype effective defenses against them. 

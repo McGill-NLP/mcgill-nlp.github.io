@@ -4,7 +4,6 @@ layout: splash
 category: poli-sci
 order: 1
 header:
-    overlay_filter: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5))
     overlay_image: /assets/images/research_directions/poli-sci/information-integrity.png
 one-liner: How can we find reliable insights amid a deluge of conflicting information?
 excerpt: The information landscape is increasingly flooded with uncertain and conflicting information. We aim to create understanding and tools that will empower all of us in navigating this landscape and finding the trustworthy insights every person wants.
