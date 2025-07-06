@@ -1,12 +1,12 @@
 ---
-category: tgb-a
+category: TGL
 order: 1
 ---
 
-## [Temporal Graph Benchmark](https://misinfo-datasets.complexdatalab.com/)
+## [Temporal Graph Benchmark](https://tgb.complexdatalab.com/)
 
 <div class="clearfix" markdown="1">
-[![image-left](/assets/images/research_directions/temporal-graph-learning/TGB.jpg){: .align-left}](https://misinfo-datasets.complexdatalab.com/)
+[![image-left](/assets/images/tech_transfer/temporal_graph_benchmark.png){: .align-left}](https://tgb.complexdatalab.com/)
 
 The Temporal Graph Benchmark (TGB) is a comprehensive collection of datasets designed for the realistic, reproducible, and robust evaluation of machine learning models on temporal graphs. These datasets are large-scale, span multiple years, and cover various domains such as social networks, trade networks, transaction networks, and transportation networks. They include both node and edge-level prediction tasks, providing a diverse set of challenges for researchers.
 

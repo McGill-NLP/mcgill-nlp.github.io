@@ -1,5 +1,5 @@
 ---
-category: information-integrity
+category: poli-sci
 order: 1
 ---
 

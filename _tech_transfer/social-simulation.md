@@ -1,5 +1,5 @@
 ---
-category: social-simulations
+category: poli-sci
 order: 3
 ---
 
