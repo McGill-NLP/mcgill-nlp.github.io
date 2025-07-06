@@ -14,6 +14,7 @@ class TestAddPublicationById(unittest.TestCase):
             cls.expected_out = f.read()
 
     def test_add_publication_by_id(self):
+        self.maxDiff = None
         with open('tests/data/add_publication_by_id/in.md') as f:
             issue_body = f.read()
         parsed = mod.parse_issue_body(issue_body)
