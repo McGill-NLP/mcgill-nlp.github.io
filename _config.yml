@@ -142,6 +142,17 @@ defaults:
         - no-sidebar
       author_profile: false
 
+    # _posts/news
+  - scope:
+      path: _posts/news
+      type: posts
+    values:
+      layout: single
+      classes:
+        - no-sidebar
+      author_profile: false  
+  
+
   # _pages/profiles
   - scope:
       path: "_pages/profiles"

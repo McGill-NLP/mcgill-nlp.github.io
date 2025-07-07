@@ -18,7 +18,7 @@ main:
       - page: "About the Lab"
         url: /about/
       - page: "News"
-        url: /
+        url: /news/
       - page: "People"
         url: /people/
       - page: "Teaching"
