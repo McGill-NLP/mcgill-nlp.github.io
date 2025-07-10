@@ -1,6 +1,6 @@
 ---
 title: "(RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding"
-venue: UdeM / Mila
+venue: McGill / Mila
 names: Cesare Spinoso-di Piano
 author: Cesare Spinoso-di Piano
 tags:
