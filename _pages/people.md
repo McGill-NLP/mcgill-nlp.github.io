@@ -1,7 +1,9 @@
 ---
-title: "People"
 permalink: /people/
-layout: archive
+title: "People"
+layout: splash_v2
+header:
+    overlay_image: /assets/images/trottier.webp
 ---
 
 ## Faculty & Staff & Postdoc
@@ -58,6 +60,6 @@ layout: archive
 
 <br/>
 
-# Updating the website
+<!-- # Updating the website
 
-If you are part of the Complex Data Lab, please head to the [GitHub repository](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill), for instructions on adding/updating your publications, creating/updating your profile, updating other parts of the website and etc.
+If you are part of the Complex Data Lab, please head to the [GitHub repository](https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill), for instructions on adding/updating your publications, creating/updating your profile, updating other parts of the website and etc. -->

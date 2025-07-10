@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: About the Lab
 layout: splash_v2
 header:
     overlay_image: /assets/images/trottier.webp

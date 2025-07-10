@@ -1,14 +1,16 @@
 ---
+permalink: /news/
 title: News
-layout: publication
+layout: splash_v2
+header:
+    overlay_image: /assets/images/trottier.webp
 classes:
     - no-sidebar
     - wide
-permalink: /news/
 taxonomy: News
 
 ---
 
-Complex Data Lab latest news and annoucements
+Latest news and annoucements
 
 
