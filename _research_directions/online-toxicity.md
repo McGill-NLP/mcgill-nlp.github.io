@@ -36,6 +36,6 @@ Toxic and harmful speech online is more than just unpleasant; it has widespread 
 
 # Funding
 
-We acknowledge funding from Ubisoft, the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Natural Sciences and Engineering Research Council of Canada (NSERC) Postgraduate Scholarship-Doctoral (PGS D) Award. Funding from Ubisoft is governed through the Mitacs Accelerate Program.
+We acknowledge funding from Ubisoft, the Canadian Institute for Advanced Research (CIFAR AI Chair Program) and Natural Sciences and Engineering Research Council of Canada (NSERC) Postgraduate Scholarship-Doctoral (PGS D) Award. Funding from Ubisoft is governed through the Mitacs Accelerate Program.
 
 {% include logo-grid.html id="logos" %}

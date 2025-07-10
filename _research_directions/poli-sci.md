@@ -9,6 +9,21 @@ header:
 excerpt: Our team creates tools and datasets to foster a safe, open space for online public discourse. We hope to empower researchers and the public to understand and navigate today’s digital landscape.
 one-liner: How can we use AI to understand the exchange of information and ideas, and to create positive, societally beneficial information ecosystems?
 
+logos:
+  - image: /assets/images/logo/CIFAR.png
+    name: CIFAR
+  - image: /assets/images/logo/FRQSC.png
+    name: FRQSC
+  - image: /assets/images/logo/SSHRC.png
+    name: SSHRC
+  - image: /assets/images/logo/MILA.png
+    name: MILA
+  - image: /assets/images/logo/CANADA.png
+    name: CANADA   
+  - image: /assets/images/logo/UKRI.png
+    name: UKRI
+  - image: /assets/images/logo/IVADO.png
+    name: IVADO
 ---
 
 {% include breadcrumbs.html %}
@@ -23,10 +38,8 @@ The current digital age fundamentally changes how we as individuals and a societ
 
 {% include tech-transfer.html category="poli-sci" %}
 
+# Funding
 
-# Core Team Members
+We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), the Fonds de recherche du Québec – Société et culture (FRQSC), the Social Sciences and Humanities Research Council (SSHRC), Mila - Quebec AI Institute,the Government of Canada, UK Research and Innovation (UKRI), and IVADO (Institute for Data Valorization).
 
-{% include team-gallery.html authors=site.data.authors research_direction="poli-sci" render_current_role=true %}
-
-## Past Members
-{% include team-gallery.html authors=site.data.authors research_direction="poli-sci" render_current_role=false %}
+{% include logo-grid.html id="logos" %}

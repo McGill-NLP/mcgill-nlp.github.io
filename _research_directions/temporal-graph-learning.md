@@ -9,6 +9,16 @@ header:
 one-liner: "How can we advance machine learning methods to more effectively model and predict dynamic real-world networks and relationships within these time-evolving graphs?"
 excerpt: "Our team comprises experts in AI, data mining, social science, and public health, dedicated to advancing the analysis, prediction, and understanding of dynamic networks. We specialize in developing innovative models and creating realistic, robust benchmarks for state-of-the-art models and real-world applications of temporal graphs. Our work encompasses areas such as recommendation systems, fraud detection, disease modeling, and more."
 
+logos:
+  - image: /assets/images/logo/CIFAR.png
+    name: CIFAR
+  - image: /assets/images/logo/GOOGLE.png
+    name: Google
+  - image: /assets/images/logo/MILA.png
+    name: MILA
+  - image: /assets/images/logo/SAMSUNG.png
+    name: SAMSUNG
+
 ---
 
 {% include breadcrumbs.html %}
@@ -24,9 +34,8 @@ Time-evolving graphs, also known as temporal networks, are a crucial area of stu
 
 {% include tech-transfer.html category="TGL" %}
 
-# Core Team Members
+# Funding
 
-{% include team-gallery.html authors=site.data.authors research_direction="temporal-graph-learning" render_current_role=true %}
+We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Google, Mila - Quebec AI Institute and Samsung. 
 
-<!-- ## Past Members
-{% include team-gallery.html authors=site.data.authors research_direction="temporal-graph-learning" render_current_role=false %} -->
+{% include logo-grid.html id="logos" %}

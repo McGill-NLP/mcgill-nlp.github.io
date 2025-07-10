@@ -9,6 +9,16 @@ header:
 excerpt: "Our team combines AI and criminology expertise to develop ethical, human-centered tools that detect and counteract sex trafficking. Driven by a commitment to responsible research, we aim to bridge technology gaps and support victims in Canada and beyond."
 one-liner: "How to analyze large online markets and build victim-centered tools for countering sex-trafficking?" 
 
+logos:
+  - image: /assets/images/logo/CIFAR.png
+    name: CIFAR
+  - image: /assets/images/logo/MILA.png
+    name: MILA
+  - image: /assets/images/logo/NSERC.png
+    name: NSERC
+  - image: /assets/images/logo/SAMSUNG.png
+    name: SAMSUNG
+
 ---
 
 {% include breadcrumbs.html %}
@@ -23,9 +33,8 @@ Sex trafficking impacts 4.8 million people globally and is a $99 billion USD ind
 
 {% include tech-transfer.html category="online-crime" %}
 
-# Core Team Members
+# Funding
 
-{% include team-gallery.html authors=site.data.authors research_direction="online-crime" render_current_role=true %}
+We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Mila - Quebec AI Institute, Natural Sciences and Engineering Research Council of Canada (NSERC), and Samsung. 
 
-## Past Members
-{% include team-gallery.html authors=site.data.authors research_direction="online-crime" render_current_role=false %}
+{% include logo-grid.html id="logos" %}

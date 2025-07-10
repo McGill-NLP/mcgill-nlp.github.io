@@ -4,10 +4,22 @@
 {% assign display_logos = include.logos | default: page.logos %}
 {% endif %}
 
+{% assign chunk_size = 4 %}
+{% assign total = display_logos | size %}
+{% assign remainder = total | modulo: chunk_size %}
+{% assign rows = total | divided_by: chunk_size %}
+{% if remainder != 0 %}
+{% assign rows = rows | plus: 1 %}
+{% endif %}
+
+{% for i in (0..rows) %}
+{% assign start = i | times: chunk_size %}
+{% assign logos_chunk = display_logos | slice: start, chunk_size %}
 <div class="logo-grid">
-    {% for logo in display_logos %}
+    {% for logo in logos_chunk %}
     <div class="logo-grid-item">
         <img src="{{ logo.image }}" alt="{{ logo.name }}">
     </div>
     {% endfor %}
 </div>
+{% endfor %}
