@@ -21,7 +21,6 @@ logos:
 
 ---
 
-{% include breadcrumbs.html %}
 
 Time-evolving graphs, also known as temporal networks, are a crucial area of study in network science and are ubiquitous in the real world. They represent systems where entities (nodes) and their interactions (edges) change over time. Understanding and predicting the behavior of these dynamic networks are essential for various applications, from tracking disease spread to detecting fraudulent activities and enhancing recommendation systems. However, modeling and analyzing time-evolving graphs presents significant challenges due to their complex and ever-changing nature. Therefore, there is a pressing need to develop advanced machine learning techniques that can effectively handle the unique characteristics of temporal networks.
 
