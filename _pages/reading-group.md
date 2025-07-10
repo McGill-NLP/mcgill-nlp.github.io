@@ -24,7 +24,7 @@ For the Summer 2025 semester, the reading group will meet on **Fridays at 1PM**.
 | June 13 @1PM | Several Mila students | Lightning talks of NLP research at Mila| See email |
 | June 20 @1PM | [Gaurav Sahu](https://demfier.github.io/) | [LitLLMs, LLMs for Literature Review: Are we there yet?](https://arxiv.org/abs/2412.15249) | [click here]({% link _posts/reading-group/summer-2025/2025-06-20-gaurav-sahu.md %}) |
 | June 27 @1PM | [Diganta Misra](https://digantamisra98.github.io/) | [Using Shapley interactions to understand how models use structure](https://arxiv.org/abs/2403.13106) | [click here]({% link _posts/reading-group/summer-2025/2025-06-27-diganta-misra.md %}) |
-| July 11 @1PM | [Cesare Spinoso](https://cesare-spinoso.github.io/) and [Wanru Zhao](https://ryan0v0.github.io/)| [(RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding ([https://arxiv.org/abs/2403.13106](https://arxiv.org/abs/2506.09301) and TBD | [click here for Cesare's talk]({% link _posts/reading-group/summer-2025/2025-07-11-Cesare-Spinoso.md %}) <br> [click here for Wanru's talk]({% link _posts/reading-group/summer-2025/2025-07-11-wanru-zhao.md %}) |
+| July 11 @1PM | [Cesare Spinoso](https://cesare-spinoso.github.io/) and [Wanru Zhao](https://ryan0v0.github.io/)| [(RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding ([https://arxiv.org/abs/2403.13106](https://arxiv.org/abs/2506.09301)) and TBD | [click here for Cesare's talk]({% link _posts/reading-group/summer-2025/2025-07-11-Cesare-Spinoso.md %}) <br> [click here for Wanru's talk]({% link _posts/reading-group/summer-2025/2025-07-11-wanru-zhao.md %}) |
 
 ## History
 
