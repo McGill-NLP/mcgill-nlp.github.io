@@ -1,7 +1,7 @@
 ---
 permalink: /tools-and-resources/
 title: "Tools and Resources"
-layout: splash
+layout: splash_v2
 header:
     overlay_image: /assets/images/trottier.webp
 

@@ -1,6 +1,9 @@
 ---
 title: Publications
-layout: publication
+layout: splash_v2
+header:
+    overlay_image: /assets/images/trottier.webp
+excerpt: ""
 classes:
     - no-sidebar
     - wide

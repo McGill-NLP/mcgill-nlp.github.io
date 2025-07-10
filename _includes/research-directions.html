@@ -7,7 +7,6 @@
 {% assign sorted-research-directions = research-directions | sort: "order" %} <!-- or sort: "date" -->
 
 <div class="research-directions__wrapper">
-
   {% for r in sorted-research-directions %}
   <div class="research-directions-item">
     <a href="{{ r.url | relative_url }}" title="{{r.title}}">

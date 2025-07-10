@@ -1,17 +1,5 @@
-{% if page.header.overlay_color or page.header.overlay_image %}
-{% capture overlay_style %}
-{% if page.header.overlay_image %}
-background-image: {% if page.header.overlay_filter %}{{ page.header.overlay_filter }},{% endif %}url('{{
-page.header.overlay_image | relative_url }}');
-background-position: center;
-background-size: cover;
-{% if page.header.overlay_css %}{{ page.header.overlay_css }}{% endif %}
-{% endif %}
-{% endcapture %}
 <div class="page__hero--overlay">
-
     <div id="particles-js"></div>
-
 
     <div class="wrapper">
         <div class="page__title-container">
@@ -22,12 +10,11 @@ background-size: cover;
             <div class="title-line"></div>
             {% endif %}
             {% if page.excerpt %}
-            <p class="page__lead">{{ page.excerpt | markdownify | remove: "
-            <p>" | remove: "</p>" }}</p>
+            <p class="page__lead">
+                {{ page.excerpt | markdownify | remove: "
+            <p>" | remove: "</p>" }}
+            </p>
             {% endif %}
-        </div>
-        <div class="page_overlay_image" style="{{ overlay_style | strip }}">
         </div>
     </div>
 </div>
-{% endif %}

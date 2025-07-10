@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% include page__hero_particles.html %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "{{ page.title }}",
+  "author": [
+    {% assign authors = page.names | split: ", " %}
+    {% for author in authors %}
+    {
+      "@type": "Person",
+      "name": "{{ author }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "datePublished": "{{ page.name | slice: 0,10 }}",
+  "publisher": "{{ page.venue }}",
+  {% if page.openAccessPdf.url %}
+  "url": "{{ page.openAccessPdf.url }}",
+  {% endif %}
+  {% if page.abstract %}
+  "abstract": {{ page.abstract | jsonify }},
+  {% endif %}
+  {% if page.tags %}
+  "keywords": {{ page.tags | jsonify }},
+  {% endif %}
+  "isAccessibleForFree": {% if page.openAccessPdf.status == "OPEN" %}true{% else %}false{% endif %}
+}
+</script>
+
+<div id="main" role="main">
+    <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if page.title %}
+        <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+        {% endif %}
+        {% if page.excerpt %}
+        <meta itemprop="description"
+            content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}
+        <meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+        {% if page.last_modified_at %}
+        <meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+
+        {{ content }}
+
+        <div>
+            {% include posts-publication.html taxonomy=page.taxonomy %}
+        </div>
+
+    </article>
+</div>

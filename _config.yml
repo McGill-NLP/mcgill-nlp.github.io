@@ -91,9 +91,6 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/complexDataLab"
-    - label: "Updating the website"
-      icon: "fas fa-fw fa-code"
-      url: "https://github.com/ComplexData-MILA/ComplexDataLab-Mila-McGill"
 
 defaults:
   # _pages

@@ -15,7 +15,7 @@ header:
 excerpt: "A research group focusing on developing techniques for analyzing complex data from online societies, with applications to enhance the health and safety of online spaces."
 
 row_research:
-  - image_path: /assets/images/home/group-photo-1.webp
+  - image_path: /assets/images/home/group-photo-2.webp
     url: /publications
     alt: "Poster Presentation"
     title: "Research"
