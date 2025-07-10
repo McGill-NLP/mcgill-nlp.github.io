@@ -476,9 +476,12 @@ Kellin Pelrine:
   semantic_scholar_id: "104333826"
   auto_update_publications: true
   current_role:
-    type: None
-    title: _No response_
+  current_role:
+    type: Student
+    title: PhD
     affiliation: Mila, McGill
+    research_directions:
+      - poli-sci
   social_media_links:
   - label: Website
     url: https://kellinpelrine.github.io/
@@ -489,9 +492,6 @@ Kellin Pelrine:
   - label: LinkedIn
     url: https://www.linkedin.com/in/kellin-pelrine/
 
-  past_roles:
-  - type: None
-    title: _No response_
 Farimah Poursafaei:
   name: Farimah Poursafaei
   avatar: /assets/images/bio/Farimah.JPG
