@@ -34,4 +34,3 @@ In this talk, I present my three recent work aimed at improving the training and
 ## Speaker Bio
 Wanru Zhao is a third-year PhD student at the University of Cambridge, advised by Prof. Nic Lane, and is also a visiting researcher at the Vector Institute, working with Prof. Colin Raffel. Her research focuses on democratizing large model development through distributed learning, data curation, and modular model design. She develops algorithms and frameworks that enable organizations to jointly train and adapt models across data silos and heterogeneous compute environments, with the goal of making AI more accessible, efficient, and inclusive.
 She previously interned at AWS AI Lab and Microsoft Research. She co-organized the ICLR 2024 Workshop on Modularity for Collaborative, Decentralized, and Continual Deep Learning (MCDC). Prior to her PhD, she earned an M.Phil. in Advanced Computer Science from the University of Cambridge, graduating with Distinction.
-TBA
