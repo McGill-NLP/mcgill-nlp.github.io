@@ -1,5 +1,5 @@
 ---
-title: XHAILe: Explainable Hybrid AI for Computational Law and Accurate Legal Chatbots
+title: "XHAILe: Explainable Hybrid AI for Computational Law and Accurate Legal Chatbots"
 venue: University of Copenhagen
 names: Thomas Hildebrandt
 author: Thomas Hildebrandt
