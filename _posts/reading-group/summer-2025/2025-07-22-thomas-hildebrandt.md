@@ -36,4 +36,4 @@ The XHAILe project is funded by Innovation Fund Denmark. The project is rooted a
 There are two open 2-year postdoc/assistant professorship positions, see details [here](https://candidate.hr-manager.net/ApplicationInit.aspx?cid=1307&ProjectId=164541&DepartmentId=18970&MediaId=5&SkipAdvertisement=False&uiculture=en)
 
 ## Speaker Bio
-Thomas Hildebrandt is professor at Department of Computer Science at University of Copenhagen.
+Thomas Hildebrandt is professor at the Department of Computer Science, Copenhagen University. His research spans formal methods for concurrent and distributed systems and security to formal languages and symbolic AI for business process management and computational law. 
