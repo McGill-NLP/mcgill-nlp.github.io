@@ -11,7 +11,7 @@ The McGill NLP reading group hosts speaker presentations and NLP-related discuss
 
 ## Admin
 
-The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Cesare Spinoso](https://cesare-spinoso.github.io/), [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en), and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1]. They will be taking **monthly turns** organizing the reading group and its related activities. The organizer for the month of June is Andrei and the meta-organizer is Cesare.
+The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Cesare Spinoso](https://cesare-spinoso.github.io/), [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en), and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1]. They will be taking **monthly turns** organizing the reading group and its related activities. The organizer for the month of July is Ziling and the meta-organizer is Cesare.
 
 For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. For spam filtering reasons, you will need to reply to a confirmation e-mail. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` mailing list.
 
@@ -26,7 +26,8 @@ For the Summer 2025 semester, the reading group will meet on **Fridays at 1PM**.
 | June 27 @1PM | [Diganta Misra](https://digantamisra98.github.io/) | [Using Shapley interactions to understand how models use structure](https://arxiv.org/abs/2403.13106) | [click here]({% link _posts/reading-group/summer-2025/2025-06-27-diganta-misra.md %}) |
 | July 11 @1PM | [Cesare Spinoso](https://cesare-spinoso.github.io/) and [Wanru Zhao](https://ryan0v0.github.io/)| [(RSA)²: A Rhetorical-Strategy-Aware Rational Speech Act Framework for Figurative Language Understanding](https://arxiv.org/abs/2506.09301) and Data Curation, Curriculum, and Cascade Serving for Better Small Language Models | [click here for Cesare's talk]({% link _posts/reading-group/summer-2025/2025-07-11-Cesare-Spinoso.md %}) and [click here for Wanru's talk]({% link _posts/reading-group/summer-2025/2025-07-11-wanru-zhao.md %}) |
 | July 18 @1PM | [Verna Dankers](https://www.vernadankers.com/) | Memorisation meets compositionality in natural language processing | [click here]({% link _posts/reading-group/summer-2025/2025-07-18-verna-dankers.md %}) |
-| July 22 @10AM | [Thomas Hildebrandt](https://www.vernadankers.com/) | [XHAILe: Explainable Hybrid AI for Computational Law and Accurate Legal Chatbots](https://di.ku.dk/english/research/research-projects/xhaile/) | [click here]({% link _posts/reading-group/summer-2025/2025-07-22-thomas-hildebrandt.md %}) |
+| July 22 @10AM | [Thomas Hildebrandt](https://di.ku.dk/english/staff/?pure=en/persons/350259) | [XHAILe: Explainable Hybrid AI for Computational Law and Accurate Legal Chatbots](https://di.ku.dk/english/research/research-projects/xhaile/) | [click here]({% link _posts/reading-group/summer-2025/2025-07-22-thomas-hildebrandt.md %}) |
+| August | | No meetings scheduled in August, see you in September! | |
 
 ## History
 
