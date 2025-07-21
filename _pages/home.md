@@ -3,15 +3,8 @@ permalink: /
 title: Complex Data Lab
 layout: splash
 header:
-    overlay_image: /assets/images/trottier.webp
-    actions:
-        - label: "GitHub"
-          url: "https://github.com/ComplexData-MILA"
-        - label: "Twitter"
-          url: "https://x.com/complexDataLab"
-        - label: "LinkedIn"
-          url: "https://www.linkedin.com/company/complex-data-lab-mcgill-mila"
-
+    overlay_image: /assets/images/logo/logo.png
+    overlay_css: "background-size&#58; contain; background-repeat&#58; no-repeat;"
 excerpt: "A research group focusing on developing techniques for analyzing complex data from online societies, with applications to enhance the health and safety of online spaces."
 
 row_research:

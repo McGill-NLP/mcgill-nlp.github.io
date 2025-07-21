@@ -1,7 +1,28 @@
+{% if page.header.overlay_color or page.header.overlay_image %}
+{% capture overlay_style %}
+{% if page.header.overlay_image %}
+background-image: {% if page.header.overlay_filter %}
+{{ page.header.overlay_filter }},
+{% endif %}url('{{
+page.header.overlay_image | relative_url }}');
+background-position: center;
+background-size: cover;
+{% if page.header.overlay_css %}
+{{ page.header.overlay_css }}
+{% endif %}
+{% endif %}
+{% if page.header.overlay_color %}
+background-color: {{ page.header.overlay_color }};
+{% endif %}
+{% endcapture %}
+{% endif %}
+
 <div class="page__hero--overlay">
     <div id="particles-js"></div>
 
     <div class="wrapper">
+        <div class="page_overlay_image" style="{{ overlay_style | strip }}">
+        </div>
         <div class="page__title-container">
             {% if page.title %}
             <h1 class="page__title" itemprop="headline">

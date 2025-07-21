@@ -5,7 +5,7 @@ category: research-directions
 order: 1
 header:
     overlay_image: /assets/images/research_directions/temporal-graph-learning.png
-    overlay_css: "background-position&#58; center; background-repeat&#58; no-repeat; background-size&#58; 40% 100%"
+    overlay_css: "background-position&#58; center; background-repeat&#58; no-repeat; background-size&#58; contain"
 one-liner: "How can we advance machine learning methods to more effectively model and predict dynamic real-world networks and relationships within these time-evolving graphs?"
 excerpt: "Our team specializes in developing innovative models and creating realistic, robust benchmarks for temporal graphs driven by applications in recommendation systems, fraud detection, disease modeling, and more."
 
