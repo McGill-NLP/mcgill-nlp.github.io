@@ -605,6 +605,22 @@ Amirhossein Kazemnejad:
   - label: Website
     url: https://kazemnejad.com
 
+Imene Kerboua:
+  name: Imene Kerboua
+  role: Interns
+  username: imenelydiaker
+  avatar: /assets/images/bio/Imene Kerboua.jpg
+  advisor: Siva Reddy
+  date: Aug 2025
+  bio: Works on Digital Agents
+  alumni: false
+  links:
+  - label: Website
+    url: https://imenelydiaker.github.io/
+  - label: GitHub
+    url: https://github.com/imenelydiaker
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=CGfwaaQAAAAJ
 Aditi Khandelwal:
   name: Aditi Khandelwal
   role: PhD
