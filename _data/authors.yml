@@ -118,7 +118,7 @@ Aarash Feizi:
     techniques in CV and NLP for social good with real-world impacts.
   username: feiziaar
   semantic_scholar_id: "1962954677"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: PhD
@@ -143,7 +143,7 @@ Jean-Francois Godbout:
   bio:
   note:
   semantic_scholar_id: "2490772"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Collaborator
     title: Professor
@@ -167,7 +167,7 @@ Shenyang Huang:
   bio: Working temporal graph learning and graph learning applications for real world.
   semantic_scholar_id: "51012317"
   username: huanshe
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: PhD
@@ -299,7 +299,7 @@ Victor Livernoche:
   bio: Working on generative AI
   semantic_scholar_id: '2219226719'
   username: victor.livernoche
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: PhD
@@ -349,7 +349,7 @@ Shahrad Mohammadzadeh:
   bio: LLMs, RL, and Graph Learning
   username: shahrad.mohammadzadeh
   semantic_scholar_id: "2281945133"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: Master
@@ -402,7 +402,7 @@ Pratheeksha Nair:
   bio: AI for social good applications - fighting online organized crime; Weak Supervision
     and Graph Machine Learning
   semantic_scholar_id: "48761500"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: PhD
@@ -474,7 +474,7 @@ Kellin Pelrine:
     research.
   note: Research Scientist @ FAR.AI
   semantic_scholar_id: "104333826"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
   current_role:
     type: Student
@@ -558,7 +558,7 @@ Sahar Omidi Shayegan:
   bio: Studies Social Networks through Graphs and Language Modeling
   semantic_scholar_id: "2302559514"
   username: sahar.omidishayegan
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: Master
@@ -579,7 +579,7 @@ Sahar Omidi Shayegan:
 
 Camille Thibault:
   name: Camille Thibault
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Collaborator
     title: Master
@@ -687,7 +687,7 @@ Zachary Yang:
   bio: Working on applied NLP for social good - toxicity, misinformation, polarization
   note: Fast tracked from Masters to PhD
   semantic_scholar_id: "2155115994"
-  auto_update_publications: true
+  auto_update_publications: false
   current_role:
     type: Student
     title: PhD
