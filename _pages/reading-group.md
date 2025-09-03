@@ -11,7 +11,7 @@ The McGill NLP reading group hosts speaker presentations and NLP-related discuss
 
 ## Admin
 
-The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Cesare Spinoso](https://cesare-spinoso.github.io/), [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en), [Tomás Vergara Browne](https://tvergara.github.io/) and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1]. They will be taking **monthly turns** organizing the reading group and its related activities. The organizer for the month of June is Andrei and the meta-organizer is Cesare.
+The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Cesare Spinoso](https://cesare-spinoso.github.io/), [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en), [Tomás Vergara Browne](https://tvergara.github.io/) and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1]. They will be taking **monthly turns** organizing the reading group and its related activities.
 
 For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. For spam filtering reasons, you will need to reply to a confirmation e-mail. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` mailing list.
 
