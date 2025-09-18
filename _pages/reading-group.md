@@ -19,16 +19,17 @@ For more information about the reading group or for requests to join the mailing
 
 For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on a roughly **bi-weekly** basis. Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a **tentative schedule** of speakers/topics for the semester. It is **actively updated**. All times are in ET.
 
-| **Date @ Time** | **Speaker(s)** | **Topic** | **More Information** |
+| **Date @ Time** | **Speaker(s)** | **Topic** |
 |---|---|---|---|
-| Sept 5 @ 2PM | Mila NLP | Roundtable Discussion | Welcome back/Catch up |
-| Sept 19 @ 2PM | Parisa Kordjamshidi | *TBA* | *TBA* |
-| Oct 3rd @ 2PM | Juan Wisznia | *TBA* | *TBA* |
-| Oct 17 @ 2PM | *TBA* | *TBA* | *TBA* |
-| Oct 31 @ 2PM | *TBA* | *TBA* | *TBA* |
-| Nov 14 @ 2PM | *TBA* | *TBA* | *TBA* |
-| Nov 28 @ 2PM | *TBA* | *TBA* | *TBA* |
-| Dec 12 @ 2PM | H04 | *TBA* | *TBA* |
+| Sept 5 @ 2PM | Mila NLP | Roundtable Discussion |
+| Sept 19 @ 2PM | Parisa Kordjamshidi | [click here]({% link _posts/reading-group/fall-2025/2025-09-19-parisa-kordjamshidi.md %}) |
+| Sept 26th @ 2PM | Gaurav Kamath | *TAB* |
+| Oct 3rd @ 2PM | Juan Wisznia | *TBA* |
+| Oct 17 @ 2PM | Yuntian Deng | *TBA* | 
+| Oct 31 @ 2PM | *TBA* | *TBA* | 
+| Nov 14 @ 2PM | *TBA* | *TBA* | 
+| Nov 28 @ 2PM | *TBA* | *TBA* | 
+| Dec 12 @ 2PM | *TBA* | *TBA* | 
 
 
 ## History
