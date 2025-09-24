@@ -23,7 +23,7 @@ For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on
 |---|---|---|---|
 | Sept 5 @ 2PM | Mila NLP | Roundtable Discussion |
 | Sept 19 @ 2PM | Parisa Kordjamshidi | [click here]({% link _posts/reading-group/fall-2025/2025-09-19-parisa-kordjamshidi.md %}) |
-| Sept 26th @ 2PM | Gaurav Kamath | *TAB* |
+| Sept 26th @ 2PM | Gaurav Kamath | [click here]({% link _posts/reading-group/fall-2025/2025-09-26-gaurav-kamath.md %}) |
 | Oct 3rd @ 2PM | Juan Wisznia | *TBA* |
 | Oct 17 @ 2PM | Yuntian Deng | *TBA* | 
 | Oct 31 @ 2PM | *TBA* | *TBA* | 
