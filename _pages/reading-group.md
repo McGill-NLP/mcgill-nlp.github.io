@@ -24,12 +24,16 @@ For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on
 | Sept 5 @ 2PM | Mila NLP | Roundtable Discussion |
 | Sept 19 @ 2PM | Parisa Kordjamshidi | [click here]({% link _posts/reading-group/fall-2025/2025-09-19-parisa-kordjamshidi.md %}) |
 | Sept 26th @ 2PM | Gaurav Kamath | [click here]({% link _posts/reading-group/fall-2025/2025-09-26-gaurav-kamath.md %}) |
-| Oct 3rd @ 2PM | Juan Wisznia | *TBA* |
-| Oct 17 @ 2PM | Yuntian Deng | *TBA* | 
-| Oct 31 @ 2PM | *TBA* | *TBA* | 
-| Nov 14 @ 2PM | *TBA* | *TBA* | 
-| Nov 28 @ 2PM | *TBA* | *TBA* | 
-| Dec 12 @ 2PM | *TBA* | *TBA* | 
+| Oct 3rd @ 2PM | Matthieu Dubois | *TBA* |
+| Oct 10th @ 2PM | No talk - [COLM 2025](https://colmweb.org/) is in Montreal! |  |
+| Oct 17th @ 2PM | Yuntian Deng | *TBA* |
+| Oct 24th @ 2PM | Juan Wisznia | *TBA* | 
+| Oct 31 @ 2PM | Harman Singh | *TBA* | 
+| Nov 14 @ 2PM | Joyce Chai | *TBA* |
+| Nov 20 @ 2PM | Behzad Shayegh | **Note the date change, this is a Thursday!** | 
+| Nov 28 @ 2PM | Fanny Jourdan | *TBA* | 
+| Dec 5 @ 2PM | Ahmed Masry | *TBA* | 
+| Dec 12 @ 2PM | En of semester talks | *TBA* | 
 
 
 ## History
