@@ -17,7 +17,7 @@ For more information about the reading group or for requests to join the mailing
 
 ## Recordings
 
-Some (but not all) of our previous talks can be found on our YouTube channel: https://www.youtube.com/@McGillNLP
+Some (but not all) of our previous talks can be found on our YouTube channel: [https://www.youtube.com/@McGillNLP](https://www.youtube.com/@McGillNLP)
 
 ## Schedule
 
