@@ -15,6 +15,10 @@ The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Cesar
 
 For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. For spam filtering reasons, you will need to reply to a confirmation e-mail. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` mailing list.
 
+## Recordings
+
+Some (but not all) of our previous talks can be found on our YouTube channel: https://www.youtube.com/@McGillNLP
+
 ## Schedule
 
 For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on a roughly **bi-weekly** basis. Meetings will be held in a hybrid fashion. More information including room locations, Zoom link and Google calendar link will be found in the emails we will send announcing speakers/discussion topics both to the Mila-wide email and the CompLing mailing list. Below is a **tentative schedule** of speakers/topics for the semester. It is **actively updated**. All times are in ET.
