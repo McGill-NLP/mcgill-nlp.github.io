@@ -28,7 +28,7 @@ For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on
 | Sept 5 @ 2PM | Mila NLP | Roundtable Discussion |
 | Sept 19 @ 2PM | Parisa Kordjamshidi | [click here]({% link _posts/reading-group/fall-2025/2025-09-19-parisa-kordjamshidi.md %}) |
 | Sept 26th @ 2PM | Gaurav Kamath | [click here]({% link _posts/reading-group/fall-2025/2025-09-26-gaurav-kamath.md %}) |
-| Oct 3rd @ 2PM | Matthieu Dubois | *TBA* |
+| Oct 3rd @ 2PM | Matthieu Dubois | [click here]({% link _posts/reading-group/fall-2025/2025-10-03-matthieu-dubois.md %}) |
 | Oct 10th @ 2PM | No talk - [COLM 2025](https://colmweb.org/) is in Montreal! |  |
 | Oct 17th @ 2PM | Yuntian Deng | *TBA* |
 | Oct 24th @ 2PM | Juan Wisznia | *TBA* | 
