@@ -1,5 +1,5 @@
 ---
-title: "Implicit Chain-of-Thought: Internalizing Reasoning in Language Models"
+title: "Rethinking Sorting in LLM-Based Pairwise Ranking with Batching and Caching"
 venue: University of Buenos Aires
 names: Juan Wisznia
 author: Juan Wisznia
@@ -20,7 +20,7 @@ classes:
 
 {% include display-publication-links.html pub=page %}
 
-The [NLP Reading Group]({% link _pages/reading-group.md %}) is delighted to host Juan Wisznia who will be giving a talk **remotely** on "Implicit Chain-of-Thought: Internalizing Reasoning in Language Models".
+The [NLP Reading Group]({% link _pages/reading-group.md %}) is delighted to host Juan Wisznia who will be giving a talk **remotely** on "Rethinking Sorting in LLM-Based Pairwise Ranking with Batching and Caching".
 
 ## Talk Description
 In this talk, I will present “Are Optimal Algorithms Still Optimal? Rethinking Sorting in LLM-Based Pairwise Ranking with Batching and Caching,” accepted at ACL 2025 (Main Conference).
