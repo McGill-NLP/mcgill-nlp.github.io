@@ -24,7 +24,7 @@ The [NLP Reading Group]({% link _pages/reading-group.md %}) is happy to receive 
 
 ## Recording
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uO10V9lJdMA?si=110WupTSDIqj-lg6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+The recording for the talk can be found [here on our YouTube channel](https://youtu.be/uO10V9lJdMA?si=i60T5BkG9kxkM_5e).
 
 ## Talk Description
 
