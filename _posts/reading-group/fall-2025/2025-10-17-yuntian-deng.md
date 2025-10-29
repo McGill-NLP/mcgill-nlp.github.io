@@ -25,7 +25,7 @@ The [NLP Reading Group]({% link _pages/reading-group.md %}) is delighted to host
 
 ## Recording
 
-<iframe width="560" height="315" src="https://youtu.be/F6e5MztlFhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+The recording for the talk can be found [here on our YouTube channel](https://youtu.be/F6e5MztlFhQ).
 
 ## Talk Description
 When leveraging language models for reasoning tasks, generating explicit chain-of-thought (CoT) steps is often crucial for high accuracy. In this work, drawing inspiration from how the human brain transitions from explicit, conscious, deliberate reasoning (System 2) to implicit, automatic, intuitive thinking (System 1), we seek to internalize explicit CoT reasoning within a model that directly produces the final answer, which we define as the implicit CoT paradigm.
