@@ -32,6 +32,6 @@ Harman Singh is a PhD student at UC Berkeley, advised by Kurt Keutzer. His curre
 
 ## Logistics
 
-Date: October 31th<br>
+Date: October 31st<br>
 Time: 2:00PM <br>
 Location: H04 or via Google Meet (See email)
