@@ -770,6 +770,20 @@ Xing Han Lu:
   semantic_scholar_id: '50085049'
   bio: Working on retrieval and conversational QA
 
+Yinhan Lu:
+  name: Yinhan Lu
+  role: Undergraduate
+  username: yinhan.lu
+  avatar: /assets/images/bio/Yinhan Lu.jpg
+  advisor: David Adelani
+  date: September 2025
+  bio: Working on low resource language machine translation
+  alumni: false
+  links:
+  - label: Website
+    url: https://yinhanlu.me/
+  - label: GitHub
+    url: https://github.com/Yinhan-Lu
 Andreas Madsen:
   name: "Andreas Madsen"
   role: "PhD"
