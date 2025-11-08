@@ -928,6 +928,18 @@ Caleb Moses:
   - label: Website
     url: https://www.linkedin.com/in/calebjdmoses/
 
+Damaris Stephanie Ndjebayi:
+  name: Damaris Stephanie Ndjebayi
+  role: PhD
+  username: damaris-stephanie
+  avatar: /assets/images/bio/Damaris Stephanie Ndjebayi.jpg
+  advisor: Prof. David Adelani
+  date: Fall 2025
+  bio: Exploring culturally-grounded, multilingual vision-language understanding
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/ndams55
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
