@@ -309,6 +309,25 @@ Andre Cianflone:
   - label: Website
     url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
 
+Jan Christian Blaise Cruz:
+  name: Jan Christian Blaise Cruz
+  role: Intern
+  username: jan.christian.blaise.cruz
+  semantic_scholar_id: '51017310'
+  avatar: /assets/images/bio/Jan Christian Blaise Cruz.jpg
+  advisor: David Ifeoluwa Adelani
+  date: Sep 2025
+  bio: Working on better representations of multilinguality
+  alumni: false
+  links:
+  - label: Website
+    url: https://blaisecruz.com/
+  - label: Twitter
+    url: https://x.com/jcblaisecruz
+  - label: GitHub
+    url: https://github.com/jcblaisecruz02
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=iBuxBEUAAAAJ
 Verna Dankers:
   name: Verna Dankers
   role: Postdoc
