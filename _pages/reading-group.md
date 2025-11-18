@@ -34,7 +34,7 @@ For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on
 | Oct 24th @ 2PM | Juan Wisznia | [click here]({% link _posts/reading-group/fall-2025/2025-10-24-juan-wisznia.md %})|
 | Oct 31 @ 2PM | Harman Singh | [click here]({% link _posts/reading-group/fall-2025/2025-10-31-harman-singh.md %}) | 
 | Nov 14 @ 2PM | Joyce Chai | [click here]({% link _posts/reading-group/fall-2025/2025-11-14-joyce-chai.md %}) |
-| Nov 20 @ 10AM | Behzad Shayegh | **Note the date change, this is a Thursday!** | 
+| Nov 20 @ 10AM **Note the date change, this is a Thursday!**  | Behzad Shayegh | [click here]({% _posts/reading-group/fall-2025/2025-11-20-behzad-shayegh.md %}) | 
 | Nov 28 @ 2PM | Fanny Jourdan | *TBA* | 
 | Dec 5 @ 2PM | Ahmed Masry | *TBA* | 
 | Dec 12 @ 2PM | End of semester talks | *TBA* | 
