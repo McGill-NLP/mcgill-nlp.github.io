@@ -38,6 +38,7 @@ For the Fall 2025 semester, the reading group will meet on **Fridays at 2PM** on
 | Nov 28 @ 2PM | Fanny Jourdan | [click here]({% link _posts/reading-group/fall-2025/2025-11-28-fanny-jourdan.md %}) | 
 | Dec 5 @ 2PM | Ahmed Masry | [click here]({% link _posts/reading-group/fall-2025/2025-12-05-ahmed-mazry.md %}) | 
 | Dec 12 @ 2PM | End of semester talks | *TBA* | 
+| Dec 19 @ 2PM | Haneul Yoo  | [click here]({% link _posts/reading-group/fall-2025/2025-12-19-Yoo-Haneul.md%}) | 
 
 
 ## History
