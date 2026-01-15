@@ -288,6 +288,19 @@ Meng Cao:
     url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
   avatar: /assets/images/bio/Meng Cao.avatar.webp
 
+Virginia Ceccatelli:
+  name: Virginia Ceccatelli
+  role: Undergraduate
+  username: virginia.ceccatelli
+  semantic_scholar_id: '261205098'
+  avatar: /assets/images/bio/Virginia Ceccatelli.jpg
+  advisor: David Adelani
+  date: Jan 2026
+  bio: Multilingual LLM Safety
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/virginiaceccatelli
 Xuanda Chen:
   name: Xuanda Chen
   role: Intern
