@@ -39,6 +39,25 @@ David Adelani:
   - label: Scholar
     url: https://scholar.google.com/citations?user=W9sTkS0AAAAJ
 
+Henok Ademtew:
+  name: Henok Ademtew
+  role: Master
+  username: henok.ademtew
+  semantic_scholar_id: '2305619369'
+  avatar: /assets/images/bio/Henok Ademtew.jpg
+  advisor: David Adelani
+  date: Jan 2026
+  bio: Works on multilingual NLP and VLMs
+  alumni: false
+  links:
+  - label: Website
+    url: https://henokb.github.io/
+  - label: Twitter
+    url: https://x.com/henokademtew
+  - label: GitHub
+    url: http://github.com/HenokB/
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=7t9kIY0AAAAJ
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
   role: PhD
