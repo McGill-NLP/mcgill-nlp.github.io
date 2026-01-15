@@ -892,6 +892,18 @@ Andreas Madsen:
     url: "https://scholar.google.com/citations?user=X0zwAXYAAAAJ"
 
   username: andreas.madsen
+Marie Maltais:
+  name: Marie Maltais
+  role: PhD
+  username: marie.maltais
+  avatar: /assets/images/bio/Marie Maltais.jpg
+  advisor: David Adelani
+  date: Fall 2025
+  bio: Works on speech-to-text and speech-to-speech translation for low resource languages
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/mmalt1
 Sara Vera Marjanović:
   name: Sara Vera Marjanović
   role: Intern
