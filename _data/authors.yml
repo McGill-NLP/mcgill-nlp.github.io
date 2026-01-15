@@ -57,6 +57,24 @@ Vaibhav Adlakha:
   - label: Scholar
     url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
 
+Victor Akinode:
+  name: Victor Akinode
+  role: Master
+  username: victor.akinode
+  avatar: /assets/images/bio/Victor Akinode.jpg
+  advisor: David Adelani
+  date: Aug-2025
+  bio: Works on Multicultural Modles and AI Safety
+  alumni: false
+  links:
+  - label: Website
+    url: https://victor-akinode.github.io/
+  - label: Twitter
+    url: https://x.com/Victor-Akinode
+  - label: GitHub
+    url: https://github.com/Victor-Akinode
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=1e5TGc8AAAAJ&hl=en
 Malik H. Altakrori:
   name: Malik H. Altakrori
   role: PhD
