@@ -511,6 +511,22 @@ Emily Goodwin:
   - label: "Website"
     url: "https://emilygoodwin.github.io/"
 
+David Guzmán:
+  name: David Guzmán
+  role: PhD
+  username: david.guzman
+  avatar: /assets/images/bio/David Guzmán.jpg
+  advisor: David Adelani
+  date: Fall 2025
+  bio: Works on Multilingual NLP and Low-Resource Languages
+  alumni: false
+  links:
+  - label: Website
+    url: https://davidguzmanr.github.io/
+  - label: GitHub
+    url: https://github.com/davidguzmanr
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=pdzhBdoAAAAJ
 Lucas Torroba Hennigen:
   name: "Lucas Torroba Hennigen"
   role: "Intern"
