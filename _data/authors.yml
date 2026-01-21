@@ -472,13 +472,20 @@ Kellin Pelrine:
   avatar: /assets/images/bio/kellin.pelrine.avatar.webp
   bio: AI Security, AI Agents. Cross-functional solutions on a foundation of technical
     research.
-  note: Research Scientist @ FAR.AI
   semantic_scholar_id: "104333826"
   auto_update_publications: false
   current_role:
-  current_role:
-    type: Student
+    type: Collaborator
+    title: Research Scientist @ FAR.AI
+    start_date: Fall 2025
+    affiliation: FAR.AI
+    research_directions:
+    - poli-sci
+  past_roles:
+  - type: Student
     title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2022
     affiliation: Mila, McGill
     research_directions:
       - poli-sci
@@ -492,16 +499,6 @@ Kellin Pelrine:
   - label: LinkedIn
     url: https://www.linkedin.com/in/kellin-pelrine/
 
-Kellin Pelrine 2:
-  name: Kellin Pelrine
-  auto_update_publications: true
-  current_role:
-    type: Student
-    title: PhD
-    start_date: Fall 2020
-  bio: AI Security, AI Agents. Cross-functional solutions on a foundation of technical
-    research.
-  semantic_scholar_id: '104333826'
 Farimah Poursafaei:
   name: Farimah Poursafaei
   avatar: /assets/images/bio/Farimah.JPG
