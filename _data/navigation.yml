@@ -11,6 +11,8 @@ main:
         url: /online-toxicity/
       - page: "Tools & Resources"
         url: /tools-and-resources/
+      - page: "STAMINA"
+        url: /stamina/
       - page: "Publications"
         url: /publications/
     url: /
