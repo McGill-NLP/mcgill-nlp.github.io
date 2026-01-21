@@ -492,6 +492,16 @@ Kellin Pelrine:
   - label: LinkedIn
     url: https://www.linkedin.com/in/kellin-pelrine/
 
+Kellin Pelrine 2:
+  name: Kellin Pelrine
+  auto_update_publications: true
+  current_role:
+    type: Student
+    title: PhD
+    start_date: Fall 2020
+  bio: AI Security, AI Agents. Cross-functional solutions on a foundation of technical
+    research.
+  semantic_scholar_id: '104333826'
 Farimah Poursafaei:
   name: Farimah Poursafaei
   avatar: /assets/images/bio/Farimah.JPG
