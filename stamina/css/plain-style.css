@@ -1,0 +1,13 @@
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box {
+/*width: 100px;
+height: 100px;*/
+padding: 10px;
+border: 3px solid gray;
+background-color: #F8F8F8;
+font-size: 18pt;
+}
