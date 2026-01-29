@@ -39,6 +39,25 @@ David Adelani:
   - label: Scholar
     url: https://scholar.google.com/citations?user=W9sTkS0AAAAJ
 
+Henok Ademtew:
+  name: Henok Ademtew
+  role: Master
+  username: henok.ademtew
+  semantic_scholar_id: '2305619369'
+  avatar: /assets/images/bio/Henok Ademtew.jpg
+  advisor: David Adelani
+  date: Jan 2026
+  bio: Works on multilingual NLP and VLMs
+  alumni: false
+  links:
+  - label: Website
+    url: https://henokb.github.io/
+  - label: Twitter
+    url: https://x.com/henokademtew
+  - label: GitHub
+    url: http://github.com/HenokB/
+  - label: Scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=7t9kIY0AAAAJ
 Vaibhav Adlakha:
   name: Vaibhav Adlakha
   role: PhD
@@ -57,6 +76,24 @@ Vaibhav Adlakha:
   - label: Scholar
     url: https://scholar.google.com/citations?user=0qmIfUoAAAAJ
 
+Victor Akinode:
+  name: Victor Akinode
+  role: Master
+  username: victor.akinode
+  avatar: /assets/images/bio/Victor Akinode.jpg
+  advisor: David Adelani
+  date: Aug-2025
+  bio: Works on Multicultural Modles and AI Safety
+  alumni: false
+  links:
+  - label: Website
+    url: https://victor-akinode.github.io/
+  - label: Twitter
+    url: https://x.com/Victor-Akinode
+  - label: GitHub
+    url: https://github.com/Victor-Akinode
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=1e5TGc8AAAAJ&hl=en
 Malik H. Altakrori:
   name: Malik H. Altakrori
   role: PhD
@@ -251,6 +288,19 @@ Meng Cao:
     url: https://scholar.google.com/citations?user=CvHeFv8AAAAJ&hl=en
   avatar: /assets/images/bio/Meng Cao.avatar.webp
 
+Virginia Ceccatelli:
+  name: Virginia Ceccatelli
+  role: Undergraduate
+  username: virginia.ceccatelli
+  semantic_scholar_id: '261205098'
+  avatar: /assets/images/bio/Virginia Ceccatelli.jpg
+  advisor: David Adelani
+  date: Jan 2026
+  bio: Multilingual LLM Safety
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/virginiaceccatelli
 Xuanda Chen:
   name: Xuanda Chen
   role: Intern
@@ -309,6 +359,25 @@ Andre Cianflone:
   - label: Website
     url: https://scholar.google.ca/citations?user=NAS_x_QAAAAJ&hl=en
 
+Jan Christian Blaise Cruz:
+  name: Jan Christian Blaise Cruz
+  role: Intern
+  username: jan.christian.blaise.cruz
+  semantic_scholar_id: '51017310'
+  avatar: /assets/images/bio/Jan Christian Blaise Cruz.jpg
+  advisor: David Ifeoluwa Adelani
+  date: Sep 2025
+  bio: Working on better representations of multilinguality
+  alumni: false
+  links:
+  - label: Website
+    url: https://blaisecruz.com/
+  - label: Twitter
+    url: https://x.com/jcblaisecruz
+  - label: GitHub
+    url: https://github.com/jcblaisecruz02
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=iBuxBEUAAAAJ
 Verna Dankers:
   name: Verna Dankers
   role: Postdoc
@@ -492,6 +561,22 @@ Emily Goodwin:
   - label: "Website"
     url: "https://emilygoodwin.github.io/"
 
+David Guzmán:
+  name: David Guzmán
+  role: PhD
+  username: david.guzman
+  avatar: /assets/images/bio/David Guzmán.jpg
+  advisor: David Adelani
+  date: Fall 2025
+  bio: Works on Multilingual NLP and Low-Resource Languages
+  alumni: false
+  links:
+  - label: Website
+    url: https://davidguzmanr.github.io/
+  - label: GitHub
+    url: https://github.com/davidguzmanr
+  - label: Scholar
+    url: https://scholar.google.com/citations?user=pdzhBdoAAAAJ
 Lucas Torroba Hennigen:
   name: "Lucas Torroba Hennigen"
   role: "Intern"
@@ -770,6 +855,20 @@ Xing Han Lu:
   semantic_scholar_id: '50085049'
   bio: Working on retrieval and conversational QA
 
+Yinhan Lu:
+  name: Yinhan Lu
+  role: Undergraduate
+  username: yinhan.lu
+  avatar: /assets/images/bio/Yinhan Lu.jpg
+  advisor: David Adelani
+  date: September 2025
+  bio: Working on low resource language machine translation
+  alumni: false
+  links:
+  - label: Website
+    url: https://yinhanlu.me/
+  - label: GitHub
+    url: https://github.com/Yinhan-Lu
 Andreas Madsen:
   name: "Andreas Madsen"
   role: "PhD"
@@ -928,6 +1027,18 @@ Caleb Moses:
   - label: Website
     url: https://www.linkedin.com/in/calebjdmoses/
 
+Damaris Stephanie Ndjebayi:
+  name: Damaris Stephanie Ndjebayi
+  role: PhD
+  username: damaris-stephanie
+  avatar: /assets/images/bio/Damaris Stephanie Ndjebayi.jpg
+  advisor: Prof. David Adelani
+  date: Fall 2025
+  bio: Exploring culturally-grounded, multilingual vision-language understanding
+  alumni: false
+  links:
+  - label: GitHub
+    url: https://github.com/ndams55
 Timothy J. O'Donnell:
   name: Timothy J. O'Donnell
   role: Faculty
@@ -1245,6 +1356,16 @@ Vivek Verma:
   advisor: David Adelani
   date: Jan 2025
   bio: Multilingual NLP
+  alumni: false
+  links: []
+Tianyi Xu:
+  name: Tianyi Xu
+  role: Intern
+  username: tianyi.xu@mila.quebec
+  avatar: /assets/images/bio/Tianyi Xu.jpg
+  advisor: David Ifeoluwa Adelani
+  date: Spring 2024
+  bio: Working on multilingual reasoning
   alumni: false
   links: []
 Michelle Yang:
