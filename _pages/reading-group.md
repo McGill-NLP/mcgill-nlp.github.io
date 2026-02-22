@@ -22,7 +22,7 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 
 ## Schedule
 
-To be decided.
+[Winter 2026]({% link _posts/reading-group/archive/2026-01-01-winter-2026.md %})
 
 ## History
 
@@ -36,5 +36,6 @@ Previous semester schedules of the reading group:
 - [Winter 2025]({% link _posts/reading-group/archive/2025-01-01-winter-2025.md %})
 - [Fall 2024]({% link _posts/reading-group/archive/2024-09-01-fall-2024.md %})
 - [Summer 2024]({% link _posts/reading-group/archive/2024-05-01-summer-2024.md %})
+
 
 [^1]: The organizers are listed based on the alphabetic order of their first name.
