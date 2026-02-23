@@ -38,7 +38,7 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | May 8 @ 2PM | Mila NLP | TBD | 
 | May 15 @ 2PM | Mila NLP | TBD | 
 | May 22 @ 2PM | Mila NLP | TBD | 
-| May 29 @ 2PM | Shalom Lappin | Neural-Symbolic Models | 
+| May 29 @ 2PM | Shalom Lappin | TBD | 
 
 ## History
 
