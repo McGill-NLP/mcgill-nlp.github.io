@@ -29,11 +29,11 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | Feb 27 @ 2PM | Mila NLP | TBD |
 | Mar 6 @ 2PM | Mila NLP | TBD |
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
-| Mar 20 @ 2PM | Johnny Wei | Memorization |
+| Mar 20 @ 2PM | Johnny Wei | TBD |
 | Mar 27 @ 2PM | Mila NLP | TBD |
 | Apr 3 @ 2PM | Mila NLP | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
-| Apr 17 @ 2PM | Jieyu Zhao | Agent | 
+| Apr 17 @ 2PM | Jieyu Zhao | TBD | 
 | Apr 24 @ 2PM | Mila NLP | TBD | 
 | May 8 @ 2PM | Mila NLP | TBD | 
 | May 15 @ 2PM | Mila NLP | TBD | 
