@@ -22,7 +22,23 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 
 ## Schedule
 
-[Winter 2026]({% link _posts/reading-group/archive/2026-01-01-winter-2026.md %})
+| **Date @ Time** | **Speaker(s)** | **Topic** |
+|---|---|---|---|
+| Feb 13 @ 2PM | Mila NLP | Roundtable Discussion |
+| Feb 20 @ 2PM | Mila NLP | Internal Panel on Reasoning Diversity hosted by David Austin|
+| Feb 27 @ 2PM | Mila NLP | TBD |
+| Mar 6 @ 2PM | Mila NLP | TBD |
+| Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
+| Mar 20 @ 2PM | Johnny Wei | Memorization |
+| Mar 27 @ 2PM | Mila NLP | TBD |
+| Apr 3 @ 2PM | Mila NLP | TBD | 
+| Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
+| Apr 17 @ 2PM | Jieyu Zhao | Agent | 
+| Apr 24 @ 2PM | Mila NLP | TBD | 
+| May 8 @ 2PM | Mila NLP | TBD | 
+| May 15 @ 2PM | Mila NLP | TBD | 
+| May 22 @ 2PM | Mila NLP | TBD | 
+| May 29 @ 2PM | Shalom Lappin | Neural-Symbolic Models | 
 
 ## History
 
