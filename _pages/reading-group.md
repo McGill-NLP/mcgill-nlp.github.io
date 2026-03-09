@@ -31,7 +31,7 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
 | Mar 20 @ 2PM | Johnny Wei | TBD |
 | Mar 27 @ 2PM | Eric Todd | TBD |
-| Apr 4 @ 2PM | Bhuwan Dhingra | TBD | 
+| Apr 3 @ 3PM | Bhuwan Dhingra | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
 | Apr 17 @ 2PM | Jieyu Zhao | TBD | 
 | Apr 24 @ 2PM | Mila NLP | TBD | 
