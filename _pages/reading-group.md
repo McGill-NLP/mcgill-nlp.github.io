@@ -26,11 +26,11 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 |---|---|---|---|
 | Feb 13 @ 2PM | Mila NLP | Roundtable Discussion |
 | Feb 20 @ 2PM | Mila NLP | Internal Panel on Reasoning Diversity hosted by David Austin|
-| Feb 27 @ 2PM | Mila NLP | TBD |
-| Mar 6 @ 2PM | Mila NLP | TBD |
+| Feb 27 @ 2PM | Mila NLP | Internal Panel on Linguistics in the LLM Era hosted by Austin Kraft, Cesare Spinoso-Di Piano, and Gaurav Kamath |
+| Mar 6 @ 2PM | Mila NLP | Reading Week Break |
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
 | Mar 20 @ 2PM | Johnny Wei | TBD |
-| Mar 27 @ 2PM | Mila NLP | TBD |
+| Mar 27 @ 2PM | Eric Todd | TBD |
 | Apr 3 @ 2PM | Mila NLP | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
 | Apr 17 @ 2PM | Jieyu Zhao | TBD | 
