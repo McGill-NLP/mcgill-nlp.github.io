@@ -11,7 +11,7 @@ The McGill NLP reading group hosts speaker presentations and NLP-related discuss
 
 ## Admin
 
-The current organizers are [Andrei Mircea](https://mirandrom.github.io/), [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en), [Tomás Vergara Browne](https://tvergara.github.io/) and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1].
+The current organizers are [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en) and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1].
 
 <!-- NOTE: No one monitors this anymore, do it doesn't make sense to keep it. If anyone wants to monitor it then ask Cesare for how. -->
 <!-- For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. For spam filtering reasons, you will need to reply to a confirmation e-mail. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` mailing list. -->
@@ -22,7 +22,24 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 
 ## Schedule
 
-To be decided.
+| **Date @ Time** | **Speaker(s)** | **Topic** |
+|---|---|---|---|
+| Feb 13 @ 2PM | Mila NLP | Roundtable Discussion |
+| Feb 20 @ 2PM | David Austin | Internal Panel on Reasoning Diversity |
+| Feb 27 @ 2PM | Austin Kraft, Cesare Spinoso-Di Piano, and Gaurav Kamath | Internal Panel on Linguistics in the LLM Era |
+| Mar 6 @ 2PM | Mila NLP | Reading Week Break |
+| Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
+| Mar 20 @ 2PM | Johnny Wei | TBD |
+| Mar 27 @ 2PM | Eric Todd | TBD |
+| Apr 3 @ 3PM | Bhuwan Dhingra | TBD | 
+| Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
+| Apr 17 @ 2PM | Jieyu Zhao | TBD | 
+| Apr 24 @ 2PM | Mila NLP | TBD | 
+| May 1 @ 2PM | Mila NLP | TBD | 
+| May 8 @ 2PM | Mila NLP | TBD | 
+| May 15 @ 2PM | Mila NLP | TBD | 
+| May 22 @ 2PM | Mila NLP | TBD | 
+| May 29 @ 2PM | Shalom Lappin | TBD | 
 
 ## History
 
@@ -36,5 +53,6 @@ Previous semester schedules of the reading group:
 - [Winter 2025]({% link _posts/reading-group/archive/2025-01-01-winter-2025.md %})
 - [Fall 2024]({% link _posts/reading-group/archive/2024-09-01-fall-2024.md %})
 - [Summer 2024]({% link _posts/reading-group/archive/2024-05-01-summer-2024.md %})
+
 
 [^1]: The organizers are listed based on the alphabetic order of their first name.

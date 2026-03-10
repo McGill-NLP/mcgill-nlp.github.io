@@ -822,6 +822,24 @@ Zichao Li:
   - label: "Page"
     url: "/people/zichao"
     icon: "fas fa-fw fa-user"
+Fengyuan Liu:
+  name: Fengyuan Liu
+  role: Master
+  username: fengyuan.liu
+  semantic_scholar_id: '2332082364'
+  avatar: /assets/images/bio/Fengyuan Liu.jpg
+  advisor: Siva Reddy, Dzmitry Bahdanau
+  date: Sep 2025
+  alumni: false
+  links:
+  - label: Website
+    url: https://fy-liu.github.io/
+  - label: Twitter
+    url: https://x.com/fyliufengyuan
+  - label: GitHub
+    url: https://github.com/FY-Liu
+  - label: Scholar
+    url: https://scholar.google.ca/citations?user=fUVOyM4AAAAJ&hl=en
 Yu Lu Liu:
   name: Yu Lu Liu
   role: Master
