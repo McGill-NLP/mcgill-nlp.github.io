@@ -25,21 +25,21 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | **Date @ Time** | **Speaker(s)** | **Topic** |
 |---|---|---|---|
 | Feb 13 @ 2PM | Mila NLP | Roundtable Discussion |
-| Feb 20 @ 2PM | David Austin | Internal Panel on Reasoning Diversity |
-| Feb 27 @ 2PM | Austin Kraft, Cesare Spinoso-Di Piano, and Gaurav Kamath | Internal Panel on Linguistics in the LLM Era |
+| Feb 20 @ 2PM | [David Austin](https://davaus80.github.io/) | Internal Panel on LLM Output Diversity |
+| Feb 27 @ 2PM | [Austin Kraft](https://austinwkraft.github.io/about/), [Cesare Spinoso-Di Piano](https://cesare-spinoso.github.io/), and [Gaurav Kamath](https://grvkamath.github.io/) | Internal Panel on Linguistics in the LLM Era |
 | Mar 6 @ 2PM | Mila NLP | Reading Week Break |
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
-| Mar 20 @ 2PM | Johnny Wei | TBD |
-| Mar 27 @ 2PM | Eric Todd | TBD |
-| Apr 3 @ 3PM | Bhuwan Dhingra | TBD | 
+| Mar 20 @ 2PM | [Johnny Tian-Zheng Wei](https://johntzwei.github.io/)| The shape of AI accountability and its contours in copyright |
+| Mar 27 @ 2PM | [Eric Todd](https://ericwtodd.github.io/) | TBD |
+| Apr 3 @ 3PM | [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
-| Apr 17 @ 2PM | Jieyu Zhao | TBD | 
+| Apr 17 @ 2PM | [Jieyu Zhao](https://jyzhao.net/) | TBD | 
 | Apr 24 @ 2PM | Mila NLP | TBD | 
 | May 1 @ 2PM | Mila NLP | TBD | 
 | May 8 @ 2PM | Mila NLP | TBD | 
-| May 15 @ 2PM | Mila NLP | TBD | 
-| May 22 @ 2PM | Mila NLP | TBD | 
-| May 29 @ 2PM | Shalom Lappin | TBD | 
+| May 15 @ 2PM | [Yu Lu Liu](https://yululiu.github.io/) | TBD | 
+| May 22 @ 2PM | [Harman Singh](https://harmandotpy.github.io/) | TBD | 
+| May 29 @ 2PM | [Shalom Lappin](https://gu-clasp.github.io/people/shalom-lappin/) | TBD | 
 
 ## History
 
