@@ -11,7 +11,7 @@ The McGill NLP reading group hosts speaker presentations and NLP-related discuss
 
 ## Admin
 
-The current organizers are [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en) and [Ziling Cheng](https://scholar.google.com/citations?user=_2W8Ai4AAAAJ&hl=en)[^1].
+The current organizers are [Senyu Li](https://scholar.google.com/citations?user=9MzYLOcAAAAJ&hl=en) and [Ziling Cheng](https://ziling-cheng.github.io/)[^1].
 
 <!-- NOTE: No one monitors this anymore, do it doesn't make sense to keep it. If anyone wants to monitor it then ask Cesare for how. -->
 <!-- For more information about the reading group or for requests to join the mailing list, send an e-mail to the organizers at `compling-owner at cs dot mcgill dot ca`. For spam filtering reasons, you will need to reply to a confirmation e-mail. Note that this mailing list is used for people outside of Mila. If you already have a Mila email, you will automatically receive reading group announcements through the `mila-event-announcement` mailing list. -->
@@ -29,7 +29,7 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | Feb 27 @ 2PM | [Austin Kraft](https://austinwkraft.github.io/about/), [Cesare Spinoso-Di Piano](https://cesare-spinoso.github.io/), and [Gaurav Kamath](https://grvkamath.github.io/) | Internal Panel on Linguistics in the LLM Era |
 | Mar 6 @ 2PM | Mila NLP | Reading Week Break |
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
-| Mar 20 @ 2PM | [Johnny Tian-Zheng Wei](https://johntzwei.github.io/)| The shape of AI accountability and its contours in copyright |
+| Mar 20 @ 2PM | [Johnny Tian-Zheng Wei](https://johntzwei.github.io/)| [The shape of AI accountability and its contours in copyright]({% link _posts/reading-group/winter-2026/2026-03-20-johnny-tian-zheng-wei.md %}) |
 | Mar 27 @ 2PM | [Eric Todd](https://ericwtodd.github.io/) | TBD |
 | Apr 3 @ 3PM | [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
