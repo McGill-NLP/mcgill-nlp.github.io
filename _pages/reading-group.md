@@ -30,7 +30,7 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | Mar 6 @ 2PM | Mila NLP | Reading Week Break |
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
 | Mar 20 @ 2PM | [Johnny Tian-Zheng Wei](https://johntzwei.github.io/)| [The shape of AI accountability and its contours in copyright]({% link _posts/reading-group/winter-2026/2026-03-20-johnny-tian-zheng-wei.md %}) |
-| Mar 27 @ 2PM | [Eric Todd](https://ericwtodd.github.io/) | TBD |
+| Mar 27 @ 2PM | [Eric Todd](https://ericwtodd.github.io/) | [In-Context Algebra]({% link _posts/reading-group/winter-2026/2026-03-27-eric-todd.md %}) |
 | Apr 3 @ 3PM | [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
 | Apr 17 @ 2PM | [Jieyu Zhao](https://jyzhao.net/) | TBD | 
