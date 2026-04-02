@@ -31,15 +31,15 @@ Some (but not all) of our previous talks can be found on our YouTube channel: [h
 | Mar 13 @ 2PM | Mila NLP | Internal Presentation Practice  |
 | Mar 20 @ 2PM | [Johnny Tian-Zheng Wei](https://johntzwei.github.io/)| [The shape of AI accountability and its contours in copyright]({% link _posts/reading-group/winter-2026/2026-03-20-johnny-tian-zheng-wei.md %}) |
 | Mar 27 @ 2PM | [Eric Todd](https://ericwtodd.github.io/) | [In-Context Algebra]({% link _posts/reading-group/winter-2026/2026-03-27-eric-todd.md %}) |
-| Apr 3 @ 3PM | [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) | TBD | 
+| Apr 3 @ 3PM | Cancelled for Good Friday | TBD | 
 | Apr 10 @ 2PM | Mila NLP | Internal Presentation Practice |
-| Apr 17 @ 2PM | [Jieyu Zhao](https://jyzhao.net/) | TBD | 
-| Apr 24 @ 2PM | Mila NLP | TBD | 
+| Apr 17 @ 2PM | Prof. [Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/)  | [Language Models as Epistemic Interfaces: Knowledge, Agents, and Their Limits]({% link _posts/reading-group/winter-2026/2026-04-17-bhuwan-dhingra.md %}) | 
+| Apr 24 @ 2PM | [Taiwei Shi](https://taiweis.com/) | TBD | 
 | May 1 @ 2PM | Mila NLP | TBD | 
-| May 8 @ 2PM | Mila NLP | TBD | 
+| May 8 @ 2PM | Prof. [Jieyu Zhao](https://jyzhao.net/) | TBD | 
 | May 15 @ 2PM | [Yu Lu Liu](https://yululiu.github.io/) | TBD | 
 | May 22 @ 2PM | [Harman Singh](https://harmandotpy.github.io/) | TBD | 
-| May 29 @ 2PM | [Shalom Lappin](https://gu-clasp.github.io/people/shalom-lappin/) | TBD | 
+| May 29 @ 2PM | Prof. [Shalom Lappin](https://gu-clasp.github.io/people/shalom-lappin/) | [Comparing LLM and Human Modes of Representation]({% link _posts/reading-group/winter-2026/2026-05-29-shalom-lappin.md %}) | 
 
 ## History
 
