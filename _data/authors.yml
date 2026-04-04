@@ -1274,6 +1274,20 @@ Siva Reddy:
     url: "/people/siva"
     icon: "fas fa-fw fa-user"
 
+Ben Saine:
+  name: Ben Saine
+  role: Intern
+  username: ben.saine
+  avatar: /assets/images/bio/Ben Saine.jpg
+  advisor: Siva Reddy
+  date: Jan 2026
+  note: Co-advised by Benno Krojer
+  alumni: false
+  links:
+  - label: Website
+    url: https://bensaine.com/
+  - label: GitHub
+    url: https://github.com/bensaine/
 Hadia Samil:
   name: Hadia Samil
   role: Research Engineer
