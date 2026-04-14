@@ -611,6 +611,20 @@ Jacob Louis Hoover:
   - label: Scholar
     url: https://scholar.google.com/citations?user=koLi2TwAAAAJ
 
+Yejin Jeon:
+  name: Yejin Jeon
+  role: Postdoc
+  username: yejin.jeon
+  avatar: /assets/images/bio/Yejin Jeon.jpg
+  advisor: David Adelani
+  date: March 2026
+  bio: Working on speech processing
+  alumni: false
+  links:
+  - label: Website
+    url: https://sites.google.com/view/yejin-jeon-130124/about_1
+  - label: GitHub
+    url: https://github.com/jinny1208
 Jasper Jian:
   name: Jasper Jian
   role: Undergraduate
