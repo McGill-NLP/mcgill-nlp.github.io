@@ -24,7 +24,7 @@ The [NLP Reading Group]({% link _pages/reading-group.md %}) is excited to host P
 Bhuwan Dhingra](https://users.cs.duke.edu/~bdhingra/) who will present a talk on **Language Models as Epistemic Interfaces: Knowledge, Agents, and Their Limits**.
 
 ## Logistics
-Date: Friday April 17 <br>
+Date: Friday May 1st <br>
 Time: 2PM <br>
 Location: on Google Meet, to be screencast at Mila in A14 <br>
 
