@@ -12,6 +12,19 @@ layout: null  # standalone Bootstrap page; don't wrap in the site theme
   <meta name="author" content="">
   <title>STAMINA Working Group</title>
 
+  <!-- Light/dark mode: set before the stylesheets load so the page doesn't flash.
+       Uses the visitor's saved choice, otherwise their system setting. -->
+  <script>
+    (function () {
+      var theme;
+      try { theme = localStorage.getItem('stamina-theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
   <!-- Stylesheets -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
@@ -54,6 +67,17 @@ layout: null  # standalone Bootstrap page; don't wrap in the site theme
           <li><a class="page-scroll" href="#past-talks">Past Talks</a></li>
           <li><a class="page-scroll" href="#organizers">Organizers</a></li>
           <li><a href="https://www.complexdatalab.com">ComplexDataLab</a></li>
+          <li>
+            <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+              <svg class="theme-toggle-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" fill="currentColor"/>
+              </svg>
+              <svg class="theme-toggle-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="12" cy="12" r="4.5" fill="currentColor"/>
+                <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1l2.1-2.1M17 7l2.1-2.1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </button>
+          </li>
         </ul>
       </div>
 
@@ -362,6 +386,25 @@ layout: null  # standalone Bootstrap page; don't wrap in the site theme
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/scrolling-nav.js"></script>
+  <script>
+    // Light/dark mode button in the navbar
+    (function () {
+      var root = document.documentElement;
+      var button = document.getElementById('theme-toggle');
+      function label() {
+        var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        button.setAttribute('aria-label', 'Switch to ' + next + ' mode');
+        button.setAttribute('title', 'Switch to ' + next + ' mode');
+      }
+      button.addEventListener('click', function () {
+        var theme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        try { localStorage.setItem('stamina-theme', theme); } catch (e) {}
+        label();
+      });
+      label();
+    })();
+  </script>
 
 </body>
 </html>

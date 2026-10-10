@@ -225,3 +225,113 @@ font-size: 18pt;
   stroke: none;
 }
 
+/* ============================================================
+   Light/dark mode
+   <html data-theme="light|dark"> is set by the script in index.html's <head>;
+   the navbar button (#theme-toggle) flips it.
+   ============================================================ */
+
+.theme-toggle {
+  display: block;
+  padding: 15px;
+  line-height: 20px;
+  background: none;
+  border: 0;
+  color: #777;
+  cursor: pointer;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+  color: #333;
+}
+
+.theme-toggle svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.theme-toggle .theme-toggle-sun { display: none; }
+
+@media (max-width: 767px) {
+  .theme-toggle { padding: 10px 15px; }
+}
+
+html[data-theme="dark"] { color-scheme: dark; }
+
+html[data-theme="dark"] .theme-toggle { color: #aab4bf; }
+html[data-theme="dark"] .theme-toggle:hover,
+html[data-theme="dark"] .theme-toggle:focus { color: #fff; }
+html[data-theme="dark"] .theme-toggle-moon { display: none; }
+html[data-theme="dark"] .theme-toggle-sun { display: block; }
+
+html[data-theme="dark"] body {
+  background-color: #15191e;
+  color: #d5dbe2;
+}
+
+html[data-theme="dark"] a { color: #7fb8ea; }
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus { color: #a9d0f3; }
+
+html[data-theme="dark"] .btn-primary,
+html[data-theme="dark"] .btn-info,
+html[data-theme="dark"] .btn-primary:hover,
+html[data-theme="dark"] .btn-info:hover,
+html[data-theme="dark"] .btn-primary:focus,
+html[data-theme="dark"] .btn-info:focus { color: #fff; }
+
+html[data-theme="dark"] hr { border-top-color: #2c343d; }
+
+html[data-theme="dark"] .navbar-default {
+  background-color: #1c2229;
+  border-color: #2c343d;
+}
+
+html[data-theme="dark"] .navbar-default .navbar-nav > li > a { color: #aab4bf; }
+html[data-theme="dark"] .navbar-default .navbar-nav > li > a:hover,
+html[data-theme="dark"] .navbar-default .navbar-nav > li > a:focus { color: #fff; }
+
+html[data-theme="dark"] .navbar-default .navbar-nav > .active > a,
+html[data-theme="dark"] .navbar-default .navbar-nav > .active > a:hover,
+html[data-theme="dark"] .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #2a323b;
+  color: #fff;
+}
+
+html[data-theme="dark"] .navbar-default .navbar-toggle { border-color: #3a444f; }
+html[data-theme="dark"] .navbar-default .navbar-toggle:hover,
+html[data-theme="dark"] .navbar-default .navbar-toggle:focus { background-color: #2a323b; }
+html[data-theme="dark"] .navbar-default .navbar-toggle .icon-bar { background-color: #aab4bf; }
+html[data-theme="dark"] .navbar-default .navbar-collapse { border-color: #2c343d; }
+
+html[data-theme="dark"] .box {
+  background-color: #1c2229;
+  border-color: #3a444f;
+}
+
+/* supporter logos are drawn for a white page */
+html[data-theme="dark"] #partners img {
+  background: #fff;
+  padding: 6px;
+}
+
+html[data-theme="dark"] .bibbase_group,
+html[data-theme="dark"] span.bibbase_paper_titleauthoryear,
+html[data-theme="dark"] span.bibbase_paper_title,
+html[data-theme="dark"] span.bibbase_paper_author,
+html[data-theme="dark"] span.bibbase_paper_year { color: inherit; }
+
+html[data-theme="dark"] .stam-diagram {
+  --stam-ink: #d5dbe2;
+  --stam-muted: #9aa7b4;
+  --stam-line: #36414c;
+  --stam-tech: #6fb0d8;
+  --stam-sim: #4fc4b5;
+  --stam-ai: #d6a25f;
+}
+
+html[data-theme="dark"] .stam-chip { background: #1f262e; }
+html[data-theme="dark"] .stam-venn-lobes circle { mix-blend-mode: screen; }
+html[data-theme="dark"] .stam-venn-core-shape { fill-opacity: 0.12; }
