@@ -59,9 +59,11 @@
         {% endif %}
 
         {% unless include.render_current_role %}
+        {% if author.current_role.title %}
         <div class="author-note">
-            <b>➡️ </b> {{ author.current_role.title }}
+            <b>→ </b> {{ author.current_role.title }}
         </div>
+        {% endif %}
         {% endunless %}
 
         {% if author.social_media_links %}

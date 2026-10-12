@@ -33,6 +33,15 @@ layout: single
 }
 </script>
 
+<a class="back-to-publications" href="{{ '/publications/' | relative_url }}"><span aria-hidden="true">&larr;</span> All publications</a>
+<script>
+  // Move the back link above the page title (which the theme renders before this content).
+  (function (link) {
+    var header = link.closest('.page__inner-wrap') && link.closest('.page__inner-wrap').querySelector('header');
+    if (header) header.parentNode.insertBefore(link, header);
+  })(document.currentScript.previousElementSibling);
+</script>
+
 {{ content }}
 
 <div>

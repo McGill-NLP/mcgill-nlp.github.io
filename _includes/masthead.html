@@ -25,10 +25,16 @@
               %}>{{ link.tab }}</a>
             <ul class="submenu">
               {%- for sublink in link.subpages -%}
+              {%- if sublink.heading -%}
+              <li class="submenu__heading">{{ sublink.heading }}</li>
+              {%- elsif sublink.divider -%}
+              <li class="submenu__divider" role="separator"></li>
+              {%- else -%}
               <li class="masthead__menu-item">
                 <a href="{{ sublink.url | relative_url }}" {% if sublink.description %}
                   title="{{ sublink.description }}" {% endif %}>{{ sublink.page }}</a>
               </li>
+              {%- endif -%}
               {%- endfor -%}
             </ul>
           </li>

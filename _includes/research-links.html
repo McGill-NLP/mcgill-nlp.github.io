@@ -1,0 +1,11 @@
+{% assign links = include.links | default: page.research_links %}
+{% if links %}
+<section class="research-links" aria-label="More from our research">
+  {% for link in links %}
+  <a class="research-links__card" href="{{ link.url | relative_url }}">
+    <span class="research-links__icon"><i class="{{ link.icon }}" aria-hidden="true"></i></span>
+    <span class="research-links__title">{{ link.title }}</span>
+  </a>
+  {% endfor %}
+</section>
+{% endif %}

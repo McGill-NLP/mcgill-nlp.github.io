@@ -1,0 +1,94 @@
+/*
+   Funders carousel (homepage)
+   ========================================================================== */
+
+@keyframes fundersScroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        // The track holds the logo list twice, so shifting by half loops seamlessly.
+        transform: translateX(-50%);
+    }
+}
+
+.funders-carousel {
+    margin: 6rem 0 3rem;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 1.5rem;
+        padding-bottom: 0;
+        border-bottom: none;
+        font-size: $type-size-4;
+        color: $text-color;
+    }
+
+    &__viewport {
+        max-width: 760px;
+        margin: 0 auto;
+        overflow: hidden;
+        mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+        -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+    }
+
+    &__track {
+        display: flex;
+        width: max-content;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        animation: fundersScroll 40s linear infinite;
+    }
+
+    &__item {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        margin: 0 2.5rem;
+
+        img {
+            max-height: 100%;
+            max-width: 160px;
+            width: auto;
+            object-fit: contain;
+            // filter/opacity are set per frame by the script in funders-carousel.html
+            will-change: filter, opacity;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__item {
+            height: 50px;
+            margin: 0 1.5rem;
+
+            img {
+                max-width: 110px;
+            }
+        }
+    }
+
+    // No auto-scroll for reduced motion: show one copy and let users swipe/scroll.
+    @media (prefers-reduced-motion: reduce) {
+        &__viewport {
+            overflow-x: auto;
+        }
+
+        &__track {
+            animation: none;
+        }
+
+        &__item[aria-hidden="true"] {
+            display: none;
+        }
+    }
+}
+
+// Override the theme's underline on content h2s
+.page__content .funders-carousel__title {
+    padding-bottom: 0;
+    border-bottom: none;
+}

@@ -1,0 +1,81 @@
+{% comment %}
+  Scrolling strip of funder/partner logos, collected from the `logos`
+  front matter of every research direction and de-duplicated by image.
+  The page can drop logos with `funders.exclude` and add more with `funders.extra`.
+{% endcomment %}
+
+{% assign all-logos = "" | split: "" %}
+{% assign directions = site.research_directions | sort: "order" %}
+{% for r in directions %}
+{% if r.logos %}
+{% assign all-logos = all-logos | concat: r.logos %}
+{% endif %}
+{% endfor %}
+{% assign funder-groups = all-logos | group_by: "image" %}
+{% assign excluded = page.funders.exclude | default: empty %}
+{% assign funders = "" | split: "" %}
+{% for group in funder-groups %}
+{% unless excluded contains group.name %}
+{% assign funders = funders | push: group.items.first %}
+{% endunless %}
+{% endfor %}
+{% if page.funders.extra %}
+{% assign funders = funders | concat: page.funders.extra %}
+{% endif %}
+
+{% if funders.size > 0 %}
+<section class="funders-carousel" aria-label="Funders and partners">
+  <h2 class="funders-carousel__title">Funders &amp; Partners</h2>
+  <div class="funders-carousel__viewport">
+    <ul class="funders-carousel__track">
+      {% for pass in (1..2) %}
+      {% for logo in funders %}
+      <li class="funders-carousel__item"{% if pass == 2 %} aria-hidden="true"{% endif %}>
+        <img src="{{ logo.image | relative_url }}" alt="{% if pass == 1 %}{{ logo.name }}{% endif %}" decoding="async">
+      </li>
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+<script>
+  // Colour each logo by its distance from the centre of the row: full colour
+  // in the middle, fading to greyscale towards the edges.
+  (function () {
+    var viewport = document.querySelector('.funders-carousel__viewport');
+    if (!viewport || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var imgs = viewport.querySelectorAll('.funders-carousel__item img');
+    var visible = false;
+    var SPREAD = 0.18; // width of the coloured zone; smaller = narrower, faster fade
+
+    function update() {
+      if (visible) {
+        var box = viewport.getBoundingClientRect();
+        var centre = box.left + box.width / 2;
+        var reach = box.width / 2;
+        // Measure everything before writing any styles, to avoid forced reflows.
+        var colour = [];
+        for (var i = 0; i < imgs.length; i++) {
+          var r = imgs[i].getBoundingClientRect();
+          // d is 0 at the centre and 1 at either edge.
+          var d = (r.left + r.width / 2 - centre) / reach;
+          // Bell curve: smooth in and out, mostly grey beyond d = 0.4.
+          colour[i] = Math.exp(-(d * d) / (2 * SPREAD * SPREAD));
+        }
+        for (var j = 0; j < imgs.length; j++) {
+          imgs[j].style.filter = 'grayscale(' + (1 - colour[j]).toFixed(3) + ')';
+          imgs[j].style.opacity = (0.6 + 0.4 * colour[j]).toFixed(3);
+        }
+      }
+      requestAnimationFrame(update);
+    }
+
+    new IntersectionObserver(function (entries) {
+      visible = entries[0].isIntersecting;
+    }).observe(viewport);
+    requestAnimationFrame(update);
+  })();
+</script>

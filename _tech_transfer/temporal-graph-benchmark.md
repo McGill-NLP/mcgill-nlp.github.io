@@ -1,6 +1,20 @@
 ---
 category: TGL
-order: 1
+paper_date: 2024-06-14  # date of the most recent paper; entries are listed newest first
+pip: py-tgb
+links:
+  - label: Website & leaderboards
+    url: https://tgb.complexdatalab.com/
+    type: website
+  - label: Code
+    url: https://github.com/shenyangHuang/TGB
+    type: code
+  - label: TGB paper (NeurIPS 2023)
+    url: https://arxiv.org/abs/2307.01026
+    type: paper
+  - label: TGB 2.0 paper (NeurIPS 2024)
+    url: https://arxiv.org/abs/2406.09639
+    type: paper
 ---
 
 ## [Temporal Graph Benchmark](https://tgb.complexdatalab.com/)

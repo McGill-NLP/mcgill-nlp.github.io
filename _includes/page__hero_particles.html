@@ -1,3 +1,17 @@
+{% assign research_logo_url = nil %}
+{% if page.category == "research-directions" or page.collection == "research_directions" %}
+{% case page.title %}
+{% when "Temporal Graph Learning" %}
+{% assign research_logo_url = "/assets/images/home/TGL.png" %}
+{% when "Crime & Online Markets" %}
+{% assign research_logo_url = "/assets/images/home/infrared.png" %}
+{% when "Politics & Online Media" %}
+{% assign research_logo_url = "/assets/images/home/AI4.png" %}
+{% when "Toxicity & Online Games" %}
+{% assign research_logo_url = "/assets/images/home/toxicity.png" %}
+{% endcase %}
+{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image %}
 {% capture overlay_style %}
 {% if page.header.overlay_image %}
@@ -17,15 +31,20 @@ background-color: {{ page.header.overlay_color }};
 {% endcapture %}
 {% endif %}
 
-<div class="page__hero--overlay">
+<div class="page__hero--overlay{% if page.url == "/" %} page__hero--home{% endif %}{% if page.url != "/" %} page__hero--particles{% endif %}">
+    {% unless page.url == "/" %}
     <div id="particles-js"></div>
+    {% endunless %}
 
-    <div class="wrapper">
+    <div class="wrapper{% if research_logo_url %} wrapper--research{% endif %}">
+        {% unless research_logo_url %}
         <div class="page_overlay_image" style="{{ overlay_style | strip }}">
         </div>
+        {% endunless %}
         <div class="page__title-container">
             {% if page.title %}
             <h1 class="page__title" itemprop="headline">
+                {% if research_logo_url %}<img class="page__title-logo" src="{{ research_logo_url | relative_url }}" alt="" aria-hidden="true">{% endif -%}
                 {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
             </h1>
             <div class="title-line"></div>

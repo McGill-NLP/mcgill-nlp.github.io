@@ -6,6 +6,14 @@ from ruamel.yaml import YAML
 
 from . import save_url_image, parse_issue_body, remove_keys, remove_items_with_values
 
+# What GitHub issue forms send for fields left blank: "_No response_" for text inputs,
+# "None" for dropdowns.
+BLANK_VALUES = {"", "_No response_", "None"}
+
+
+def is_filled(value) -> bool:
+    return value is not None and str(value).strip() not in BLANK_VALUES
+
 
 def format_site_label(name: str) -> str:
     """Format social media site labels."""
@@ -23,7 +31,7 @@ def format_social_media_links(parsed: Dict) -> List[Dict]:
     """Format social media links into structured format."""
     social_links = []
     for key in ["website", "twitter", "github", "scholar", "linkedin"]:
-        if parsed.get(key) and parsed[key] != "_No response_":
+        if is_filled(parsed.get(key)):
             social_links.append({
                 "label": format_site_label(key),
                 "url": parsed[key]
@@ -32,29 +40,19 @@ def format_social_media_links(parsed: Dict) -> List[Dict]:
 
 
 def process_role_data(parsed: Dict, prefix: str = "") -> Optional[Dict]:
-    """Process role data from parsed content with optional prefix."""
-    role_type = parsed.get(f"{prefix}type")
-    if not role_type or role_type == "_No response_":
-        return None
+    """Process role data from parsed content with optional prefix.
 
-    role = {
-        "type": role_type,
-        "title": parsed.get(f"{prefix}title")
-    }
-
-    # Add optional fields if they exist
-    for field in ["start_date", "end_date", "advisor"]:
+    Only fields that were filled in are included, so an update can change part of a role.
+    Returns None if no role field was filled in.
+    """
+    role = {}
+    for field in ["type", "title", "start_date", "end_date", "advisor", "affiliation"]:
         value = parsed.get(f"{prefix}{field}")
-        if value and value != "_No response_":
+        if is_filled(value):
             role[field] = value
 
-    # Add new fields for affiliation and research directions
-    affiliation = parsed.get(f"{prefix}affiliation")
-    if affiliation and affiliation != "_No response_":
-        role["affiliation"] = affiliation
-
     research_directions = parsed.get(f"{prefix}research_directions")
-    if research_directions and research_directions != "_No response_":
+    if is_filled(research_directions):
         # Handle both string and list inputs for research directions
         if isinstance(research_directions, str):
             # Split by commas if it's a comma-separated string
@@ -63,7 +61,7 @@ def process_role_data(parsed: Dict, prefix: str = "") -> Optional[Dict]:
             directions = research_directions
         role["research_directions"] = directions
 
-    return role
+    return role or None
 
 
 def format_parsed_content(parsed: Dict) -> Dict:
@@ -78,15 +76,15 @@ def format_parsed_content(parsed: Dict) -> Dict:
     if current_role:
         formatted["current_role"] = current_role
 
-    # Process past role if it exists (for updates)
+    # Process past role if it exists (for updates); it needs at least a type to be identifiable
     past_role = process_role_data(parsed, "past_role_")
-    if past_role:
+    if past_role and "type" in past_role:
         formatted["past_roles"] = past_role
 
     # Add optional fields if they exist and aren't empty
     optional_fields = ["bio", "note", "semantic_scholar_id", "avatar"]
     for field in optional_fields:
-        if parsed.get(field) and parsed[field] != "_No response_":
+        if is_filled(parsed.get(field)):
             formatted[field] = parsed[field]
 
     # Format social media links
@@ -106,9 +104,21 @@ def merge_profile_data(old_profile: Dict, new_profile: Dict) -> Dict:
         if field in new_profile:
             merged[field] = new_profile[field]
 
-    # Update current role if provided
+    # Update current role if provided. A different type or title means a new role, which
+    # replaces the old one; otherwise only the fields filled in are changed and the rest kept.
     if "current_role" in new_profile:
-        merged["current_role"] = new_profile["current_role"]
+        old_role = merged.get("current_role") or {}
+        new_role = new_profile["current_role"]
+        is_new_role = any(
+            field in new_role and new_role[field] != old_role.get(field)
+            for field in ["type", "title"]
+        )
+        if is_new_role:
+            merged["current_role"] = new_role
+        else:
+            merged_role = dict(old_role)
+            merged_role.update(new_role)
+            merged["current_role"] = merged_role
             
     # Handle past roles
     if "past_roles" in new_profile:
@@ -119,7 +129,7 @@ def merge_profile_data(old_profile: Dict, new_profile: Dict) -> Dict:
         role_exists = False
         for role in existing_past_roles:
             if (role.get("type") == new_past_role["type"] and 
-                role.get("title") == new_past_role["title"] and 
+                role.get("title") == new_past_role.get("title") and 
                 role.get("start_date") == new_past_role.get("start_date")):
                 role.update(new_past_role)
                 role_exists = True
@@ -160,19 +170,20 @@ def main(parsed: Dict, action: str, site_data_dir: str = "_data/", image_dir: st
     with open(site_data_dir / "authors.yml") as f:
         authors = yaml.load(f)
    
-    if action == "Add member":
-        # Handle new member addition
-        if profile["name"] in authors:
+    name_to_username = {authors[username]["name"]: username for username in authors}
+
+    if action == "Add member" and profile["name"] not in name_to_username:
+        username = profile["name"]
+        if username in authors:
             n = 2
             while (k := f'{profile["name"]} {n}') in authors:
                 n += 1
             username = k
-        else:
-            username = profile["name"]
         authors[username] = profile
     else:
-        # Handle member update
-        name_to_username = {authors[username]["name"]: username for username in authors}
+        # Update, or an "Add member" for someone already listed (e.g. a placeholder
+        # entry created by a maintainer): merge into the existing entry instead of
+        # creating a duplicate.
         if profile["name"] not in name_to_username:
             raise ValueError(f'{profile["name"]} not in authors')
 

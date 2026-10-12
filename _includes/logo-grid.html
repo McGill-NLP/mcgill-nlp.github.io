@@ -11,8 +11,9 @@
 {% if remainder != 0 %}
 {% assign rows = rows | plus: 1 %}
 {% endif %}
+{% assign last_row = rows | minus: 1 %}
 
-{% for i in (0..rows) %}
+{% for i in (0..last_row) %}
 {% assign start = i | times: chunk_size %}
 {% assign logos_chunk = display_logos | slice: start, chunk_size %}
 <div class="logo-grid">

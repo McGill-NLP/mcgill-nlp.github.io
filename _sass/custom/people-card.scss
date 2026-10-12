@@ -245,3 +245,8 @@ div.author-avatar {
     font-size: x-large;
     color: $primary-color
 }
+/* People page: extra room before the Past Members section */
+.page__content hr + #past-members,
+#past-members {
+    margin-top: 4.5rem;
+}

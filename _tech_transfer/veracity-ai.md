@@ -1,6 +1,16 @@
 ---
 category: poli-sci
-order: 1
+paper_date: 2025-06-18  # date of the most recent paper; entries are listed newest first
+links:
+  - label: Try Veracity
+    url: https://www.veri-fact.ai/
+    type: demo
+  - label: Chrome Extension
+    url: https://chromewebstore.google.com/detail/veracity/hoapdcnhiffbhkdnkpamhdapcljidbpp
+    type: extension
+  - label: Paper
+    url: https://arxiv.org/abs/2506.15794
+    type: paper
 ---
 
 ## [Veracity AI](https://www.veri-fact.ai/)

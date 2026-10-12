@@ -17,7 +17,7 @@
             {% elsif post.venue %}
             {{ post.venue }}
             {% endif %}
-            ({{ post.date | date: "%Y" }})
+            ({{ post.date | date: "%Y" }}){% if post.award %}<span class="publication-award"> &middot; <a href="{{ post.award_url | default: post.link }}" target="_blank" rel="noopener">{{ post.award }}</a></span>{% endif %}
         </div>
 
         {% include display-publication-links.html pub=post%}

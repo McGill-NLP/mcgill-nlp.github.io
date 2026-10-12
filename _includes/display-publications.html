@@ -1,4 +1,4 @@
-<article class="publication-card" itemscope itemtype="https://schema.org/CreativeWork">
+<article class="publication-card{% if post.thumbnail %} publication-card--with-thumbnail{% endif %}" itemscope itemtype="https://schema.org/CreativeWork">
 
     {% if post.thumbnail %}
     {% assign currentYear = 'now' | date: "%Y" %}
@@ -43,9 +43,10 @@
         {% elsif post.venue %}
         {{ post.venue }}
         {% endif %}
-        ({{ post.date | date: "%Y" }})
+        ({{ post.date | date: "%Y" }}){% if post.award %}<span class="publication-award"> &middot; <a href="{{ post.award_url | default: post.link }}" target="_blank" rel="noopener">{{ post.award }}</a></span>{% endif %}
     </div>
     {% endif %}
+
 
     {% include display-publication-links.html pub=post%}
 </article>

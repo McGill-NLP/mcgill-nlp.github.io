@@ -1,5 +1,6 @@
+{% assign pub = include.pub %}
+{% if pub.link or pub.code or pub.webpage or pub.twitter or pub.video or pub.demo %}
 <div class="publication-links">
-    {% assign pub = include.pub %}
     {% if pub.link %}
     <a class="publication-ext-link" href="{{ pub.link }}" target="_blank">
         <i class="fas fa-book"></i>
@@ -43,3 +44,4 @@
     {% endif %}
 
 </div>
+{% endif %}

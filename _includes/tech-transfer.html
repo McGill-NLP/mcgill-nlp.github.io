@@ -4,12 +4,79 @@
 {% assign tech_items = site.tech_transfer %}
 {% endif %}
 
-{% assign sorted_items = tech_items | sort: "order" %}
+{% comment %} Newest paper first; entries without a paper_date go last. {% endcomment %}
+{% assign dated_items = tech_items | where_exp: "item", "item.paper_date" | sort: "paper_date" | reverse %}
+{% assign undated_items = tech_items | where_exp: "item", "item.paper_date == nil" %}
+{% assign sorted_items = dated_items | concat: undated_items %}
+
+{% if include.sortable %}
+<div class="tool-sort">
+  <label class="tool-sort__control">
+    <span class="visually-hidden">Sort tools by</span>
+    <select class="tool-sort__select" aria-label="Sort tools by">
+      <option value="recent">Most recent</option>
+      <option value="alpha">A–Z</option>
+    </select>
+    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+  </label>
+</div>
+{% endif %}
 
 <div class="tech-transfer__wrapper">
   {% for item in sorted_items %}
-  <div class="tech-transfer-item">
+  <div class="tech-transfer-item" data-recent-index="{{ forloop.index0 }}">
     {{ item.content | markdownify }}
+
+    {% if item.links or item.pip %}
+    <div class="tool-links">
+      {% if item.pip %}
+      <button type="button" class="tool-pip" data-copy="pip install {{ item.pip }}" title="Copy install command">
+        <i class="fab fa-python" aria-hidden="true"></i>
+        <code>pip install {{ item.pip }}</code>
+        <i class="far fa-copy tool-pip__icon" aria-hidden="true"></i>
+      </button>
+      {% endif %}
+      {% for link in item.links %}
+      {% case link.type %}
+      {% when "demo" %}{% assign icon = "fas fa-play" %}
+      {% when "dataset" %}{% assign icon = "fas fa-database" %}
+      {% when "paper" %}{% assign icon = "far fa-file-lines" %}
+      {% when "code" %}{% assign icon = "fab fa-github" %}
+      {% when "docs" %}{% assign icon = "fas fa-book" %}
+      {% when "extension" %}{% assign icon = "fab fa-chrome" %}
+      {% else %}{% assign icon = "fas fa-globe" %}
+      {% endcase %}
+      <a class="tool-link{% if link.type == 'demo' %} tool-link--primary{% endif %}" href="{{ link.url }}" target="_blank" rel="noopener">
+        <i class="{{ icon }}" aria-hidden="true"></i>{{ link.label }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
+
+<script>
+  // Reorder the cards client-side: "recent" restores the server order (newest paper first), "alpha" sorts by title.
+  document.querySelectorAll('.tool-sort__select').forEach(function (select) {
+    var wrapper = select.closest('.tool-sort').nextElementSibling;
+    var title = function (el) { var h = el.querySelector('h2'); return h ? h.textContent.trim() : ''; };
+    select.addEventListener('change', function () {
+      var items = Array.prototype.slice.call(wrapper.children);
+      items.sort(select.value === 'alpha'
+        ? function (a, b) { return title(a).localeCompare(title(b)); }
+        : function (a, b) { return a.dataset.recentIndex - b.dataset.recentIndex; });
+      items.forEach(function (el) { wrapper.appendChild(el); });
+    });
+  });
+
+  document.querySelectorAll('.tool-pip').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (!navigator.clipboard) return;
+      navigator.clipboard.writeText(btn.dataset.copy).then(function () {
+        btn.classList.add('is-copied');
+        setTimeout(function () { btn.classList.remove('is-copied'); }, 1500);
+      });
+    });
+  });
+</script>

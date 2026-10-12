@@ -8,6 +8,7 @@ excerpt: ""
 classes:
     - no-sidebar
     - wide
+    - publications-page
 permalink: /publications/
 taxonomy: Publications
 show_view_by_venue: true

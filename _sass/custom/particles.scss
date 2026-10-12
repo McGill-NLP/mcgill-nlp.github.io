@@ -12,9 +12,11 @@
 
 .page__hero--overlay {
     position: relative;
-    height: 300px;
+    // Grow with the content instead of a fixed height, so titles never crowd the navbar.
+    min-height: 300px;
+    background-color: #fff;
     overflow: hidden;
-    padding: 0 1em;
+    padding: 4rem 1em 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +55,7 @@
         margin: 0 auto;
 
         @media (min-width: 80em) {
-            padding: 3em;
+            padding: 0 3em;
         }
 
         @media (max-width: 768px) {
@@ -65,12 +67,13 @@
 
     .page_overlay_image {
         height: 100%;
-        min-height: 300px;
+        min-height: 220px;
     }
 
     .page__title-container {
         animation: fadeInUp 0.6s ease forwards;
         grid-column: 2;
+        position: relative;
 
         .title-line {
             width: 100px;
@@ -91,6 +94,7 @@
 
     .page__title {
         font-size: $type-size-1;
+        font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         color: #000;
         margin: 0;
         line-height: 1.2;
@@ -102,4 +106,70 @@
         color: #000;
         margin-top: 1em;
     }
+}
+
+.page__hero--particles {
+    // Research direction pages: icon inline before the title, text below,
+    // aligned with the 960px content column (see research-page.scss).
+    .wrapper--research {
+        display: block;
+        max-width: 960px;
+        padding: 0 1rem;
+    }
+
+    .page__title-logo {
+        display: inline-block;
+        height: 1em;
+        width: auto;
+        margin-right: 0.35em;
+        vertical-align: -0.12em;
+    }
+
+    .wrapper,
+    .page_overlay_image,
+    .page__title-container {
+        pointer-events: none;
+    }
+
+    .page__title-container {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 118%;
+            height: 145%;
+            transform: translate(-50%, -50%);
+            background: radial-gradient(ellipse at center,
+                    rgba(255, 255, 255, 1) 0%,
+                    rgba(255, 255, 255, 0.97) 25%,
+                    rgba(255, 255, 255, 0.8) 52%,
+                    rgba(255, 255, 255, 0.35) 72%,
+                    rgba(255, 255, 255, 0.1) 82%,
+                    rgba(255, 255, 255, 0) 90%);
+            filter: blur(2px);
+            z-index: -1;
+            pointer-events: none;
+        }
+    }
+
+    .page__title,
+    .page__lead,
+    .title-line {
+        position: relative;
+        z-index: 2;
+    }
+
+    .page__title,
+    .page__lead {
+        color: #000 !important;
+        opacity: 1;
+    }
+}
+
+
+
+h1.page__title,
+.page__content>h1:first-of-type {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }

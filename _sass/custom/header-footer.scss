@@ -1,17 +1,61 @@
+$navbar-bg-color: #faf9f6;
+$navbar-text-color: #9b3a2b;
+
 a.site-title {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
     @media (min-width: 601px) {
-        font-size: xx-large;
+        font-size: 1.35rem;
     }
 
     @media (max-width: 600px) {
-        font-size: large;
+        font-size: 0.95rem;
     }
 
-    color: $primary-color;
+    color: $navbar-text-color;
+    line-height: 1.1;
 
     &:hover {
-        color: mix($background-color, $primary-color, 25%);
+        color: mix(#000, $navbar-text-color, 20%);
     }
+}
+
+.masthead,
+.greedy-nav {
+    background-color: $navbar-bg-color;
+}
+
+.masthead {
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+}
+
+.masthead .masthead__inner-wrap {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.greedy-nav {
+    min-height: 2.6rem;
+    line-height: 2.6rem;
+}
+
+.greedy-nav .visible-links a {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 2.6rem;
+}
+
+.greedy-nav a {
+    color: $navbar-text-color;
+}
+
+.greedy-nav a:hover {
+    color: mix(#000, $navbar-text-color, 20%);
 }
 
 .theme-toggle {
@@ -21,22 +65,72 @@ a.site-title {
 }
 
 
+/* Dropdown menus
+   ========================================================================== */
+
 .submenu {
     list-style: none;
 }
 
-.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li:hover>.submenu {
+.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li:hover>.submenu,
+.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li:focus-within>.submenu {
     display: block;
 }
 
 .masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li>.submenu {
     position: absolute;
-    background: $background-color;
-    min-width: 200px;
-    z-index: 1000;
     display: none;
+    z-index: 1000;
+    min-width: 250px;
+    margin: 0 0 0 0.25rem;
+    padding: 0.5rem;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.04);
+    line-height: 1.4;
+
+    >li>a {
+        margin: 0;
+        padding: 0.5rem 0.75rem;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        color: #2b2b2b;
+        white-space: nowrap;
+        transition: background-color 0.15s ease, color 0.15s ease;
+
+        // No navbar underline animation inside the dropdown
+        &::before {
+            display: none;
+        }
+
+        &:hover,
+        &:focus-visible {
+            background: #f6efed;
+            color: $navbar-text-color;
+        }
+    }
 }
 
-.masthead>.masthead__inner-wrap>.masthead__menu>.greedy-nav>.visible-links>li>.submenu>li>a {
-    padding: 10px 20px;
+// Section label and separator (`heading:` / `divider:` entries in _data/navigation.yml)
+.submenu__heading {
+    padding: 0.5rem 0.75rem 0.35rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: $gray;
+    cursor: default;
+}
+
+.submenu__divider {
+    height: 1px;
+    margin: 0.4rem 0.75rem;
+    background: #ececec;
+}
+
+.greedy-nav .hidden-links .submenu__divider {
+    border-bottom: none;
 }

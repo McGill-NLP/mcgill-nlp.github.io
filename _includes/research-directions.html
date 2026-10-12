@@ -5,11 +5,37 @@
 {% endif %}
 
 {% assign sorted-research-directions = research-directions | sort: "order" %} <!-- or sort: "date" -->
+{% assign home-logos = "TGL.png,infrared.png,AI4.png,toxicity.png" | split: "," %}
 
-<div class="research-directions__wrapper">
+<div {% if page.url == "/" %}id="research" {% endif %}class="research-directions-section{% if page.url == "/" %} research-directions-section--with-particles{% endif %}">
+  {% if page.url == "/" %}
+  <div id="particles-js"></div>
+  {% endif %}
+
+  <div class="research-directions__wrapper">
   {% for r in sorted-research-directions %}
-  <div class="research-directions-item">
+  <div class="research-directions-item{% if page.url == "/" %} research-directions-item--home{% endif %}">
     <a href="{{ r.url | relative_url }}" title="{{r.title}}">
+
+      {% if page.url == "/" %}
+      {% assign logo_name = home-logos[forloop.index0] %}
+      {% if logo_name %}
+      <span class="direction-logo-wrap">
+        <img class="direction-logo" src="{{ '/assets/images/home/' | append: logo_name | relative_url }}" alt="{{ r.title }} logo">
+      </span>
+      {% endif %}
+
+      <div class="direction-content">
+        <div class="direction-title">
+          <h2>{{ r.title }}</h2>
+        </div>
+        {% if r.one-liner %}
+        <div class="direction-excerpt">
+          {{ r.one-liner | markdownify }}
+        </div>
+        {% endif %}
+      </div>
+      {% else %}
 
       <div class="direction-image" style="
       background-image: 
@@ -32,6 +58,8 @@
         {% endif %}
       </div>
 
+      {% endif %}
+
 
 
     </a>
@@ -39,4 +67,5 @@
   </div>
   {% endfor %}
 
+  </div>
 </div>

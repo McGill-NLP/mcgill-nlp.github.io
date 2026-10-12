@@ -1,8 +1,15 @@
+Hussein Abdallah:
+  name: Hussein Abdallah
+  auto_update_publications: false
+  current_role:
+    type: Postdoc
+    title: Postdoc
+    start_date: Winter 2026
 Andrey Ambartsumov:
   name: Andrey Ambartsumov
   auto_update_publications: false
-  current_role:
-    type: Student
+  past_roles:
+  - type: Student
     title: Undergraduate
     start_date: Winter 2026
     advisor: Victor Livernoche, Reihaneh Rabbany
@@ -20,9 +27,9 @@ Andrey Ambartsumov:
     url: https://www.linkedin.com/in/andrey-ambartsumov/
 Taimaa Kassab Bachi:
   name: Taimaa Kassab Bachi
-  auto_update_publications: true
-  current_role:
-    type: Student
+  auto_update_publications: false
+  past_roles:
+  - type: Student
     title: Intern
     start_date: January 2026
     advisor: Victor Livernoche, Reihaneh Rabbany
@@ -50,6 +57,14 @@ Aurélien Bück-Kaeffer:
   auto_update_publications: false
   current_role:
     type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2025
+    affiliation: Mila, McGill
+    research_directions:
+    - poli-sci
+  past_roles:
+  - type: Student
     title: Intern
     start_date: Feb 2025
     affiliation: Mila, McGill
@@ -62,13 +77,29 @@ Aurélien Bück-Kaeffer:
     url: https://github.com/Scezaquer
   - label: LinkedIn
     url: https://www.linkedin.com/in/aur%C3%A9lien-b%C3%BCck-kaeffer-8b627820b/
+Jacob Chmura:
+  name: Jacob Chmura
+  auto_update_publications: false
+  current_role:
+    type: Unaffiliated
+    title: "AI Systems Engineer @ Figure AI"
+  past_roles:
+  - type: Student
+    title: Master
+    advisor: Reihaneh Rabbany, Nicolas Le Roux
+    start_date: Fall 2024
+    end_date: Summer 2026
+    affiliation: Mila, McGill
 Taylor Lynn Curtis:
   name: Taylor Lynn Curtis
   avatar: /assets/images/bio/Taylor Lynn Curtis.jpg
   bio: Works on AI Misinformation Mitigation
   auto_update_publications: false
   current_role:
-    type: Staff
+    type: Unaffiliated
+    title: "Policy Advisor, AI and Science, Office of Professor Yoshua Bengio"
+  past_roles:
+  - type: Staff
     title: Software Developer
     start_date: September 30, 2024
     affiliation: Mila
@@ -105,6 +136,15 @@ Jacob Danovitch:
   - label: LinkedIn
     url: https://www.linkedin.com/in/jacobdanovitch/
 
+Johnny Dellas:
+  name: Johnny Dellas
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Summer 2026
+    affiliation: Mila, McGill
 Charlotte Ding:
   name: Xiaoye (Charlotte) Ding
   avatar: /assets/images/bio/xiaoye.ding.avatar.webp
@@ -122,12 +162,25 @@ Charlotte Ding:
   - label: LinkedIn
     url: https://www.linkedin.com/in/charlottexiaoyeding/
 
+Islam Eldifrawi:
+  name: Islam Eldifrawi
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: Intern
+    advisor: Reihaneh Rabbany
+    start_date: Summer 2026
+    affiliation: Mila, McGill
+
 Mark Ezema:
   name: Mark Ezema
   avatar: /assets/images/bio/Mark Ezema.jpg
   bio: Works on AI for combating human trafficking in Canada
   current_role:
-    type: Staff
+    type: Unaffiliated
+    title: "Software Engineer, AI for Humanity @ Mila"
+  past_roles:
+  - type: Staff
     title: AI Engineer
     start_date: Mar 2023
     affiliation: Mila, McGill
@@ -146,13 +199,18 @@ Aarash Feizi:
   bio: Works on multi-modal self-supervised learning and applied machine learning
     techniques in CV and NLP for social good with real-world impacts.
   username: feiziaar
+  note: "Fast-tracked to PhD in May 2021. Thesis: On the Challenges of Applying Vision and Language Models in Real-World. FRQNT PhD Scholarship."
   semantic_scholar_id: "1962954677"
   auto_update_publications: false
   current_role:
-    type: Student
+    type: Unaffiliated
+    title: "Senior Researcher @ Microsoft AI"
+  past_roles:
+  - type: Student
     title: PhD
     advisor: Reihaneh Rabbany, Adriana Romero Soriano
     start_date: Fall 2019
+    end_date: Summer 2026
     affiliation: Mila, McGill
     research_directions:
     - poli-sci
@@ -166,6 +224,17 @@ Aarash Feizi:
   - label: Website
     url: https://aarashfeizi.github.io/
 
+Sophia Garrel:
+  name: Sophia Garrel
+  auto_update_publications: false
+  note: "<em>Technology transfer for Infrared</em>"
+  current_role:
+    type: Staff
+    title: Project Manager
+    start_date: Summer 2025
+    affiliation: Mila
+    research_directions:
+    - online-crime
 Jean-Francois Godbout:
   name: Jean-François Godbout
   avatar: /assets/images/bio/jean-francois-godbout.png
@@ -198,7 +267,10 @@ Shenyang Huang:
   username: huanshe
   auto_update_publications: false
   current_role:
-    type: Student
+    type: Unaffiliated
+    title: "Postdoctoral Fellow @ Oxford → Senior ML Research Scientist @ LawZero"
+  past_roles:
+  - type: Student
     title: PhD
     advisor: Reihaneh Rabbany, Guillaume Rabusseau
     start_date: Fall 2019
@@ -235,11 +307,13 @@ Raika Karimi:
 
 Emma Kondrup:
   name: Emma Kondrup
+  bio: Online harms, applied graph machine learning and technology-facilitated gender-based violence.
   auto_update_publications: false
   current_role:
     type: Student
     title: PhD
     advisor: Reihaneh Rabbany, Catherine Régis
+    start_date: Winter 2026
     research_directions:
     - poli-sci
   social_media_links:
@@ -251,20 +325,19 @@ Emma Kondrup:
     url: https://scholar.google.ca/citations?user=Ov-LMukAAAAJ&hl=fr&oi=ao
   - label: LinkedIn
     url: https://www.linkedin.com/in/emmakondrup/
-  avatar: /assets/images/bio/Emma Kondrup.jpg
-  past_roles:
-  - type: None
-    title: _No response_
+  avatar: /assets/images/bio/emma.kondrup.avatar.webp
 Elahe Kooshafar:
   name: Elahe Kooshafar
   avatar: /assets/images/bio/elahe.kooshafar.avatar.webp
   bio: Working on Graph Representation Learning and Applications, Graph Neural Networks,
     Deep Learning, and Network Science.
-  current_role:
-    type: Student
+  note: "Thesis: Representation Integrity in Temporal Graph Learning Methods."
+  past_roles:
+  - type: Student
     title: Master
     advisor: Reihaneh Rabbany
     start_date: Fall 2022
+    end_date: Summer 2025
     affiliation: Mila, McGill
     research_directions:
     - temporal-graph-learning
@@ -420,11 +493,12 @@ Shahrad Mohammadzadeh:
   username: shahrad.mohammadzadeh
   semantic_scholar_id: "2281945133"
   auto_update_publications: false
-  current_role:
-    type: Student
+  past_roles:
+  - type: Student
     title: Master
     advisor: Reihaneh Rabbany, Doina Precup
-    start_date: Fall 2023
+    start_date: Fall 2024
+    end_date: Summer 2026
     affiliation: Mila, McGill
     research_directions:
     - poli-sci
@@ -471,13 +545,18 @@ Pratheeksha Nair:
   avatar: /assets/images/bio/pratheeksha.nair.avatar.webp
   bio: AI for social good applications - fighting online organized crime; Weak Supervision
     and Graph Machine Learning
+  note: "Thesis: Learning from Weak Supervision: Insights from Human Trafficking Detection. FRQNT PhD Scholarship."
   semantic_scholar_id: "48761500"
   auto_update_publications: false
   current_role:
-    type: Student
+    type: Unaffiliated
+    title: "Research Engineer II @ Borealis AI (RBC)"
+  past_roles:
+  - type: Student
     title: PhD
     advisor: Reihaneh Rabbany
-    start_date: Fall 2020
+    start_date: Summer 2020
+    end_date: Summer 2025
     affiliation: Mila, McGill
     research_directions:
     - online-crime
@@ -498,11 +577,16 @@ Soroush Omranpour:
   avatar: /assets/images/bio/soroush.omranpour.avatar.webp
   bio: Working on building scalable and efficient machine learning models for tensor-structured
     or highly complex and evolving data.
+  note: "Thesis: Higher Order Transformers With Kronecker-Structured Attention."
   current_role:
-    type: Student
+    type: Unaffiliated
+    title: "Applied AI Scientist @ Amazfit"
+  past_roles:
+  - type: Student
     title: Master
     advisor: Reihaneh Rabbany, Guillaume Rabusseau
     start_date: Fall 2022
+    end_date: Summer 2025
   social_media_links:
   - label: Website
     url: https://s-omranpour.github.io/
@@ -573,8 +657,12 @@ Farimah Poursafaei:
   name: Farimah Poursafaei
   avatar: /assets/images/bio/Farimah.JPG
   bio: Machine Learning on Temporal Graphs
+  note: "PhD co-supervised with Zeljko Zilic (primary supervisor) from December 2020. Thesis: Anomaly detection in cryptocurrency networks and beyond."
   current_role:
-    type: Staff
+    type: Unaffiliated
+    title: "Postdoctoral Fellow @ McGill → Model Evaluation Scientist @ BNP Paribas"
+  past_roles:
+  - type: Staff
     title: Data Scientist @ Mila
     start_date: Fall 2024
     affiliation: Mila
@@ -582,7 +670,6 @@ Farimah Poursafaei:
     - temporal-graph-learning
     - text-attributed-graphs
     - foundation-models
-  past_roles:
   - type: Postdoc
     title: Postdoc
     advisor: Reihaneh Rabbany
@@ -591,6 +678,7 @@ Farimah Poursafaei:
     title: PhD
     advisor: Zeljko Zilic, Reihaneh Rabbany
     start_date: Fall 2017
+    end_date: Summer 2022
   social_media_links:
   - label: Website
     url: https://fpour.github.io/
@@ -629,6 +717,15 @@ Reihaneh Rabbany:
   - label: LinkedIn
     url: https://www.linkedin.com/in/reihaneh-rabbany/
 
+Sebastian Sabry:
+  name: Sebastian Sabry
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Summer 2025
+    affiliation: Mila, McGill
 Dorsaf Sallami:
   name: Dorsaf Sallami
   auto_update_publications: false
@@ -650,6 +747,15 @@ Dorsaf Sallami:
     url: https://scholar.google.com/citations?user=wUa3IWgAAAAJ&hl=fr&oi=ao
   - label: LinkedIn
     url: https://www.linkedin.com/in/dorsaf-sallemi/
+Sneheel Sarangi:
+  name: Sneheel Sarangi
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2025
+    affiliation: Mila, McGill
 Sahar Omidi Shayegan:
   name: Sahar Omidi Shayegan
   avatar: /assets/images/bio/sahar.omidi.shayegan.avatar.webp
@@ -657,11 +763,16 @@ Sahar Omidi Shayegan:
   semantic_scholar_id: "2302559514"
   username: sahar.omidishayegan
   auto_update_publications: false
+  note: "Thesis: Learning Political Ideologies in Ambiguous Contexts Using Language and Graph-Based Representations."
   current_role:
-    type: Student
+    type: Unaffiliated
+    title: "ML Scientist @ Veris AI"
+  past_roles:
+  - type: Student
     title: Master
     advisor: Reihaneh Rabbany, Isar Nejadgholi @ NRC
     start_date: Fall 2022
+    end_date: Summer 2025
     affiliation: Mila, McGill
     research_directions:
     - poli-sci
@@ -675,6 +786,25 @@ Sahar Omidi Shayegan:
   - label: LinkedIn
     url: https://www.linkedin.com/in/sahar-shayegan/
 
+Liu Shiyan:
+  name: Liu Shiyan
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2026
+    affiliation: Mila, McGill
+Vidya Sujaya:
+  name: Vidya Sujaya
+  auto_update_publications: false
+  past_roles:
+  - type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2023
+    end_date: Summer 2026
+    affiliation: Mila, McGill
 Camille Thibault:
   name: Camille Thibault
   auto_update_publications: false
@@ -702,12 +832,19 @@ Jacob-Junqi Tian:
   username: jacob-junqi.tian
   semantic_scholar_id: "2320260830"
   current_role:
-    type: Collaborator
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2026
+    affiliation: Mila, McGill
+    research_directions:
+    - poli-sci
+  past_roles:
+  - type: Collaborator
     title: Associate Applied Machine Learning Specialist at Vector Institute
     affiliation: Vector
     research_directions:
     - poli-sci
-  past_roles:
   - type: Student
     title: Undergraduate
     advisor: Reihaneh Rabbany
@@ -793,6 +930,15 @@ Tong Wu:
     url: https://portfolio-ofbreads-projects.vercel.app/
   - label: GitHub
     url: https://github.com/ofbread
+Brian Yang:
+  name: Brian Yang
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: PhD
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2026
+    affiliation: Mila, McGill
 Zachary Yang:
   name: Zachary Yang
   avatar: /assets/images/bio/zachary.yang.avatar.webp
@@ -801,7 +947,10 @@ Zachary Yang:
   semantic_scholar_id: "2155115994"
   auto_update_publications: false
   current_role:
-    type: Student
+    type: Unaffiliated
+    title: "AI Researcher, Online Safety Team @ Ubisoft La Forge → Senior Applied Research Scientist, AI Safety Studio @ Mila"
+  past_roles:
+  - type: Student
     title: PhD
     advisor: Reihaneh Rabbany
     start_date: Winter 2021
@@ -850,6 +999,15 @@ Hao Yu:
   - label: LinkedIn
     url: https://www.linkedin.com/in/haoy/
 
+Shirley Zhao:
+  name: Shirley Zhao
+  auto_update_publications: false
+  current_role:
+    type: Student
+    title: Master
+    advisor: Reihaneh Rabbany
+    start_date: Fall 2026
+    affiliation: Mila, McGill
 Svetlana Zhuk:
   name: Svetlana Zhuk
   auto_update_publications: false

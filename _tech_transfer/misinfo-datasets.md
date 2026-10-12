@@ -1,6 +1,16 @@
 ---
 category: information-integrity
-order: 2
+paper_date: 2025-08-03  # date of the most recent paper; entries are listed newest first
+links:
+  - label: Explore the datasets
+    url: https://misinfo-datasets.complexdatalab.com/
+    type: website
+  - label: Code
+    url: https://github.com/ComplexData-MILA/misinfo-datasets
+    type: code
+  - label: Paper (KDD 2025)
+    url: https://dl.acm.org/doi/10.1145/3711896.3737437
+    type: paper
 ---
 
 ## [Misinfo Datasets](https://misinfo-datasets.complexdatalab.com/)

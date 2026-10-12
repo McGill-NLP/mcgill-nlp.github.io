@@ -10,4 +10,4 @@ excerpt: "Showcasing our tools and resources that bridge research innovations wi
 
 ---
 
-{% include tech-transfer.html %}
+{% include tech-transfer.html sortable=true %}

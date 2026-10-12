@@ -66,4 +66,33 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     "retina_detect": true
   });
+
+  // On the homepage research section, foreground content can block direct canvas
+  // mouse events. Mirror pointer coordinates into particles.js so hover effects
+  // remain interactive across the full section area.
+  var particlesEl = document.getElementById('particles-js');
+  var particlesSection = particlesEl && particlesEl.closest('.research-directions-section--with-particles');
+
+  if (particlesEl && particlesSection && window.pJSDom && window.pJSDom[0] && window.pJSDom[0].pJS) {
+    var pJS = window.pJSDom[0].pJS;
+
+    particlesSection.addEventListener('mousemove', function(event) {
+      var canvas = pJS.canvas && pJS.canvas.el;
+      if (!canvas) {
+        return;
+      }
+
+      var rect = canvas.getBoundingClientRect();
+      var pxratio = (pJS.canvas && pJS.canvas.pxratio) ? pJS.canvas.pxratio : 1;
+      pJS.interactivity.mouse.pos_x = (event.clientX - rect.left) * pxratio;
+      pJS.interactivity.mouse.pos_y = (event.clientY - rect.top) * pxratio;
+      pJS.interactivity.status = 'mousemove';
+    });
+
+    particlesSection.addEventListener('mouseleave', function() {
+      pJS.interactivity.mouse.pos_x = null;
+      pJS.interactivity.mouse.pos_y = null;
+      pJS.interactivity.status = 'mouseleave';
+    });
+  }
 });

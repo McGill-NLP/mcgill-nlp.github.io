@@ -91,8 +91,21 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/complexDataLab"
+    - label: "Hugging Face"
+      icon: "fab fa-fw fa-hugging-face"
+      url: "https://huggingface.co/ComplexDataLab"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/company/complex-data-lab-mcgill-mila/"
 
 defaults:
+  # research direction pages
+  - scope:
+      path: ""
+      type: research_directions
+    values:
+      classes:
+        - research-page
   # _pages
   - scope:
       path: "_pages"

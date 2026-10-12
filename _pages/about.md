@@ -18,6 +18,15 @@ row_code:
     btn_class: "btn--primary"
     excerpt: "We advocate for open-source code by publishing our models and datasets on GitHub, empowering researchers and developers to easily reproduce, extend, and contribute to our work through community-driven pull requests and issue discussions."
 
+row_datasets:
+  - image_path: /assets/images/home/huggingface.webp
+    url: https://huggingface.co/ComplexDataLab
+    alt: "Our Hugging Face page"
+    title: "Public Datasets"
+    btn_label: "Hugging Face"
+    btn_class: "btn--primary"
+    excerpt: "We release our datasets publicly on Hugging Face for benchmarking and further research."
+
 row_about_us:
   - image_path: /assets/images/home/misinfo_gov_outreach.webp
   - image_path: /assets/images/home/group-photo-1.webp
@@ -31,6 +40,8 @@ row_about_us:
 
 <!-- # Open Source Code -->
 {% include feature_row id="row_code" type="right" %}
+
+{% include feature_row id="row_datasets" type="left" %}
 
 <br>
 

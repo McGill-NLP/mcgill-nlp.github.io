@@ -1,9 +1,45 @@
 <!-- Overrides and modified from: https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/posts-category.html -->
+<!-- Shows the first `limit` papers (default 3); the rest sit behind a toggle button. -->
 
-<div>
-  {%- for post in site.categories[include.taxonomy] -%}
-  {%- unless post.hidden -%}
+{%- assign limit = include.limit | default: 3 -%}
+{%- assign visible_posts = site.categories[include.taxonomy] | where_exp: "post", "post.hidden != true" -%}
+{%- assign extra_count = visible_posts.size | minus: limit -%}
+
+<div class="highlighted-publications">
+  {%- for post in visible_posts limit: limit -%}
   {% include display-highlighted-publications.html %}
-  {%- endunless -%}
   {%- endfor -%}
+
+  {%- if extra_count > 0 -%}
+  <div class="highlighted-publications__more" id="more-publications-{{ include.taxonomy | slugify }}" hidden>
+    {%- for post in visible_posts offset: limit -%}
+    {% include display-highlighted-publications.html %}
+    {%- endfor -%}
+  </div>
+
+  <div class="highlighted-publications__toggle-row">
+  <button type="button" class="highlighted-publications__toggle" aria-expanded="false"
+    aria-controls="more-publications-{{ include.taxonomy | slugify }}"
+    data-more="Show {{ extra_count }} more" data-less="Show less">
+    <span class="highlighted-publications__toggle-label">Show {{ extra_count }} more</span>
+    <span class="highlighted-publications__toggle-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
+  </button>
+  </div>
+  {%- endif -%}
 </div>
+
+{%- if extra_count > 0 -%}
+<script>
+  (function () {
+    var button = document.currentScript.previousElementSibling.querySelector(".highlighted-publications__toggle");
+    var more = document.getElementById(button.getAttribute("aria-controls"));
+    var label = button.querySelector(".highlighted-publications__toggle-label");
+    button.addEventListener("click", function () {
+      var open = button.getAttribute("aria-expanded") !== "true";
+      more.hidden = !open;
+      button.setAttribute("aria-expanded", open);
+      label.textContent = button.getAttribute(open ? "data-less" : "data-more");
+    });
+  })();
+</script>
+{%- endif -%}

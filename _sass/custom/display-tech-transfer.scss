@@ -1,32 +1,192 @@
+/* Tools & resources entries (Tools & Resources page and research direction pages) */
+
 .tech-transfer__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     margin-bottom: 2em;
 
     .tech-transfer-item {
-        margin-bottom: 3em;
-        padding: 1em;
+        padding: 1.5rem;
         background: #fff;
-        border-radius: 4px;
-        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        border: 1px solid rgba(0, 0, 0, 0.07);
+        border-radius: 12px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 
         h2 {
-            margin-top: 0;
+            margin: 0 0 1rem;
+            padding: 0;
+            border-bottom: none;
+            font-size: 1.2rem;
             color: $primary-color;
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        p {
+            margin: 0 0 0.75rem;
+            font-size: 0.9rem;
+            line-height: 1.65;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
 
         img {
-            max-width: 200px;
+            // Never upscale small logos; cap large images at 200px.
+            width: auto;
+            max-width: min(200px, 40%);
             float: left;
-            margin: 0 1em 1em 0;
+            margin: 0.2rem 1.5rem 0.5rem 0;
+            border-radius: 6px;
         }
 
         .clearfix {
-            clear: both;
-
             &::after {
                 content: "";
                 clear: both;
                 display: table;
             }
+        }
+
+        @media (max-width: 600px) {
+            img {
+                float: none;
+                display: block;
+                width: 100%;
+                max-width: 100%;
+                margin: 0 0 1rem;
+            }
+        }
+    }
+}
+
+/* Link buttons and pip install chip under each entry */
+
+.tool-links {
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.tool-link,
+.tool-pip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid rgba(155, 58, 43, 0.25);
+    border-radius: 999px;
+    background: #fff;
+    color: #9b3a2b;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none !important;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+        background: #f6efed;
+        border-color: rgba(155, 58, 43, 0.45);
+        color: #9b3a2b;
+    }
+}
+
+.tool-link--primary {
+    background: #9b3a2b;
+    border-color: #9b3a2b;
+    color: #fff;
+
+    &:hover,
+    &:focus-visible {
+        background: #7f2f23;
+        border-color: #7f2f23;
+        color: #fff;
+    }
+}
+
+.tool-pip {
+    border-color: #e4e4e4;
+    background: #f7f7f8;
+    color: #333;
+    cursor: pointer;
+    font-family: inherit;
+
+    code {
+        padding: 0;
+        background: none;
+        font-size: 0.75rem;
+        color: inherit;
+    }
+
+    .tool-pip__icon {
+        color: #999;
+    }
+
+    &:hover,
+    &:focus-visible {
+        background: #efeff1;
+        border-color: #d6d6d6;
+        color: #333;
+    }
+
+    &.is-copied {
+        border-color: #6aa36f;
+
+        .tool-pip__icon::before {
+            content: "\f00c"; // check mark
+            font-weight: 900;
+            color: #3d8b44;
+        }
+    }
+}
+
+/* Sort dropdown above the Tools & Resources list */
+
+.tool-sort {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0.5rem;
+
+    &__control {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        color: #555;
+        font-size: 0.8rem;
+
+        .fa-chevron-down {
+            position: absolute;
+            right: 0.6rem;
+            font-size: 0.65rem;
+            pointer-events: none;
+        }
+    }
+
+    &__select {
+        appearance: none;
+        -webkit-appearance: none;
+        margin: 0;
+        padding: 0.35rem 1.8rem 0.35rem 0.6rem;
+        border: none;
+        border-radius: 6px;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+        box-shadow: none;
+
+        &:hover,
+        &:focus-visible {
+            background: #f3f3f3;
+            outline: none;
         }
     }
 }

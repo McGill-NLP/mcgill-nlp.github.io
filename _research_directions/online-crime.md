@@ -18,6 +18,8 @@ logos:
     name: NSERC
   - image: /assets/images/logo/SAMSUNG.png
     name: SAMSUNG
+  - image: /assets/images/logo/IVADO.png
+    name: IVADO
 
 ---
 
@@ -33,6 +35,6 @@ Sex trafficking impacts 4.8 million people globally and is a $99 billion USD ind
 
 # Funding
 
-We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Mila - Quebec AI Institute, Natural Sciences and Engineering Research Council of Canada (NSERC), and Samsung. 
+We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), Mila - Quebec AI Institute, Natural Sciences and Engineering Research Council of Canada (NSERC), Samsung, and IVADO (Institute for Data Valorization). 
 
 {% include logo-grid.html id="logos" %}

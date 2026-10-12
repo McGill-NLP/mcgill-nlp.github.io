@@ -24,6 +24,8 @@ logos:
     name: UKRI
   - image: /assets/images/logo/IVADO.png
     name: IVADO
+  - image: /assets/images/logo/AISI.png
+    name: AISI
 ---
 
 The current digital age fundamentally changes how we as individuals and a society collect and distribute information. With these changes come powerful new approaches to influence the public agenda. However, the quality of shared information varies widely, and can have wide-reaching consequences. As the sophistication and accessibility of AI tools continue to expand, the authenticity of digital content has been increasingly called into question. Our team stands at the forefront of the challenge to safeguard digital space, as we assess the nature of content and how it proliferates online. For more information check out our [a4.institute](https://www.ai4.institute/).
@@ -38,6 +40,6 @@ The current digital age fundamentally changes how we as individuals and a societ
 
 # Funding
 
-We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), the Fonds de recherche du Québec – Société et culture (FRQSC), the Social Sciences and Humanities Research Council (SSHRC), Mila - Quebec AI Institute,the Government of Canada, UK Research and Innovation (UKRI), and IVADO (Institute for Data Valorization).
+We acknowledge funding from the Canadian Institute for Advanced Research (CIFAR AI Chair Program), the Fonds de recherche du Québec – Société et culture (FRQSC), the Social Sciences and Humanities Research Council (SSHRC), Mila - Quebec AI Institute,the Government of Canada, UK Research and Innovation (UKRI), IVADO (Institute for Data Valorization), and the UK AI Security Institute (AISI).
 
 {% include logo-grid.html id="logos" %}

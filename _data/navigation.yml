@@ -1,6 +1,7 @@
 main:
   - tab: "Research"
     subpages:
+      - heading: "Research Axes"
       - page: "Temporal Graph Learning"
         url: /temporal-graph-learning/
       - page: "Crime & Online Markets"
@@ -9,13 +10,15 @@ main:
         url: /poli-sci/
       - page: "Toxicity & Online Games"
         url: /online-toxicity/
+      - divider: true
       - page: "Tools & Resources"
         url: /tools-and-resources/
-      - page: "STAMINA"
-        url: /stamina/
       - page: "Publications"
         url: /publications/
-    url: /
+      - divider: true
+      - page: "STAMINA"
+        url: /stamina/
+    url: /#research
   - tab: "About"
     subpages:
       - page: "About the Lab"

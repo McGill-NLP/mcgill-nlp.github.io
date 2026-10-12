@@ -1,11 +1,13 @@
 <!-- First collect the authors that should be shown -->
+<!-- `roles` (comma-separated) shows each author once for any of several role types; `role` is a single type. -->
+{% assign wanted_roles = include.roles | default: include.role | split: "," %}
 {% assign authors_to_show = '' | split: '' %}
 {% for hash in include.authors %}
 {% assign author = hash[1] %}
 {% assign show_author = false %}
 
 {% if include.render_current_role %}
-{% if author.current_role.type == include.role %}
+{% if wanted_roles contains author.current_role.type %}
 {% if include.title %}
 {% if author.current_role.title == include.title %}
 {% assign show_author = true %}
@@ -18,7 +20,7 @@
 {% endif %}
 {% else %}
 {% for past_role in author.past_roles %}
-{% if past_role.type == include.role %}
+{% if wanted_roles contains past_role.type %}
 {% if include.title %}
 {% if past_role.title == include.title %}
 {% assign show_author = true %}
@@ -64,6 +66,11 @@
 
 
 {% assign sorted_authors = authors_to_show | sort %}
+
+<!-- Optional `heading`: only rendered when there is at least one author to show -->
+{% if include.heading and sorted_authors.size > 0 %}
+<h3 id="{{ include.heading_id | default: include.heading | slugify }}">{{ include.heading }}</h3>
+{% endif %}
 
 <!-- Then display the filtered authors -->
 {% for entry in sorted_authors %}
