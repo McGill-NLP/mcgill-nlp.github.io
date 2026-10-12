@@ -1,0 +1,83 @@
+{% comment %}
+  "What STAMINA works on" diagram for the STAMINA page (styles: stamina/css/plain-style.css).
+  Plain HTML + inline SVG: real text, scales cleanly, stacks on narrow screens.
+{% endcomment %}
+<figure class="stam-diagram">
+  <figcaption class="sr-only">The three research areas STAMINA brings together, and the disciplines its members come from.</figcaption>
+
+  <svg class="stam-venn" viewBox="0 0 550 524" role="img"
+       aria-label="Venn diagram: STAMINA sits where social interaction technologies, social simulations and modelling, and AI agents and safety overlap.">
+    <defs>
+      <clipPath id="stam-clip-tech"><circle cx="175" cy="175" r="155"/></clipPath>
+      <clipPath id="stam-clip-sim"><circle cx="375" cy="175" r="155"/></clipPath>
+    </defs>
+    <g class="stam-venn-lobes">
+      <circle cx="175" cy="175" r="155" class="stam-venn-tech"/>
+      <circle cx="375" cy="175" r="155" class="stam-venn-sim"/>
+      <circle cx="275" cy="349" r="155" class="stam-venn-ai"/>
+    </g>
+    <g clip-path="url(#stam-clip-tech)">
+      <g clip-path="url(#stam-clip-sim)">
+        <circle cx="275" cy="349" r="155" class="stam-venn-core-shape"/>
+      </g>
+    </g>
+    <text class="stam-venn-label stam-venn-label--tech" x="121" y="170">
+      <tspan x="121">Social interaction</tspan>
+      <tspan x="121" dy="23">technologies</tspan>
+    </text>
+    <text class="stam-venn-label stam-venn-label--sim" x="429" y="170">
+      <tspan x="429">Social simulations</tspan>
+      <tspan x="429" dy="23">&amp; modelling</tspan>
+    </text>
+    <text class="stam-venn-label stam-venn-label--ai" x="275" y="395">
+      <tspan x="275">AI agents &amp; safety</tspan>
+    </text>
+  </svg>
+
+
+  <div class="stam-flow">
+    <div class="stam-flow-end">
+      <svg class="stam-net" viewBox="0 0 120 80" role="img" aria-hidden="true" focusable="false">
+        <g stroke="currentColor" stroke-width="1.5" opacity="0.5">
+          <path d="M18 60 46 24M46 24 88 44M88 44 62 66M62 66 18 60M46 24 70 14M100 24 88 44"/>
+          <path d="M28 30 52 48" stroke-dasharray="4 4"/>
+          <path d="M70 14 104 60" stroke-dasharray="4 4"/>
+        </g>
+        <g fill="currentColor">
+          <circle cx="18" cy="60" r="4"/><circle cx="46" cy="24" r="5"/><circle cx="88" cy="44" r="4.5"/>
+          <circle cx="62" cy="66" r="3.5"/><circle cx="70" cy="14" r="3"/><circle cx="100" cy="24" r="3"/>
+          <circle cx="28" cy="30" r="2.5"/><circle cx="104" cy="60" r="2.5"/><circle cx="52" cy="48" r="2.5"/>
+        </g>
+      </svg>
+      <span>Epistemic &amp; social crises</span>
+    </div>
+
+    <svg class="stam-arrow" viewBox="0 0 64 24" role="img" aria-hidden="true" focusable="false">
+      <path d="M2 12h50M44 5l9 7-9 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+
+    <div class="stam-flow-end stam-flow-end--good">
+      <svg class="stam-net" viewBox="0 0 120 80" role="img" aria-hidden="true" focusable="false">
+        <g stroke="currentColor" stroke-width="1.5" opacity="0.6">
+          <path d="M60 40 26 22M60 40 94 22M60 40 26 58M60 40 94 58M60 40 60 10M60 40 60 70"/>
+          <path d="M26 22 60 10M60 10 94 22M26 58 60 70M60 70 94 58"/>
+        </g>
+        <g fill="currentColor">
+          <circle cx="26" cy="22" r="4"/><circle cx="94" cy="22" r="4"/><circle cx="26" cy="58" r="4"/>
+          <circle cx="94" cy="58" r="4"/><circle cx="60" cy="10" r="4"/><circle cx="60" cy="70" r="4"/>
+        </g>
+        <circle cx="60" cy="40" r="7" fill="currentColor"/>
+      </svg>
+      <span>Pro-social, pro-truth applications</span>
+    </div>
+  </div>
+
+  <p class="stam-fields">
+    <span class="stam-fields-label">Members come from</span>
+    <span class="stam-chip">Computer science</span>
+    <span class="stam-chip">Social sciences</span>
+    <span class="stam-chip">Psychology</span>
+    <span class="stam-chip">Policy</span>
+    <span class="stam-chip">Industry &amp; start-ups</span>
+  </p>
+</figure>

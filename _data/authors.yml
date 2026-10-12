@@ -1,10 +1,25 @@
 Hussein Abdallah:
   name: Hussein Abdallah
-  auto_update_publications: false
+  auto_update_publications: true
   current_role:
     type: Postdoc
     title: Postdoc
-    start_date: Winter 2026
+    start_date: Feb 2026
+    advisor: Reihaneh Rabbany
+    affiliation: Mila, McGill
+    research_directions:
+    - temporal-graph-learning
+  bio: Scalable Knowledge Graph Systems and GNNs for Trustworthy AI
+  avatar: /assets/images/bio/Hussein Abdallah.jpg
+  social_media_links:
+  - label: Website
+    url: https://hussien.github.io/hussein/
+  - label: GitHub
+    url: https://github.com/hussien
+  - label: Scholar
+    url: https://scholar.google.ca/citations?hl=en&user=iaMgjcgAAAAJ&view_op=list_works&sortby=pubdate
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/hussein-abdallah-ca/
 Andrey Ambartsumov:
   name: Andrey Ambartsumov
   auto_update_publications: false

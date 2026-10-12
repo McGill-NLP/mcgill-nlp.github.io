@@ -51,6 +51,7 @@ exclude:
   - records
   - src
   - tests
+  - _stamina_talks/README.md
 
 # Plugins (previously gems:)
 plugins:
@@ -198,6 +199,8 @@ collections:
     output: true
     permalink: /:path/
   tech_transfer:
+    output: false
+  stamina_talks:   # one Markdown file per STAMINA talk, rendered on /stamina/
     output: false
 
 # Performance

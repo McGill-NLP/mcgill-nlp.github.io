@@ -1,0 +1,52 @@
+{% comment %}
+  Renders one STAMINA talk from the _stamina_talks collection.
+  Usage: {% include stamina-talk.html talk=talk %}
+{% endcomment %}
+{%- assign talk = include.talk -%}
+{%- assign talk_id = talk.date | date: "%Y%m%d" | append: "-" | append: talk.slug | slugify -%}
+{%- assign title_url = talk.title_url | default: talk.links.paper -%}
+{%- assign abstract = talk.content | strip -%}
+            <h4>{{ talk.date | date: "%Y/%m/%d" }}</h4>
+            <li>
+              <b>{% if title_url %}<a href="{{ title_url }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</b>
+              <br>
+              {{ talk.role | default: "Presenter" }}: <u>
+                {%- for p in talk.presenters -%}
+                  {%- if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener noreferrer">{{ p.name }}</a>{% else %}{{ p.name }}{% endif -%}
+                  {%- unless forloop.last %}, {% endunless -%}
+                {%- endfor -%}
+              </u>{% if talk.affiliation %}, {{ talk.affiliation | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}
+              {%- if talk.bio %}
+              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#{{ talk_id }}-bio" role="button" aria-expanded="false">
+                Speaker Bio
+              </a>
+              <div class="collapse" id="{{ talk_id }}-bio">
+                <div class="card card-body">
+                  {{ talk.bio | markdownify }}
+                </div>
+              </div>
+              {%- endif %}
+              <br>
+              {%- if talk.links.recording %}
+              <a href="{{ talk.links.recording }}" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
+              {%- endif %}
+              {%- if talk.links.paper %}
+              <a href="{{ talk.links.paper }}"><img src="https://img.shields.io/badge/Paper-link-important"></a>
+              {%- endif %}
+              {%- if talk.links.code %}
+              <a href="{{ talk.links.code }}"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
+              {%- endif %}
+              {%- if talk.links.slides %}
+              <a href="{{ talk.links.slides }}"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a>
+              {%- endif %}
+              {%- if abstract != "" %}
+              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#{{ talk_id }}-abstract" role="button" aria-expanded="false">
+                Abstract
+              </a>
+              <div class="collapse" id="{{ talk_id }}-abstract">
+                <div class="card card-body">
+                  {{ abstract | markdownify }}
+                </div>
+              </div>
+              {%- endif %}
+            </li>

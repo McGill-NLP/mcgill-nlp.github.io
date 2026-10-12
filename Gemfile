@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "webrick"
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "232", group: :jekyll_plugins
 # If github-pages starts to fail, try to use the following line instead
 # gem "github-pages", "231", group: :jekyll_plugins
 # or painstakingly find the proper github-pages version that works with your setup (see ruby version in jekyll-deploy.yml)

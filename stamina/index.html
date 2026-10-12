@@ -1,3 +1,6 @@
+---
+layout: null  # standalone Bootstrap page; don't wrap in the site theme
+---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,8 +70,9 @@
     <div class="header-banner">
       <!-- Overlay Title -->
       <div class="header-title">
-        <h1><b>STAMINA</b> <br> Working Group</h1>
-        <h4><b>S</b>ocial <b>T</b>ech <b>A</b>nd <b>M</b>odell<b>I</b>ng <br> for k<b>N</b>owledge & <b>A</b>ction</h4>
+        <img src="images/logo.png" width="100%" alt="logo" style="max-width: 400px; width: 80%;"/>
+        <!-- <h1><b>STAMINA</b> <br> Working Group</h1>
+        <h4><b>S</b>ocial <b>T</b>ech <b>A</b>nd <b>M</b>odell<b>I</b>ng <br> for k<b>N</b>owledge & <b>A</b>ction</h4> -->
       </div>
 
       <!-- Info Tooltip (bottom-right) -->
@@ -97,9 +101,10 @@
         <!-- <h5 style="text-align:center">Register the event in your <a href="[GOOGLE_CALENDAR]">Google Calendar</a>.</h5> -->
          <h4 style="text-align:center">Research Talk Series 11am ET Tuesdays. Join Us: <a href="https://mcgill.zoom.us/j/87638787060"><img src=https://img.shields.io/badge/Zoom%20meeting%20link-8A2BE2></a></h4>
 
-        <h5 style="text-align:center"> Visit our Youtube Channel for past event recordings: <a href="https://www.youtube.com/@ComplexDataLab/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a> </h5>
-        <h5 style="text-align:center">Questions? Email us at <a href="mailto:stamina@complexdatalab.com">stamina@complexdatalab.com</a></h5>
-
+        <h5 style="text-align:center"> Visit our Youtube Playlist for past event recordings: <a href="https://www.youtube.com/playlist?list=PLYndSwsn9HYYl5enbCIXpuFAyqgFDe7_V" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a> </h5>
+        <h5 style="text-align:center">Questions? Email us at <a href="mailto:stamina@complexdatalab.com">stamina@complexdatalab.com</a> </h5>
+        <h5 style="text-align:center">Building our knowledge base on <img src="images/semble-logo.0tc.i06262vfa.svg" style="height: 1lh; vertical-align: middle;"><a href="https://semble.so/profile/stamina-workgroup.bsky.social">Semble</a></h5>
+        <h5 style="text-align:center">Join the discussion on our <img src="images/Slack_icon_2019.svg.png" style="height: 1lh; vertical-align: middle;"><a href="https://join.slack.com/t/stamina-wg/shared_invite/zt-3z49egjoy-74fWM7aRp4UkhMCwbfmdSA">Slack</a>
   </div>
   </section>
 
@@ -117,6 +122,8 @@
             <p style="text-align:justify; font-size:16px; line-height:1.6;">
               Digital platforms and AI agents are increasingly shaping society. While these technologies contribute to epistemic and social crises, they may also help address them. Our goal is to build a research community focused on positive-outcome applications.
             </p>
+            {% include stamina-diagram.html %}
+
             <br>
             <div class="box">
               <p style="text-align:justify; font-size:16px; line-height:1.6;">
@@ -143,6 +150,16 @@
 
 
   <!-- ============================================================
+       TALKS
+       Talks are generated from the Markdown files in /_stamina_talks/
+       (one file per talk). To add a talk, copy _stamina_talks/_template.md.
+       A talk is "upcoming" until the day after its date, based on when
+       the site was last built.
+       ============================================================ -->
+  {%- assign today = site.time | date: "%Y%m%d" | plus: 0 -%}
+  {%- assign all_talks = site.stamina_talks | sort: "date" -%}
+
+  <!-- ============================================================
        SECTION: UPCOMING TALKS
        ============================================================ -->
   <section id="schedule" class="some-section">
@@ -153,101 +170,19 @@
           <div class="listing" style="clear:both;">
 
             <h3 style="text-align:center">Upcoming Talks</h3>
+            {% assign n_upcoming = 0 %}
+            {%- for talk in all_talks -%}
+              {%- assign talk_day = talk.date | date: "%Y%m%d" | plus: 0 -%}
+              {%- if talk_day >= today -%}
+                {%- assign n_upcoming = n_upcoming | plus: 1 %}
+{% include stamina-talk.html talk=talk %}
+              {%- endif -%}
+            {%- endfor %}
+            {%- if n_upcoming == 0 %}
+            <p style="text-align:center">The schedule for Fall 2026 will be announced soon.</p>
+            {%- endif %}
 
-            <!--
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            TALK TEMPLATE - Copy this block for each new talk
-            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ --><!--
-            <h4>[DATE Y/M/D]</h4>
-            <li>
-              <b><a href="[PAPER LINK]">[TALK TITLE]</a></b>
-              <br>
-              Presenter: <u><a href="[PRESENTER URL]" target="_blank" rel="noopener noreferrer">[PRESENTER NAME]</a></u>, [PRESENTER AFFILIATION]
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#[TALK-DATE]-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="[TALK-DATE]-bio">
-                <div class="card card-body">
-                  [BIO TEXT]
-                </div>
-              </div>
-              <br>
-              <a href="[RECORDING LINK - ADD AFTER TALK]"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-              <a href="[PAPER LINK]"><img src="https://img.shields.io/badge/Paper-link-important"></a>
-              <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a>
-              <a href="[SLIDES_LINK]"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a>
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#[TALK-DATE]-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="[TALK-DATE]-abstract">
-                <div class="card card-body">
-                  [ABSTRACT TEXT]
-                </div>
-              </div>
-            </li>
-          --><!-- END TALK TEMPLATE -->
-          
             <br>
-
-            <h4>2026/04/14</h4>
-            <li>
-              <b><a href="[PAPER LINK]">Testing and Improving Multi-Agent LLM Cooperation</a></b>
-              <br>
-              Presenter: <u><a href="https://zhijing-jin.com/" target="_blank" rel="noopener noreferrer">Zhijing Jin</a></u>, University of Toronto
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#20260414-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="20260414-bio">
-                <div class="card card-body">
-                   Zhijing Jin (she/her) is an Assistant Professor at the University of Toronto and Research Scientist at the Max Planck Institute. She serves as a CIFAR AI Chair, an ELLIS advisor, and a faculty member at the Vector Institute, and the Schwartz Reisman Institute. She co-chairs the ACL Ethics Committee, and the ACL Year-Round Mentorship. Her research focuses on Causal Reasoning with LLMs, and AI Safety in Multi-Agent LLMs. She has published over 80 papers and has received the ELLIS PhD Award, three Rising Star awards, and two Best Paper awards at NeurIPS 2024 Workshops.
-                </div>
-              </div>
-              <br>
-              <!-- <a href="[RECORDING LINK - ADD AFTER TALK]"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a> -->
-              <!-- <a href="[PAPERLINK]"><img src="https://img.shields.io/badge/Paper-link-important"></a> -->
-              <!-- <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
-              <!-- <a href="[SLIDES_LINK]"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a> -->
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#20260414-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="20260414-abstract">
-                <div class="card card-body">
-                  While progress has been made in evaluating single-agent LLMs for persona modeling, the behavior of these models within multi-agent groups remains underexplored. This presentation outlines a research series dedicated to closing this gap by testing LLM cooperation through autonomous social simulations. Specifically, we ask: what happens when personas are tasked to interact and cooperate?
-                  <br>
-                  To answer this, we introduce a suite of simulation environments (GovSim, MoralSim, and SanctSim) designed to stress-test persona interaction. These environments simulate high-stakes scenarios, such as the tragedy of the commons and ethical trade-offs, allowing us to investigate whether simulated societies can autonomously negotiate social order and how personas with differing ethical constraints navigate social dilemmas.
-                  <br>
-                  Our findings highlight implications for persona modeling. We show that agents exhibit a functional "theory of mind," capable of inferring the identities of their interlocutors and strategically adapting their behavior, sometimes exploiting specific model vulnerabilities. Furthermore, we discuss a counterintuitive phenomenon where advanced reasoning capabilities lead to exploitative behaviors that humans typically avoid, highlighting a significant misalignment between agent optimization and human social norms.
-                </div>
-              </div>
-            </li>
-
-            <h4>2026/04/28</h4>
-            <li>
-              <b><a href="[PAPER LINK]">From Social Networks to Sensemaking Networks</a></b>
-              <br>
-              Presenter: <u><a href="https://cosmik.network/" target="_blank" rel="noopener noreferrer">Ronen Tamari</a></u>, Cosmik Network
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#20260428-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="20260428-bio">
-                <div class="card card-body">
-                  Ronen is a researcher and entrepreneur working on collective intelligence systems to help us think better, together. Ronen recently completed an Open Science fellowship at the Astera Institute, where he co-founded Cosmik, a mission driven R&D lab working on new kinds of social networks for collective sensemaking. Ronen also completed a PhD in computer science, with a focus on cognitive-inspired AI models for natural language comprehension. Ronen’s current research interests center around cooperative human-AI systems, institutional design for collective intelligence, and the role of epistemic environments in shaping human and machine intelligence.
-                </div>
-              </div>
-              <br>
-              <!-- <a href="[RECORDING LINK - ADD AFTER TALK]"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a> -->
-              <!-- <a href="[PAPER LINK]"><img src="https://img.shields.io/badge/Paper-link-important"></a> -->
-              <!-- <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
-              <!-- <a href="[SLIDES_LINK]"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a> -->
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#20260428-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="20260428-abstract">
-                <div class="card card-body">
-                  What would social media look like if it were designed for sensemaking rather than engagement? We're exploring this question with Semble, a platform where researchers curate shareable collections, create knowledge trails that others can build on, and discover relevant work through their network's collective attention. Built on the AT Protocol, the open social networking protocol behind Bluesky, Semble offers researchers data portability and an open API designed for extension. We'll discuss how Semble enables new kinds of research tooling, from living semantic citation graphs to collaborative review and annotation. We'll also share how ATProto's open data layer creates unique opportunities for studying and designing epistemic infrastructure — from observing how knowledge trails form across a network to experimenting with platform affordances that support collective sensemaking.
-                </div>
-              </div>
-            </li>
 
           </div>
         </div>
@@ -257,8 +192,9 @@
 
 
   <!-- ============================================================
-       SECTION: PAST TALKS (currently commented out)
-       Uncomment this section when you have past talks to list
+       SECTION: PAST TALKS
+       Grouped by term: Jan-Jun is "Spring", Jul-Dec is "Fall".
+       Set `term:` in a talk's front matter to override.
        ============================================================ -->
   <section id="past-talks" class="some-section">
     <div class="container">
@@ -267,140 +203,28 @@
         <div class="col-sm-8">
           <div class="listing" style="clear:both;">
 
-            <h3 style="text-align:center">Past Talks (<a href="https://www.youtube.com/@ComplexDataLab">Youtube Channel</a>)</h3>
-
-            <h4 style="text-align:center; margin-top:30px;">Spring 2026</h4>
-
-             <h4>2026/03/24</h4>
-            <li>
-              <b><a href="https://www.conversence.com/presentations/2026-03-24-stamina.pdf">AI and the knowledge commons</a></b>
-              <br>
-              Presenter: <u><a href="https://conversence.com" target="_blank" rel="noopener noreferrer">Marc-Antoine Parent</a></u>, Solutions Conversence inc.
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#20260324-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="20260324-bio">
-                <div class="card card-body">
-                  Marc-Antoine has worked in computational linguistics, knowledge representation, and more recently has focused on tools for augmented collective intelligence. He's especially interested in how to represent emergent and disputed knowledge.
-                  <br><a href="https://conversence.com">https://conversence.com</a>
-                  <br><a href="https://hyperknowledge.org">https://hyperknowledge.org</a>
-                </div>
-              </div>
-              <br>
-              <a href="https://www.youtube.com/watch?v=Q4WcKmfOtx4"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-              <!-- <a href="[PAPER LINK]"><img src="https://img.shields.io/badge/Paper-link-important"></a> -->
-              <!-- <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
-              <a href="https://www.conversence.com/presentations/2026-03-24-stamina.pdf"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a>
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#20260324-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="20260324-abstract">
-                <div class="card card-body">
-                  We present a model of the formation of a knowledge commons for democratic, collective decision-making in society, and explain how generative AI disrupts the formation of this knowledge commons. We will also present ways in which to reinforce the collective processes around a knowledge commons, including the possible contributions of hybrid AI.
-                  <br>
-                  This is based on a paper that was presented at the IJCAI'25 democracy and AI workshop.
-                </div>
-              </div>
-            </li>
-
+            <h3 style="text-align:center">Past Talks (<a href="https://www.youtube.com/playlist?list=PLYndSwsn9HYYl5enbCIXpuFAyqgFDe7_V">Youtube Playlist</a>)</h3>
+            {% assign current_term = "" %}
+            {%- assign past_talks = all_talks | reverse -%}
+            {%- for talk in past_talks -%}
+              {%- assign talk_day = talk.date | date: "%Y%m%d" | plus: 0 -%}
+              {%- if talk_day < today -%}
+                {%- assign talk_month = talk.date | date: "%-m" | plus: 0 -%}
+                {%- if talk.term -%}
+                  {%- assign talk_term = talk.term -%}
+                {%- elsif talk_month <= 6 -%}
+                  {%- assign talk_term = talk.date | date: "%Y" | prepend: "Spring " -%}
+                {%- else -%}
+                  {%- assign talk_term = talk.date | date: "%Y" | prepend: "Fall " -%}
+                {%- endif -%}
+                {%- if talk_term != current_term %}
+            <h4 style="text-align:center; margin-top:30px;">{{ talk_term }}</h4>
+                  {%- assign current_term = talk_term -%}
+                {%- endif %}
+{% include stamina-talk.html talk=talk %}
             <br>
-
-            <h4>2026/03/10</h4>
-            <li>
-              <b><a href="https://drive.google.com/file/d/1UNVlGqzhnh2BNpviwctUlvue33MjN34k/view">Evaluating Cooperation in LLM Social Groups through Self-Organizing  Leadership</a></b>
-              <br>
-              Presenter: <u><a href="https://www.cs.toronto.edu/~rfaulk/" target="_blank" rel="noopener noreferrer">Ryan Faulkner</a></u>, University of Toronto/Deepmind
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#20260310-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="20260310-bio">
-                <div class="card card-body">
-                   Ryan is a Computer Scientist and Machine Learning researcher with a background in reinforcement learning and foundation models. He has worked as a Research Engineer over the past decade at Google Deepmind and he is also a PhD Student at the University of Toronto advised by Zhijing Jin. At GDM he works in the Concordia group led by Joel Leibo. At a high level his current research focus is on multi-agent systems, LLMs, and social learning. In this context he is interested in memory mechanisms, agent theory of mind, collective decision making, and simulating political systems.
-
-                </div>
-              </div>
-              <br>
-              <a href="https://youtu.be/NaNEwyxjeXo"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-              <a href="https://drive.google.com/file/d/1UNVlGqzhnh2BNpviwctUlvue33MjN34k/view?usp=drive_link"><img src="https://img.shields.io/badge/Paper-link-important"></a>
-              <!-- <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
-              <!-- <a href="[SLIDES_LINK]"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a> -->
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#20260310-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="20260310-abstract">
-                <div class="card card-body">
-                  Governing common-pool resources requires agents to develop enduring strategies through cooperation and self-governance to avoid collective failure. While foundation models have shown potential for cooperation in these settings, existing multi-agent research provides little insight into whether structured leadership and election mechanisms can improve collective decision making. The lack of such a critical organizational feature ubiquitous in human society presents a significant shortcoming of the current methods. In this work we aim to directly address whether leadership and elections can support improved social welfare and cooperation through multi-agent simulation with LLMs. We present a new framework that simulates leadership through elected personas and candidate-driven agendas and carry out an empirical study of LLMs under controlled governance conditions. Our experiments demonstrate that structured leadership can improve social welfare scores by 55.4% and survival time by 128.6%  across a range of high performing LLMs. Through the construction of an agent social graph we compute centrality metrics to assess the social influence of leader personas and also analyze rhetorical and cooperative tendencies revealed through a sentiment analysis on leader utterances. This work lays the foundation for developing prosocial, self-governing multi-agent systems capable of navigating complex resource dilemmas.
-                </div>
-              </div>
-            </li>
-            
-            <br>
-
-            <h4>2026/03/03</h4>
-            <li>
-              <b><a href="/stamina">AI and the Future of Science</a></b>
-              <br>
-              Presenter: <u><a href="https://martincsweiss.com/" target="_blank" rel="noopener noreferrer">Martin Weiss</a></u>, <a href="https://tiptreesystems.com/">Tiptree Systems</a>
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#20260303-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="20260303-bio">
-                <div class="card card-body">
-                  Martin Weiss is Co-Founder of Tiptree Systems, a startup building AI agents that help ML researchers find, create, and share knowledge more efficiently. Tiptree is deployed to researchers across many top-tier institutes including Mila, ELLIS, MIT, and many more. Martin holds a PhD in AI from Mila, where he studied under Hugo Larochelle and Chris Pal. Before his PhD, he was an early employee at YesGraph, a social graph startup acquired by Lyft.
-                </div>
-              </div>
-              <br>
-              <a href="https://www.youtube.com/watch?v=vwbpX-585qI&feature=youtu.be"  target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-              <!-- <a href="[PAPER LINK]"><img src="https://img.shields.io/badge/Paper-link-important"></a> -->
-              <!-- <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
-              <!-- <a href="[SLIDES_LINK]"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a> -->
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#20260303-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="20260303-abstract">
-                <div class="card card-body">
-                  This talk examines three converging crises. First, the decoupling of control from comprehension — we can increasingly predict and manipulate systems without understanding why they work. Second, the collapse of the generator-verifier gap — AI makes it trivial to produce the aesthetics of deep thought. This makes peer review more difficult because we can no longer rely on easy-to-verify signals of work quality. Third, the credit assignment gap — our academic reward systems optimize for publication metrics, not the increase in understanding that a new paper produces.
-                </div>
-              </div>
-            </li>
-
-            <br>
-
-            <h4>2026/02/17</h4>
-            <li>
-              <b><a href="https://arxiv.org/abs/2510.25003">Emergent Coordinated Behaviors in Networked LLM Agents: Modeling the Strategic Dynamics of Information Operations</a></b>
-              <br>
-              Presenter: <u>Gian Marco Orlando, Jinyi Ye, Mahdi Saeedi</u>, University of Naples Federico II - University of Southern California (ISI)
-              <a class="btn btn-info btn-xs" data-toggle="collapse" href="#20260217-bio" role="button" aria-expanded="false">
-                Speaker Bio
-              </a>
-              <div class="collapse" id="20260217-bio">
-                <div class="card card-body">
-                  Gian Marco Orlando is currently a PhD Student at the University of Naples Federico II. He earned his Master’s Degree in Computer Engineering from the University of Naples Federico II, graduating with honors. His thesis highlights his expertise in the intersection of Artificial Intelligence and Social Network Analysis. His research interests lie in Social Network Analysis, Agent-Based Modeling and Big Data Analytics.
-                  <br><br>
-                  Jinyi is a second-year CS PhD student co-advised by Dr. Emilio Ferrara and Dr. Luca Luceri. Her research lies in the intersection of computer science and social science, recently focusing on large-scale agentic simulations of human behavior, measuring and modeling collective dynamics in social networks, and empirical studies on AI and the future of work.
-                  <br><br>
-                  Mahdi Saeedi is currently exploring large-scale LLM simulations because he is fascinated by understanding how these models actually work under the hood. His background spans both the theoretical foundations and hands-on engineering of generative AI systems, which has been great preparation for this research. He have also spent time thinking about how people interact with AI through thoughtful interface design, since he believes making these tools intuitive and accessible is just as important as the underlying technology.
-                </div>
-              </div>
-              <br>
-              <a href="https://www.youtube.com/watch?v=BH9_gyYyvdw" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Youtube-Recording-orange"></a>
-              <a href="https://arxiv.org/abs/2510.25003"><img src="https://img.shields.io/badge/Paper-link-important"></a>
-              <!-- <a href="[GITHUB_LINK]"><img src="https://img.shields.io/badge/Github-link-lightgrey"></a> -->
-              <!-- <a href="[SLIDES_LINK]"><img src="https://img.shields.io/badge/Talk-Slides-blue"></a> -->
-              <a class="btn btn-primary btn-xs" data-toggle="collapse" href="#20260217-abstract" role="button" aria-expanded="false">
-                Abstract
-              </a>
-              <div class="collapse" id="20260217-abstract">
-                <div class="card card-body">
-                  Generative agents are rapidly advancing in sophistication, raising urgent questions about how they might coordinate when deployed in online ecosystems. This is particularly consequential in information operations (IOs), influence campaigns that aim to manipulate public opinion on social media. While traditional IOs have been orchestrated by human operators and relied on manually crafted tactics, agentic AI promises to make campaigns more automated, adaptive, and difficult to detect. This work presents the first systematic study of emergent coordination among generative agents in simulated IO campaigns. Using generative agent-based modeling, we instantiate IO and organic agents in a simulated environment and evaluate coordination across operational regimes, from simple goal alignment to team knowledge and collective decision-making. As operational regimes become more structured, IO networks become denser and more clustered, interactions more reciprocal and positive, narratives more homogeneous, amplification more synchronized, and hashtag adoption faster and more sustained.
-                  Remarkably, simply revealing to agents which other agents share their goals can produce coordination levels nearly equivalent to those achieved through explicit deliberation and collective voting.
-                  Overall, we show that generative agents, even without human guidance, can reproduce coordination strategies characteristic of real-world IOs, underscoring the societal risks posed by increasingly automated, self-organizing IOs.
-                </div>
-              </div>
-            </li>
-
-            <br>
+              {%- endif -%}
+            {%- endfor %}
 
           </div>
         </div>
